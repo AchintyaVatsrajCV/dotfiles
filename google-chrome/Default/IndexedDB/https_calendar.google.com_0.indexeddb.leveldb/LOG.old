@@ -1,0 +1,6 @@
+2022/05/20-20:32:10.026 6d1a8 Creating DB /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb since it was missing.
+2022/05/20-20:32:10.135 6d1a8 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/20-20:32:13.157 6d607 Level-0 table #5: started
+2022/05/20-20:32:13.241 6d607 Level-0 table #5: 854 bytes OK
+2022/05/20-20:32:13.283 6d607 Delete type=0 #3
+2022/05/20-20:32:13.283 6d607 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

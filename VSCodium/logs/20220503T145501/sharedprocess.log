@@ -1,0 +1,9 @@
+[2022-05-03 14:55:03.796] [sharedprocess] [info] Starting worker process with pid 312225 (type: fileWatcher, window: 1).
+[2022-05-03 14:55:06.002] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+[2022-05-03 14:55:06.003] [sharedprocess] [info] Worker process with pid 312225 terminated normally (type: fileWatcher, window: 1).
+[2022-05-03 14:55:06.008] [sharedprocess] [info] Starting worker process with pid 312266 (type: fileWatcher, window: 1).
+[2022-05-03 14:55:06.707] [sharedprocess] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-05-03 14:55:08.101] [sharedprocess] [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+[2022-05-03 14:55:08.101] [sharedprocess] [info] Worker process with pid 312266 terminated normally (type: fileWatcher, window: 1).
+[2022-05-03 14:55:08.106] [sharedprocess] [info] Starting worker process with pid 312287 (type: fileWatcher, window: 1).
+[2022-05-03 14:55:08.224] [sharedprocess] [info] Installing extension: ms-vscode.js-debug-companion

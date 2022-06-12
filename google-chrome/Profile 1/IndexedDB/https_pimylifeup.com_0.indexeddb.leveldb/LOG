@@ -1,0 +1,6 @@
+2022/06/02-11:16:35.929 2355a6 Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_pimylifeup.com_0.indexeddb.leveldb since it was missing.
+2022/06/02-11:16:36.111 2355a6 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_pimylifeup.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/02-11:17:46.148 2381ae Level-0 table #5: started
+2022/06/02-11:17:46.190 2381ae Level-0 table #5: 379 bytes OK
+2022/06/02-11:17:46.225 2381ae Delete type=0 #3
+2022/06/02-11:17:46.225 2381ae Manual compaction at level-0 from (begin) .. (end); will stop at (end)

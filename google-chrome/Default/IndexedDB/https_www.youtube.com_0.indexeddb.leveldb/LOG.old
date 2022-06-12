@@ -1,0 +1,33 @@
+2022/06/04-09:25:00.466 2ba0c3 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/04-09:25:00.466 2ba0c3 Recovering log #165
+2022/06/04-09:25:00.466 2ba0c3 Reusing old log /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000165.log 
+2022/06/04-19:04:55.871 2dbd03 Level-0 table #170: started
+2022/06/04-19:04:56.037 2dbd03 Level-0 table #170: 1112540 bytes OK
+2022/06/04-19:04:56.074 2dbd03 Delete type=0 #165
+2022/06/04-19:08:42.662 2daaf9 Compacting 1@1 + 1@2 files
+2022/06/04-19:08:42.838 2daaf9 Generated table #171@1: 614 keys, 44656 bytes
+2022/06/04-19:08:42.838 2daaf9 Compacted 1@1 + 1@2 files => 44656 bytes
+2022/06/04-19:08:42.895 2daaf9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/04-19:08:42.895 2daaf9 Delete type=2 #170
+2022/06/04-19:08:42.895 2daaf9 Delete type=2 #167
+2022/06/05-09:04:26.839 2e6d18 Level-0 table #173: started
+2022/06/05-09:04:26.947 2e6d18 Level-0 table #173: 1076668 bytes OK
+2022/06/05-09:04:27.004 2e6d18 Delete type=0 #169
+2022/06/05-09:05:50.537 2e628c Compacting 1@1 + 1@2 files
+2022/06/05-09:05:50.701 2e628c Generated table #174@1: 648 keys, 55604 bytes
+2022/06/05-09:05:50.701 2e628c Compacted 1@1 + 1@2 files => 55604 bytes
+2022/06/05-09:05:50.763 2e628c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/05-09:05:50.763 2e628c Delete type=2 #173
+2022/06/05-09:05:50.763 2e628c Delete type=2 #171
+2022/06/05-09:12:45.364 2e7562 Level-0 table #176: started
+2022/06/05-09:12:45.427 2e7562 Level-0 table #176: 486592 bytes OK
+2022/06/05-09:12:45.464 2e7562 Delete type=0 #172
+2022/06/05-09:12:45.465 2e7562 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/06/05-09:12:45.465 2e7562 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x14\x01\x1f\x03\x9a\xc9\x94L\x9a\x88xB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 761341 : 1
+2022/06/05-09:12:45.465 2e7562 Compacting 1@1 + 1@2 files
+2022/06/05-09:12:45.511 2e7562 Generated table #177@1: 428 keys, 33502 bytes
+2022/06/05-09:12:45.511 2e7562 Compacted 1@1 + 1@2 files => 33502 bytes
+2022/06/05-09:12:45.546 2e7562 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/05-09:12:45.546 2e7562 Delete type=2 #174
+2022/06/05-09:12:45.546 2e7562 Delete type=2 #176
+2022/06/05-09:12:45.547 2e7562 Manual compaction at level-1 from '\x00\x14\x01\x1f\x03\x9a\xc9\x94L\x9a\x88xB\x00\x01\x1c\x00y\x00t\x00-\x00m\x00i\x00n\x00i\x00p\x00l\x00a\x00y\x00e\x00r\x00-\x00s\x00h\x00o\x00w\x00n\x00-\x00v\x00i\x00d\x00e\x00o\x00-\x00i\x00d' @ 761341 : 1 .. (end); will stop at (end)

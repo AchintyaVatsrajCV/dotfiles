@@ -1,0 +1,15 @@
+2022/05/23-19:19:54.922 f91f3 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/23-19:19:54.922 f91f3 Recovering log #4
+2022/05/23-19:19:54.922 f91f3 Reusing old log /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000004.log 
+2022/05/23-19:21:57.228 feb7c Level-0 table #8: started
+2022/05/23-19:21:57.278 feb7c Level-0 table #8: 190 bytes OK
+2022/05/23-19:21:57.311 feb7c Delete type=0 #4
+2022/05/23-19:21:57.311 feb7c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/05/23-19:21:57.312 feb7c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 180 : 1
+2022/05/23-19:21:57.312 feb7c Compacting 1@1 + 1@2 files
+2022/05/23-19:21:57.353 feb7c Generated table #9@1: 33 keys, 676 bytes
+2022/05/23-19:21:57.353 feb7c Compacted 1@1 + 1@2 files => 676 bytes
+2022/05/23-19:21:57.386 feb7c compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/23-19:21:57.386 feb7c Delete type=2 #5
+2022/05/23-19:21:57.386 feb7c Delete type=2 #8
+2022/05/23-19:21:57.387 feb7c Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 180 : 1 .. (end); will stop at (end)

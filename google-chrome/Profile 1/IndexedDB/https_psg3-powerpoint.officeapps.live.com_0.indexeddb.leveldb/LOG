@@ -1,0 +1,6 @@
+2022/06/09-15:04:44.239 62efc Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_psg3-powerpoint.officeapps.live.com_0.indexeddb.leveldb since it was missing.
+2022/06/09-15:04:44.482 62efc Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_psg3-powerpoint.officeapps.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/09-15:31:53.953 64828 Level-0 table #5: started
+2022/06/09-15:31:54.026 64828 Level-0 table #5: 895 bytes OK
+2022/06/09-15:31:54.062 64828 Delete type=0 #3
+2022/06/09-15:31:54.063 64828 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

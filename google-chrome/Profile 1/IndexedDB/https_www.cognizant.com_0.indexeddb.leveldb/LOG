@@ -1,0 +1,6 @@
+2022/05/30-17:25:42.339 18d0bf Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.cognizant.com_0.indexeddb.leveldb since it was missing.
+2022/05/30-17:25:42.466 18d0bf Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.cognizant.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/30-17:26:29.267 18d0bf Level-0 table #5: started
+2022/05/30-17:26:29.301 18d0bf Level-0 table #5: 1384 bytes OK
+2022/05/30-17:26:29.336 18d0bf Delete type=0 #3
+2022/05/30-17:26:29.336 18d0bf Manual compaction at level-0 from (begin) .. (end); will stop at (end)

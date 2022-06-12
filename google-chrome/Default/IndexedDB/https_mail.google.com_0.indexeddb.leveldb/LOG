@@ -1,0 +1,9 @@
+2022/06/04-09:37:16.556 2bb247 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/04-09:37:16.557 2bb247 Recovering log #7
+2022/06/04-09:37:16.701 2bb247 Reusing old log /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000007.log 
+2022/06/04-09:37:19.331 2bb24a Compacting 1@1 + 1@2 files
+2022/06/04-09:37:19.606 2bb24a Generated table #10@1: 179 keys, 307498 bytes
+2022/06/04-09:37:19.606 2bb24a Compacted 1@1 + 1@2 files => 307498 bytes
+2022/06/04-09:37:19.799 2bb24a compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/04-09:37:19.800 2bb24a Delete type=2 #5
+2022/06/04-09:37:19.800 2bb24a Delete type=2 #8

@@ -1,0 +1,617 @@
+{
+   "Annually": {
+      "message": "Jaarlijks"
+   },
+   "Arabic": {
+      "message": "Arabisch"
+   },
+   "Asia": {
+      "message": "Azië"
+   },
+   "Australia": {
+      "message": "Australië"
+   },
+   "Australia_d": {
+      "message": "Australisch"
+   },
+   "Autoplay": {
+      "message": "Automatisch afspelen"
+   },
+   "Autoplay_desc": {
+      "message": "Automatisch de selectie hardop voorlezen"
+   },
+   "Brazil": {
+      "message": "Brazilië"
+   },
+   "Brazil_d": {
+      "message": "Braziliaans"
+   },
+   "British": {
+      "message": "Brits"
+   },
+   "Canada": {
+      "message": "Canada"
+   },
+   "Canada_d": {
+      "message": "Canadees"
+   },
+   "Catalan": {
+      "message": "Catalaanse"
+   },
+   "China": {
+      "message": "China"
+   },
+   "China_d": {
+      "message": "Chinese"
+   },
+   "Chinese": {
+      "message": "Chinese"
+   },
+   "Czech": {
+      "message": "Tsjechisch"
+   },
+   "Czech_d": {
+      "message": "Tsjechisch"
+   },
+   "Danish": {
+      "message": "Deens"
+   },
+   "Denmark": {
+      "message": "Denemarken"
+   },
+   "Denmark_d": {
+      "message": "Deens"
+   },
+   "Dutch": {
+      "message": "Nederlands"
+   },
+   "English": {
+      "message": "Engels"
+   },
+   "Europe": {
+      "message": "Europa"
+   },
+   "FREE": {
+      "message": "GRATIS"
+   },
+   "Fast": {
+      "message": "Snel"
+   },
+   "Features": {
+      "message": "Kenmerken"
+   },
+   "Finland": {
+      "message": "Finland"
+   },
+   "Finland_d": {
+      "message": "Fins"
+   },
+   "Finnish": {
+      "message": "Fins"
+   },
+   "France": {
+      "message": "Frankrijk"
+   },
+   "France_d": {
+      "message": "Frans"
+   },
+   "French": {
+      "message": "Frans"
+   },
+   "Gender": {
+      "message": "Geslacht"
+   },
+   "German": {
+      "message": "Duitse"
+   },
+   "Germany": {
+      "message": "Duitsland"
+   },
+   "Germany_d": {
+      "message": "Duitse"
+   },
+   "Greek": {
+      "message": "Grieks"
+   },
+   "Hong_Kong": {
+      "message": "Hong Kong"
+   },
+   "Hong_Kong_d": {
+      "message": "Hong Kong"
+   },
+   "Hungarian": {
+      "message": "Hongaars"
+   },
+   "Hungary": {
+      "message": "Hongarije"
+   },
+   "Hungary_d": {
+      "message": "Hongaars"
+   },
+   "Italian": {
+      "message": "Italiaans"
+   },
+   "Italy": {
+      "message": "Italië"
+   },
+   "Italy_d": {
+      "message": "Italiaans"
+   },
+   "Japan": {
+      "message": "Japan"
+   },
+   "Japan_d": {
+      "message": "Japanse"
+   },
+   "Japanese": {
+      "message": "Japanse"
+   },
+   "Korea": {
+      "message": "Korea"
+   },
+   "Korea_d": {
+      "message": "Koreaans"
+   },
+   "Korean": {
+      "message": "Koreaans"
+   },
+   "LITE": {
+      "message": "LITE Versie"
+   },
+   "Language": {
+      "message": "Taal"
+   },
+   "Mexico": {
+      "message": "Mexico"
+   },
+   "Mexico_d": {
+      "message": "Mexicaans"
+   },
+   "Month_desc": {
+      "message": "Select and Speak Maandabonnement"
+   },
+   "Netherlands": {
+      "message": "Nederland"
+   },
+   "Netherlands_d": {
+      "message": "Nederlands"
+   },
+   "Normal": {
+      "message": "Normaal"
+   },
+   "North_America": {
+      "message": "Noord Amerika"
+   },
+   "Norway": {
+      "message": "Noorwegen"
+   },
+   "Norway_d": {
+      "message": "Noors"
+   },
+   "Norwegian": {
+      "message": "Noors"
+   },
+   "Pacific": {
+      "message": "Stille Oceaan"
+   },
+   "Poland": {
+      "message": "Polen"
+   },
+   "Poland_d": {
+      "message": "Pools"
+   },
+   "Polish": {
+      "message": "Pools"
+   },
+   "Portugal": {
+      "message": "Portugal"
+   },
+   "Portugal_d": {
+      "message": "Portugees"
+   },
+   "Portuguese": {
+      "message": "Portugees"
+   },
+   "Pro_Features": {
+      "message": "Pro-functies"
+   },
+   "Russia": {
+      "message": "Rusland"
+   },
+   "Russia_d": {
+      "message": "Russisch"
+   },
+   "Russian": {
+      "message": "Russisch"
+   },
+   "Slow": {
+      "message": "Langzaam"
+   },
+   "South_America": {
+      "message": "Zuid / Centraal-Amerika"
+   },
+   "Spain": {
+      "message": "Spanje"
+   },
+   "Spain_d": {
+      "message": "Spaans"
+   },
+   "Spanish": {
+      "message": "Spaans"
+   },
+   "Speech": {
+      "message": "Spraak"
+   },
+   "Speed": {
+      "message": "Snelheid"
+   },
+   "Sweden": {
+      "message": "Zweden"
+   },
+   "Sweden_d": {
+      "message": "Zweeds"
+   },
+   "Swedish": {
+      "message": "Zweeds"
+   },
+   "Taiwan": {
+      "message": "Taiwan"
+   },
+   "Taiwan_d": {
+      "message": "Taiwanees"
+   },
+   "Turkey": {
+      "message": "Turkije"
+   },
+   "Turkey_d": {
+      "message": "Turks"
+   },
+   "Turkish": {
+      "message": "Turks"
+   },
+   "United_Kingdom": {
+      "message": "Verenigd Koninkrijk"
+   },
+   "United_Kingdom_d": {
+      "message": "Brit"
+   },
+   "United_States": {
+      "message": "Verenigde Staten"
+   },
+   "United_States_d": {
+      "message": "Amerikaanse"
+   },
+   "Year_desc": {
+      "message": "Select and Speak Jaarabonnement"
+   },
+   "all_only": {
+      "message": "Jij krijgt al deze mogelijkheden voor slechts"
+   },
+   "answer1": {
+      "message": "Selecteer en Spreek laat jou luisteren naar iedere tekst in uw Chrome browser. U kunt iedere tekst selecteren die u voorgelezen wenst te hebben. Klik rechts en klik op Lees met Selecteer en Spreek"
+   },
+   "answer2": {
+      "message": "Dat hangt ervan af. Als de PDF echte tekst bevat die geselecteerd kan worden, dan wel. Als de PDF een plaatje is of een scan, dan waarschijnlijk niet."
+   },
+   "answer3": {
+      "message": "Omdat we een gratis versie van Selecteer en Spreek hebben die jaarlijks gebruikt wordt door miljoenen mensen, zullen we zwaardere gebruikers kosten in rekening brengen om de service te kunnen blijven bieden. Het gratis gebruik stopt bij 500 woorden."
+   },
+   "app_name": {
+      "message": "Select and Speak - Tekst-naar-Spraak"
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "Schakelt automatisch de taal in voor de pagina-inhoud"
+   },
+   "autolangOption": {
+      "message": "Automatische taalherkenning"
+   },
+   "automaticLanguage": {
+      "message": "Automatische Taal"
+   },
+   "autoplayOption": {
+      "message": "Autoplay Optie"
+   },
+   "autoplay_off": {
+      "message": "Schakel autoplay uit"
+   },
+   "autoplay_on": {
+      "message": "Schakel autoplay in"
+   },
+   "become_pro": {
+      "message": "Word nu een Pro Gebruiker"
+   },
+   "buy_edu": {
+      "message": "Koop het Educatieve Pakket"
+   },
+   "cancelAnyTime": {
+      "message": "Op elk moment Opzeggen"
+   },
+   "checkout_pro": {
+      "message": "Bekijk de Pro Mogelijkheden"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "Kies Stem Geslacht en Voorlees Snelheid"
+   },
+   "choose_language": {
+      "message": "Kies Taal"
+   },
+   "contact": {
+      "message": "Neem contact met ons op"
+   },
+   "could_not_read": {
+      "message": "Pagina kon niet worden gelezen, vernieuw de pagina."
+   },
+   "country": {
+      "message": "Land"
+   },
+   "dashboard": {
+      "message": "DASHBOARD"
+   },
+   "detect_lang": {
+      "message": "Automatische Taalherkenning"
+   },
+   "discounted": {
+      "message": "Met Korting - Kom Meer te Weten"
+   },
+   "edu_discounts": {
+      "message": "Krijg speciale kortingen voor studenten, als u een leraar of docent bent."
+   },
+   "educationalVersion": {
+      "message": "Educatieve Versie"
+   },
+   "educational_package": {
+      "message": "Educatief Pakket"
+   },
+   "faq": {
+      "message": "Veel gestelde vragen"
+   },
+   "fast_or_slow": {
+      "message": "Lees de Tekst op 21 Verschillende Snelheidsniveaus"
+   },
+   "female": {
+      "message": "vrouwelijk"
+   },
+   "final_step": {
+      "message": "Laatste Stap - Vul uw Gegevens in"
+   },
+   "final_step_message": {
+      "message": "Om de Selecteer en Spreek functie te verbeteren voor Wereldwijd gebruik hebben we informatie nodig van verschillende gebruikers. Helpt u ons a.u.b. met de gegevens om zeker te zijn dat de app correct leert te spreken met maximale precisie."
+   },
+   "for_sentences": {
+      "message": "Voor $1 Zinnen"
+   },
+   "free_trial": {
+      "message": "Gratis 7 Dagen op Proef"
+   },
+   "free_version": {
+      "message": "U gebruikt de Gratis versie"
+   },
+   "fullPrice_alone": {
+      "message": "€ 29,99"
+   },
+   "gender": {
+      "message": "Geslacht"
+   },
+   "halfOff": {
+      "message": "50% Korting Introductieaanbieding"
+   },
+   "help_us": {
+      "message": "Krijg het Pro abonnement Gratis"
+   },
+   "home": {
+      "message": "Voorpagina"
+   },
+   "improve_speak": {
+      "message": "We proberen om Selecteer en Spreek te verbeteren. Help ons en krijg 1 week of 1 maand een Premium abonnement Gratis!"
+   },
+   "langs": {
+      "message": "27 Talen"
+   },
+   "limit_alert": {
+      "message": "De selectie is $1 woorden over uw dagelijkse limiet heen. Upgrade om de limiet te verwijderen.,"
+   },
+   "m_price": {
+      "message": "$$3.99 per Maand"
+   },
+   "male": {
+      "message": "mannelijk"
+   },
+   "month": {
+      "message": "1 Maand"
+   },
+   "monthPrice_alone": {
+      "message": "$$3.99"
+   },
+   "monthly": {
+      "message": "Maandelijks"
+   },
+   "monthlyPrice": {
+      "message": "€ 2,99 per Maand"
+   },
+   "native_language": {
+      "message": "Moedertaal"
+   },
+   "next": {
+      "message": "Volgende"
+   },
+   "no_barriers": {
+      "message": "Lees de Tekst in 27 Verschillende Talen"
+   },
+   "not_much": {
+      "message": "Niet veel. Wij bieden jou een aantal zinnen en die hoef je alleen hardop voor te lezen (het liefst in een stille omgeving)."
+   },
+   "num_students": {
+      "message": "Aantal studenten"
+   },
+   "options_title": {
+      "message": "Select and Speak Opties"
+   },
+   "or": {
+      "message": "of"
+   },
+   "origin_place": {
+      "message": "Postcode (waar u opgroeide)"
+   },
+   "paragraph_player": {
+      "message": "U hebt de paragraafspeler uitgeschakeld. U kunt hem weer inschakelen vanaf de paginaopties."
+   },
+   "per_student": {
+      "message": "Per Student"
+   },
+   "premium": {
+      "message": " (Premium)"
+   },
+   "previous": {
+      "message": "Vorige"
+   },
+   "price": {
+      "message": "Prijs"
+   },
+   "proVersion": {
+      "message": "Professionele Versie"
+   },
+   "pro_features": {
+      "message": "Pro Mogelijkheden"
+   },
+   "purchase_audio": {
+      "message": "Koop de audio van deze selectie"
+   },
+   "question1": {
+      "message": "Hoe werkt Selecteer en Spreek?"
+   },
+   "question2": {
+      "message": "Kan ik naar PDFs luisteren?"
+   },
+   "question3": {
+      "message": "Er staat dat ik geen woorden over heb, wat kan ik doen?"
+   },
+   "readSpeeds": {
+      "message": "21 Leessnelheden"
+   },
+   "read_aloud": {
+      "message": "Spreek de Volgende Zinnen Hardop Uit"
+   },
+   "read_autoplay": {
+      "message": "Automatisch Afspelen - Makkelijk en Snel"
+   },
+   "read_more": {
+      "message": "Lees Meer"
+   },
+   "read_with_speak": {
+      "message": "Lees met Selecteer en Spreek"
+   },
+   "read_words": {
+      "message": "Slechts 500 woorden per dag"
+   },
+   "restart": {
+      "message": "U moet Chrome herstarten om de installatie van Select and Speak af te ronden."
+   },
+   "save60": {
+      "message": "Bespaar 60%"
+   },
+   "secure": {
+      "message": "100% Veilig: Uw informatie wordt alleen gebruikt om de basis technologie te verbeteren en is veilig bij ons."
+   },
+   "security": {
+      "message": "Extensies kunnen om veiligheidsredenen niet in de lokale Chrome pagina's worden uitgevoerd"
+   },
+   "settings": {
+      "message": "Instellingen"
+   },
+   "shareThis_finePrint": {
+      "message": "(Alleen maandelijks pakket, referenties moeten lid abonnee worden voor tenminste 60 dagen voordat de korting gegeven wordt)"
+   },
+   "share_this": {
+      "message": "Deel deze link en krijg 50% korting*"
+   },
+   "showPlay": {
+      "message": "Toon \"paragraaf afspeelknop\""
+   },
+   "speak_selected": {
+      "message": "Spreek de Geselecteerde Tekst uit"
+   },
+   "special_discount": {
+      "message": "Speciale Korting voor"
+   },
+   "speech_faq": {
+      "message": "Selecteer en Spreek Veel gestelde Vragen"
+   },
+   "start_training": {
+      "message": "Begin met Helpen"
+   },
+   "subConf": {
+      "message": "U hebt met succes een upgrade naar Pro uitgevoerd"
+   },
+   "submit_data": {
+      "message": "Doorgaan om 1 Maand Gratis te Ontvangen"
+   },
+   "teachers": {
+      "message": "Studenten & Leraren"
+   },
+   "tryProFree": {
+      "message": "Probeer de Pro 7 Dagen lang Gratis"
+   },
+   "tryRiskFree": {
+      "message": "Probeer Pro Zonder Verplichtingen"
+   },
+   "unlWords": {
+      "message": "Onbeperkt aantal Woorden"
+   },
+   "unlimited_reading": {
+      "message": "Onbeperkt Aantal Woorden voor non-stop Luisteren"
+   },
+   "unlimited_words": {
+      "message": "Wilt Onbeperkt Woorden, Automatische Afspeel Optie en Meer Mogelijkheden?"
+   },
+   "upgrade": {
+      "message": "Upgraden naar Pro"
+   },
+   "upgrade_pro": {
+      "message": "Upgraden naar Pro"
+   },
+   "upgrade_select_speak": {
+      "message": "Upgrade Selecteer en Spreek"
+   },
+   "week": {
+      "message": "1 Week"
+   },
+   "welcome": {
+      "message": "Welkom bij Selecteer en Spreek"
+   },
+   "what_do": {
+      "message": "Wat is ervoor nodig?"
+   },
+   "what_get": {
+      "message": "Wat krijgt u in deze versie?"
+   },
+   "what_get_pro": {
+      "message": "Pro Versie Mogelijkheden:"
+   },
+   "wordsPerDay": {
+      "message": "500 Woorden/Dag"
+   },
+   "y_price": {
+      "message": "$$19.99 per Jaar"
+   },
+   "yearly": {
+      "message": "Jaarlijks"
+   },
+   "yearlyPrice": {
+      "message": "€ 14,99 per Jaar"
+   },
+   "yearlyPrice_alone": {
+      "message": "€ 14,99"
+   },
+   "your_age": {
+      "message": "Uw Leeftijd"
+   }
+}

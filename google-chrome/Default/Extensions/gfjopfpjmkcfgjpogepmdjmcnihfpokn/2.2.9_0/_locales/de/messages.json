@@ -1,0 +1,617 @@
+{
+   "Annually": {
+      "message": "Jährlich"
+   },
+   "Arabic": {
+      "message": "Arabisch"
+   },
+   "Asia": {
+      "message": "Asien"
+   },
+   "Australia": {
+      "message": "Australien"
+   },
+   "Australia_d": {
+      "message": "australisch"
+   },
+   "Autoplay": {
+      "message": "Autoabspielen"
+   },
+   "Autoplay_desc": {
+      "message": "Automatisch laut vorlesen"
+   },
+   "Brazil": {
+      "message": "Brasilien"
+   },
+   "Brazil_d": {
+      "message": "brasilianisch"
+   },
+   "British": {
+      "message": "britisch"
+   },
+   "Canada": {
+      "message": "Kanada"
+   },
+   "Canada_d": {
+      "message": "kanadisch"
+   },
+   "Catalan": {
+      "message": "Katalanisch"
+   },
+   "China": {
+      "message": "China"
+   },
+   "China_d": {
+      "message": "chinesisch"
+   },
+   "Chinese": {
+      "message": "chinesisch"
+   },
+   "Czech": {
+      "message": "Tschechisch"
+   },
+   "Czech_d": {
+      "message": "Tschechisch"
+   },
+   "Danish": {
+      "message": "Dänisch"
+   },
+   "Denmark": {
+      "message": "Dänemark"
+   },
+   "Denmark_d": {
+      "message": "Dänisch"
+   },
+   "Dutch": {
+      "message": "Holländisch"
+   },
+   "English": {
+      "message": "Englisch"
+   },
+   "Europe": {
+      "message": "Europa"
+   },
+   "FREE": {
+      "message": "KOSTENLOS"
+   },
+   "Fast": {
+      "message": "Schnell"
+   },
+   "Features": {
+      "message": "Funktionen"
+   },
+   "Finland": {
+      "message": "Finnland"
+   },
+   "Finland_d": {
+      "message": "Finnisch"
+   },
+   "Finnish": {
+      "message": "Finnisch"
+   },
+   "France": {
+      "message": "frankreich"
+   },
+   "France_d": {
+      "message": "Französisch"
+   },
+   "French": {
+      "message": "Französisch"
+   },
+   "Gender": {
+      "message": "Geschlecht"
+   },
+   "German": {
+      "message": "Deutsch"
+   },
+   "Germany": {
+      "message": "Deutschland"
+   },
+   "Germany_d": {
+      "message": "Deutsch"
+   },
+   "Greek": {
+      "message": "Griechisch"
+   },
+   "Hong_Kong": {
+      "message": "Hong Kong"
+   },
+   "Hong_Kong_d": {
+      "message": "Hong Kong"
+   },
+   "Hungarian": {
+      "message": "Ungarisch"
+   },
+   "Hungary": {
+      "message": "Ungarn"
+   },
+   "Hungary_d": {
+      "message": "Ungarisch"
+   },
+   "Italian": {
+      "message": "Italienisch"
+   },
+   "Italy": {
+      "message": "Italien"
+   },
+   "Italy_d": {
+      "message": "Italienisch"
+   },
+   "Japan": {
+      "message": "Japan"
+   },
+   "Japan_d": {
+      "message": "Japanisch"
+   },
+   "Japanese": {
+      "message": "Japanisch"
+   },
+   "Korea": {
+      "message": "Korea"
+   },
+   "Korea_d": {
+      "message": "Koreanisch"
+   },
+   "Korean": {
+      "message": "Koreanisch"
+   },
+   "LITE": {
+      "message": "LITE Version"
+   },
+   "Language": {
+      "message": "Sprache"
+   },
+   "Mexico": {
+      "message": "Mexiko"
+   },
+   "Mexico_d": {
+      "message": "mexikanisch"
+   },
+   "Month_desc": {
+      "message": "Select and Speak monatliches Abonnement"
+   },
+   "Netherlands": {
+      "message": "Niederlande"
+   },
+   "Netherlands_d": {
+      "message": "Holländisch"
+   },
+   "Normal": {
+      "message": "Normal"
+   },
+   "North_America": {
+      "message": "Nordamerika"
+   },
+   "Norway": {
+      "message": "Norwegen"
+   },
+   "Norway_d": {
+      "message": "Norwegisch"
+   },
+   "Norwegian": {
+      "message": "Norwegisch"
+   },
+   "Pacific": {
+      "message": "Pazifik"
+   },
+   "Poland": {
+      "message": "Polen"
+   },
+   "Poland_d": {
+      "message": "polnisch"
+   },
+   "Polish": {
+      "message": "polnisch"
+   },
+   "Portugal": {
+      "message": "Portugal"
+   },
+   "Portugal_d": {
+      "message": "Portugiesisch"
+   },
+   "Portuguese": {
+      "message": "Portugiesisch"
+   },
+   "Pro_Features": {
+      "message": "Pro Funktionen"
+   },
+   "Russia": {
+      "message": "Russland"
+   },
+   "Russia_d": {
+      "message": "Russisch"
+   },
+   "Russian": {
+      "message": "Russisch"
+   },
+   "Slow": {
+      "message": "Langsam"
+   },
+   "South_America": {
+      "message": "Süd- / Zentralamerika"
+   },
+   "Spain": {
+      "message": "Spanien"
+   },
+   "Spain_d": {
+      "message": "Spanisch"
+   },
+   "Spanish": {
+      "message": "Spanisch"
+   },
+   "Speech": {
+      "message": "Sprache"
+   },
+   "Speed": {
+      "message": "Geschwindigkeit"
+   },
+   "Sweden": {
+      "message": "Schweden"
+   },
+   "Sweden_d": {
+      "message": "Schwedisch"
+   },
+   "Swedish": {
+      "message": "Schwedisch"
+   },
+   "Taiwan": {
+      "message": "Taiwan"
+   },
+   "Taiwan_d": {
+      "message": "Taiwanese"
+   },
+   "Turkey": {
+      "message": "Truthahn"
+   },
+   "Turkey_d": {
+      "message": "Türkisch"
+   },
+   "Turkish": {
+      "message": "Türkisch"
+   },
+   "United_Kingdom": {
+      "message": "Vereinigtes Königreich"
+   },
+   "United_Kingdom_d": {
+      "message": "Brite"
+   },
+   "United_States": {
+      "message": "Vereinigte Staaten"
+   },
+   "United_States_d": {
+      "message": "amerikanisch"
+   },
+   "Year_desc": {
+      "message": "Select and Speak jährliches Abonnement"
+   },
+   "all_only": {
+      "message": "Sie erhalten all diese Funktionen für nur"
+   },
+   "answer1": {
+      "message": "Select and Speak ermöglicht Ihnen, jeden beliebigen Text in Ihrem Chrome Browser zu hören. Sie können jeden beliebigen Text wählen, den Sie lesen möchten, klicken Sie mit rechts darauf und klicken mit Select and Speak lesen"
+   },
+   "answer2": {
+      "message": "Es hängt davon ab. Falls das PDF Text enthält, der auch ausgewählt werden kann, dann ja. Falls das PDF ein Bild oder ein Scan von einem Text ist, wahrscheinlich nicht."
+   },
+   "answer3": {
+      "message": "Während wir eine kostenlose Version von Select and Speak haben, sie von Millionen nutzern im Jahr verwendet werden, müssen wir den stärkeren Nutzern unseren Dienst verrechnen, damit wir ihn weiterhin aufrecht erhalten können. Das Maximum sind 500 Worte pro Tag."
+   },
+   "app_name": {
+      "message": "Select and Speak - Text zu Sprache"
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "Schalten Sie automatisch die Sprache für den Seiteninhalt ein"
+   },
+   "autolangOption": {
+      "message": "Automatische Sprachdetektion"
+   },
+   "automaticLanguage": {
+      "message": "Automatische Sprache"
+   },
+   "autoplayOption": {
+      "message": "Autoabspieloption"
+   },
+   "autoplay_off": {
+      "message": "Autoabspielen ausschalten"
+   },
+   "autoplay_on": {
+      "message": "Autoabspielen einschalten"
+   },
+   "become_pro": {
+      "message": "Werden Sie ein Pro Benutzer jetzt"
+   },
+   "buy_edu": {
+      "message": "Kaufen Sie das Bildungspaket"
+   },
+   "cancelAnyTime": {
+      "message": "Zu jeder Zeit abbrechen"
+   },
+   "checkout_pro": {
+      "message": "Sehen Sie sich die Pro Funktionen an"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "Wählen Sie eine männliche oder weibliche Stimme und die Lesegeschwindigkeit"
+   },
+   "choose_language": {
+      "message": "Wählen Sie die Sprache"
+   },
+   "contact": {
+      "message": "Kontaktieren Sie uns"
+   },
+   "could_not_read": {
+      "message": "Die Seite konnte nicht gelesen werden, bitte aktualisieren Sie die Seite."
+   },
+   "country": {
+      "message": "Land"
+   },
+   "dashboard": {
+      "message": "DASHBOARD"
+   },
+   "detect_lang": {
+      "message": "Automatische Spracherkennung"
+   },
+   "discounted": {
+      "message": "Ermäßigt - Erfahren Sie mehr"
+   },
+   "edu_discounts": {
+      "message": "Erhalten Sie besondere Rabatte für Studenten, wenn Sie ein Lehrer oder Trainer sind."
+   },
+   "educationalVersion": {
+      "message": "Bildungsversion"
+   },
+   "educational_package": {
+      "message": "Bildungspaket"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "fast_or_slow": {
+      "message": "Lesen Sie Texte in 21 verschiedene Geschwindigkeitseinstellungen"
+   },
+   "female": {
+      "message": "weiblich"
+   },
+   "final_step": {
+      "message": "Letzter Schritt - Geben Sie Ihre Details ein"
+   },
+   "final_step_message": {
+      "message": "Um Select und Speak für eine weltweite Nutzung zu verbessern, benötigen wir Informationen von einer Vielzahl von Nutzern. Bitte geben Sie folgende Einzelheiten an, um sicherzustellen, dass die App für maximale Genauigkeit entwickelt wird."
+   },
+   "for_sentences": {
+      "message": "Für $1 Sätze"
+   },
+   "free_trial": {
+      "message": "7 Tage kostenlos testen"
+   },
+   "free_version": {
+      "message": "Sie verwenden die kostenlose Version"
+   },
+   "fullPrice_alone": {
+      "message": "€ 29,99"
+   },
+   "gender": {
+      "message": "Geschlecht"
+   },
+   "halfOff": {
+      "message": "50% Rabatt Einführungsangebot"
+   },
+   "help_us": {
+      "message": "Holen Sie sich jetzt das Pro Abonnement kostenlos."
+   },
+   "home": {
+      "message": "Startseite"
+   },
+   "improve_speak": {
+      "message": "Wir versuchen Select and Speak zu verbessern. Helfen Sie uns und Sie erhalten 1 Woche oder 1 Monat Premium Abo kostenlos!"
+   },
+   "langs": {
+      "message": "27 Sprachen"
+   },
+   "limit_alert": {
+      "message": "Die Auswahl ist $1 Worte über Ihrem täglichen Limit. Bitte rüsten Sie die Version auf, um den Limit aufzuheben."
+   },
+   "m_price": {
+      "message": "$$3.99 pro Monat"
+   },
+   "male": {
+      "message": "männlich"
+   },
+   "month": {
+      "message": "1 Monat"
+   },
+   "monthPrice_alone": {
+      "message": "$$3.99"
+   },
+   "monthly": {
+      "message": "monatlich"
+   },
+   "monthlyPrice": {
+      "message": "€ 2,99 monatlich"
+   },
+   "native_language": {
+      "message": "Muttersprache"
+   },
+   "next": {
+      "message": "Nächster"
+   },
+   "no_barriers": {
+      "message": "Lesen Sie Texte in 27 verschiedenen Sprachen"
+   },
+   "not_much": {
+      "message": "Nicht viel, wir liefern Ihnen einige Zeilen und Sie müssen sie nur laut vorlesen (bevorzugt in einer ruhigen Umgebung)."
+   },
+   "num_students": {
+      "message": "Anzahl Studenten"
+   },
+   "options_title": {
+      "message": "Select und Speak Optionen"
+   },
+   "or": {
+      "message": "oder"
+   },
+   "origin_place": {
+      "message": "Postleitzahl (wo Sie aufgewachsen sind)"
+   },
+   "paragraph_player": {
+      "message": "Sie haben den Abschnittplayer abgeschaltet. Sie können ihn auf der Seite Optionen wieder einschalten."
+   },
+   "per_student": {
+      "message": "Pro Student"
+   },
+   "premium": {
+      "message": " (Premium)"
+   },
+   "previous": {
+      "message": "Vorangegangener"
+   },
+   "price": {
+      "message": "Preis"
+   },
+   "proVersion": {
+      "message": "Professionelle Version"
+   },
+   "pro_features": {
+      "message": "Pro Funktionen"
+   },
+   "purchase_audio": {
+      "message": "Kaufen Sie die Audio-Datei dieser Auswahl"
+   },
+   "question1": {
+      "message": "Wie funktioniert Select and Speak?"
+   },
+   "question2": {
+      "message": "Kann ich auch PDFs lesen lassen?"
+   },
+   "question3": {
+      "message": "Es sagt, ich habe keine Worte mehr frei, was soll ich tun?"
+   },
+   "readSpeeds": {
+      "message": "21 Lesegeschwindigkeiten"
+   },
+   "read_aloud": {
+      "message": "Sprechen Sie folgenden Satz laut"
+   },
+   "read_autoplay": {
+      "message": "Autoabspieltext - Schnell und einfach"
+   },
+   "read_more": {
+      "message": "weiter lesen"
+   },
+   "read_with_speak": {
+      "message": "Lesen Sie mit Selext and Speak"
+   },
+   "read_words": {
+      "message": "Nur 500 Worte pro Tag"
+   },
+   "restart": {
+      "message": "Sie müssen Chrome restarten, um Select und Speak vollständig zu installieren."
+   },
+   "save60": {
+      "message": "60% einsparen"
+   },
+   "secure": {
+      "message": "100% sicher: Ihre Infformationen werden nur dazu verwendet, um die Kerntechnologie zu verbessern und ist absolut sicher."
+   },
+   "security": {
+      "message": "Erweiterungen können auf lokalen Chrome Seoten aus Sicherheitsgründen nicht laufen."
+   },
+   "settings": {
+      "message": "Einstellungen"
+   },
+   "shareThis_finePrint": {
+      "message": "(Nur monatliche Paketanmeldungen, Geworbene müssen Abonnenten werden, und zwar mindestens 60 Tage bevor Sie den Rabatt genießen können) "
+   },
+   "share_this": {
+      "message": "Teilen Sie diesen Link und erhalten Sie 50% Rabatt*"
+   },
+   "showPlay": {
+      "message": "Zeige \"Paragraph Abspielknopf\""
+   },
+   "speak_selected": {
+      "message": "Sprechen Sie den ausgewählten Text"
+   },
+   "special_discount": {
+      "message": "Sonderrabatt für"
+   },
+   "speech_faq": {
+      "message": "Select and Speak FAQ"
+   },
+   "start_training": {
+      "message": "Beginnen Sie mit Ihrer Unterstützung"
+   },
+   "subConf": {
+      "message": "Sie haben erfolgreich auf Pro aufgerüstet"
+   },
+   "submit_data": {
+      "message": "Senden, um 1 Monat kostenlos zu erhalten"
+   },
+   "teachers": {
+      "message": "Stundenten & Lehrer"
+   },
+   "tryProFree": {
+      "message": "Testen Sie Pro kostenlos für 7 Tage"
+   },
+   "tryRiskFree": {
+      "message": "Risikofrei die Pro Version ausprobieren"
+   },
+   "unlWords": {
+      "message": "Unbegrenzte Anzahl Worte"
+   },
+   "unlimited_reading": {
+      "message": "Unbeschränkte Anzahl Worte für ein Nonstop Hörvergnügen"
+   },
+   "unlimited_words": {
+      "message": "Wollen Sie eine unbeschränkte Anzahl Worte, eine Autoabspiel-Option und noch mehr Funktionen"
+   },
+   "upgrade": {
+      "message": "Auf Pro aufrüsten"
+   },
+   "upgrade_pro": {
+      "message": "Auf Pro aufrüsten"
+   },
+   "upgrade_select_speak": {
+      "message": "Aktualisieren Sie Select and Speak"
+   },
+   "week": {
+      "message": "1 Woche"
+   },
+   "welcome": {
+      "message": "Willkommen bei Select and Speak"
+   },
+   "what_do": {
+      "message": "Was müssen Sie dafür tun?"
+   },
+   "what_get": {
+      "message": "Was erhalten Sie in dieser Version?"
+   },
+   "what_get_pro": {
+      "message": "Pro Version Funktionen:"
+   },
+   "wordsPerDay": {
+      "message": "500 Worte / Tag"
+   },
+   "y_price": {
+      "message": "$$19.99 pro Jahr"
+   },
+   "yearly": {
+      "message": "jährlich"
+   },
+   "yearlyPrice": {
+      "message": "€ 14,99 jährlich"
+   },
+   "yearlyPrice_alone": {
+      "message": "€ 14,99"
+   },
+   "your_age": {
+      "message": "Ihr Alter"
+   }
+}

@@ -1,0 +1,41 @@
+2022/06/09-09:17:12.560 4e65b Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2022/06/09-09:17:12.561 4e65b Recovering log #1917
+2022/06/09-09:17:12.591 4e65b Reusing old log /home/lolt3under/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/001917.log 
+2022/06/09-09:18:19.876 4e661 Level-0 table #1921: started
+2022/06/09-09:18:19.900 4e98e Current memtable full; waiting...
+2022/06/09-09:18:20.079 4e661 Level-0 table #1921: 8104973 bytes OK
+2022/06/09-09:18:20.115 4e661 Delete type=0 #1917
+2022/06/09-09:18:20.118 4e661 Compacting 4@0 + 2@1 files
+2022/06/09-09:18:20.234 4e661 Level-0 table #1923: started
+2022/06/09-09:18:20.430 4e661 Level-0 table #1923: 8104805 bytes OK
+2022/06/09-09:18:20.473 4e661 Delete type=0 #1920
+2022/06/09-09:18:20.689 4e661 Generated table #1924@0: 1 keys, 8104805 bytes
+2022/06/09-09:18:20.731 4e661 Generated table #1925@0: 8 keys, 447 bytes
+2022/06/09-09:18:20.731 4e661 Compacted 4@0 + 2@1 files => 8105252 bytes
+2022/06/09-09:18:20.772 4e661 compacted to: files[ 1 2 1 0 0 0 0 ]
+2022/06/09-09:18:20.772 4e661 Delete type=2 #1913
+2022/06/09-09:18:20.772 4e661 Delete type=2 #1910
+2022/06/09-09:18:20.772 4e661 Delete type=2 #1916
+2022/06/09-09:18:20.772 4e661 Delete type=2 #1911
+2022/06/09-09:18:20.772 4e661 Delete type=2 #1921
+2022/06/09-09:18:20.772 4e661 Delete type=2 #1918
+2022/06/09-09:18:21.452 4e98e Level-0 table #1927: started
+2022/06/09-09:18:21.749 4e98e Level-0 table #1927: 8105111 bytes OK
+2022/06/09-09:18:21.842 4e98e Delete type=0 #1922
+2022/06/09-09:18:37.318 4e661 Level-0 table #1929: started
+2022/06/09-09:18:37.545 4e661 Level-0 table #1929: 8109266 bytes OK
+2022/06/09-09:18:37.582 4e661 Delete type=0 #1926
+2022/06/09-09:18:40.271 4e990 Level-0 table #1931: started
+2022/06/09-09:18:40.540 4e990 Level-0 table #1931: 8121694 bytes OK
+2022/06/09-09:18:40.582 4e990 Delete type=0 #1928
+2022/06/09-09:18:40.587 4e990 Compacting 4@0 + 2@1 files
+2022/06/09-09:18:40.883 4e990 Generated table #1932@0: 1 keys, 8121499 bytes
+2022/06/09-09:18:40.925 4e990 Generated table #1933@0: 8 keys, 447 bytes
+2022/06/09-09:18:40.925 4e990 Compacted 4@0 + 2@1 files => 8121946 bytes
+2022/06/09-09:18:40.992 4e990 compacted to: files[ 0 2 1 0 0 0 0 ]
+2022/06/09-09:18:40.992 4e990 Delete type=2 #1923
+2022/06/09-09:18:40.992 4e990 Delete type=2 #1924
+2022/06/09-09:18:40.992 4e990 Delete type=2 #1925
+2022/06/09-09:18:40.992 4e990 Delete type=2 #1927
+2022/06/09-09:18:40.992 4e990 Delete type=2 #1931
+2022/06/09-09:18:40.992 4e990 Delete type=2 #1929

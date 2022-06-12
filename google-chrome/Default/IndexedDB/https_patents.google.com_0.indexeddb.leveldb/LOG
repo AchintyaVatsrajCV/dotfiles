@@ -1,0 +1,15 @@
+2022/04/28-10:40:31.512 1aa1 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_patents.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/28-10:40:31.512 1aa1 Recovering log #4
+2022/04/28-10:40:31.516 1aa1 Reusing old log /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_patents.google.com_0.indexeddb.leveldb/000004.log 
+2022/04/28-10:40:35.213 1aee Level-0 table #8: started
+2022/04/28-10:40:35.263 1aee Level-0 table #8: 190 bytes OK
+2022/04/28-10:40:35.304 1aee Delete type=0 #4
+2022/04/28-10:40:35.305 1aee Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/28-10:40:35.305 1aee Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 256 : 1
+2022/04/28-10:40:35.305 1aee Compacting 1@1 + 1@2 files
+2022/04/28-10:40:35.355 1aee Generated table #9@1: 82 keys, 1233 bytes
+2022/04/28-10:40:35.355 1aee Compacted 1@1 + 1@2 files => 1233 bytes
+2022/04/28-10:40:35.429 1aee compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/28-10:40:35.429 1aee Delete type=2 #5
+2022/04/28-10:40:35.429 1aee Delete type=2 #8
+2022/04/28-10:40:35.429 1aee Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 256 : 1 .. (end); will stop at (end)

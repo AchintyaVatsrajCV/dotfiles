@@ -1,0 +1,6 @@
+2022/05/25-11:09:44.808 13421 Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_tableau.itap.purdue.edu_0.indexeddb.leveldb since it was missing.
+2022/05/25-11:09:44.925 13421 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_tableau.itap.purdue.edu_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/25-11:09:50.042 11c2a Level-0 table #5: started
+2022/05/25-11:09:50.093 11c2a Level-0 table #5: 838 bytes OK
+2022/05/25-11:09:50.137 11c2a Delete type=0 #3
+2022/05/25-11:09:50.138 11c2a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

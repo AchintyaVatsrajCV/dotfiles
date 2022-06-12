@@ -1,0 +1,7 @@
+[Added Associations]
+video/mp2t=mpv.desktop;vlc.desktop;
+text/plain=sublime_text.desktop;
+video/x-matroska=mpv.desktop;vlc.desktop;
+video/mpeg=vlc.desktop;
+video/mp4=vlc.desktop;mpv.desktop;
+application/pdf=org.gnome.Evince.desktop;mupdf.desktop;

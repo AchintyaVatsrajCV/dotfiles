@@ -1,0 +1,15 @@
+2022/05/28-14:06:21.896 105485 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.thriftbooks.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/28-14:06:21.897 105485 Recovering log #4
+2022/05/28-14:06:21.918 105485 Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.thriftbooks.com_0.indexeddb.leveldb/000004.log 
+2022/05/28-14:06:26.766 105485 Level-0 table #8: started
+2022/05/28-14:06:26.808 105485 Level-0 table #8: 757 bytes OK
+2022/05/28-14:06:26.839 105485 Delete type=0 #4
+2022/05/28-14:06:26.839 105485 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/05/28-14:06:26.839 105485 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 218 : 1
+2022/05/28-14:06:26.839 105485 Compacting 1@1 + 1@2 files
+2022/05/28-14:06:26.885 105485 Generated table #9@1: 69 keys, 1374 bytes
+2022/05/28-14:06:26.885 105485 Compacted 1@1 + 1@2 files => 1374 bytes
+2022/05/28-14:06:26.913 105485 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/28-14:06:26.914 105485 Delete type=2 #5
+2022/05/28-14:06:26.914 105485 Delete type=2 #8
+2022/05/28-14:06:26.914 105485 Manual compaction at level-1 from '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 218 : 1 .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2022/04/26-07:04:44.285 cea Creating DB /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
+2022/04/26-07:04:44.405 cea Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/26-07:05:48.154 cea Level-0 table #5: started
+2022/04/26-07:05:48.204 cea Level-0 table #5: 1857 bytes OK
+2022/04/26-07:05:48.246 cea Delete type=0 #3
+2022/04/26-07:05:48.246 cea Manual compaction at level-0 from (begin) .. (end); will stop at (end)

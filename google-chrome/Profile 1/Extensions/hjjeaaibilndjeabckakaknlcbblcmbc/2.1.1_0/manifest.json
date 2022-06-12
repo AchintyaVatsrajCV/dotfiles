@@ -1,0 +1,39 @@
+{
+   "author": "p2pdops",
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "libs/xlsx.full.min.js", "attendance/utils.js", "attendance/main.js" ],
+      "matches": [ "https://meet.google.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Simple Chrome Extension to record single time, time-wise attendance of members and will download to csv file.",
+   "externally_connectable": {
+      "matches": [ "*://meet.google.com/*" ]
+   },
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsLpLcQR0SgMAPAuIWAmMlMIwhsWLiv9LbtpAt4n7ZkJTtYsuGFAzI6X/C3viIvv8ewrrr4HjkXmgzjRZNtGIg6ZybT2/Tse+SNIcqPJPo0/HXfdHzyZjSo/a+dxBxedJP8d9b1WqvsZ8/hS8OQTBKDIN1QkejKrHFYQuKd4Rdl1AFLKKEwtOna76tv//qWVK0PbM9oHARgtktlk9bF4FYZ3qIjFp729SvOjzzJeg083rtHKZ+4OY+1K1cAHQNyoFI8T/8Po5/iZs35GzHKBba4c+AYGB3OgITFWW2L3vkd2Bs6QepZl0JlKHKWJX1IMciUiJfhSnkLmFMWw2hiK4rQIDAQAB",
+   "manifest_version": 2,
+   "name": "Google Meet Attendance (Works with New UI)",
+   "optional_permissions": [ "\u003Call_urls>", "notifications" ],
+   "options_page": "options/options.html",
+   "page_action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "Meet Attendance Collector"
+   },
+   "permissions": [ "tabs", "storage", "declarativeContent" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.1"
+}

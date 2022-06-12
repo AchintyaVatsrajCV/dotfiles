@@ -1,0 +1,47 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": false
+   },
+   "browser_action": {
+      "default_icon": "./img/icon-48.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "css": [ "./css/google-meet.css" ],
+      "js": [ "./google-meet.bundle.js" ],
+      "matches": [ "https://meet.google.com/*" ]
+   }, {
+      "css": [ "./css/google-calendar.css" ],
+      "js": [ "./contentScripts/chrome.js", "./contentScripts/organizer.js", "./contentScripts/attendees.js" ],
+      "matches": [ "https://calendar.google.com/*" ]
+   }, {
+      "css": [ "./css/cross-platform-highlighting.css" ],
+      "js": [ "./contentScripts/notion.js" ],
+      "matches": [ "*://*.notion.so/*" ]
+   }, {
+      "css": [ "./css/cross-platform-highlighting.css" ],
+      "js": [ "./contentScripts/google-docs.js" ],
+      "matches": [ "*://docs.google.com/document/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com https://unpkg.com/axios/dist/axios.min.js; object-src 'self'",
+   "description": "Video Record, Transcribe and Highlight Google Meet and Zoom meetings",
+   "differential_fingerprint": "1.464db7b71533b76cb80679b555b7739c179d6e17b170badbc085158cf1b9d47e",
+   "externally_connectable": {
+      "matches": [ "*://tldv.io/*", "*://tldv.preprod.pockost.com/*" ]
+   },
+   "icons": {
+      "128": "./img/icon-128.png",
+      "48": "./img/icon-48.png"
+   },
+   "id": "lknmjhcajhfbbglglccadlfdjbaiifig",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlkFjXjhDDdF0R7hADtKGAhpHcFHyAwy/1J98Fkr9xlZEdmSCWfKyQ5PxbEb7vzQQkKoPgaWwb8p0aZZjFzy4fJOj+0bW0+UefYx4xDDPESgnj7qeTXu7gcQq0NekDhn72RlYGzW3nnf460fMCfa/96cuCGvo965PRAZs+Hgvq+ZZlx1ibADTVNc5lMx4SjRFBjTl1i/4nPz+Zay+lT+5Trzx74Oi0rwMQb8PxA7+VsEbE4U87u3xYirg0St+G9gfy7NU00aFnnR7pHAjGxz2RC61RkQecWC9hT/UhJU8iMbMeiyL0WaXHtfOfsk8LAjN7HmljdbzzCqnHyaCbmpZFQIDAQAB",
+   "manifest_version": 2,
+   "name": "Video record & transcribe Google Meet & Zoom",
+   "permissions": [ "storage", "activeTab", "*://meet.google.com/*", "*://*.tldv.io/*", "*://*.notion.so/*", "*://docs.google.com/*", "*://clickup.com/*", "*://trello.com/*", "*://pipedrive.com/*", "*://hubspot.com/*", "*://salesforce.com/*", "*://slite.com/*", "*://confluence.atlassian.com/*", "*://*.atlassian.com/*", "*://airtable.com/*", "*://coda.io/*", "*://*.zoom.us/*" ],
+   "short_name": "tl;dv",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.18.3",
+   "web_accessible_resources": [ "img/tldv.svg", "img/icon-40.svg", "img/icon-48.png", "img/icon-128.png", "img/ic_launch.png", "img/celebrate.gif", "img/login_page.gif", "img/emoji-point.gif", "img/typing-notion.gif", "img/logo-light-purple.gif", "img/Heart_UX-minisurvey.gif", "img/onboarding_timestamps.gif", "fonts/pt-mono-regular.woff2", "fonts/work-sans-italic.woff", "fonts/work-sans-normal.woff2", "img/LMI_endstateLMI-2.gif" ]
+}

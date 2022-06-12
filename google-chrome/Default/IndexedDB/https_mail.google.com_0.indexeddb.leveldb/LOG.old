@@ -1,0 +1,6 @@
+2022/05/28-16:13:59.162 10e513 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/28-16:13:59.163 10e513 Recovering log #4
+2022/05/28-16:13:59.719 10e513 Reusing old log /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2022/05/28-16:14:14.274 10e547 Level-0 table #8: started
+2022/05/28-16:14:14.408 10e547 Level-0 table #8: 2031438 bytes OK
+2022/05/28-16:14:14.523 10e547 Delete type=0 #4

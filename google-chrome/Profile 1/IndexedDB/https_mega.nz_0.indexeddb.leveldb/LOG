@@ -1,0 +1,22 @@
+2022/05/26-19:11:03.544 7d5a6 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_mega.nz_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/26-19:11:03.544 7d5a6 Recovering log #7
+2022/05/26-19:11:03.798 7d5a6 Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_mega.nz_0.indexeddb.leveldb/000007.log 
+2022/05/26-19:11:09.819 7d5a6 Level-0 table #11: started
+2022/05/26-19:11:09.902 7d5a6 Level-0 table #11: 976962 bytes OK
+2022/05/26-19:11:10.036 7d5a6 Delete type=0 #7
+2022/05/26-19:11:10.037 7d5a6 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x03\x01\x01\x00l' @ 2012 : 1
+2022/05/26-19:11:10.037 7d5a6 Compacting 1@0 + 1@1 files
+2022/05/26-19:11:10.197 7d5a6 Generated table #12@0: 81 keys, 1141 bytes
+2022/05/26-19:11:10.197 7d5a6 Compacted 1@0 + 1@1 files => 1141 bytes
+2022/05/26-19:11:10.287 7d5a6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/05/26-19:11:10.288 7d5a6 Delete type=2 #11
+2022/05/26-19:11:10.288 7d5a6 Delete type=2 #8
+2022/05/26-19:11:10.289 7d5a6 Manual compaction at level-0 from '\x00\x02\x01\x03\x01\x01\x00l' @ 2012 : 1 .. (end); will stop at (end)
+2022/05/26-19:11:10.289 7d5a6 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x03\x01\x01\x00l' @ 2012 : 1
+2022/05/26-19:11:10.289 7d5a6 Compacting 1@1 + 1@2 files
+2022/05/26-19:11:10.396 7d5a6 Generated table #13@1: 37 keys, 748 bytes
+2022/05/26-19:11:10.396 7d5a6 Compacted 1@1 + 1@2 files => 748 bytes
+2022/05/26-19:11:10.538 7d5a6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/26-19:11:10.539 7d5a6 Delete type=2 #5
+2022/05/26-19:11:10.539 7d5a6 Delete type=2 #12
+2022/05/26-19:11:10.566 7d5a6 Manual compaction at level-1 from '\x00\x02\x01\x03\x01\x01\x00l' @ 2012 : 1 .. (end); will stop at (end)

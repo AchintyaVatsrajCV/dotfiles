@@ -1,0 +1,6 @@
+2022/06/11-12:02:21.913 345c7 Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.joinhoney.com_0.indexeddb.leveldb since it was missing.
+2022/06/11-12:02:22.337 345c7 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.joinhoney.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/11-12:02:32.921 345c9 Level-0 table #5: started
+2022/06/11-12:02:32.963 345c9 Level-0 table #5: 828 bytes OK
+2022/06/11-12:02:32.997 345c9 Delete type=0 #3
+2022/06/11-12:02:32.997 345c9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

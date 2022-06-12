@@ -1,0 +1,6 @@
+2022/06/05-14:07:02.888 2f891e Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.zdnet.com_0.indexeddb.leveldb since it was missing.
+2022/06/05-14:07:03.123 2f891e Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.zdnet.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/05-14:07:35.421 2f891e Level-0 table #5: started
+2022/06/05-14:07:35.471 2f891e Level-0 table #5: 1629 bytes OK
+2022/06/05-14:07:35.506 2f891e Delete type=0 #3
+2022/06/05-14:07:35.506 2f891e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

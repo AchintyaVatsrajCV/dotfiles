@@ -1,0 +1,15 @@
+2022/06/06-21:37:21.014 6c21 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/06/06-21:37:21.014 6c21 Recovering log #351
+2022/06/06-21:37:21.791 6c21 Reusing old log /home/lolt3under/.config/google-chrome/Default/Sync Data/LevelDB/000351.log 
+2022/06/06-21:38:37.144 6c94 Level-0 table #355: started
+2022/06/06-21:38:37.259 6c94 Level-0 table #355: 144908 bytes OK
+2022/06/06-21:38:37.350 6c94 Delete type=0 #351
+2022/06/06-21:38:37.350 6c94 Compacting 4@0 + 1@1 files
+2022/06/06-21:38:37.410 6c94 Generated table #356@0: 253 keys, 24757 bytes
+2022/06/06-21:38:37.410 6c94 Compacted 4@0 + 1@1 files => 24757 bytes
+2022/06/06-21:38:37.449 6c94 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/06-21:38:37.449 6c94 Delete type=2 #350
+2022/06/06-21:38:37.449 6c94 Delete type=2 #348
+2022/06/06-21:38:37.449 6c94 Delete type=2 #355
+2022/06/06-21:38:37.449 6c94 Delete type=2 #352
+2022/06/06-21:38:37.449 6c94 Delete type=2 #346

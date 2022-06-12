@@ -1,0 +1,7 @@
+[2022-05-03 14:55:03.161] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-03 14:55:03.597] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-03 14:55:04.539] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-03 14:55:06.001] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Invalid argument (EUNKNOWN) (path: /)
+[2022-05-03 14:55:06.002] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: Invalid argument
+[2022-05-03 14:55:08.098] [renderer1] [error] [File Watcher (parcel)] Unexpected error: Invalid argument (EUNKNOWN) (path: /)
+[2022-05-03 14:55:08.099] [renderer1] [error] [File Watcher (universal)] restarting watcher after error: Invalid argument

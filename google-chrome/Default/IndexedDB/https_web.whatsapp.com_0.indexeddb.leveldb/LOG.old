@@ -1,0 +1,42 @@
+2022/05/19-13:31:16.683 2e72b Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/19-13:31:16.683 2e72b Recovering log #621
+2022/05/19-13:31:16.733 2e72b Reusing old log /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000621.log 
+2022/05/19-13:31:22.217 2e72b Level-0 table #639: started
+2022/05/19-13:31:22.315 2e72b Level-0 table #639: 1071042 bytes OK
+2022/05/19-13:31:22.390 2e72b Delete type=0 #621
+2022/05/19-13:31:22.643 2e72b Compacting 1@0 + 0@1 files
+2022/05/19-13:31:22.767 2e72b Generated table #640@0: 24710 keys, 470090 bytes
+2022/05/19-13:31:22.868 2e72b Generated table #641@0: 5715 keys, 111349 bytes
+2022/05/19-13:31:22.868 2e72b Compacted 1@0 + 0@1 files => 581439 bytes
+2022/05/19-13:31:22.970 2e72b compacted to: files[ 0 2 12 0 0 0 0 ]
+2022/05/19-13:31:23.073 2e842 Compacting 1@1 + 10@2 files
+2022/05/19-13:31:23.219 2e842 Generated table #642@1: 42981 keys, 2265458 bytes
+2022/05/19-13:31:23.368 2e842 Generated table #643@1: 33791 keys, 2225708 bytes
+2022/05/19-13:31:23.476 2e842 Generated table #644@1: 2616 keys, 2147562 bytes
+2022/05/19-13:31:23.585 2e842 Generated table #645@1: 1915 keys, 2137495 bytes
+2022/05/19-13:31:23.744 2e842 Generated table #646@1: 2737 keys, 2147690 bytes
+2022/05/19-13:31:23.906 2e842 Generated table #647@1: 13134 keys, 2161085 bytes
+2022/05/19-13:31:24.140 2e842 Generated table #648@1: 27466 keys, 2261841 bytes
+2022/05/19-13:31:24.570 2e842 Generated table #649@1: 18595 keys, 2189157 bytes
+2022/05/19-13:31:24.855 2e842 Generated table #650@1: 17036 keys, 2139175 bytes
+2022/05/19-13:31:25.426 2e842 Generated table #651@1: 81643 keys, 1827994 bytes
+2022/05/19-13:31:25.426 2e842 Compacted 1@1 + 10@2 files => 21503165 bytes
+2022/05/19-13:31:25.855 2e842 compacted to: files[ 0 1 12 0 0 0 0 ]
+2022/05/19-13:31:25.856 2e842 Delete type=2 #639
+2022/05/19-13:31:27.998 2e72b Compacting 1@1 + 2@2 files
+2022/05/19-13:31:28.166 2e72b Generated table #652@1: 99859 keys, 2251544 bytes
+2022/05/19-13:31:28.383 2e72b Generated table #653@1: 99486 keys, 2251136 bytes
+2022/05/19-13:31:28.532 2e72b Generated table #654@1: 3450 keys, 99807 bytes
+2022/05/19-13:31:28.532 2e72b Compacted 1@1 + 2@2 files => 4602487 bytes
+2022/05/19-13:31:28.662 2e72b compacted to: files[ 0 0 13 0 0 0 0 ]
+2022/05/19-13:31:28.663 2e72b Delete type=2 #636
+2022/05/19-13:31:28.663 2e72b Delete type=2 #634
+2022/05/19-13:31:28.663 2e72b Delete type=2 #628
+2022/05/19-13:31:28.663 2e72b Delete type=2 #632
+2022/05/19-13:31:28.663 2e72b Delete type=2 #635
+2022/05/19-13:31:28.663 2e72b Delete type=2 #629
+2022/05/19-13:31:28.663 2e72b Delete type=2 #633
+2022/05/19-13:31:28.663 2e72b Delete type=2 #630
+2022/05/19-13:31:28.663 2e72b Delete type=2 #627
+2022/05/19-13:31:28.663 2e72b Delete type=2 #631
+2022/05/19-13:31:28.663 2e72b Delete type=2 #640

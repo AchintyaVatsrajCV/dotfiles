@@ -1,0 +1,617 @@
+{
+   "Annually": {
+      "message": "Yıllık"
+   },
+   "Arabic": {
+      "message": "Arapça"
+   },
+   "Asia": {
+      "message": "Asya"
+   },
+   "Australia": {
+      "message": "Avustralya"
+   },
+   "Australia_d": {
+      "message": "Avustralya"
+   },
+   "Autoplay": {
+      "message": "Oto-oynatma"
+   },
+   "Autoplay_desc": {
+      "message": "Otomatik sesli okuma seçeneği"
+   },
+   "Brazil": {
+      "message": "Brezilya"
+   },
+   "Brazil_d": {
+      "message": "Brezilyalı"
+   },
+   "British": {
+      "message": "İngiliz"
+   },
+   "Canada": {
+      "message": "Kanada"
+   },
+   "Canada_d": {
+      "message": "Kanadalı"
+   },
+   "Catalan": {
+      "message": "Katalan"
+   },
+   "China": {
+      "message": "Çin"
+   },
+   "China_d": {
+      "message": "Çin"
+   },
+   "Chinese": {
+      "message": "Çin"
+   },
+   "Czech": {
+      "message": "Çek"
+   },
+   "Czech_d": {
+      "message": "Çek"
+   },
+   "Danish": {
+      "message": "Danimarkalı"
+   },
+   "Denmark": {
+      "message": "Danimarka"
+   },
+   "Denmark_d": {
+      "message": "Danimarkalı"
+   },
+   "Dutch": {
+      "message": "Hollandalı"
+   },
+   "English": {
+      "message": "İngilizce"
+   },
+   "Europe": {
+      "message": "Avrupa"
+   },
+   "FREE": {
+      "message": "ÜCRETSİZ"
+   },
+   "Fast": {
+      "message": "Hızlı"
+   },
+   "Features": {
+      "message": "Özellikler"
+   },
+   "Finland": {
+      "message": "Finlandiya"
+   },
+   "Finland_d": {
+      "message": "Fince"
+   },
+   "Finnish": {
+      "message": "Fince"
+   },
+   "France": {
+      "message": "Fransa"
+   },
+   "France_d": {
+      "message": "Fransa"
+   },
+   "French": {
+      "message": "Fransız"
+   },
+   "Gender": {
+      "message": "Cinsiyet"
+   },
+   "German": {
+      "message": "Alman"
+   },
+   "Germany": {
+      "message": "Almanya"
+   },
+   "Germany_d": {
+      "message": "Alman"
+   },
+   "Greek": {
+      "message": "Yunan"
+   },
+   "Hong_Kong": {
+      "message": "Hong Kong"
+   },
+   "Hong_Kong_d": {
+      "message": "Hong Kong"
+   },
+   "Hungarian": {
+      "message": "Macar"
+   },
+   "Hungary": {
+      "message": "Macaristan"
+   },
+   "Hungary_d": {
+      "message": "Macar"
+   },
+   "Italian": {
+      "message": "İtalyan"
+   },
+   "Italy": {
+      "message": "İtalya"
+   },
+   "Italy_d": {
+      "message": "İtalyan"
+   },
+   "Japan": {
+      "message": "Japonya"
+   },
+   "Japan_d": {
+      "message": "Japon"
+   },
+   "Japanese": {
+      "message": "Japon"
+   },
+   "Korea": {
+      "message": "Kore"
+   },
+   "Korea_d": {
+      "message": "Kore"
+   },
+   "Korean": {
+      "message": "Kore"
+   },
+   "LITE": {
+      "message": "LITE Version"
+   },
+   "Language": {
+      "message": "Dil"
+   },
+   "Mexico": {
+      "message": "Meksika"
+   },
+   "Mexico_d": {
+      "message": "Meksika"
+   },
+   "Month_desc": {
+      "message": "Select and Speak Aylık Aboneliği"
+   },
+   "Netherlands": {
+      "message": "Hollanda"
+   },
+   "Netherlands_d": {
+      "message": "Hollandalı"
+   },
+   "Normal": {
+      "message": "Normal"
+   },
+   "North_America": {
+      "message": "Kuzey Amerika"
+   },
+   "Norway": {
+      "message": "Norveç"
+   },
+   "Norway_d": {
+      "message": "Norveç"
+   },
+   "Norwegian": {
+      "message": "Norveç"
+   },
+   "Pacific": {
+      "message": "Pasifik"
+   },
+   "Poland": {
+      "message": "Polonya"
+   },
+   "Poland_d": {
+      "message": "Lehçe"
+   },
+   "Polish": {
+      "message": "Lehçe"
+   },
+   "Portugal": {
+      "message": "Portekiz"
+   },
+   "Portugal_d": {
+      "message": "Portekizce"
+   },
+   "Portuguese": {
+      "message": "Portekizce"
+   },
+   "Pro_Features": {
+      "message": "Pro Özellikleri"
+   },
+   "Russia": {
+      "message": "Rusya"
+   },
+   "Russia_d": {
+      "message": "Rus"
+   },
+   "Russian": {
+      "message": "Rus"
+   },
+   "Slow": {
+      "message": "Yavaş"
+   },
+   "South_America": {
+      "message": "Güney / Orta Amerika"
+   },
+   "Spain": {
+      "message": "İspanya"
+   },
+   "Spain_d": {
+      "message": "İspanyolca"
+   },
+   "Spanish": {
+      "message": "İspanyolca"
+   },
+   "Speech": {
+      "message": "Konuşma"
+   },
+   "Speed": {
+      "message": "Hız"
+   },
+   "Sweden": {
+      "message": "İsveç"
+   },
+   "Sweden_d": {
+      "message": "İsveç"
+   },
+   "Swedish": {
+      "message": "İsveç"
+   },
+   "Taiwan": {
+      "message": "Tayvan"
+   },
+   "Taiwan_d": {
+      "message": "Tayvanlı"
+   },
+   "Turkey": {
+      "message": "Türkiye"
+   },
+   "Turkey_d": {
+      "message": "Türk"
+   },
+   "Turkish": {
+      "message": "Türk"
+   },
+   "United_Kingdom": {
+      "message": "Büyük Britanya"
+   },
+   "United_Kingdom_d": {
+      "message": "Büyük Britanyalı"
+   },
+   "United_States": {
+      "message": "Birleşik Devletler"
+   },
+   "United_States_d": {
+      "message": "Amerikan"
+   },
+   "Year_desc": {
+      "message": "Select and Speak Yıllık Aboneliği"
+   },
+   "all_only": {
+      "message": "Bu özelliklerin tamamı"
+   },
+   "answer1": {
+      "message": "Select and Speak, Chrome tarayıcınızda yer alan herhangi bir yazıyı dinlemenize olanak sağlar. Okumak istediğiniz herhangi bir yazıyı seçip, sağa tıklayıp Select and Speak ile Okuya tıklayın. "
+   },
+   "answer2": {
+      "message": "Bu duruma göre değişir. PDF dosyanız seçilebilir bir yazı içeriyorsa, evet. Şayet PDF dosyanız bir resim veya yazı tarama imajı ise büyük bir ihtimal bu işlemi yapamayabilirsiniz. "
+   },
+   "answer3": {
+      "message": "Her yıl milyonlarca kullanıcı tarafından kullanılan Select and Speak ücretsiz sürümünü size sunmamıza rağmen hizmeti sağlamak için yoğun sözcük kullanımına sahip kullanıcılardan ücret almaktayız. Kelime sınırı 500 sözcükten ibarettir."
+   },
+   "app_name": {
+      "message": "Select and Speak - Metinden Konuşmaya"
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "Sayfa içeriğini otomatik olarak diline çevir"
+   },
+   "autolangOption": {
+      "message": "Otomatik Dil Tespiti"
+   },
+   "automaticLanguage": {
+      "message": "Otomatik Dil"
+   },
+   "autoplayOption": {
+      "message": "Oto-oynatma Seçeneği"
+   },
+   "autoplay_off": {
+      "message": "Oto-oynatmayı kapa"
+   },
+   "autoplay_on": {
+      "message": "Oto-oynatmayı aç"
+   },
+   "become_pro": {
+      "message": "Şimdi Pro Kullanıcıya Geçin"
+   },
+   "buy_edu": {
+      "message": "Eğitim Paketini Satın Al"
+   },
+   "cancelAnyTime": {
+      "message": "Heran İptal Edin"
+   },
+   "checkout_pro": {
+      "message": "Pro Özellikleri gözden geçirin"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "Sesin Cinsiyetini ve Okuma Hızını Seçin"
+   },
+   "choose_language": {
+      "message": "Dili Seç"
+   },
+   "contact": {
+      "message": "Bize Ulaşın"
+   },
+   "could_not_read": {
+      "message": "Sayfa okunamadı, lütfen sayfayı yenileyin. "
+   },
+   "country": {
+      "message": "Ülke"
+   },
+   "dashboard": {
+      "message": "PANEL"
+   },
+   "detect_lang": {
+      "message": "Otomatik Dil Belirleme"
+   },
+   "discounted": {
+      "message": "İndirimli - Daha Fazla Bilgi"
+   },
+   "edu_discounts": {
+      "message": "Şayet öğretmen veya eğitimci iseniz öğrencileriniz için özel indirim kazanın."
+   },
+   "educationalVersion": {
+      "message": "Eğitici Versiyon"
+   },
+   "educational_package": {
+      "message": "Eğitim Paketi"
+   },
+   "faq": {
+      "message": "SSS"
+   },
+   "fast_or_slow": {
+      "message": "Yazıyı 21 Farklı Hız Ayarında Okuyun"
+   },
+   "female": {
+      "message": "kadın"
+   },
+   "final_step": {
+      "message": "Son Adım - Bilgilerinizi "
+   },
+   "final_step_message": {
+      "message": "Select and Speak'in özelliklerinin dünya çapında kullanılmasını sağlamak için Farklı kullanıcılara ait verilere ihtiyacımız var. Lütfen, programın maksimum doğrulukta işlev görmesi içim aşağıdaki bilgileri bize sunun."
+   },
+   "for_sentences": {
+      "message": "$1 Cümle için"
+   },
+   "free_trial": {
+      "message": "7 Günlük Ücretsiz Deneme"
+   },
+   "free_version": {
+      "message": "Ücretsiz sürümü kullanıyorsunuz"
+   },
+   "fullPrice_alone": {
+      "message": "₺ 84.99"
+   },
+   "gender": {
+      "message": "Cinsiyet"
+   },
+   "halfOff": {
+      "message": "%50 Tanıtım İndirimi Teklifi"
+   },
+   "help_us": {
+      "message": "Pro Aboneliği Ücretsiz Al"
+   },
+   "home": {
+      "message": "Anasayfa"
+   },
+   "improve_speak": {
+      "message": "Select and Speak'i geliştirmeye çalışıyoruz. Bize yardımcı olun ve 1 haftalık veya 1 aylık Premium aboneliğe Ücretsiz sahip olun!"
+   },
+   "langs": {
+      "message": "27 Dil"
+   },
+   "limit_alert": {
+      "message": "$1 kelimelik seçiminiz günlük limitinizin üzerindedir. Limiti kaldırmak için hesabınızı yükseltin.,"
+   },
+   "m_price": {
+      "message": "ayda $$3.99"
+   },
+   "male": {
+      "message": "erkek"
+   },
+   "month": {
+      "message": "1 Ay"
+   },
+   "monthPrice_alone": {
+      "message": "$$3.99"
+   },
+   "monthly": {
+      "message": "Aylık"
+   },
+   "monthlyPrice": {
+      "message": "₺ 8.49Aylık"
+   },
+   "native_language": {
+      "message": "Ana dil"
+   },
+   "next": {
+      "message": "Sonraki"
+   },
+   "no_barriers": {
+      "message": "Yazıyı 27 Farklı Dilde Okuyun"
+   },
+   "not_much": {
+      "message": "Yapmanız gereken fazla bir şey yok. Size birkaç satır yazı sunacağız ve sizinde bunları sesli olarak okumanızı istiyoruz. (sessiz bir ortam tercih edilir)."
+   },
+   "num_students": {
+      "message": "Öğrenci Sayısı"
+   },
+   "options_title": {
+      "message": "Select and Speak Seçenekleri"
+   },
+   "or": {
+      "message": "veya "
+   },
+   "origin_place": {
+      "message": "Posta Kodu (büyüdüğünüz yer)"
+   },
+   "paragraph_player": {
+      "message": "Paragraf oynatıcıyı kapattınız. Seçenekler sayfasından tekrardan açabilirsiniz."
+   },
+   "per_student": {
+      "message": "Öğrenci Başı"
+   },
+   "premium": {
+      "message": " (Prémiové)"
+   },
+   "previous": {
+      "message": "Önceki"
+   },
+   "price": {
+      "message": "Fiyat"
+   },
+   "proVersion": {
+      "message": "Profesyonel Versiyon"
+   },
+   "pro_features": {
+      "message": "Pro Özellikler"
+   },
+   "purchase_audio": {
+      "message": "Bu seçim için ses satın al"
+   },
+   "question1": {
+      "message": "Select and Speak Nasıl Çalışır?"
+   },
+   "question2": {
+      "message": "PDF yazılarını dinleyebilir miyim?"
+   },
+   "question3": {
+      "message": "Sözcük sayısının bittiği yazıyor, ne yapmalıyım?"
+   },
+   "readSpeeds": {
+      "message": "21 Okuma Hızı"
+   },
+   "read_aloud": {
+      "message": "Aşağıdaki Cümleyi Sesli Okuyun"
+   },
+   "read_autoplay": {
+      "message": "Oto-oynatma Yazısı - Hızlı ve Kolay"
+   },
+   "read_more": {
+      "message": "Devamını Oku"
+   },
+   "read_with_speak": {
+      "message": "Select and Speak ile Oku"
+   },
+   "read_words": {
+      "message": "Günülük sadece 500 sözcük"
+   },
+   "restart": {
+      "message": "Select and speak kurulumunu tamamlamak için chrome yeniden başlatmanız gerekiyor."
+   },
+   "save60": {
+      "message": "60% Tasarruf"
+   },
+   "secure": {
+      "message": "100% Güvenli: Bilgileriniz sadece ana bileşenleri geliştirmek için kullanılacaktır. Bilgileriniz bizimle güven içerisinde."
+   },
+   "security": {
+      "message": "Uzantılar güvenlik gerekçesiyle yerel chrome sayfalarında çalıştırılamaz"
+   },
+   "settings": {
+      "message": "Ayarlar"
+   },
+   "shareThis_finePrint": {
+      "message": "(sadece aylık kayıtlar için öneren kişinin indirimden önce en az 60 günlük aboneliği olmalıdır)"
+   },
+   "share_this": {
+      "message": "Bu bağlantıyı paylaşın ve %50 indirim kazanın*"
+   },
+   "showPlay": {
+      "message": "Göster \"paragraf oynatma butonu\""
+   },
+   "speak_selected": {
+      "message": "Konuşma Opsiyonlu Metin "
+   },
+   "special_discount": {
+      "message": "Sizin için Özel İndirim:"
+   },
+   "speech_faq": {
+      "message": "Select and Speak SSS"
+   },
+   "start_training": {
+      "message": "Yardıma Başla"
+   },
+   "subConf": {
+      "message": "Başarılı bir şekilde Pro'ya yükseldiniz."
+   },
+   "submit_data": {
+      "message": "1 Aylık Ücretsiz Kullanım için Gönder"
+   },
+   "teachers": {
+      "message": "Öğrenciler ve Öğretmenler"
+   },
+   "tryProFree": {
+      "message": "7 Gün Boyunca Pro'yu Ücretsiz Deneyin"
+   },
+   "tryRiskFree": {
+      "message": "Pro'yu Dene, Sıfır Risk"
+   },
+   "unlWords": {
+      "message": "Sınırsız Kelime Miktarı"
+   },
+   "unlimited_reading": {
+      "message": "Kesintisiz Dinleme için sınırsız sözcük "
+   },
+   "unlimited_words": {
+      "message": "Sınırsız sayıda sözcük, Oto-oynatma opsiyonu ve daha fazla özelliğe sahip olmak ister misiniz?"
+   },
+   "upgrade": {
+      "message": "Pro'ya Yükselt"
+   },
+   "upgrade_pro": {
+      "message": "Pro'ya Yükselt"
+   },
+   "upgrade_select_speak": {
+      "message": "Select and Speak'i Yükselt"
+   },
+   "week": {
+      "message": "1 Hafta"
+   },
+   "welcome": {
+      "message": "Select and Speak'e Hoşgeldiniz"
+   },
+   "what_do": {
+      "message": "Yapman gereken ne?"
+   },
+   "what_get": {
+      "message": "Bu sürümle nelere sahip olacaksınız?"
+   },
+   "what_get_pro": {
+      "message": "Pro Sürüm Özellikleri"
+   },
+   "wordsPerDay": {
+      "message": "500 Kelime / Gün"
+   },
+   "y_price": {
+      "message": "yılda $$19.99"
+   },
+   "yearly": {
+      "message": "Yıllık"
+   },
+   "yearlyPrice": {
+      "message": "₺ 42.39 Yıllık"
+   },
+   "yearlyPrice_alone": {
+      "message": "₺ 42.39"
+   },
+   "your_age": {
+      "message": "Yaşınız"
+   }
+}

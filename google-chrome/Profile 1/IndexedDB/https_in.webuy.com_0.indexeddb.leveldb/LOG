@@ -1,0 +1,6 @@
+2022/05/19-12:55:17.445 2c320 Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_in.webuy.com_0.indexeddb.leveldb since it was missing.
+2022/05/19-12:55:17.559 2c320 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_in.webuy.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/19-12:55:58.796 2c5b0 Level-0 table #5: started
+2022/05/19-12:55:58.845 2c5b0 Level-0 table #5: 24236 bytes OK
+2022/05/19-12:55:58.884 2c5b0 Delete type=0 #3
+2022/05/19-12:55:58.885 2c5b0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,12 @@
+2022/06/10-19:21:32.247 197c Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/shared_proto_db/MANIFEST-000001
+2022/06/10-19:21:32.247 197c Recovering log #7
+2022/06/10-19:21:33.094 197c Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/shared_proto_db/000007.log 
+2022/06/11-11:57:36.108 33b53 Level-0 table #12: started
+2022/06/11-11:57:36.232 33b53 Level-0 table #12: 177305 bytes OK
+2022/06/11-11:57:36.310 33b53 Delete type=0 #7
+2022/06/11-17:43:24.200 45c6a Compacting 1@1 + 1@2 files
+2022/06/11-17:43:24.272 45c6a Generated table #13@1: 423 keys, 82053 bytes
+2022/06/11-17:43:24.272 45c6a Compacted 1@1 + 1@2 files => 82053 bytes
+2022/06/11-17:43:24.308 45c6a compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/11-17:43:24.308 45c6a Delete type=2 #9
+2022/06/11-17:43:24.309 45c6a Delete type=2 #12

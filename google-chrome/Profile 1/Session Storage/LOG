@@ -1,0 +1,45 @@
+2022/06/10-19:21:26.107 3 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/Session Storage/MANIFEST-000001
+2022/06/10-19:21:26.108 3 Recovering log #890
+2022/06/10-19:21:26.264 3 Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/Session Storage/000890.log 
+2022/06/10-20:06:17.683 1c Level-0 table #894: started
+2022/06/10-20:06:17.769 1c Level-0 table #894: 17973 bytes OK
+2022/06/10-20:06:17.855 1c Delete type=0 #890
+2022/06/11-09:01:47.582 e2 Level-0 table #896: started
+2022/06/11-09:01:47.625 e2 Level-0 table #896: 18413 bytes OK
+2022/06/11-09:01:47.671 e2 Delete type=0 #893
+2022/06/11-09:01:47.672 e2 Compacting 4@0 + 1@1 files
+2022/06/11-09:01:47.818 e2 Generated table #897@0: 43598 keys, 1029217 bytes
+2022/06/11-09:01:47.818 e2 Compacted 4@0 + 1@1 files => 1029217 bytes
+2022/06/11-09:01:47.852 e2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/11-09:01:47.854 e2 Delete type=2 #894
+2022/06/11-09:01:47.854 e2 Delete type=2 #891
+2022/06/11-09:01:47.855 e2 Delete type=2 #896
+2022/06/11-09:01:47.855 e2 Delete type=2 #887
+2022/06/11-09:01:47.855 e2 Delete type=2 #889
+2022/06/11-10:08:41.075 ff Level-0 table #899: started
+2022/06/11-10:08:41.147 ff Level-0 table #899: 20596 bytes OK
+2022/06/11-10:08:41.184 ff Delete type=0 #895
+2022/06/11-11:55:05.051 120 Level-0 table #901: started
+2022/06/11-11:55:05.291 120 Level-0 table #901: 23953 bytes OK
+2022/06/11-11:55:05.382 120 Delete type=0 #898
+2022/06/11-12:02:31.624 123 Level-0 table #903: started
+2022/06/11-12:02:31.694 123 Level-0 table #903: 23320 bytes OK
+2022/06/11-12:02:31.733 123 Delete type=0 #900
+2022/06/11-15:07:41.074 13e Level-0 table #905: started
+2022/06/11-15:07:41.199 13e Level-0 table #905: 18309 bytes OK
+2022/06/11-15:07:41.236 13e Delete type=0 #902
+2022/06/11-15:07:41.238 13e Compacting 4@0 + 1@1 files
+2022/06/11-15:07:41.325 13e Generated table #906@0: 44303 keys, 1069644 bytes
+2022/06/11-15:07:41.325 13e Compacted 4@0 + 1@1 files => 1069644 bytes
+2022/06/11-15:07:41.360 13e compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/11-15:07:41.362 13e Delete type=2 #901
+2022/06/11-15:07:41.362 13e Delete type=2 #897
+2022/06/11-15:07:41.363 13e Delete type=2 #905
+2022/06/11-15:07:41.363 13e Delete type=2 #903
+2022/06/11-15:07:41.363 13e Delete type=2 #899
+2022/06/11-17:33:30.330 16d Level-0 table #908: started
+2022/06/11-17:33:30.380 16d Level-0 table #908: 17128 bytes OK
+2022/06/11-17:33:30.417 16d Delete type=0 #904
+2022/06/11-18:53:28.873 1a2 Level-0 table #910: started
+2022/06/11-18:53:28.948 1a2 Level-0 table #910: 20977 bytes OK
+2022/06/11-18:53:28.985 1a2 Delete type=0 #907

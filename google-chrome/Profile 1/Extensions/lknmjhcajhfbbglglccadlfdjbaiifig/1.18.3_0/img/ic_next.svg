@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>.a{fill:none;}.b{fill:#00021c;}</style>
+    </defs>
+    <path class="a" d="M0,0H24V24H0Z"/>
+    <path class="b"
+          d="M4.883.292.293,4.882A1,1,0,0,0,1.7,6.292l3.89-3.88,3.88,3.88a1,1,0,0,0,1.41-1.41L6.293.292A1,1,0,0,0,4.883.292Z"
+          transform="translate(15.288 6.123) rotate(90)"/>
+</svg>

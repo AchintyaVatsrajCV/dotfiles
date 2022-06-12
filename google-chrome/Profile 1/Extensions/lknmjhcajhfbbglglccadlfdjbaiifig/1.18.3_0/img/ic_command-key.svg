@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26"
+     viewBox="0 0 26 26">
+    <defs>
+        <style>.a{stroke:#f6f5fa;fill:url(#a);}.b{fill:none;}.c{fill:#000852;}.d{stroke:none;}.e{filter:url(#b);}
+        </style>
+        <linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fafafa"/>
+            <stop offset="1" stop-color="#f4f4f4"/>
+        </linearGradient>
+        <filter id="b" x="0" y="0" width="26" height="26" filterUnits="userSpaceOnUse">
+            <feOffset dx="1" dy="2" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="1" result="c"/>
+            <feFlood flood-opacity="0.149"/>
+            <feComposite operator="in" in2="c"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(-97.841 -97.055)">
+        <g transform="translate(99.841 98.055)">
+            <g class="e" transform="matrix(1, 0, 0, 1, -2, -1)">
+                <g class="a" transform="translate(2 1)">
+                    <rect class="d" width="20" height="20" rx="5"/>
+                    <rect class="b" x="0.5" y="0.5" width="19" height="19" rx="4.5"/>
+                </g>
+            </g>
+        </g>
+        <g transform="translate(101.841 100.055)">
+            <path class="b" d="M0,0H16V16H0Z"/>
+            <g transform="translate(3.092 3.092)">
+                <path class="c"
+                      d="M7.853,5.89H6.871V3.927h.982A1.963,1.963,0,1,0,5.89,1.963v.982H3.927V1.963A1.963,1.963,0,1,0,1.963,3.927h.982V5.89H1.963A1.963,1.963,0,1,0,3.927,7.853h0V6.871H5.89v.982A1.963,1.963,0,1,0,7.853,5.89Zm0-4.908a.982.982,0,1,1,0,1.963H6.871V1.963A.982.982,0,0,1,7.853.982ZM.982,1.963a.982.982,0,1,1,1.963,0v.982H1.963A.982.982,0,0,1,.982,1.963Zm.982,6.871a.982.982,0,0,1,0-1.963h.982v.982A.982.982,0,0,1,1.963,8.835ZM3.927,5.89V3.927H5.89V5.89ZM7.853,8.835a.982.982,0,0,1-.982-.982h0V6.871h.982a.982.982,0,0,1,0,1.963Z"/>
+            </g>
+        </g>
+    </g>
+</svg>

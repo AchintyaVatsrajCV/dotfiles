@@ -1,0 +1,45 @@
+2022/05/25-19:45:12.970 312be Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/25-19:45:12.970 312be Recovering log #27
+2022/05/25-19:45:12.970 312be Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000027.log 
+2022/05/25-19:45:12.970 312be Delete type=2 #26
+2022/05/25-19:45:18.906 316fd Level-0 table #32: started
+2022/05/25-19:45:18.957 316fd Level-0 table #32: 552 bytes OK
+2022/05/25-19:45:18.994 316fd Delete type=0 #27
+2022/05/25-19:45:18.995 316fd Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 1467 : 1
+2022/05/25-19:45:18.995 316fd Compacting 1@0 + 1@1 files
+2022/05/25-19:45:19.057 316fd Generated table #33@0: 463 keys, 6373 bytes
+2022/05/25-19:45:19.057 316fd Compacted 1@0 + 1@1 files => 6373 bytes
+2022/05/25-19:45:19.094 316fd compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/05/25-19:45:19.094 316fd Delete type=2 #32
+2022/05/25-19:45:19.095 316fd Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 1467 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/05/25-19:46:18.540 32326 Level-0 table #35: started
+2022/05/25-19:46:18.582 32326 Level-0 table #35: 529 bytes OK
+2022/05/25-19:46:18.654 32326 Delete type=2 #29
+2022/05/25-19:46:18.654 32326 Delete type=0 #31
+2022/05/25-19:46:18.654 32326 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\x05' @ 1486 : 1
+2022/05/25-19:46:18.654 32326 Compacting 1@0 + 1@1 files
+2022/05/25-19:46:18.716 32326 Generated table #36@0: 467 keys, 6458 bytes
+2022/05/25-19:46:18.716 32326 Compacted 1@0 + 1@1 files => 6458 bytes
+2022/05/25-19:46:18.754 32326 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/05/25-19:46:18.754 32326 Delete type=2 #35
+2022/05/25-19:46:18.754 32326 Manual compaction at level-0 from '\x00\x0c\x00\x00\x05' @ 1486 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/05/25-20:34:11.242 34fa7 Level-0 table #38: started
+2022/05/25-20:34:11.292 34fa7 Level-0 table #38: 237 bytes OK
+2022/05/25-20:34:11.329 34fa7 Delete type=0 #34
+2022/05/25-20:34:11.329 34fa7 Delete type=2 #33
+2022/05/25-20:34:11.329 34fa7 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02d\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 1500 : 0
+2022/05/25-20:34:11.329 34fa7 Compacting 1@0 + 1@1 files
+2022/05/25-20:34:11.384 34fa7 Generated table #39@0: 468 keys, 6450 bytes
+2022/05/25-20:34:11.384 34fa7 Compacted 1@0 + 1@1 files => 6450 bytes
+2022/05/25-20:34:11.420 34fa7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/05/25-20:34:11.421 34fa7 Delete type=2 #36
+2022/05/25-20:34:11.421 34fa7 Delete type=2 #38
+2022/05/25-20:34:11.421 34fa7 Manual compaction at level-0 from '\x00\x00\x00\x002\x02d\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 1500 : 0 .. (end); will stop at (end)
+2022/05/25-20:34:11.421 34fa7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x02"\x01$\x008\x001\x00a\x009\x000\x002\x000\x007\x00-\x00a\x002\x002\x003\x00-\x004\x005\x003\x009\x00-\x00b\x00b\x007\x008\x00-\x00c\x008\x006\x003\x004\x00d\x001\x00b\x00e\x004\x005\x00e\x00\x03\x00\x00\x00\x00\x00\x00,@' @ 1132 : 1
+2022/05/25-20:34:11.421 34fa7 Compacting 1@1 + 1@2 files
+2022/05/25-20:34:11.477 34fa7 Generated table #40@1: 102 keys, 3117 bytes
+2022/05/25-20:34:11.477 34fa7 Compacted 1@1 + 1@2 files => 3117 bytes
+2022/05/25-20:34:11.512 34fa7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/25-20:34:11.512 34fa7 Delete type=2 #5
+2022/05/25-20:34:11.512 34fa7 Delete type=2 #39
+2022/05/25-20:34:11.512 34fa7 Manual compaction at level-1 from '\x00\x02\x02"\x01$\x008\x001\x00a\x009\x000\x002\x000\x007\x00-\x00a\x002\x002\x003\x00-\x004\x005\x003\x009\x00-\x00b\x00b\x007\x008\x00-\x00c\x008\x006\x003\x004\x00d\x001\x00b\x00e\x004\x005\x00e\x00\x03\x00\x00\x00\x00\x00\x00,@' @ 1132 : 1 .. (end); will stop at (end)

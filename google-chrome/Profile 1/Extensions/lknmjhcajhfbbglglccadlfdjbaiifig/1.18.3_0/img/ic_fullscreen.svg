@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>.a{fill:none;}.b{fill:#c9c8d6;}</style>
+    </defs>
+    <path class="a" d="M0,0H24V24H0Z"/>
+    <path class="b"
+          d="M6,14a1,1,0,0,0-1,1v3a1,1,0,0,0,1,1H9a1,1,0,0,0,0-2H7V15A1,1,0,0,0,6,14Zm0-4A1,1,0,0,0,7,9V7H9A1,1,0,0,0,9,5H6A1,1,0,0,0,5,6V9A1,1,0,0,0,6,10Zm11,7H15a1,1,0,0,0,0,2h3a1,1,0,0,0,1-1V15a1,1,0,0,0-2,0ZM14,6a1,1,0,0,0,1,1h2V9a1,1,0,0,0,2,0V6a1,1,0,0,0-1-1H15A1,1,0,0,0,14,6Z"
+          transform="translate(0 0.5)"/>
+</svg>

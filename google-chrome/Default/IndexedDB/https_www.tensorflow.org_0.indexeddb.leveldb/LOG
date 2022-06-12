@@ -1,0 +1,6 @@
+2022/05/04-09:33:34.841 2359 Creating DB /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.tensorflow.org_0.indexeddb.leveldb since it was missing.
+2022/05/04-09:33:35.001 2359 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.tensorflow.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/04-09:53:32.002 5495 Level-0 table #5: started
+2022/05/04-09:53:32.053 5495 Level-0 table #5: 1818 bytes OK
+2022/05/04-09:53:32.087 5495 Delete type=0 #3
+2022/05/04-09:53:32.087 5495 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

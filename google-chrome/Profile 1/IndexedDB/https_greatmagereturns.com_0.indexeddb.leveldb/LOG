@@ -1,0 +1,6 @@
+2022/05/22-19:20:43.516 d5fdf Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_greatmagereturns.com_0.indexeddb.leveldb since it was missing.
+2022/05/22-19:20:43.634 d5fdf Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_greatmagereturns.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/22-19:49:34.131 d5fdf Level-0 table #5: started
+2022/05/22-19:49:34.172 d5fdf Level-0 table #5: 8013 bytes OK
+2022/05/22-19:49:34.206 d5fdf Delete type=0 #3
+2022/05/22-19:49:34.206 d5fdf Manual compaction at level-0 from (begin) .. (end); will stop at (end)

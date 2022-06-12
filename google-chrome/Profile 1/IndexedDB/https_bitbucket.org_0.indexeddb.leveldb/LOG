@@ -1,0 +1,6 @@
+2022/06/10-08:21:26.083 8246d Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_bitbucket.org_0.indexeddb.leveldb since it was missing.
+2022/06/10-08:21:26.184 8246d Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_bitbucket.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/10-08:21:35.606 8246d Level-0 table #5: started
+2022/06/10-08:21:35.655 8246d Level-0 table #5: 36963 bytes OK
+2022/06/10-08:21:35.691 8246d Delete type=0 #3
+2022/06/10-08:21:35.692 8246d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,69 @@
+2022/06/10-19:21:22.336 197b Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2022/06/10-19:21:23.425 197b Recovering log #494
+2022/06/10-19:21:23.742 197b Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/Sync Data/LevelDB/000494.log 
+2022/06/11-08:58:02.523 2903e Level-0 table #498: started
+2022/06/11-08:58:02.637 2903e Level-0 table #498: 108108 bytes OK
+2022/06/11-08:58:02.778 2903e Delete type=0 #494
+2022/06/11-09:21:37.297 2aacb Level-0 table #500: started
+2022/06/11-09:21:37.399 2aacb Level-0 table #500: 97121 bytes OK
+2022/06/11-09:21:37.534 2aacb Delete type=0 #497
+2022/06/11-09:54:32.083 2cb91 Level-0 table #502: started
+2022/06/11-09:54:32.166 2cb91 Level-0 table #502: 91196 bytes OK
+2022/06/11-09:54:32.197 2cb91 Delete type=0 #499
+2022/06/11-09:54:32.197 2cb91 Compacting 4@0 + 1@1 files
+2022/06/11-09:54:32.251 2cb91 Generated table #503@0: 375 keys, 43853 bytes
+2022/06/11-09:54:32.251 2cb91 Compacted 4@0 + 1@1 files => 43853 bytes
+2022/06/11-09:54:32.288 2cb91 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/11-09:54:32.288 2cb91 Delete type=2 #495
+2022/06/11-09:54:32.288 2cb91 Delete type=2 #493
+2022/06/11-09:54:32.288 2cb91 Delete type=2 #498
+2022/06/11-09:54:32.288 2cb91 Delete type=2 #502
+2022/06/11-09:54:32.288 2cb91 Delete type=2 #500
+2022/06/11-10:18:52.838 2df91 Level-0 table #505: started
+2022/06/11-10:18:52.966 2df91 Level-0 table #505: 85519 bytes OK
+2022/06/11-10:18:53.001 2df91 Delete type=0 #501
+2022/06/11-11:55:12.745 33a49 Level-0 table #507: started
+2022/06/11-11:55:12.814 33a49 Level-0 table #507: 102926 bytes OK
+2022/06/11-11:55:12.847 33a49 Delete type=0 #504
+2022/06/11-17:19:52.054 43cfa Level-0 table #509: started
+2022/06/11-17:19:52.088 43cfa Level-0 table #509: 100472 bytes OK
+2022/06/11-17:19:52.123 43cfa Delete type=0 #506
+2022/06/11-17:30:42.166 44832 Level-0 table #511: started
+2022/06/11-17:30:42.213 44832 Level-0 table #511: 104910 bytes OK
+2022/06/11-17:30:42.244 44832 Delete type=0 #508
+2022/06/11-17:30:42.245 44832 Compacting 4@0 + 1@1 files
+2022/06/11-17:30:42.289 44832 Generated table #512@0: 383 keys, 45866 bytes
+2022/06/11-17:30:42.289 44832 Compacted 4@0 + 1@1 files => 45866 bytes
+2022/06/11-17:30:42.327 44832 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/11-17:30:42.327 44832 Delete type=2 #511
+2022/06/11-17:30:42.327 44832 Delete type=2 #503
+2022/06/11-17:30:42.327 44832 Delete type=2 #509
+2022/06/11-17:30:42.327 44832 Delete type=2 #507
+2022/06/11-17:30:42.327 44832 Delete type=2 #505
+2022/06/11-17:43:59.863 45d24 Level-0 table #514: started
+2022/06/11-17:43:59.925 45d24 Level-0 table #514: 118208 bytes OK
+2022/06/11-17:43:59.960 45d24 Delete type=0 #510
+2022/06/11-17:50:06.965 45c6a Level-0 table #516: started
+2022/06/11-17:50:07.191 45c6a Level-0 table #516: 105656 bytes OK
+2022/06/11-17:50:07.375 45c6a Delete type=0 #513
+2022/06/11-17:59:42.029 45c6a Level-0 table #518: started
+2022/06/11-17:59:42.119 45c6a Level-0 table #518: 125192 bytes OK
+2022/06/11-17:59:42.187 45c6a Delete type=0 #515
+2022/06/11-18:25:34.888 48c1e Level-0 table #520: started
+2022/06/11-18:25:35.008 48c1e Level-0 table #520: 127190 bytes OK
+2022/06/11-18:25:35.042 48c1e Delete type=0 #517
+2022/06/11-18:25:35.042 48c1e Compacting 4@0 + 1@1 files
+2022/06/11-18:25:35.084 48c1e Generated table #521@0: 385 keys, 45181 bytes
+2022/06/11-18:25:35.084 48c1e Compacted 4@0 + 1@1 files => 45181 bytes
+2022/06/11-18:25:35.116 48c1e compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/06/11-18:25:35.119 48c1e Delete type=2 #520
+2022/06/11-18:25:35.119 48c1e Delete type=2 #518
+2022/06/11-18:25:35.119 48c1e Delete type=2 #516
+2022/06/11-18:25:35.119 48c1e Delete type=2 #512
+2022/06/11-18:25:35.119 48c1e Delete type=2 #514
+2022/06/11-19:15:52.503 4b584 Level-0 table #523: started
+2022/06/11-19:15:52.648 4b584 Level-0 table #523: 99276 bytes OK
+2022/06/11-19:15:52.758 4b584 Delete type=0 #519
+2022/06/12-08:58:30.905 54907 Level-0 table #525: started
+2022/06/12-08:58:31.101 54907 Level-0 table #525: 87226 bytes OK
+2022/06/12-08:58:31.207 54907 Delete type=0 #522

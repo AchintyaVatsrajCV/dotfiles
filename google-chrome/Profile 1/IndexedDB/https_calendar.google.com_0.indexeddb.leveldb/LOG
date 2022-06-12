@@ -1,0 +1,15 @@
+2022/05/18-17:55:25.527 148f8 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/18-17:55:25.527 148f8 Recovering log #7
+2022/05/18-17:55:25.547 148f8 Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/000007.log 
+2022/05/18-17:55:29.193 14970 Level-0 table #12: started
+2022/05/18-17:55:29.236 14970 Level-0 table #12: 190 bytes OK
+2022/05/18-17:55:29.277 14970 Delete type=0 #7
+2022/05/18-17:55:29.277 14970 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/05/18-17:55:29.277 14970 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 158 : 1
+2022/05/18-17:55:29.277 14970 Compacting 1@1 + 1@2 files
+2022/05/18-17:55:29.319 14970 Generated table #13@1: 54 keys, 1015 bytes
+2022/05/18-17:55:29.319 14970 Compacted 1@1 + 1@2 files => 1015 bytes
+2022/05/18-17:55:29.360 14970 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/18-17:55:29.360 14970 Delete type=2 #9
+2022/05/18-17:55:29.360 14970 Delete type=2 #12
+2022/05/18-17:55:29.361 14970 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 158 : 1 .. (end); will stop at (end)

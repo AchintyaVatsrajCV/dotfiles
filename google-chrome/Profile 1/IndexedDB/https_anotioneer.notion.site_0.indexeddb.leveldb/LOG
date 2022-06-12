@@ -1,0 +1,20 @@
+2022/05/25-19:39:15.715 316fd Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_anotioneer.notion.site_0.indexeddb.leveldb since it was missing.
+2022/05/25-19:39:15.798 316fd Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_anotioneer.notion.site_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/25-19:39:19.921 312be Level-0 table #5: started
+2022/05/25-19:39:20.038 312be Level-0 table #5: 2623 bytes OK
+2022/05/25-19:39:20.256 312be Delete type=0 #3
+2022/05/25-19:39:20.256 312be Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/05/25-19:40:56.368 2f924 Level-0 table #7: started
+2022/05/25-19:40:56.410 2f924 Level-0 table #7: 546 bytes OK
+2022/05/25-19:40:56.445 2f924 Delete type=0 #4
+2022/05/25-19:40:56.446 2f924 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/05/25-19:41:22.276 312c8 Level-0 table #9: started
+2022/05/25-19:41:22.318 312c8 Level-0 table #9: 551 bytes OK
+2022/05/25-19:41:22.354 312c8 Delete type=0 #6
+2022/05/25-19:41:22.355 312c8 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\x05' @ 220 : 1
+2022/05/25-19:41:22.355 312c8 Compacting 1@0 + 1@1 files
+2022/05/25-19:41:22.402 312c8 Generated table #10@0: 13 keys, 542 bytes
+2022/05/25-19:41:22.402 312c8 Compacted 1@0 + 1@1 files => 542 bytes
+2022/05/25-19:41:22.437 312c8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/05/25-19:41:22.438 312c8 Delete type=2 #9
+2022/05/25-19:41:22.438 312c8 Manual compaction at level-0 from '\x00\x04\x00\x00\x05' @ 220 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

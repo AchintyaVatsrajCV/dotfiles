@@ -1,0 +1,6 @@
+2022/05/10-18:59:06.014 111b Creating DB /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.topuniversities.com_0.indexeddb.leveldb since it was missing.
+2022/05/10-18:59:06.147 111b Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.topuniversities.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/10-20:01:53.327 5483 Level-0 table #5: started
+2022/05/10-20:01:53.378 5483 Level-0 table #5: 1165 bytes OK
+2022/05/10-20:01:53.414 5483 Delete type=0 #3
+2022/05/10-20:01:53.414 5483 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,29 @@
+2022/05/05-20:44:26.352 d022 Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.chess.com_0.indexeddb.leveldb since it was missing.
+2022/05/05-20:44:26.465 d022 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/05-20:44:27.022 d011 Level-0 table #5: started
+2022/05/05-20:44:27.125 d011 Level-0 table #5: 1262771 bytes OK
+2022/05/05-20:44:27.161 d011 Delete type=0 #3
+2022/05/05-20:44:27.262 d011 Level-0 table #7: started
+2022/05/05-20:44:27.334 d011 Level-0 table #7: 1162075 bytes OK
+2022/05/05-20:44:27.367 d011 Delete type=0 #4
+2022/05/05-20:44:27.373 d011 Compacting 1@1 + 1@2 files
+2022/05/05-20:44:27.510 d011 Generated table #8@1: 35722 keys, 2201198 bytes
+2022/05/05-20:44:27.552 d011 Generated table #9@1: 1016 keys, 36055 bytes
+2022/05/05-20:44:27.552 d011 Compacted 1@1 + 1@2 files => 2237253 bytes
+2022/05/05-20:44:27.584 d011 compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/05/05-20:44:27.584 d011 Delete type=2 #5
+2022/05/05-20:44:27.584 d011 Delete type=2 #7
+2022/05/05-20:44:27.585 d011 Level-0 table #11: started
+2022/05/05-20:44:27.653 d011 Level-0 table #11: 1199699 bytes OK
+2022/05/05-20:44:27.685 d011 Delete type=0 #6
+2022/05/05-20:44:27.689 d011 Compacting 1@1 + 2@2 files
+2022/05/05-20:44:27.870 d011 Generated table #12@1: 39412 keys, 2198790 bytes
+2022/05/05-20:44:27.972 d011 Generated table #13@1: 14472 keys, 1076122 bytes
+2022/05/05-20:44:27.972 d011 Compacted 1@1 + 2@2 files => 3274912 bytes
+2022/05/05-20:44:28.009 d011 compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/05/05-20:44:28.009 d011 Delete type=2 #11
+2022/05/05-20:44:28.009 d011 Delete type=2 #9
+2022/05/05-20:44:28.009 d011 Delete type=2 #8
+2022/05/05-20:44:28.043 d022 Level-0 table #15: started
+2022/05/05-20:44:28.123 d022 Level-0 table #15: 1225588 bytes OK
+2022/05/05-20:44:28.162 d022 Delete type=0 #10

@@ -1,0 +1,7 @@
+2022/05/21-10:19:11.239 92389 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/21-10:19:11.239 92389 Recovering log #3
+2022/05/21-10:19:11.261 92389 Reusing old log /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb/000003.log 
+2022/05/21-11:10:54.941 9a0b9 Level-0 table #5: started
+2022/05/21-11:10:54.991 9a0b9 Level-0 table #5: 2203 bytes OK
+2022/05/21-11:10:55.024 9a0b9 Delete type=0 #3
+2022/05/21-11:10:55.024 9a0b9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

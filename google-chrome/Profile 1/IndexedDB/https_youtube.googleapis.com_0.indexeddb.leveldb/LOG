@@ -1,0 +1,35 @@
+2022/05/31-09:26:21.868 1c256b Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_youtube.googleapis.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/31-09:26:21.868 1c256b Recovering log #16
+2022/05/31-09:26:21.914 1c256b Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_youtube.googleapis.com_0.indexeddb.leveldb/000016.log 
+2022/05/31-09:26:22.170 1c256b Level-0 table #20: started
+2022/05/31-09:26:22.242 1c256b Level-0 table #20: 9287 bytes OK
+2022/05/31-09:26:22.343 1c256b Delete type=0 #16
+2022/05/31-09:26:22.343 1c256b Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x9a\x09\xcc\xd8\x94\x10xB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 835 : 1
+2022/05/31-09:26:22.343 1c256b Compacting 1@0 + 1@1 files
+2022/05/31-09:26:22.432 1c256b Generated table #21@0: 125 keys, 5354 bytes
+2022/05/31-09:26:22.432 1c256b Compacted 1@0 + 1@1 files => 5354 bytes
+2022/05/31-09:26:22.546 1c256b compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/05/31-09:26:22.547 1c256b Manual compaction at level-0 from '\x00\x08\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x9a\x09\xcc\xd8\x94\x10xB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 835 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/05/31-09:26:22.597 1c4ac0 Level-0 table #23: started
+2022/05/31-09:26:22.656 1c4ac0 Level-0 table #23: 1880 bytes OK
+2022/05/31-09:26:22.710 1c4ac0 Delete type=2 #17
+2022/05/31-09:26:22.710 1c4ac0 Delete type=2 #20
+2022/05/31-09:26:22.710 1c4ac0 Delete type=0 #19
+2022/05/31-09:26:22.710 1c4ac0 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 949 : 1
+2022/05/31-09:26:22.710 1c4ac0 Compacting 1@0 + 1@1 files
+2022/05/31-09:26:22.756 1c4ac0 Generated table #24@0: 126 keys, 1828 bytes
+2022/05/31-09:26:22.756 1c4ac0 Compacted 1@0 + 1@1 files => 1828 bytes
+2022/05/31-09:26:22.826 1c4ac0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/05/31-09:26:22.826 1c4ac0 Delete type=2 #23
+2022/05/31-09:26:22.826 1c4ac0 Manual compaction at level-0 from '\x00\x09\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 949 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/05/31-09:38:53.303 1c47eb Level-0 table #26: started
+2022/05/31-09:38:53.389 1c47eb Level-0 table #26: 58757 bytes OK
+2022/05/31-09:38:53.475 1c47eb Delete type=0 #22
+2022/05/31-09:38:53.475 1c47eb Delete type=2 #21
+2022/05/31-09:38:53.476 1c47eb Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x9a)}\xd2\x84\x11xB\x00\x03\x00\x00\x00\x00\x00@Q@' @ 2260 : 1
+2022/05/31-09:38:53.476 1c47eb Compacting 1@0 + 1@1 files
+2022/05/31-09:38:53.555 1c47eb Generated table #27@0: 491 keys, 4888 bytes
+2022/05/31-09:38:53.555 1c47eb Compacted 1@0 + 1@1 files => 4888 bytes
+2022/05/31-09:38:53.608 1c47eb compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/05/31-09:38:53.608 1c47eb Delete type=2 #26
+2022/05/31-09:38:53.609 1c47eb Manual compaction at level-0 from '\x00\x09\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x9a)}\xd2\x84\x11xB\x00\x03\x00\x00\x00\x00\x00@Q@' @ 2260 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

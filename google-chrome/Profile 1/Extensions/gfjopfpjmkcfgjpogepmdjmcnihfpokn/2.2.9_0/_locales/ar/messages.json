@@ -1,0 +1,617 @@
+{
+   "Annually": {
+      "message": "سنويًا"
+   },
+   "Arabic": {
+      "message": "العربية"
+   },
+   "Asia": {
+      "message": "آسيا"
+   },
+   "Australia": {
+      "message": "أستراليا"
+   },
+   "Australia_d": {
+      "message": "الأسترالي"
+   },
+   "Autoplay": {
+      "message": "التشغيل التلقائي"
+   },
+   "Autoplay_desc": {
+      "message": "قراءة النص المُحدد بصوت مرتفع تلقائيًا"
+   },
+   "Brazil": {
+      "message": "البرازيل"
+   },
+   "Brazil_d": {
+      "message": "برازيلي"
+   },
+   "British": {
+      "message": "البريطانيون"
+   },
+   "Canada": {
+      "message": "كندا"
+   },
+   "Canada_d": {
+      "message": "الكندية"
+   },
+   "Catalan": {
+      "message": "التشيكية"
+   },
+   "China": {
+      "message": "الصين"
+   },
+   "China_d": {
+      "message": "الصينية"
+   },
+   "Chinese": {
+      "message": "الصينية"
+   },
+   "Czech": {
+      "message": "تشيكي"
+   },
+   "Czech_d": {
+      "message": "تشيكي"
+   },
+   "Danish": {
+      "message": "دانماركي"
+   },
+   "Denmark": {
+      "message": "الدنمارك"
+   },
+   "Denmark_d": {
+      "message": "دانماركي"
+   },
+   "Dutch": {
+      "message": "هولندي"
+   },
+   "English": {
+      "message": "الإنجليزية"
+   },
+   "Europe": {
+      "message": "أوروبا"
+   },
+   "FREE": {
+      "message": "الإصدار المجاني"
+   },
+   "Fast": {
+      "message": "سريع"
+   },
+   "Features": {
+      "message": "الخصائص"
+   },
+   "Finland": {
+      "message": "فنلندا"
+   },
+   "Finland_d": {
+      "message": "اللغة الفنلندية"
+   },
+   "Finnish": {
+      "message": "اللغة الفنلندية"
+   },
+   "France": {
+      "message": "فرنسا"
+   },
+   "France_d": {
+      "message": "فرنسي"
+   },
+   "French": {
+      "message": "فرنسي"
+   },
+   "Gender": {
+      "message": "النوع"
+   },
+   "German": {
+      "message": "ألماني"
+   },
+   "Germany": {
+      "message": "ألمانيا"
+   },
+   "Germany_d": {
+      "message": "ألماني"
+   },
+   "Greek": {
+      "message": "اللغة اليونانية"
+   },
+   "Hong_Kong": {
+      "message": "هونغ كونغ"
+   },
+   "Hong_Kong_d": {
+      "message": "هونغ كونغ"
+   },
+   "Hungarian": {
+      "message": "الهنغارية"
+   },
+   "Hungary": {
+      "message": "هنغاريا"
+   },
+   "Hungary_d": {
+      "message": "الهنغارية"
+   },
+   "Italian": {
+      "message": "الإيطالي"
+   },
+   "Italy": {
+      "message": "إيطاليا"
+   },
+   "Italy_d": {
+      "message": "الإيطالي"
+   },
+   "Japan": {
+      "message": "اليابان"
+   },
+   "Japan_d": {
+      "message": "اليابانية"
+   },
+   "Japanese": {
+      "message": "اليابانية"
+   },
+   "Korea": {
+      "message": "كوريا"
+   },
+   "Korea_d": {
+      "message": "الكورية"
+   },
+   "Korean": {
+      "message": "الكورية"
+   },
+   "LITE": {
+      "message": "إصدار لايت"
+   },
+   "Language": {
+      "message": "اللغة"
+   },
+   "Mexico": {
+      "message": "المكسيك"
+   },
+   "Mexico_d": {
+      "message": "المكسيكي"
+   },
+   "Month_desc": {
+      "message": "الاشتراك الشهري في تطبيق \"سيليكت آند سبيك\"."
+   },
+   "Netherlands": {
+      "message": "هولندا"
+   },
+   "Netherlands_d": {
+      "message": "هولندي"
+   },
+   "Normal": {
+      "message": "طبيعي"
+   },
+   "North_America": {
+      "message": "امريكا الشمالية"
+   },
+   "Norway": {
+      "message": "النرويج"
+   },
+   "Norway_d": {
+      "message": "النرويجية"
+   },
+   "Norwegian": {
+      "message": "النرويجية"
+   },
+   "Pacific": {
+      "message": "مسالم"
+   },
+   "Poland": {
+      "message": "بولندا"
+   },
+   "Poland_d": {
+      "message": "البولندية"
+   },
+   "Polish": {
+      "message": "البولندية"
+   },
+   "Portugal": {
+      "message": "البرتغال"
+   },
+   "Portugal_d": {
+      "message": "البرتغالية"
+   },
+   "Portuguese": {
+      "message": "البرتغالية"
+   },
+   "Pro_Features": {
+      "message": "خصائص النسخة الكاملة"
+   },
+   "Russia": {
+      "message": "روسيا"
+   },
+   "Russia_d": {
+      "message": "الروسية"
+   },
+   "Russian": {
+      "message": "الروسية"
+   },
+   "Slow": {
+      "message": "بطيء"
+   },
+   "South_America": {
+      "message": "جنوب / أمريكا الوسطى"
+   },
+   "Spain": {
+      "message": "إسبانيا"
+   },
+   "Spain_d": {
+      "message": "الأسبانية"
+   },
+   "Spanish": {
+      "message": "الأسبانية"
+   },
+   "Speech": {
+      "message": "الكلام"
+   },
+   "Speed": {
+      "message": "السرعة"
+   },
+   "Sweden": {
+      "message": "السويد"
+   },
+   "Sweden_d": {
+      "message": "اللغة السويدية"
+   },
+   "Swedish": {
+      "message": "اللغة السويدية"
+   },
+   "Taiwan": {
+      "message": "تايوان"
+   },
+   "Taiwan_d": {
+      "message": "تايوانية"
+   },
+   "Turkey": {
+      "message": "ديك رومي"
+   },
+   "Turkey_d": {
+      "message": "اللغة التركية"
+   },
+   "Turkish": {
+      "message": "اللغة التركية"
+   },
+   "United_Kingdom": {
+      "message": "المملكة المتحدة"
+   },
+   "United_Kingdom_d": {
+      "message": "بريطاني"
+   },
+   "United_States": {
+      "message": "الولايات المتحدة"
+   },
+   "United_States_d": {
+      "message": "أمريكي"
+   },
+   "Year_desc": {
+      "message": "الاشتراك السنوي في تطبيق \"سيليكت آند سبيك\"."
+   },
+   "all_only": {
+      "message": "يمكنك الحصول على كافة تلك المزايا فقط مقابل"
+   },
+   "answer1": {
+      "message": "يمكنك من خلال تطبيق \"سيليكت آند سبيك\" الاستماع إلى مختلف النصوص باستخدام تطبيق متصفح الانترنت كروم؛ حيث يمكنك تحديد النص الذي ترغب في قراءته، ثم النقر عليه بالزر الأيمن للفأرة واختيار \"سيليكت آند سبيك\""
+   },
+   "answer2": {
+      "message": "يختلف الأمر حسب طبيعة الملف. إن كان ملف PDF يحتوي على نصوص يمكن تحديدها، فالأمر سوف ينجح، ولكن إن كان الملف عبارة عن صور للنصوص، فلن ينجح الأمر."
+   },
+   "answer3": {
+      "message": "بينما يتوافر إصدار مجاني من تطبيق \"سيليكت آند سبيك\" يستخدمه ملايين المستخدمين، ينبغي علينا تلقي بعض الأموال مقابل الاستخدام الكثيف للبرنامج لكي نتمكن من توفير الخدمة، فالحد الأقصى لعدد الكلمات الذي يمكن للتطبيق قراءته هو 500 كلمة يوميًا للإصدار المجاني."
+   },
+   "app_name": {
+      "message": "تطبيق \"سيليكت آند سبيك\" لتحويل النص إلى كلام"
+   },
+   "app_name_short": {
+      "message": "سيليكت آند سبيك"
+   },
+   "autoLang_desc": {
+      "message": "تغيير اللغة تلقائيًا حسب محتوى الصفحة"
+   },
+   "autolangOption": {
+      "message": "التعرف التلقائي على اللغة"
+   },
+   "automaticLanguage": {
+      "message": "الاختيار التلقائي للغة"
+   },
+   "autoplayOption": {
+      "message": "خاصية التشغيل الآلي"
+   },
+   "autoplay_off": {
+      "message": "إيقاف التشغيل التلقائي"
+   },
+   "autoplay_on": {
+      "message": "تفعيل التشغيل التلقائي"
+   },
+   "become_pro": {
+      "message": "الترقية إلى النسخة الكاملة"
+   },
+   "buy_edu": {
+      "message": "شراء الإصدار التعليمي"
+   },
+   "cancelAnyTime": {
+      "message": "إلغاء الاشتراك في أي وقت"
+   },
+   "checkout_pro": {
+      "message": "يمكنك الاطلاع على مميزات الإصدار الكامل"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "اختر النوع وسرعة القراءة"
+   },
+   "choose_language": {
+      "message": "اختر اللغة"
+   },
+   "contact": {
+      "message": "اتصل بنا"
+   },
+   "could_not_read": {
+      "message": "تعذر قراءة الصفحة، يرجى تحديث الصفحة."
+   },
+   "country": {
+      "message": "الدولة"
+   },
+   "dashboard": {
+      "message": "لوحة التحكم"
+   },
+   "detect_lang": {
+      "message": "تحديد تلقائي للغة"
+   },
+   "discounted": {
+      "message": "تعرَّف على المزيد حول الخصومات"
+   },
+   "edu_discounts": {
+      "message": "يمكنك الحصول على الخصم الخاص بالطلاب، إن كنت تعمل محاضرًا أو معلمًا."
+   },
+   "educationalVersion": {
+      "message": "الإصدار التعليمي"
+   },
+   "educational_package": {
+      "message": "الباقة التعليمية"
+   },
+   "faq": {
+      "message": "الأسئلة الشائعة"
+   },
+   "fast_or_slow": {
+      "message": "قراءة النص بأكثر من 21 سرعة مختلفة"
+   },
+   "female": {
+      "message": "أنثى"
+   },
+   "final_step": {
+      "message": "الخطوة الأخيرة – أدخل البيانات الخاصة بك"
+   },
+   "final_step_message": {
+      "message": "لكي نتمكن من تطوير تطبيق \"سيليكت آند سبيك\" للاستخدام حول العالم، ينبغي علينا الحصول على بعض المعلومات من عدة مستخدمين. رجاء توفير البيانات التالية لضمان حُسن استخدام البرنامج من جانبكم."
+   },
+   "for_sentences": {
+      "message": "$1 جمل فقط"
+   },
+   "free_trial": {
+      "message": "نسخة تجريبية مجانية لمدة 7 أيام"
+   },
+   "free_version": {
+      "message": "أنت الآن تستخدم النسخة المجانية"
+   },
+   "fullPrice_alone": {
+      "message": "47.88 دولار"
+   },
+   "gender": {
+      "message": "النوع"
+   },
+   "halfOff": {
+      "message": "احصل على خصم 50%"
+   },
+   "help_us": {
+      "message": "احصل على الإصدار الكامل مجانًا"
+   },
+   "home": {
+      "message": "الرئيسية"
+   },
+   "improve_speak": {
+      "message": "نحن نسعى دومًا نحو تطوير تطبيق \"سيليكت آند سبيك\". رجاء مساعدتنا في ذلك، وسوف تحصل على الإصدار الكامل من التطبيق مجانًا لشهر واحد!"
+   },
+   "langs": {
+      "message": "27 لغة مختلفة"
+   },
+   "limit_alert": {
+      "message": "تم تحديد عدد كلمات $1 . هذا العدد من الكلمات يفوق الحد اليومي المُخصص لك. يرجى الترقية إلى الإصدار الكامل لإزالة القيد المفروض على عدد الكلمات."
+   },
+   "m_price": {
+      "message": "3.99 دولار شهريًا"
+   },
+   "male": {
+      "message": "ذكر"
+   },
+   "month": {
+      "message": "شهر"
+   },
+   "monthPrice_alone": {
+      "message": "3.99 دولار"
+   },
+   "monthly": {
+      "message": "شهريًا"
+   },
+   "monthlyPrice": {
+      "message": "3.99 دولار شهريًا"
+   },
+   "native_language": {
+      "message": "اللغة الأم"
+   },
+   "next": {
+      "message": "التالي"
+   },
+   "no_barriers": {
+      "message": "قراءة النص بأكثر من 27 لغة مختلفة"
+   },
+   "not_much": {
+      "message": "ليس الأمر بالصعب. سوف نرسل لك بعض سطور لتقرأها بصوت مرتفع (يُفضل قراءة النصوص في وسط هادئ)."
+   },
+   "num_students": {
+      "message": "عدد الطلاب"
+   },
+   "options_title": {
+      "message": "خيارات تطبيق \"سيليكت آند سبيك\""
+   },
+   "or": {
+      "message": "أو"
+   },
+   "origin_place": {
+      "message": "الرمز البريدي (لمن فوق 18 عام)"
+   },
+   "paragraph_player": {
+      "message": "قمت للتو بتعطيل خاصية قراءة الفقرات. يمكنك تفعيل الخاصية مرة أخرى من صفحة الخيارات."
+   },
+   "per_student": {
+      "message": "لكل طالب"
+   },
+   "premium": {
+      "message": " (العملاء المميزون)"
+   },
+   "previous": {
+      "message": "العودة"
+   },
+   "price": {
+      "message": "السعر"
+   },
+   "proVersion": {
+      "message": "النسخة الاحترافية"
+   },
+   "pro_features": {
+      "message": "مميزات الإصدار الكامل"
+   },
+   "purchase_audio": {
+      "message": "شراء تسجيل صوتي من هذه القائمة"
+   },
+   "question1": {
+      "message": "كيف يعمل تطبيق \"سيليكت آند سبيك\""
+   },
+   "question2": {
+      "message": "هل يمكن للبرنامج قراءة النصوص في ملفات PDF؟"
+   },
+   "question3": {
+      "message": "تظهر رسالة \"لقد نفذ عدد الكلمات المسموح\"، ماذا ينبغي أن أفعل؟"
+   },
+   "readSpeeds": {
+      "message": "21 سرعة مختلفة للقراءة"
+   },
+   "read_aloud": {
+      "message": "قراءة الجملة التالية بصوت مرتفع"
+   },
+   "read_autoplay": {
+      "message": "خاصية التشغيل التلقائي بشكل سريع وبسيط"
+   },
+   "read_more": {
+      "message": "لقراءة المزيد"
+   },
+   "read_with_speak": {
+      "message": "قراءة النص باستخدام تطبيق \"سيليكت آند سبيك\""
+   },
+   "read_words": {
+      "message": "الحد الأقصى للاستخدام 500 كلمة يوميًا"
+   },
+   "restart": {
+      "message": "يجب عليك إعادة تشغيل متصفح كروم لإنهاء تثبيت تطبيق \"سيليكت آند سبيك\"."
+   },
+   "save60": {
+      "message": "احصل على خصم 60%"
+   },
+   "secure": {
+      "message": "التطبيق آمن تمامًا: تُستخدم البيانات الخاصة بك فقط للتحسين من التقنية المستخدمة، ونحن نضمن السرية الكاملة لتلك البيانات."
+   },
+   "security": {
+      "message": "لا يمكن تشغيل الملحقات في الصفحات المحلية لمتصفح كروم لأسباب أمنية."
+   },
+   "settings": {
+      "message": "الضبط"
+   },
+   "shareThis_finePrint": {
+      "message": "(يجب الاشتراك في الباقة الشهرية قبل 60 يومًا على الأقل من تاريخ الحصول على الخصم)"
+   },
+   "share_this": {
+      "message": "يمكنك الحصول على خصم 50% عبر نشر هذا الرابط*"
+   },
+   "showPlay": {
+      "message": "أظهر \"زر تشغيل الفقرة \""
+   },
+   "speak_selected": {
+      "message": "نطق النص المُحدد"
+   },
+   "special_discount": {
+      "message": "خصم خاص ل"
+   },
+   "speech_faq": {
+      "message": "الأسئلة الشائعة حول تطبيق \"سيليكت آند سبيك\""
+   },
+   "start_training": {
+      "message": "المساعدة"
+   },
+   "subConf": {
+      "message": "تمت الترقية بنجاح إلى النسخة الكاملة"
+   },
+   "submit_data": {
+      "message": "أرسل للحصول على شهر مجاني لاستخدام التطبيق"
+   },
+   "teachers": {
+      "message": "الطلاب والمعلمين"
+   },
+   "tryProFree": {
+      "message": "يمكنك الحصول على النسخة التجريبية لمدة 7 أيام"
+   },
+   "tryRiskFree": {
+      "message": "احصل على النسخة التجريبية الخالية من المخاطر"
+   },
+   "unlWords": {
+      "message": "عدد لا نهائي من الكلمات"
+   },
+   "unlimited_reading": {
+      "message": "يمكنك تسجيل عدد غير محدود من الكلمات"
+   },
+   "unlimited_words": {
+      "message": "هل ترغب في مزيد من الخصائص مثل المزيد من عدد الكلمات، أو خاصية التشغيل التلقائي؟"
+   },
+   "upgrade": {
+      "message": "الترقية للنسخة الكاملة"
+   },
+   "upgrade_pro": {
+      "message": "الترقية للنسخة الكاملة"
+   },
+   "upgrade_select_speak": {
+      "message": "ترقية تطبيق \"سيليكت آند سبيك\""
+   },
+   "week": {
+      "message": "أسبوع"
+   },
+   "welcome": {
+      "message": "مرحبًا بك في \"سيليكت آند سبيك\""
+   },
+   "what_do": {
+      "message": "كيف ترغب في استخدام التطبيق؟"
+   },
+   "what_get": {
+      "message": "خصائص النسخة المجانية"
+   },
+   "what_get_pro": {
+      "message": "مميزات الإصدار الكامل:"
+   },
+   "wordsPerDay": {
+      "message": "500 كلمة يوميًا"
+   },
+   "y_price": {
+      "message": "19.99 دولار سنويًا"
+   },
+   "yearly": {
+      "message": "سنويًا"
+   },
+   "yearlyPrice": {
+      "message": "19.99 دولار سنويًا"
+   },
+   "yearlyPrice_alone": {
+      "message": "19.99 دولار"
+   },
+   "your_age": {
+      "message": "العمر"
+   }
+}

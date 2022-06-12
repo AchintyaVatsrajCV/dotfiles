@@ -1,0 +1,617 @@
+{
+   "Annually": {
+      "message": "매년"
+   },
+   "Arabic": {
+      "message": "아라비아 말"
+   },
+   "Asia": {
+      "message": "아시아"
+   },
+   "Australia": {
+      "message": "호주"
+   },
+   "Australia_d": {
+      "message": "호주의"
+   },
+   "Autoplay": {
+      "message": "자동 재생"
+   },
+   "Autoplay_desc": {
+      "message": "선택된 텍스트 자동 낭독"
+   },
+   "Brazil": {
+      "message": "브라질"
+   },
+   "Brazil_d": {
+      "message": "브라질의"
+   },
+   "British": {
+      "message": "영국의"
+   },
+   "Canada": {
+      "message": "캐나다"
+   },
+   "Canada_d": {
+      "message": "캐나다의"
+   },
+   "Catalan": {
+      "message": "카탈로니아의"
+   },
+   "China": {
+      "message": "중국"
+   },
+   "China_d": {
+      "message": "중국어"
+   },
+   "Chinese": {
+      "message": "중국어"
+   },
+   "Czech": {
+      "message": "체코의"
+   },
+   "Czech_d": {
+      "message": "체코의"
+   },
+   "Danish": {
+      "message": "덴마크의"
+   },
+   "Denmark": {
+      "message": "덴마크"
+   },
+   "Denmark_d": {
+      "message": "덴마크의"
+   },
+   "Dutch": {
+      "message": "네덜란드"
+   },
+   "English": {
+      "message": "영어"
+   },
+   "Europe": {
+      "message": "유럽"
+   },
+   "FREE": {
+      "message": "무료"
+   },
+   "Fast": {
+      "message": "빠르게"
+   },
+   "Features": {
+      "message": "특징"
+   },
+   "Finland": {
+      "message": "핀란드"
+   },
+   "Finland_d": {
+      "message": "핀란드의"
+   },
+   "Finnish": {
+      "message": "핀란드의"
+   },
+   "France": {
+      "message": "프랑스"
+   },
+   "France_d": {
+      "message": "프랑스의"
+   },
+   "French": {
+      "message": "프랑스의"
+   },
+   "Gender": {
+      "message": "성별"
+   },
+   "German": {
+      "message": "독일어"
+   },
+   "Germany": {
+      "message": "독일"
+   },
+   "Germany_d": {
+      "message": "독일어"
+   },
+   "Greek": {
+      "message": "그리스의"
+   },
+   "Hong_Kong": {
+      "message": "홍콩"
+   },
+   "Hong_Kong_d": {
+      "message": "홍콩"
+   },
+   "Hungarian": {
+      "message": "헝가리의"
+   },
+   "Hungary": {
+      "message": "헝가리"
+   },
+   "Hungary_d": {
+      "message": "헝가리의"
+   },
+   "Italian": {
+      "message": "이탈리아의"
+   },
+   "Italy": {
+      "message": "이탈리아"
+   },
+   "Italy_d": {
+      "message": "이탈리아의"
+   },
+   "Japan": {
+      "message": "일본"
+   },
+   "Japan_d": {
+      "message": "일본의"
+   },
+   "Japanese": {
+      "message": "일본의"
+   },
+   "Korea": {
+      "message": "대한민국"
+   },
+   "Korea_d": {
+      "message": "한국어"
+   },
+   "Korean": {
+      "message": "한국어"
+   },
+   "LITE": {
+      "message": "Lite 버전"
+   },
+   "Language": {
+      "message": "언어"
+   },
+   "Mexico": {
+      "message": "멕시코"
+   },
+   "Mexico_d": {
+      "message": "멕시코의"
+   },
+   "Month_desc": {
+      "message": "Select and Speak 월간 구독"
+   },
+   "Netherlands": {
+      "message": "네덜란드"
+   },
+   "Netherlands_d": {
+      "message": "네덜란드"
+   },
+   "Normal": {
+      "message": "보통"
+   },
+   "North_America": {
+      "message": "북아메리카"
+   },
+   "Norway": {
+      "message": "노르웨이"
+   },
+   "Norway_d": {
+      "message": "노르웨이의"
+   },
+   "Norwegian": {
+      "message": "노르웨이의"
+   },
+   "Pacific": {
+      "message": "태평양"
+   },
+   "Poland": {
+      "message": "폴란드"
+   },
+   "Poland_d": {
+      "message": "폴란드어"
+   },
+   "Polish": {
+      "message": "폴란드어"
+   },
+   "Portugal": {
+      "message": "포르투갈"
+   },
+   "Portugal_d": {
+      "message": "포르투갈어"
+   },
+   "Portuguese": {
+      "message": "포르투갈어"
+   },
+   "Pro_Features": {
+      "message": "Pro 특징"
+   },
+   "Russia": {
+      "message": "러시아"
+   },
+   "Russia_d": {
+      "message": "러시아어"
+   },
+   "Russian": {
+      "message": "러시아어"
+   },
+   "Slow": {
+      "message": "천천히"
+   },
+   "South_America": {
+      "message": "남 / 중앙 아메리카"
+   },
+   "Spain": {
+      "message": "스페인"
+   },
+   "Spain_d": {
+      "message": "스페인어"
+   },
+   "Spanish": {
+      "message": "스페인어"
+   },
+   "Speech": {
+      "message": "음성 낭독"
+   },
+   "Speed": {
+      "message": "속도"
+   },
+   "Sweden": {
+      "message": "스웨덴"
+   },
+   "Sweden_d": {
+      "message": "스웨덴어"
+   },
+   "Swedish": {
+      "message": "스웨덴어"
+   },
+   "Taiwan": {
+      "message": "대만"
+   },
+   "Taiwan_d": {
+      "message": "대만"
+   },
+   "Turkey": {
+      "message": "터키"
+   },
+   "Turkey_d": {
+      "message": "터키의"
+   },
+   "Turkish": {
+      "message": "터키의"
+   },
+   "United_Kingdom": {
+      "message": "연합 왕국"
+   },
+   "United_Kingdom_d": {
+      "message": "영국 사람"
+   },
+   "United_States": {
+      "message": "미국"
+   },
+   "United_States_d": {
+      "message": "미국 사람"
+   },
+   "Year_desc": {
+      "message": "Select and Speak 연간 구독"
+   },
+   "all_only": {
+      "message": "회원님은 이 모든 특징을 단지"
+   },
+   "answer1": {
+      "message": "선택과 대화는 회원님을 크롬 브라우저의 어떤 대화 양식을 들을 수 있게 도와드립니다. 회원님은 읽고자하는 문장을 선택하시고 오른쪽 클릭 후 선택및 대화를 통해서 읽기만 하시면 됩니다"
+   },
+   "answer2": {
+      "message": "파일에 따라서 다릅니다. 만약 PDF파일이 실제 문장이 포함되어 있다면 읽을 수 있습니다. 그러나 PDF파일이 그림이나 문서 복사본이 포함되어 있다면 읽지 못할 것입니다"
+   },
+   "answer3": {
+      "message": "무료버전의 서낵 및 대화를 선택하셨다면, 저희는 많은 대화를 사용하는 회원분들께 요금을 청구합니다. 500자가 무료로 제공됩니다."
+   },
+   "app_name": {
+      "message": "Select and Speak - 텍스트 음성 변환"
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "자동 페이지 언어 식별 및 변환"
+   },
+   "autolangOption": {
+      "message": "자동 언어 식별"
+   },
+   "automaticLanguage": {
+      "message": "자동 언어 선택"
+   },
+   "autoplayOption": {
+      "message": "자동 재생 옵션"
+   },
+   "autoplay_off": {
+      "message": "자동 재생 끄기"
+   },
+   "autoplay_on": {
+      "message": "자동 재생 켜기"
+   },
+   "become_pro": {
+      "message": "프로 사용자가 되어보세요"
+   },
+   "buy_edu": {
+      "message": "교육 패키지 구매"
+   },
+   "cancelAnyTime": {
+      "message": "언제든지 취소"
+   },
+   "checkout_pro": {
+      "message": "프로 특징을 한번 알아보세요"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "소리의 성별과 읽는 속도를 선택해주세요"
+   },
+   "choose_language": {
+      "message": "언어 선택"
+   },
+   "contact": {
+      "message": "문의처"
+   },
+   "could_not_read": {
+      "message": "페이지를 읽을 수 없습니다. 페이지를 새로고침 해주세요."
+   },
+   "country": {
+      "message": "국가"
+   },
+   "dashboard": {
+      "message": "데시보드"
+   },
+   "detect_lang": {
+      "message": "자동 언어 감지"
+   },
+   "discounted": {
+      "message": "할인판 - 자세한 내용 확인"
+   },
+   "edu_discounts": {
+      "message": "학생을 위한 특별 할인이 있습니다, 만약 회원님이 선생님 혹은 학습 지도자라면 할인을 받으실 수 있습니다."
+   },
+   "educationalVersion": {
+      "message": "교육용 버전"
+   },
+   "educational_package": {
+      "message": "교육 패키지"
+   },
+   "faq": {
+      "message": "자주묻는 질문"
+   },
+   "fast_or_slow": {
+      "message": "21개의 속도 설정으로 문장을 읽어보세요"
+   },
+   "female": {
+      "message": "여자"
+   },
+   "final_step": {
+      "message": "마지막 단계- 상세사항을 입력해주세요"
+   },
+   "final_step_message": {
+      "message": "국제적으로 사용하는 선택 및 말하기를 발전시키기 위해서, 저희는 사용자 정보를 필요로합니다. 앱이 정확하게 작용하는지 확신하기 위해서 저희에게 다음 상세 정보를 제공해주시면 감사하겠습니다."
+   },
+   "for_sentences": {
+      "message": "$1 문장"
+   },
+   "free_trial": {
+      "message": "무료 체험판 7일 사용"
+   },
+   "free_version": {
+      "message": "무료 버전을 사용하고 계십니다"
+   },
+   "fullPrice_alone": {
+      "message": "47.88 달러"
+   },
+   "gender": {
+      "message": "성별"
+   },
+   "halfOff": {
+      "message": "출시 기념 50% 할인"
+   },
+   "help_us": {
+      "message": "프로 구독을 무료로 얻으세요"
+   },
+   "home": {
+      "message": "홈"
+   },
+   "improve_speak": {
+      "message": "저희는 선택 및 말하기를 발전시키려 하고 있습니다. 저희를 도우시고 1주 혹은 1달 프리미엄 구독권을 무료로 얻으세요!"
+   },
+   "langs": {
+      "message": "27개 언어"
+   },
+   "limit_alert": {
+      "message": "선택 범위가 귀하의 1일 사용량 $1 단어를 초과하였습니다. 사용량 제한 없이 사용하기려면 업그레이드 하시기 바랍니다."
+   },
+   "m_price": {
+      "message": "월 $$3.99으로 이용하실 수 있습니다"
+   },
+   "male": {
+      "message": "남성"
+   },
+   "month": {
+      "message": "1달 무료이용을 얻으세요"
+   },
+   "monthPrice_alone": {
+      "message": "$$3.99"
+   },
+   "monthly": {
+      "message": "월"
+   },
+   "monthlyPrice": {
+      "message": "1개월 3.99 달러"
+   },
+   "native_language": {
+      "message": "모국어"
+   },
+   "next": {
+      "message": "다음"
+   },
+   "no_barriers": {
+      "message": "27개의 다른 언어로 읽어보세요"
+   },
+   "not_much": {
+      "message": "많이 하실 필요는 없습니다, 저희는 몇줄을 제공해 드릴 것이며 읽어주시면 됩니다 (조용한 공간에서 진행하십시오)"
+   },
+   "num_students": {
+      "message": "학생 수"
+   },
+   "options_title": {
+      "message": "Select and Speak 옵션"
+   },
+   "or": {
+      "message": "혹은"
+   },
+   "origin_place": {
+      "message": "우편정보(자라난 곳)"
+   },
+   "paragraph_player": {
+      "message": "문단 재생기가 꺼져 있습니다. 옵션 페이지에서 다시 켤 수 있습니다."
+   },
+   "per_student": {
+      "message": "학생 당"
+   },
+   "premium": {
+      "message": " (프리미엄)"
+   },
+   "previous": {
+      "message": "이전"
+   },
+   "price": {
+      "message": "가격"
+   },
+   "proVersion": {
+      "message": "프로페셔널 버전"
+   },
+   "pro_features": {
+      "message": "프로 특징"
+   },
+   "purchase_audio": {
+      "message": "선택된 부분 오디오 포맷 구입"
+   },
+   "question1": {
+      "message": "선택과 대화가 어떻게 작용하나요?"
+   },
+   "question2": {
+      "message": "PDF 파일을 읽을 수 있나요?"
+   },
+   "question3": {
+      "message": "단어가 없다고 합니다. 어떻게 해야하나요?"
+   },
+   "readSpeeds": {
+      "message": "21 낭독 속도"
+   },
+   "read_aloud": {
+      "message": "다음 문장을 크게 읽기"
+   },
+   "read_autoplay": {
+      "message": "자동재생 텍스트 - 빠르고 쉽습니다"
+   },
+   "read_more": {
+      "message": "더 읽기"
+   },
+   "read_with_speak": {
+      "message": "선택 및 말하기와 읽기"
+   },
+   "read_words": {
+      "message": "하루에 500단어입니다"
+   },
+   "restart": {
+      "message": "Select and Speak의 설치를 완료하기 위해 크롬을 재시작해야 합니다."
+   },
+   "save60": {
+      "message": "60% 절약"
+   },
+   "secure": {
+      "message": "100% 보호되어 있습니다: 회원님의 정보는 기술 발전을 위하여 사용되며 저희 팀에 의해서 완벽하게 보호됩니다."
+   },
+   "security": {
+      "message": "보안상의 이유로 로컬 크롬 페이지의 확장 프로그램이 실행될 수 없습니다."
+   },
+   "settings": {
+      "message": "설정"
+   },
+   "shareThis_finePrint": {
+      "message": "(월별 상품은 등록만 가능합니다, 할인이 시작되기 적어도 60일 전에 구독을 하셔야합니다)"
+   },
+   "share_this": {
+      "message": "이 링크를 공유하고 50% 할인받으세요"
+   },
+   "showPlay": {
+      "message": "\"문단 재생 버튼\" 표시"
+   },
+   "speak_selected": {
+      "message": "선택된 텍스트 음성 낭독"
+   },
+   "special_discount": {
+      "message": "특별 할인"
+   },
+   "speech_faq": {
+      "message": "자주묻는 질문을 선택하세요"
+   },
+   "start_training": {
+      "message": "도움 시작하기"
+   },
+   "subConf": {
+      "message": "Pro 버전으로의 업그레이드에 성공하였습니다."
+   },
+   "submit_data": {
+      "message": "1달 무료이용을 얻으세요"
+   },
+   "teachers": {
+      "message": "학생 & 선생"
+   },
+   "tryProFree": {
+      "message": "Pro 버전 7일 무료 체험판"
+   },
+   "tryRiskFree": {
+      "message": "Pro 무료 안심 체험"
+   },
+   "unlWords": {
+      "message": "단어수 무제한"
+   },
+   "unlimited_reading": {
+      "message": "정지 없는 무제한 단어"
+   },
+   "unlimited_words": {
+      "message": "무제한 단어를 원하시나요, 자동 플레이 설정 및 더 많은 특징도 원하세요?"
+   },
+   "upgrade": {
+      "message": "Pro 버전으로 업그레이드"
+   },
+   "upgrade_pro": {
+      "message": "Pro 버전으로 업그레이드"
+   },
+   "upgrade_select_speak": {
+      "message": "선택 및 말하기 업그레이드"
+   },
+   "week": {
+      "message": "1주"
+   },
+   "welcome": {
+      "message": "선택 및 말하기에 오신 것을 환영합니다"
+   },
+   "what_do": {
+      "message": "어떻게 하면 되나요?"
+   },
+   "what_get": {
+      "message": "어떻게 이 버전을 다운받으셨나요?"
+   },
+   "what_get_pro": {
+      "message": "프로 버전 특징:"
+   },
+   "wordsPerDay": {
+      "message": "500 단어/일"
+   },
+   "y_price": {
+      "message": "연 $$19.99"
+   },
+   "yearly": {
+      "message": "연"
+   },
+   "yearlyPrice": {
+      "message": "1년 19.99 달러"
+   },
+   "yearlyPrice_alone": {
+      "message": "19.99 달러"
+   },
+   "your_age": {
+      "message": "나이"
+   }
+}

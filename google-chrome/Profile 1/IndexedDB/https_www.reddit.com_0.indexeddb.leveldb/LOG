@@ -1,0 +1,6 @@
+2022/04/27-21:03:20.188 6a61 Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
+2022/04/27-21:03:20.370 6a61 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/27-21:04:24.214 6aaf Level-0 table #5: started
+2022/04/27-21:04:24.255 6aaf Level-0 table #5: 1872 bytes OK
+2022/04/27-21:04:24.293 6aaf Delete type=0 #3
+2022/04/27-21:04:24.293 6aaf Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,617 @@
+{
+   "Annually": {
+      "message": "Roční"
+   },
+   "Arabic": {
+      "message": "arabština"
+   },
+   "Asia": {
+      "message": "Asie"
+   },
+   "Australia": {
+      "message": "Austrálie"
+   },
+   "Australia_d": {
+      "message": "australský"
+   },
+   "Autoplay": {
+      "message": "Auto přehrání"
+   },
+   "Autoplay_desc": {
+      "message": "Automaticky nahlas přečíst sekci"
+   },
+   "Brazil": {
+      "message": "Brazílie"
+   },
+   "Brazil_d": {
+      "message": "brazilský"
+   },
+   "British": {
+      "message": "britský"
+   },
+   "Canada": {
+      "message": "Kanada"
+   },
+   "Canada_d": {
+      "message": "kanadský"
+   },
+   "Catalan": {
+      "message": "katalánština"
+   },
+   "China": {
+      "message": "Čína"
+   },
+   "China_d": {
+      "message": "Číňan"
+   },
+   "Chinese": {
+      "message": "Číňan"
+   },
+   "Czech": {
+      "message": "čeština"
+   },
+   "Czech_d": {
+      "message": "čeština"
+   },
+   "Danish": {
+      "message": "dánský"
+   },
+   "Denmark": {
+      "message": "Dánsko"
+   },
+   "Denmark_d": {
+      "message": "dánský"
+   },
+   "Dutch": {
+      "message": "holandský"
+   },
+   "English": {
+      "message": "angličtina"
+   },
+   "Europe": {
+      "message": "Evropa"
+   },
+   "FREE": {
+      "message": "ZDARMA"
+   },
+   "Fast": {
+      "message": "Rychlá"
+   },
+   "Features": {
+      "message": "Funkce"
+   },
+   "Finland": {
+      "message": "Finsko"
+   },
+   "Finland_d": {
+      "message": "finský"
+   },
+   "Finnish": {
+      "message": "finský"
+   },
+   "France": {
+      "message": "Francie"
+   },
+   "France_d": {
+      "message": "francouzština"
+   },
+   "French": {
+      "message": "francouzština"
+   },
+   "Gender": {
+      "message": "Pohlaví"
+   },
+   "German": {
+      "message": "Němec"
+   },
+   "Germany": {
+      "message": "Německo"
+   },
+   "Germany_d": {
+      "message": "Němec"
+   },
+   "Greek": {
+      "message": "řečtina"
+   },
+   "Hong_Kong": {
+      "message": "Hong Kong"
+   },
+   "Hong_Kong_d": {
+      "message": "Hong Kong"
+   },
+   "Hungarian": {
+      "message": "maďarština"
+   },
+   "Hungary": {
+      "message": "Maďarsko"
+   },
+   "Hungary_d": {
+      "message": "maďarština"
+   },
+   "Italian": {
+      "message": "italština"
+   },
+   "Italy": {
+      "message": "Itálie"
+   },
+   "Italy_d": {
+      "message": "italština"
+   },
+   "Japan": {
+      "message": "Japonsko"
+   },
+   "Japan_d": {
+      "message": "japonský"
+   },
+   "Japanese": {
+      "message": "japonský"
+   },
+   "Korea": {
+      "message": "Korea"
+   },
+   "Korea_d": {
+      "message": "korejský"
+   },
+   "Korean": {
+      "message": "korejský"
+   },
+   "LITE": {
+      "message": "Verze LITE"
+   },
+   "Language": {
+      "message": "Jazyk"
+   },
+   "Mexico": {
+      "message": "Mexiko"
+   },
+   "Mexico_d": {
+      "message": "Mexičan"
+   },
+   "Month_desc": {
+      "message": "Select and Speak měsíční předplatné"
+   },
+   "Netherlands": {
+      "message": "Nizozemsko"
+   },
+   "Netherlands_d": {
+      "message": "holandský"
+   },
+   "Normal": {
+      "message": "Normální"
+   },
+   "North_America": {
+      "message": "Severní Amerika"
+   },
+   "Norway": {
+      "message": "Norsko"
+   },
+   "Norway_d": {
+      "message": "norský"
+   },
+   "Norwegian": {
+      "message": "norský"
+   },
+   "Pacific": {
+      "message": "Pacifik"
+   },
+   "Poland": {
+      "message": "Polsko"
+   },
+   "Poland_d": {
+      "message": "polský"
+   },
+   "Polish": {
+      "message": "polský"
+   },
+   "Portugal": {
+      "message": "Portugalsko"
+   },
+   "Portugal_d": {
+      "message": "portugalština"
+   },
+   "Portuguese": {
+      "message": "portugalština"
+   },
+   "Pro_Features": {
+      "message": "Pro funkce"
+   },
+   "Russia": {
+      "message": "Rusko"
+   },
+   "Russia_d": {
+      "message": "ruský"
+   },
+   "Russian": {
+      "message": "ruský"
+   },
+   "Slow": {
+      "message": "Pomalá"
+   },
+   "South_America": {
+      "message": "Jižní / Střední Amerika"
+   },
+   "Spain": {
+      "message": "Španělsko"
+   },
+   "Spain_d": {
+      "message": "španělský"
+   },
+   "Spanish": {
+      "message": "španělský"
+   },
+   "Speech": {
+      "message": "Řeč"
+   },
+   "Speed": {
+      "message": "Rychlost"
+   },
+   "Sweden": {
+      "message": "Švédsko"
+   },
+   "Sweden_d": {
+      "message": "švédský"
+   },
+   "Swedish": {
+      "message": "švédský"
+   },
+   "Taiwan": {
+      "message": "Tchaj-wan"
+   },
+   "Taiwan_d": {
+      "message": "tchajwanský"
+   },
+   "Turkey": {
+      "message": "krocan"
+   },
+   "Turkey_d": {
+      "message": "turečtina"
+   },
+   "Turkish": {
+      "message": "turečtina"
+   },
+   "United_Kingdom": {
+      "message": "Spojené Království"
+   },
+   "United_Kingdom_d": {
+      "message": "Brit"
+   },
+   "United_States": {
+      "message": "Spojené Státy"
+   },
+   "United_States_d": {
+      "message": "americký"
+   },
+   "Year_desc": {
+      "message": "Select and Speak roční předplatné"
+   },
+   "all_only": {
+      "message": "Tyto funkce získáte všechny jen za"
+   },
+   "answer1": {
+      "message": "Select and Speak vám umožní poslouchat jakýkoliv text ve svém Chrome prohlížeči. K přečtení si můžete vybrat jakýkoliv text; klikněte pravým tlačítkem myši a vyberte Číst s Select and Speak"
+   },
+   "answer2": {
+      "message": "Pokud PDF obsahuje aktuální text, který může být označen myší, tak ano. Pokud je PDF obrázek nebo sken, tak pravděpodobně ne."
+   },
+   "answer3": {
+      "message": "Poskytujeme Free verzi Select and Speak, která je používána miliony uživatelů a musíme zpoplatnit náročnější uživatele. Omezení je tedy 500 slov za den."
+   },
+   "app_name": {
+      "message": "Select and Speak - text na řeč"
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "Automaticky změnit jazyk pro obsah stránky"
+   },
+   "autolangOption": {
+      "message": "Automatická detekce jazyka"
+   },
+   "automaticLanguage": {
+      "message": "Automatický jazyk"
+   },
+   "autoplayOption": {
+      "message": "Možnost auto play"
+   },
+   "autoplay_off": {
+      "message": "Vypnout auto přehrání"
+   },
+   "autoplay_on": {
+      "message": "Zapnout auto přehrání"
+   },
+   "become_pro": {
+      "message": "Staňte se uživatelem Pro verze"
+   },
+   "buy_edu": {
+      "message": "Koupit vzdělávací balíček"
+   },
+   "cancelAnyTime": {
+      "message": "Zrušení kdykoliv"
+   },
+   "checkout_pro": {
+      "message": "Podívejte se na Pro funkce"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "Vyberte pohlaví hlasu a rychlost čtení"
+   },
+   "choose_language": {
+      "message": "Vybrat jazyk"
+   },
+   "contact": {
+      "message": "Kontaktujte nás"
+   },
+   "could_not_read": {
+      "message": "Stránku nebylo možné načíst, zkuste ji obnovit."
+   },
+   "country": {
+      "message": "Země"
+   },
+   "dashboard": {
+      "message": "NÁSTĚNKA"
+   },
+   "detect_lang": {
+      "message": "Automatické rozpoznání jazyka"
+   },
+   "discounted": {
+      "message": "Zlevněno - zjistit více"
+   },
+   "edu_discounts": {
+      "message": "Pokud jste učitel, můžete získat speciální slevy pro studenty."
+   },
+   "educationalVersion": {
+      "message": "Vzdělávací verze"
+   },
+   "educational_package": {
+      "message": "Vzdělávací balíček"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "fast_or_slow": {
+      "message": "Číst text ve 21 odlišných rychlostech"
+   },
+   "female": {
+      "message": "samice"
+   },
+   "final_step": {
+      "message": "Poslední krok - Zadejte údaje"
+   },
+   "final_step_message": {
+      "message": "Za účelem vylepšení Select and Speak pro celosvětové použití, potřebujeme informace od různých uživatelů. Pro maximální vylepšení aplikace vyplňte prosím následující informace."
+   },
+   "for_sentences": {
+      "message": "Pro $1 vět"
+   },
+   "free_trial": {
+      "message": "7 dní Trial verze Zdarma"
+   },
+   "free_version": {
+      "message": "Používáte Free verzi"
+   },
+   "fullPrice_alone": {
+      "message": "799 Kč"
+   },
+   "gender": {
+      "message": "Pohlaví"
+   },
+   "halfOff": {
+      "message": "50% zaváděcí sleva"
+   },
+   "help_us": {
+      "message": "Získejte Pro předplatné Zdarma"
+   },
+   "home": {
+      "message": "Domů"
+   },
+   "improve_speak": {
+      "message": "Snažíme se o zlepšení Select and Speak. Pomozte nám a získejte 1 týden nebo 1 měsíc Prémiového předplatného Zdarma!"
+   },
+   "langs": {
+      "message": "27 jazyků"
+   },
+   "limit_alert": {
+      "message": "Výběr je $1 slov přes váš denní limit. Pro zrušení limitu upgradujte."
+   },
+   "m_price": {
+      "message": "$$3.99 měsíčně"
+   },
+   "male": {
+      "message": "samec"
+   },
+   "month": {
+      "message": "1 Měsíc"
+   },
+   "monthPrice_alone": {
+      "message": "$$3.99"
+   },
+   "monthly": {
+      "message": "Měsíčně"
+   },
+   "monthlyPrice": {
+      "message": "79 Kč měsíčně"
+   },
+   "native_language": {
+      "message": "Rodný jazyk"
+   },
+   "next": {
+      "message": "Následující"
+   },
+   "no_barriers": {
+      "message": "Číst text ve 27 odlišných jazycích"
+   },
+   "not_much": {
+      "message": "Stačí málo, poskytneme vám několik vět, které jen přečtete nahlas (ideálně v nerušeném prostředí)."
+   },
+   "num_students": {
+      "message": "Počet studentů"
+   },
+   "options_title": {
+      "message": "Nastavení Select and Speak"
+   },
+   "or": {
+      "message": "nebo"
+   },
+   "origin_place": {
+      "message": "Poštovní směrovací číslo"
+   },
+   "paragraph_player": {
+      "message": "Vypnuli jste čtení odstavce. To můžete znovu zapnout na stránce nastavení."
+   },
+   "per_student": {
+      "message": "Za studenta"
+   },
+   "premium": {
+      "message": " (Prémiové)"
+   },
+   "previous": {
+      "message": "Předchozí"
+   },
+   "price": {
+      "message": "Cena"
+   },
+   "proVersion": {
+      "message": "Profesionální verze"
+   },
+   "pro_features": {
+      "message": "Pro funkce"
+   },
+   "purchase_audio": {
+      "message": "Objednejte si audio této sekce"
+   },
+   "question1": {
+      "message": "Jak Select and Speak funguje?"
+   },
+   "question2": {
+      "message": "Můžu poslouchat soubory PDF?"
+   },
+   "question3": {
+      "message": "Je řečeno, že jsem vyčerpal slova, co mám dělat?"
+   },
+   "readSpeeds": {
+      "message": "21 čtecí rychlost"
+   },
+   "read_aloud": {
+      "message": "Přečtěte následující věty nahlas"
+   },
+   "read_autoplay": {
+      "message": "Auto přehrání textu - Rychlé a jednoduché"
+   },
+   "read_more": {
+      "message": "Číst dále"
+   },
+   "read_with_speak": {
+      "message": "Přečíst s Select and Speak"
+   },
+   "read_words": {
+      "message": "Pouze 500 slov denně"
+   },
+   "restart": {
+      "message": "K dokončení instalace select and speak restartujte chrome."
+   },
+   "save60": {
+      "message": "Sleva 60%"
+   },
+   "secure": {
+      "message": "100% Bezpečné: Vaše informace jsou použity jen za účelem zlepšení technologie a jsou u nás v naprostém bezpečí."
+   },
+   "security": {
+      "message": "Rozšíření není možné z bezpečnostních důvodů použít u lokálních stránek "
+   },
+   "settings": {
+      "message": "Nastavení"
+   },
+   "shareThis_finePrint": {
+      "message": "(platí pouze na měsíční registraci a pro uplatnění slevy se uživatel musí stát předplatitelem alespoň na 60 dní)"
+   },
+   "share_this": {
+      "message": "Sdílejte tento odkaz a získejte 50% slevu*"
+   },
+   "showPlay": {
+      "message": "Zobrazit \"paragraph play button\""
+   },
+   "speak_selected": {
+      "message": "Vybraný text pro mluvení"
+   },
+   "special_discount": {
+      "message": "Speciální sleva pro"
+   },
+   "speech_faq": {
+      "message": "FAQ Select and Speak"
+   },
+   "start_training": {
+      "message": "Začít pomáhat"
+   },
+   "subConf": {
+      "message": "Úspěšně jste upgradovali na Pro verzi"
+   },
+   "submit_data": {
+      "message": "Potvrdit a získat 1 měsíc Zdarma"
+   },
+   "teachers": {
+      "message": "Studenti & Učitelé"
+   },
+   "tryProFree": {
+      "message": "Vyzkoušejte Pro verzi Zdarma na 7 dní"
+   },
+   "tryRiskFree": {
+      "message": "Vyzkoušejte Pro bez rizika"
+   },
+   "unlWords": {
+      "message": "Neomezeně slov"
+   },
+   "unlimited_reading": {
+      "message": "Neomezeně slov pro non-stop poslech"
+   },
+   "unlimited_words": {
+      "message": "Chcete neomezené množství slov, auto přehrání a další funkce?"
+   },
+   "upgrade": {
+      "message": "Upgradovat na Pro"
+   },
+   "upgrade_pro": {
+      "message": "Upgradovat na Pro"
+   },
+   "upgrade_select_speak": {
+      "message": "Upgradovat Select and Speak"
+   },
+   "week": {
+      "message": "1 Týden"
+   },
+   "welcome": {
+      "message": "Select and Speak vás vítá"
+   },
+   "what_do": {
+      "message": "Co musíte udělat?"
+   },
+   "what_get": {
+      "message": "Co získáte v této verzi?"
+   },
+   "what_get_pro": {
+      "message": "Funkce Pro verze:"
+   },
+   "wordsPerDay": {
+      "message": "500 slov / den"
+   },
+   "y_price": {
+      "message": "$$19.99 ročně"
+   },
+   "yearly": {
+      "message": "Ročně"
+   },
+   "yearlyPrice": {
+      "message": "399 Kč ročně"
+   },
+   "yearlyPrice_alone": {
+      "message": "399 Kč"
+   },
+   "your_age": {
+      "message": "Váš věk"
+   }
+}

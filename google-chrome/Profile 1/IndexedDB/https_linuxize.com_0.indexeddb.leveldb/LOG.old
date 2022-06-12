@@ -1,0 +1,6 @@
+2022/06/02-19:46:11.693 25b170 Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_linuxize.com_0.indexeddb.leveldb since it was missing.
+2022/06/02-19:46:11.883 25b170 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/02-19:46:20.708 25b170 Level-0 table #5: started
+2022/06/02-19:46:20.796 25b170 Level-0 table #5: 7947 bytes OK
+2022/06/02-19:46:20.870 25b170 Delete type=0 #3
+2022/06/02-19:46:20.870 25b170 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

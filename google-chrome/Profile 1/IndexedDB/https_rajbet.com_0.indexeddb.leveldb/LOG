@@ -1,0 +1,6 @@
+2022/05/26-09:30:17.032 634bd Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_rajbet.com_0.indexeddb.leveldb since it was missing.
+2022/05/26-09:30:17.186 634bd Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_rajbet.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/26-09:30:28.703 634bd Level-0 table #5: started
+2022/05/26-09:30:28.815 634bd Level-0 table #5: 5473 bytes OK
+2022/05/26-09:30:28.915 634bd Delete type=0 #3
+2022/05/26-09:30:28.915 634bd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

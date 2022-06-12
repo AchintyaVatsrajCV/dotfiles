@@ -1,0 +1,6 @@
+2022/05/22-08:27:56.521 b9d2e Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_source.android.com_0.indexeddb.leveldb since it was missing.
+2022/05/22-08:27:56.633 b9d2e Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_source.android.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/22-08:28:37.183 b9d2e Level-0 table #5: started
+2022/05/22-08:28:37.225 b9d2e Level-0 table #5: 1867 bytes OK
+2022/05/22-08:28:37.265 b9d2e Delete type=0 #3
+2022/05/22-08:28:37.266 b9d2e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

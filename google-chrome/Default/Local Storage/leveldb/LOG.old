@@ -1,0 +1,6 @@
+2022/06/06-21:37:22.541 6 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2022/06/06-21:37:22.564 6 Recovering log #610
+2022/06/06-21:37:23.053 6 Reusing old log /home/lolt3under/.config/google-chrome/Default/Local Storage/leveldb/000610.log 
+2022/06/06-21:37:41.172 6 Level-0 table #617: started
+2022/06/06-21:37:41.340 6 Level-0 table #617: 20915 bytes OK
+2022/06/06-21:37:41.565 6 Delete type=0 #610

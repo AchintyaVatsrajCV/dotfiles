@@ -1,0 +1,6 @@
+2022/05/25-13:13:06.069 19ded Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb since it was missing.
+2022/05/25-13:13:06.187 19ded Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/25-13:13:40.881 1a3b8 Level-0 table #5: started
+2022/05/25-13:13:40.932 1a3b8 Level-0 table #5: 152385 bytes OK
+2022/05/25-13:13:40.966 1a3b8 Delete type=0 #3
+2022/05/25-13:13:40.967 1a3b8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

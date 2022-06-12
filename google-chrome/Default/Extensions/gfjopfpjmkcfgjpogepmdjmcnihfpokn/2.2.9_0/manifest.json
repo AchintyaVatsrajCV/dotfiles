@@ -1,0 +1,30 @@
+{
+   "author": "Talkz, Inc.",
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "img/icons/icon-play_128.png"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "",
+   "icons": {
+      "128": "img/icons/icon-play_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC74BDCKZEKTipfeUA1qeMjmUXeKb8iPl6BHxjPotjzGkKZKAbnLX5GMJVbW8ocoMMq+wMDlZ74H/CgPWEyNHqiX2trG5YvY9FIQekJ1EX7VVYHb9bQ9/BKBXsci9PpzFWbTc2FBpj5M8J0VQKnzyDW18RhPA0y/yZsNfuZprRXSwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_app_name__",
+   "options_page": "options.html",
+   "permissions": [ "contextMenus", "storage", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.9",
+   "web_accessible_resources": [ "img/icons/*.png", "img/*", "resources/*" ]
+}

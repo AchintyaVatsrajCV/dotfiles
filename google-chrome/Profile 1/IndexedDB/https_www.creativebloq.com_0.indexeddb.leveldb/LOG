@@ -1,0 +1,18 @@
+2022/06/09-15:00:12.000 62efc Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.creativebloq.com_0.indexeddb.leveldb since it was missing.
+2022/06/09-15:00:12.084 62efc Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.creativebloq.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/09-15:00:13.433 62457 Level-0 table #5: started
+2022/06/09-15:00:13.492 62457 Level-0 table #5: 1828 bytes OK
+2022/06/09-15:00:13.572 62457 Delete type=0 #3
+2022/06/09-15:00:13.572 62457 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/06/09-15:00:22.925 62457 Level-0 table #7: started
+2022/06/09-15:00:22.976 62457 Level-0 table #7: 92221 bytes OK
+2022/06/09-15:00:23.006 62457 Delete type=0 #4
+2022/06/09-15:00:23.006 62457 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/06/09-15:00:23.006 62457 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x02\x02\x01\x06\x00e\x00v\x00e\x00n\x00t\x00s' @ 196 : 1
+2022/06/09-15:00:23.006 62457 Compacting 1@1 + 1@2 files
+2022/06/09-15:00:23.060 62457 Generated table #8@1: 32 keys, 15059 bytes
+2022/06/09-15:00:23.060 62457 Compacted 1@1 + 1@2 files => 15059 bytes
+2022/06/09-15:00:23.089 62457 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/09-15:00:23.089 62457 Delete type=2 #5
+2022/06/09-15:00:23.089 62457 Delete type=2 #7
+2022/06/09-15:00:23.089 62457 Manual compaction at level-1 from '\x00\x02\x02\x02\x01\x06\x00e\x00v\x00e\x00n\x00t\x00s' @ 196 : 1 .. (end); will stop at (end)

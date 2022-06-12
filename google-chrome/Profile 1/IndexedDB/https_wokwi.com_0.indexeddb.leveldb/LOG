@@ -1,0 +1,7 @@
+2022/06/09-10:54:14.914 5426c Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_wokwi.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/09-10:54:14.914 5426c Recovering log #3
+2022/06/09-10:54:14.914 5426c Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_wokwi.com_0.indexeddb.leveldb/000003.log 
+2022/06/09-22:31:52.168 7df12 Level-0 table #5: started
+2022/06/09-22:31:52.218 7df12 Level-0 table #5: 1584 bytes OK
+2022/06/09-22:31:52.252 7df12 Delete type=0 #3
+2022/06/09-22:31:52.253 7df12 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

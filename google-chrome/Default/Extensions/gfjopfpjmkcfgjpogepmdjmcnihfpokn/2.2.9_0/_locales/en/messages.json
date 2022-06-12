@@ -1,0 +1,678 @@
+{
+   "Annually": {
+      "message": "Annually"
+   },
+   "Arabic": {
+      "message": "Arabic"
+   },
+   "Asia": {
+      "message": "Asia"
+   },
+   "Australia": {
+      "message": "Australia"
+   },
+   "Australia_d": {
+      "message": "Australian"
+   },
+   "Autoplay": {
+      "message": "Autoplay"
+   },
+   "Autoplay_desc": {
+      "message": "Automatically read selection aloud"
+   },
+   "Brazil": {
+      "message": "Brazil"
+   },
+   "Brazil_d": {
+      "message": "Brazilian"
+   },
+   "British": {
+      "message": "British"
+   },
+   "Canada": {
+      "message": "Canada"
+   },
+   "Canada_d": {
+      "message": "Canadian"
+   },
+   "Catalan": {
+      "message": "Catalan"
+   },
+   "China": {
+      "message": "China"
+   },
+   "China_d": {
+      "message": "Chinese"
+   },
+   "Chinese": {
+      "message": "Chinese"
+   },
+   "Czech": {
+      "message": "Czech"
+   },
+   "Czech_d": {
+      "message": "Czech"
+   },
+   "Danish": {
+      "message": "Danish"
+   },
+   "Denmark": {
+      "message": "Denmark"
+   },
+   "Denmark_d": {
+      "message": "Danish"
+   },
+   "Dutch": {
+      "message": "Dutch"
+   },
+   "English": {
+      "message": "English"
+   },
+   "Europe": {
+      "message": "Europe"
+   },
+   "FREE": {
+      "message": "FREE"
+   },
+   "Fast": {
+      "message": "Fast"
+   },
+   "Features": {
+      "message": "Features"
+   },
+   "Finland": {
+      "message": "Finland"
+   },
+   "Finland_d": {
+      "message": "Finnish"
+   },
+   "Finnish": {
+      "message": "Finnish"
+   },
+   "France": {
+      "message": "France"
+   },
+   "France_d": {
+      "message": "French"
+   },
+   "French": {
+      "message": "French"
+   },
+   "Gender": {
+      "message": "Gender"
+   },
+   "German": {
+      "message": "German"
+   },
+   "Germany": {
+      "message": "Germany"
+   },
+   "Germany_d": {
+      "message": "German"
+   },
+   "Greek": {
+      "message": "Greek"
+   },
+   "Hong_Kong": {
+      "message": "Hong Kong"
+   },
+   "Hong_Kong_d": {
+      "message": "Hong Kongese"
+   },
+   "Hungarian": {
+      "message": "Hungarian"
+   },
+   "Hungary": {
+      "message": "Hungary"
+   },
+   "Hungary_d": {
+      "message": "Hungarian"
+   },
+   "Italian": {
+      "message": "Italian"
+   },
+   "Italy": {
+      "message": "Italy"
+   },
+   "Italy_d": {
+      "message": "Italian"
+   },
+   "Japan": {
+      "message": "Japan"
+   },
+   "Japan_d": {
+      "message": "Japanese"
+   },
+   "Japanese": {
+      "message": "Japanese"
+   },
+   "Korea": {
+      "message": "Korea"
+   },
+   "Korea_d": {
+      "message": "Korean"
+   },
+   "Korean": {
+      "message": "Korean"
+   },
+   "LITE": {
+      "message": "LITE Version"
+   },
+   "Language": {
+      "message": "Language"
+   },
+   "Mexico": {
+      "message": "Mexico"
+   },
+   "Mexico_d": {
+      "message": "Mexican"
+   },
+   "Month_desc": {
+      "message": "Free 7 Day Trial - Select and Speak Monthly Subscription"
+   },
+   "Netherlands": {
+      "message": "Netherlands"
+   },
+   "Netherlands_d": {
+      "message": "Dutch"
+   },
+   "Normal": {
+      "message": "Normal"
+   },
+   "North_America": {
+      "message": "North America"
+   },
+   "Norway": {
+      "message": "Norway"
+   },
+   "Norway_d": {
+      "message": "Norwegian"
+   },
+   "Norwegian": {
+      "message": "Norwegian"
+   },
+   "Pacific": {
+      "message": "Pacific"
+   },
+   "Poland": {
+      "message": "Poland"
+   },
+   "Poland_d": {
+      "message": "Polish"
+   },
+   "Polish": {
+      "message": "Polish"
+   },
+   "Portugal": {
+      "message": "Portugal"
+   },
+   "Portugal_d": {
+      "message": "Portuguese"
+   },
+   "Portuguese": {
+      "message": "Portuguese"
+   },
+   "Pro_Features": {
+      "message": "Pro Features"
+   },
+   "Russia": {
+      "message": "Russia"
+   },
+   "Russia_d": {
+      "message": "Russian"
+   },
+   "Russian": {
+      "message": "Russian"
+   },
+   "Slow": {
+      "message": "Slow"
+   },
+   "South_America": {
+      "message": "South/Central America"
+   },
+   "Spain": {
+      "message": "Spain"
+   },
+   "Spain_d": {
+      "message": "Spanish"
+   },
+   "Spanish": {
+      "message": "Spanish"
+   },
+   "Speech": {
+      "message": "Speech"
+   },
+   "Speed": {
+      "message": "Speed"
+   },
+   "Sweden": {
+      "message": "Sweden"
+   },
+   "Sweden_d": {
+      "message": "Swedish"
+   },
+   "Swedish": {
+      "message": "Swedish"
+   },
+   "Taiwan": {
+      "message": "Taiwan"
+   },
+   "Taiwan_d": {
+      "message": "Taiwanese"
+   },
+   "Turkey": {
+      "message": "Turkey"
+   },
+   "Turkey_d": {
+      "message": "Turkish"
+   },
+   "Turkish": {
+      "message": "Turkish"
+   },
+   "United_Kingdom": {
+      "message": "United Kingdom"
+   },
+   "United_Kingdom_d": {
+      "message": "Briton"
+   },
+   "United_States": {
+      "message": "United States"
+   },
+   "United_States_d": {
+      "message": "American"
+   },
+   "Year_desc": {
+      "message": "Select and Speak Annual Discount"
+   },
+   "all_only": {
+      "message": "You get all these features for only"
+   },
+   "answer1": {
+      "message": "Select and Speak lets you listen to any text in your Chrome browser. You can select any text you wish to read, right click and click Read with Select and Speak"
+   },
+   "answer2": {
+      "message": "It depends. If the PDF contains actual text that can be selected, then yes. If the PDF is an image or scan of text, then probably not."
+   },
+   "answer3": {
+      "message": "While we do have a free version of Select and Speak that is used by millions of users a year, we have to charge heavier users in order to provide the service. The cut-off is 500 words per day."
+   },
+   "app_name": {
+      "description": "Name of the app",
+      "message": "Select and Speak - Text to Speech"
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "Automatically switch language for page content"
+   },
+   "autolangOption": {
+      "message": "Auto Language Detection"
+   },
+   "automaticLanguage": {
+      "message": "Automatic Language"
+   },
+   "autoplayOption": {
+      "message": "Autoplay Option"
+   },
+   "autoplay_off": {
+      "message": "Turn off autoplay"
+   },
+   "autoplay_on": {
+      "message": "Turn on autoplay"
+   },
+   "become_pro": {
+      "message": "Become a Pro User Now"
+   },
+   "buy_edu": {
+      "message": "Buy the Educational Package"
+   },
+   "cancelAnyTime": {
+      "message": "Cancel at Anytime"
+   },
+   "checkout_pro": {
+      "message": "Check out the Pro Features"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "Choose Voice Gender and Reading Speed"
+   },
+   "choose_language": {
+      "message": "Choose Language"
+   },
+   "contact": {
+      "message": "Contact Us"
+   },
+   "could_not_read": {
+      "message": "Page could not be read, please refresh the page."
+   },
+   "country": {
+      "message": "Country"
+   },
+   "dashboard": {
+      "message": "DASHBOARD"
+   },
+   "detect_lang": {
+      "message": "Automatic Language Detection"
+   },
+   "discounted": {
+      "message": "Discounted - Learn More"
+   },
+   "edu_discounts": {
+      "message": "Get special discounts for students, if you're a teacher or an educator."
+   },
+   "educationalVersion": {
+      "message": "Educational Version"
+   },
+   "educational_package": {
+      "message": "Educational Package"
+   },
+   "email_invalid": {
+      "message": "Email not valid"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "fast_or_slow": {
+      "message": "Read Text at 21 Different Speed Settings"
+   },
+   "female": {
+      "message": "female"
+   },
+   "final_step": {
+      "message": "Final Step - Enter your Details"
+   },
+   "final_step_message": {
+      "message": "In order to improve Select and Speak for Worldwide use, we need information from a variety of users. Please provide us with the following details to make sure the app gets trained properly for maximum accuracy."
+   },
+   "for_sentences": {
+      "message": "For $1 Sentences"
+   },
+   "free_trial": {
+      "message": "Start 7-day \u003Cstrong>Free Trial\u003C/strong>"
+   },
+   "free_version": {
+      "message": "You are using the Free version"
+   },
+   "fullPrice_alone": {
+      "message": "Annual Billing"
+   },
+   "gender": {
+      "message": "Gender"
+   },
+   "get_free_trial": {
+      "message": "Start your \u003Cstrong>7 day free trial\u003C/strong> (then $$2.99/mo billed annually)"
+   },
+   "halfOff": {
+      "message": "50% Off Introductory Offer"
+   },
+   "haveLicense": {
+      "message": "Already got a License? Validate it:"
+   },
+   "hear_about": {
+      "message": "Hear about special offers and product updates"
+   },
+   "help_us": {
+      "message": "Get Pro Subscription for Free"
+   },
+   "home": {
+      "message": "Home"
+   },
+   "improve_speak": {
+      "message": "We are trying to improve Select and Speak. Help us out and get 1 week or 1 month Premium subscription for Free!"
+   },
+   "langs": {
+      "message": "27 Languages"
+   },
+   "limit_alert": {
+      "message": "Selection is $1 words over your daily limit. Please upgrade to remove limit."
+   },
+   "m_price": {
+      "message": "$$3.99 per Month"
+   },
+   "male": {
+      "message": "male"
+   },
+   "month": {
+      "message": "1 Month"
+   },
+   "monthPrice_alone": {
+      "message": "$$3.99"
+   },
+   "monthly": {
+      "message": "Monthly"
+   },
+   "monthlyPrice": {
+      "message": "$$3.99 Monthly"
+   },
+   "native_language": {
+      "message": "Native Language"
+   },
+   "next": {
+      "message": "Next"
+   },
+   "noThanks": {
+      "message": "No Thanks"
+   },
+   "no_barriers": {
+      "message": "Read Text in 27 Different Languages"
+   },
+   "not_much": {
+      "message": "Not much, We will provide you with a few lines and you just need to read them out loud (in a silent environment preferably)."
+   },
+   "numStudents": {
+      "message": "Enter the number of students:"
+   },
+   "num_students": {
+      "message": "Number of Students"
+   },
+   "options_title": {
+      "message": "Select and Speak Options"
+   },
+   "or": {
+      "message": "or"
+   },
+   "origin_place": {
+      "message": "Postal Code (where you grew up)"
+   },
+   "paragraph_player": {
+      "message": "You have turned off the paragraph player. You can turn it on again from the options page."
+   },
+   "per_student": {
+      "message": "Per Student"
+   },
+   "premium": {
+      "message": " (Premium)"
+   },
+   "previous": {
+      "message": "Previous"
+   },
+   "price": {
+      "message": "Price"
+   },
+   "proVersion": {
+      "message": "Professional Version"
+   },
+   "pro_features": {
+      "message": "Pro Features"
+   },
+   "purchase_audio": {
+      "message": "Purchase audio of this selection"
+   },
+   "question1": {
+      "message": "How does Select and Speak work?"
+   },
+   "question2": {
+      "message": "Can I listen to PDFs?"
+   },
+   "question3": {
+      "message": "It says I ran out of Words, what should I do?"
+   },
+   "readSpeeds": {
+      "message": "21 Read Speeds"
+   },
+   "read_aloud": {
+      "message": "Speak the Following Sentence Aloud"
+   },
+   "read_autoplay": {
+      "message": "Autoplay Text - Fast and Easy"
+   },
+   "read_more": {
+      "message": "Read More"
+   },
+   "read_with_speak": {
+      "message": "Read with Select and Speak"
+   },
+   "read_words": {
+      "message": "Only 500 words per day"
+   },
+   "refer": {
+      "message": "Refer Select and Speak to a friend & get 50% off on monthly pack"
+   },
+   "restart": {
+      "message": "You must restart chrome to finish installing select and speak."
+   },
+   "save25": {
+      "message": "Save 25%"
+   },
+   "save60": {
+      "message": "Save 60%"
+   },
+   "secure": {
+      "message": "100% Secure: Your information is only used to improve the core technology and is completly secure with us."
+   },
+   "security": {
+      "message": "Extensions cannot run in local chrome pages for security reasons"
+   },
+   "settings": {
+      "message": "Settings"
+   },
+   "shareThis_finePrint": {
+      "message": "(monthly package signups only, referals must become subscribers for at least 60 days before discount is taken)"
+   },
+   "share_this": {
+      "message": "Share this link and get 50% off*"
+   },
+   "showHoverPlay": {
+      "message": "Show play button on selecting text"
+   },
+   "showPlay": {
+      "message": "Show \"page play button\""
+   },
+   "skip": {
+      "message": "Skip"
+   },
+   "speak_selected": {
+      "message": "Speak Selected Text"
+   },
+   "special_discount": {
+      "message": "Special Discount for"
+   },
+   "speech_faq": {
+      "message": "Select and Speak FAQ"
+   },
+   "start": {
+      "message": "Start"
+   },
+   "start_training": {
+      "message": "Start Helping"
+   },
+   "stop": {
+      "message": "Stop"
+   },
+   "studentSpecial": {
+      "message": "For Schools"
+   },
+   "subConf": {
+      "message": "You have successfully upgraded to Pro"
+   },
+   "submit": {
+      "message": "Submit"
+   },
+   "submit_data": {
+      "message": "Submit to Get 1 Month Free"
+   },
+   "submit_failed": {
+      "message": "Email not submitted"
+   },
+   "submit_worked": {
+      "message": "Email submitted!"
+   },
+   "teachers": {
+      "message": "Students & Teachers"
+   },
+   "textNotFound": {
+      "message": "Select and Speak does not work on the Chrome Web Store"
+   },
+   "textNotFoundTitle": {
+      "message": "Error"
+   },
+   "tryProFree": {
+      "message": "Try the Pro Version For Free (7 Days)"
+   },
+   "tryRiskFree": {
+      "message": "Try Pro Risk Free"
+   },
+   "try_again": {
+      "message": "Please try again, we didn't get that"
+   },
+   "unlWords": {
+      "message": "Unlimited Words"
+   },
+   "unlimited_reading": {
+      "message": "Unlimited Words for non-stop Listening"
+   },
+   "unlimited_words": {
+      "message": "Unlimited words, Autoplay Option and More Features."
+   },
+   "upgrade": {
+      "message": "Upgrade to Pro"
+   },
+   "upgrade_now": {
+      "message": "Upgrade Now"
+   },
+   "upgrade_pro": {
+      "message": "Upgrade to Pro"
+   },
+   "upgrade_select_speak": {
+      "message": "Upgrade Select and Speak"
+   },
+   "week": {
+      "message": "1 Week"
+   },
+   "welcome": {
+      "message": "Welcome to Select and Speak"
+   },
+   "what_do": {
+      "message": "What do you need to do?"
+   },
+   "what_get": {
+      "message": "What do you get in this version?"
+   },
+   "what_get_pro": {
+      "message": "Pro Version Features:"
+   },
+   "wordsPerDay": {
+      "message": "500 Words / Day"
+   },
+   "y_price": {
+      "message": "$$19.99 per Year"
+   },
+   "yearly": {
+      "message": "Monthly"
+   },
+   "yearlyPrice": {
+      "message": "$$2.99 /Month"
+   },
+   "yearlyPrice_alone": {
+      "message": "$$2.99"
+   },
+   "your_age": {
+      "message": "Your Age"
+   }
+}

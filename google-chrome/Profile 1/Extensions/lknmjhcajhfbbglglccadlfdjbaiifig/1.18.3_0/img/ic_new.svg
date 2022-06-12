@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="19" viewBox="0 0 51 19">
+    <defs>
+        <style>.a{fill:#8585ff;}.b,.d{fill:#fff;}.b{font-size:12px;font-family:WorkSans-SemiBold, Work
+            Sans;font-weight:600;letter-spacing:-0.015em;}.c{fill:none;}
+        </style>
+    </defs>
+    <g transform="translate(-46.25 -341)">
+        <rect class="a" width="51" height="19" rx="9.5" transform="translate(46.25 341)"/>
+        <text class="b" transform="translate(65.5 354.5)">
+            <tspan x="0" y="0">New</tspan>
+        </text>
+        <g transform="translate(-183 22)">
+            <g transform="translate(234.25 323)">
+                <rect class="c" width="10" height="10"/>
+                <g transform="translate(1.006 0.711)">
+                    <path class="d"
+                          d="M9.517,4.329,9.846,3.6l.729-.329a.208.208,0,0,0,0-.379l-.729-.329-.329-.733a.208.208,0,0,0-.379,0l-.329.729-.733.329a.208.208,0,0,0,0,.379L8.8,3.6l.329.733A.212.212,0,0,0,9.517,4.329ZM6.2,4.954,5.538,3.5a.417.417,0,0,0-.758,0L4.117,4.954l-1.458.662a.417.417,0,0,0,0,.758l1.458.663L4.78,8.5a.417.417,0,0,0,.758,0L6.2,7.038l1.458-.663a.417.417,0,0,0,0-.758ZM9.134,7.663,8.8,8.392l-.729.329a.208.208,0,0,0,0,.379l.729.329.329.733a.208.208,0,0,0,.379,0l.329-.729.733-.329a.208.208,0,0,0,0-.379L9.846,8.4l-.329-.733A.212.212,0,0,0,9.134,7.663Z"
+                          transform="translate(-2.415 -1.708)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

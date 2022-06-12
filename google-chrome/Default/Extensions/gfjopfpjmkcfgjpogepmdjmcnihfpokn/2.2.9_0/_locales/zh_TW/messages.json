@@ -1,0 +1,617 @@
+{
+   "Annually": {
+      "message": "每年"
+   },
+   "Arabic": {
+      "message": "阿拉伯語"
+   },
+   "Asia": {
+      "message": "亞洲"
+   },
+   "Australia": {
+      "message": "澳大利亞"
+   },
+   "Australia_d": {
+      "message": "澳大利亞"
+   },
+   "Autoplay": {
+      "message": "自動播放"
+   },
+   "Autoplay_desc": {
+      "message": "自動大聲朗讀選中文本"
+   },
+   "Brazil": {
+      "message": "巴西"
+   },
+   "Brazil_d": {
+      "message": "巴西人"
+   },
+   "British": {
+      "message": "英國人"
+   },
+   "Canada": {
+      "message": "加拿大"
+   },
+   "Canada_d": {
+      "message": "加拿大"
+   },
+   "Catalan": {
+      "message": "加泰羅尼亞"
+   },
+   "China": {
+      "message": "中國"
+   },
+   "China_d": {
+      "message": "中國"
+   },
+   "Chinese": {
+      "message": "中國"
+   },
+   "Czech": {
+      "message": "捷克"
+   },
+   "Czech_d": {
+      "message": "捷克"
+   },
+   "Danish": {
+      "message": "丹麥"
+   },
+   "Denmark": {
+      "message": "丹麥"
+   },
+   "Denmark_d": {
+      "message": "丹麥"
+   },
+   "Dutch": {
+      "message": "荷蘭人"
+   },
+   "English": {
+      "message": "英語"
+   },
+   "Europe": {
+      "message": "歐洲"
+   },
+   "FREE": {
+      "message": "免費"
+   },
+   "Fast": {
+      "message": "快"
+   },
+   "Features": {
+      "message": "特點"
+   },
+   "Finland": {
+      "message": "芬蘭"
+   },
+   "Finland_d": {
+      "message": "芬蘭"
+   },
+   "Finnish": {
+      "message": "芬蘭"
+   },
+   "France": {
+      "message": "法國"
+   },
+   "France_d": {
+      "message": "法國"
+   },
+   "French": {
+      "message": "法國"
+   },
+   "Gender": {
+      "message": "性別"
+   },
+   "German": {
+      "message": "德國"
+   },
+   "Germany": {
+      "message": "德國"
+   },
+   "Germany_d": {
+      "message": "德國"
+   },
+   "Greek": {
+      "message": "希臘語"
+   },
+   "Hong_Kong": {
+      "message": "香港"
+   },
+   "Hong_Kong_d": {
+      "message": "香港"
+   },
+   "Hungarian": {
+      "message": "匈牙利"
+   },
+   "Hungary": {
+      "message": "匈牙利"
+   },
+   "Hungary_d": {
+      "message": "匈牙利"
+   },
+   "Italian": {
+      "message": "意大利"
+   },
+   "Italy": {
+      "message": "意大利"
+   },
+   "Italy_d": {
+      "message": "意大利"
+   },
+   "Japan": {
+      "message": "日本"
+   },
+   "Japan_d": {
+      "message": "日本"
+   },
+   "Japanese": {
+      "message": "日本"
+   },
+   "Korea": {
+      "message": "韓國"
+   },
+   "Korea_d": {
+      "message": "朝鮮的"
+   },
+   "Korean": {
+      "message": "朝鮮的"
+   },
+   "LITE": {
+      "message": "精簡版"
+   },
+   "Language": {
+      "message": "語言"
+   },
+   "Mexico": {
+      "message": "墨西哥"
+   },
+   "Mexico_d": {
+      "message": "墨西哥人"
+   },
+   "Month_desc": {
+      "message": "Select and Speak月訂閱"
+   },
+   "Netherlands": {
+      "message": "荷蘭"
+   },
+   "Netherlands_d": {
+      "message": "荷蘭人"
+   },
+   "Normal": {
+      "message": "正常"
+   },
+   "North_America": {
+      "message": "北美"
+   },
+   "Norway": {
+      "message": "挪威"
+   },
+   "Norway_d": {
+      "message": "挪威"
+   },
+   "Norwegian": {
+      "message": "挪威"
+   },
+   "Pacific": {
+      "message": "和平的"
+   },
+   "Poland": {
+      "message": "波蘭"
+   },
+   "Poland_d": {
+      "message": "波蘭語"
+   },
+   "Polish": {
+      "message": "波蘭語"
+   },
+   "Portugal": {
+      "message": "葡萄牙"
+   },
+   "Portugal_d": {
+      "message": "葡萄牙語"
+   },
+   "Portuguese": {
+      "message": "葡萄牙語"
+   },
+   "Pro_Features": {
+      "message": "Pro功能"
+   },
+   "Russia": {
+      "message": "俄羅斯"
+   },
+   "Russia_d": {
+      "message": "俄"
+   },
+   "Russian": {
+      "message": "俄"
+   },
+   "Slow": {
+      "message": "慢"
+   },
+   "South_America": {
+      "message": "南/中美洲"
+   },
+   "Spain": {
+      "message": "西班牙"
+   },
+   "Spain_d": {
+      "message": "西班牙語"
+   },
+   "Spanish": {
+      "message": "西班牙語"
+   },
+   "Speech": {
+      "message": "語音"
+   },
+   "Speed": {
+      "message": "速度"
+   },
+   "Sweden": {
+      "message": "瑞典"
+   },
+   "Sweden_d": {
+      "message": "瑞典"
+   },
+   "Swedish": {
+      "message": "瑞典"
+   },
+   "Taiwan": {
+      "message": "台灣"
+   },
+   "Taiwan_d": {
+      "message": "台灣"
+   },
+   "Turkey": {
+      "message": "火雞"
+   },
+   "Turkey_d": {
+      "message": "土耳其"
+   },
+   "Turkish": {
+      "message": "土耳其"
+   },
+   "United_Kingdom": {
+      "message": "英國"
+   },
+   "United_Kingdom_d": {
+      "message": "英國人"
+   },
+   "United_States": {
+      "message": "美國"
+   },
+   "United_States_d": {
+      "message": "美國"
+   },
+   "Year_desc": {
+      "message": "Select and Speak年訂閱"
+   },
+   "all_only": {
+      "message": "獲取所有這些功能僅需"
+   },
+   "answer1": {
+      "message": "Select and Speak可讓你在Chrome瀏覽器中收聽任意文本。 你可以選擇任何期望朗讀的文本，右擊並使用Slelect and Speak朗讀"
+   },
+   "answer2": {
+      "message": "視情況而定。 如果PDF包含可被選中的真實文本，則可朗讀。 如果PDF是圖片或文本掃描件，那麼可能無法朗讀。"
+   },
+   "answer3": {
+      "message": "我們的確有每年供數百萬使用者使用的免費版Select and Speak，但我們必須向使用頻繁的使用者收費以提供服務。 限制是每天500字"
+   },
+   "app_name": {
+      "message": "Select and Speak 文字到語音"
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "根據頁面內容自動切換語言"
+   },
+   "autolangOption": {
+      "message": "自動語言檢測"
+   },
+   "automaticLanguage": {
+      "message": "自動語言"
+   },
+   "autoplayOption": {
+      "message": "自動播放選項"
+   },
+   "autoplay_off": {
+      "message": "關閉自動播放"
+   },
+   "autoplay_on": {
+      "message": "開啟自動播放"
+   },
+   "become_pro": {
+      "message": "立即成為專家用戶"
+   },
+   "buy_edu": {
+      "message": "購買教育套裝"
+   },
+   "cancelAnyTime": {
+      "message": "隨時取消"
+   },
+   "checkout_pro": {
+      "message": "查看專業版功能"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "選擇聲音性別和朗讀速度"
+   },
+   "choose_language": {
+      "message": "選擇語言"
+   },
+   "contact": {
+      "message": "聯繫我們"
+   },
+   "could_not_read": {
+      "message": "頁面無法被朗讀，請刷新頁面。"
+   },
+   "country": {
+      "message": "國家"
+   },
+   "dashboard": {
+      "message": "儀表板"
+   },
+   "detect_lang": {
+      "message": "自動語言檢測"
+   },
+   "discounted": {
+      "message": "已折扣 了解更多"
+   },
+   "edu_discounts": {
+      "message": "如果你是教師或教育家，那麼獲取學生特別折扣吧。"
+   },
+   "educationalVersion": {
+      "message": "教育版"
+   },
+   "educational_package": {
+      "message": "教育套裝"
+   },
+   "faq": {
+      "message": "常見問題"
+   },
+   "fast_or_slow": {
+      "message": "以21種不同速度設定朗讀文本"
+   },
+   "female": {
+      "message": "女"
+   },
+   "final_step": {
+      "message": "最後一步 - 輸入你的詳細資訊"
+   },
+   "final_step_message": {
+      "message": "為了提升Select and Speak的全球使用體驗，我們需要各類使用者的資訊。 請提供以下詳情以確保應用合理配置，達到最高準確度。"
+   },
+   "for_sentences": {
+      "message": "僅需朗讀$1句話"
+   },
+   "free_trial": {
+      "message": "免費7天試用"
+   },
+   "free_version": {
+      "message": "你正在使用免費版"
+   },
+   "fullPrice_alone": {
+      "message": "47.88美元"
+   },
+   "gender": {
+      "message": "性別"
+   },
+   "halfOff": {
+      "message": "50％的推介折扣優惠"
+   },
+   "help_us": {
+      "message": "免費獲取專家版訂閱"
+   },
+   "home": {
+      "message": "首頁"
+   },
+   "improve_speak": {
+      "message": "我們正在嘗試提升Select and Speak。 幫助我們，即可免費獲取1周或1月的頂級訂閱！"
+   },
+   "langs": {
+      "message": "27種語言"
+   },
+   "limit_alert": {
+      "message": "選中文本超過每日限制$1字。請升級以解除限制，"
+   },
+   "m_price": {
+      "message": "每月3.99美元"
+   },
+   "male": {
+      "message": "男"
+   },
+   "month": {
+      "message": "1月"
+   },
+   "monthPrice_alone": {
+      "message": "3.99美元"
+   },
+   "monthly": {
+      "message": "月費"
+   },
+   "monthlyPrice": {
+      "message": "3.99美元每月"
+   },
+   "native_language": {
+      "message": "母語"
+   },
+   "next": {
+      "message": "下一個"
+   },
+   "no_barriers": {
+      "message": "以27種不同語言朗讀文本"
+   },
+   "not_much": {
+      "message": "你要做的不多，我們會向你提供一些文本，你只需將它們大聲朗讀出來（最好是在安靜的環境中）。"
+   },
+   "num_students": {
+      "message": "學生數"
+   },
+   "options_title": {
+      "message": "Select and Speak 選項"
+   },
+   "or": {
+      "message": "或"
+   },
+   "origin_place": {
+      "message": "郵遞區號 （你長大的地方）"
+   },
+   "paragraph_player": {
+      "message": "已關閉文章朗讀器。您可以在選項頁面再次打開。"
+   },
+   "per_student": {
+      "message": "每位學生"
+   },
+   "premium": {
+      "message": "（高級版）"
+   },
+   "previous": {
+      "message": "上一個"
+   },
+   "price": {
+      "message": "價格"
+   },
+   "proVersion": {
+      "message": "專業版"
+   },
+   "pro_features": {
+      "message": "專業版功能"
+   },
+   "purchase_audio": {
+      "message": "購買選中文本的音頻"
+   },
+   "question1": {
+      "message": "Select and Speak的工作原理是什麼？"
+   },
+   "question2": {
+      "message": "我能用該軟件朗讀PDF嗎？"
+   },
+   "question3": {
+      "message": "軟體說我的字數用完了，我該怎麼辦？"
+   },
+   "readSpeeds": {
+      "message": "21種朗讀速度"
+   },
+   "read_aloud": {
+      "message": "大聲朗讀下方句子"
+   },
+   "read_autoplay": {
+      "message": "自動播放文本 - 方便快捷"
+   },
+   "read_more": {
+      "message": "瞭解更多"
+   },
+   "read_with_speak": {
+      "message": "使用Select and Speak朗讀"
+   },
+   "read_words": {
+      "message": "每天僅限500字"
+   },
+   "restart": {
+      "message": "您必須重新啟動Chrome以完成Select and Speak安裝。"
+   },
+   "save60": {
+      "message": "節省60％"
+   },
+   "secure": {
+      "message": "100%安全：你的資訊僅被用於提升核心科技，並且將完全安全。"
+   },
+   "security": {
+      "message": "出於安全原因擴展無法在本地Chrome網頁運行"
+   },
+   "settings": {
+      "message": "設定"
+   },
+   "shareThis_finePrint": {
+      "message": "（僅限月度訂閱，受推薦人必須成為訂閱使用者至少達60天才可獲取折扣）"
+   },
+   "share_this": {
+      "message": "分享該連結獲取50%折扣"
+   },
+   "showPlay": {
+      "message": "顯示\"\"文章播放按鈕\""
+   },
+   "speak_selected": {
+      "message": "朗讀所選文字"
+   },
+   "special_discount": {
+      "message": "特別折扣適用于"
+   },
+   "speech_faq": {
+      "message": "Select and Speak常見問題"
+   },
+   "start_training": {
+      "message": "開始幫助我們"
+   },
+   "subConf": {
+      "message": "您已經成功升級到Pro"
+   },
+   "submit_data": {
+      "message": "提交以獲取1月免費訂閱"
+   },
+   "teachers": {
+      "message": "學生&教師"
+   },
+   "tryProFree": {
+      "message": "免費試用Pro 7天"
+   },
+   "tryRiskFree": {
+      "message": "無風險嘗試"
+   },
+   "unlWords": {
+      "message": "無限字數"
+   },
+   "unlimited_reading": {
+      "message": "不間斷收聽，沒有字數限制"
+   },
+   "unlimited_words": {
+      "message": "想獲取無字數限制、自動播放選項和更多功能？"
+   },
+   "upgrade": {
+      "message": "升級到Pro"
+   },
+   "upgrade_pro": {
+      "message": "升級到Pro"
+   },
+   "upgrade_select_speak": {
+      "message": "升級Select and Speak"
+   },
+   "week": {
+      "message": "1周"
+   },
+   "welcome": {
+      "message": "歡迎來到Slect and Speak"
+   },
+   "what_do": {
+      "message": "你需要做什麼？"
+   },
+   "what_get": {
+      "message": "你可在該版本中獲得什麼？"
+   },
+   "what_get_pro": {
+      "message": "專業版本功能："
+   },
+   "wordsPerDay": {
+      "message": "500字/天"
+   },
+   "y_price": {
+      "message": "每年19.99美元"
+   },
+   "yearly": {
+      "message": "年費"
+   },
+   "yearlyPrice": {
+      "message": "19.99美元每年"
+   },
+   "yearlyPrice_alone": {
+      "message": "19.99美元"
+   },
+   "your_age": {
+      "message": "你的年齡"
+   }
+}

@@ -1,0 +1,617 @@
+{
+   "Annually": {
+      "message": "Årsvis"
+   },
+   "Arabic": {
+      "message": "arabic"
+   },
+   "Asia": {
+      "message": "Asien"
+   },
+   "Australia": {
+      "message": "Australien"
+   },
+   "Australia_d": {
+      "message": "svenska"
+   },
+   "Autoplay": {
+      "message": "Automatisk uppspelning"
+   },
+   "Autoplay_desc": {
+      "message": "Automatisk uppläsning av markering"
+   },
+   "Brazil": {
+      "message": "Brasilien"
+   },
+   "Brazil_d": {
+      "message": "brasilianska"
+   },
+   "British": {
+      "message": "Brittiskt"
+   },
+   "Canada": {
+      "message": "Kanada"
+   },
+   "Canada_d": {
+      "message": "kanadensiska"
+   },
+   "Catalan": {
+      "message": "Katalanska"
+   },
+   "China": {
+      "message": "Kina"
+   },
+   "China_d": {
+      "message": "kinesisk"
+   },
+   "Chinese": {
+      "message": "kinesisk"
+   },
+   "Czech": {
+      "message": "Tjeckiska"
+   },
+   "Czech_d": {
+      "message": "Tjeckiska"
+   },
+   "Danish": {
+      "message": "danska"
+   },
+   "Denmark": {
+      "message": "Danmark"
+   },
+   "Denmark_d": {
+      "message": "danska"
+   },
+   "Dutch": {
+      "message": "Holländska"
+   },
+   "English": {
+      "message": "engelska"
+   },
+   "Europe": {
+      "message": "Europa"
+   },
+   "FREE": {
+      "message": "GRATIS"
+   },
+   "Fast": {
+      "message": "Snabb"
+   },
+   "Features": {
+      "message": "Funktioner"
+   },
+   "Finland": {
+      "message": "Finland"
+   },
+   "Finland_d": {
+      "message": "finska"
+   },
+   "Finnish": {
+      "message": "finska"
+   },
+   "France": {
+      "message": "Frankrike"
+   },
+   "France_d": {
+      "message": "franska"
+   },
+   "French": {
+      "message": "franska"
+   },
+   "Gender": {
+      "message": "Kön"
+   },
+   "German": {
+      "message": "tysk"
+   },
+   "Germany": {
+      "message": "Tyskland"
+   },
+   "Germany_d": {
+      "message": "tysk"
+   },
+   "Greek": {
+      "message": "grekisk"
+   },
+   "Hong_Kong": {
+      "message": "Hong Kong"
+   },
+   "Hong_Kong_d": {
+      "message": "Hong Kong"
+   },
+   "Hungarian": {
+      "message": "ungerska"
+   },
+   "Hungary": {
+      "message": "Ungern"
+   },
+   "Hungary_d": {
+      "message": "ungerska"
+   },
+   "Italian": {
+      "message": "italiensk"
+   },
+   "Italy": {
+      "message": "Italien"
+   },
+   "Italy_d": {
+      "message": "italiensk"
+   },
+   "Japan": {
+      "message": "Japan"
+   },
+   "Japan_d": {
+      "message": "japansk"
+   },
+   "Japanese": {
+      "message": "japansk"
+   },
+   "Korea": {
+      "message": "Korea"
+   },
+   "Korea_d": {
+      "message": "koreanska"
+   },
+   "Korean": {
+      "message": "koreanska"
+   },
+   "LITE": {
+      "message": "LITE-version"
+   },
+   "Language": {
+      "message": "Språk"
+   },
+   "Mexico": {
+      "message": "Mexiko"
+   },
+   "Mexico_d": {
+      "message": "Mexikansk"
+   },
+   "Month_desc": {
+      "message": "Select and Speak månadsprenumeration"
+   },
+   "Netherlands": {
+      "message": "Nederländerna"
+   },
+   "Netherlands_d": {
+      "message": "Holländska"
+   },
+   "Normal": {
+      "message": "Normal"
+   },
+   "North_America": {
+      "message": "nordamerika"
+   },
+   "Norway": {
+      "message": "Norge"
+   },
+   "Norway_d": {
+      "message": "norska"
+   },
+   "Norwegian": {
+      "message": "norska"
+   },
+   "Pacific": {
+      "message": "Pacific"
+   },
+   "Poland": {
+      "message": "Polen"
+   },
+   "Poland_d": {
+      "message": "polska"
+   },
+   "Polish": {
+      "message": "polska"
+   },
+   "Portugal": {
+      "message": "Portugal"
+   },
+   "Portugal_d": {
+      "message": "portugisiska"
+   },
+   "Portuguese": {
+      "message": "portugisiska"
+   },
+   "Pro_Features": {
+      "message": "Pro funktioner"
+   },
+   "Russia": {
+      "message": "Ryssland"
+   },
+   "Russia_d": {
+      "message": "ryska"
+   },
+   "Russian": {
+      "message": "ryska"
+   },
+   "Slow": {
+      "message": "Långsam"
+   },
+   "South_America": {
+      "message": "South / Centralamerika"
+   },
+   "Spain": {
+      "message": "Spanien"
+   },
+   "Spain_d": {
+      "message": "spanska"
+   },
+   "Spanish": {
+      "message": "spanska"
+   },
+   "Speech": {
+      "message": "Tala"
+   },
+   "Speed": {
+      "message": "Hastighet"
+   },
+   "Sweden": {
+      "message": "Sverige"
+   },
+   "Sweden_d": {
+      "message": "svenska"
+   },
+   "Swedish": {
+      "message": "svenska"
+   },
+   "Taiwan": {
+      "message": "Taiwan"
+   },
+   "Taiwan_d": {
+      "message": "taiwanesiska"
+   },
+   "Turkey": {
+      "message": "kalkon"
+   },
+   "Turkey_d": {
+      "message": "turkiska"
+   },
+   "Turkish": {
+      "message": "turkiska"
+   },
+   "United_Kingdom": {
+      "message": "Storbritannien"
+   },
+   "United_Kingdom_d": {
+      "message": "britt"
+   },
+   "United_States": {
+      "message": "Förenta Staterna"
+   },
+   "United_States_d": {
+      "message": "Amerikanskt"
+   },
+   "Year_desc": {
+      "message": "Select and Speak årsprenumeration"
+   },
+   "all_only": {
+      "message": "Du får alla dessa funktioner för bara"
+   },
+   "answer1": {
+      "message": "Med Select and Speak kan du lyssna på vilken text som helst via din Chrome browser. Du väljer den text du vill läsa, högerklickar och klickar Läs med Select and Speak."
+   },
+   "answer2": {
+      "message": "Det beror på. On PDF:en innehåller faktisk text som är valbar fungerar det. Om PDF:en är en bild eller textskanning, fungerar det troligen inte."
+   },
+   "answer3": {
+      "message": "För att kunna erbjuda den gratisversion av Select and Speak som används av miljoner användare årligen, måste vi ta betalt av mer frekventa användare. Gränsen går vid 500 ord per dag."
+   },
+   "app_name": {
+      "message": "Select and Speak - Talsyntes"
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "Växla språk automatiskt efter sidinnehåll"
+   },
+   "autolangOption": {
+      "message": "Automatisk språkidentifiering"
+   },
+   "automaticLanguage": {
+      "message": "Automatiskt språk"
+   },
+   "autoplayOption": {
+      "message": "Automatiskt uppspelningsalternativ"
+   },
+   "autoplay_off": {
+      "message": "Inaktivera automatisk uppspelning"
+   },
+   "autoplay_on": {
+      "message": "Aktivera automatisk uppspelning"
+   },
+   "become_pro": {
+      "message": "Bli en Pro-användare nu"
+   },
+   "buy_edu": {
+      "message": "Köp utbildningspaketet"
+   },
+   "cancelAnyTime": {
+      "message": "Avsluta när som helst"
+   },
+   "checkout_pro": {
+      "message": "Kolla in Pro-funktionerna"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "Välj kvinnlig/manlig röst och läshastighet"
+   },
+   "choose_language": {
+      "message": "Välj språk"
+   },
+   "contact": {
+      "message": "Kontakta oss"
+   },
+   "could_not_read": {
+      "message": "Sidan kunde inte läsas, ladda om sidan."
+   },
+   "country": {
+      "message": "Land"
+   },
+   "dashboard": {
+      "message": "INSTRUMENTPANEL"
+   },
+   "detect_lang": {
+      "message": "Automatisk språkigenkänning"
+   },
+   "discounted": {
+      "message": "Rabatterat - Läs mer"
+   },
+   "edu_discounts": {
+      "message": "Få speciell rabatt om du är student, lärare eller utbildare. "
+   },
+   "educationalVersion": {
+      "message": "Utbildningsversion"
+   },
+   "educational_package": {
+      "message": "Undervisningspaket"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "fast_or_slow": {
+      "message": "Uppläsning av texten i 21 olika hastigheter"
+   },
+   "female": {
+      "message": "kvinna"
+   },
+   "final_step": {
+      "message": "Sista steget - Skriv in din information"
+   },
+   "final_step_message": {
+      "message": "För att kunna förbättra Select and Speak så att den fungerar i hela världen samlar vi information från olika användare. Vänligen ge oss följande information för att bidra till att appen ska utvecklas för maximal ackuratess."
+   },
+   "for_sentences": {
+      "message": "För $1 meningar"
+   },
+   "free_trial": {
+      "message": "Gratis provperiod i 7 dagar"
+   },
+   "free_version": {
+      "message": "Du använder gratisversionen"
+   },
+   "fullPrice_alone": {
+      "message": "259 kr"
+   },
+   "gender": {
+      "message": "Kön"
+   },
+   "halfOff": {
+      "message": "50% rabatt som introduktionserbjudande"
+   },
+   "help_us": {
+      "message": "Få Pro-abonnemang gratis"
+   },
+   "home": {
+      "message": "Hem"
+   },
+   "improve_speak": {
+      "message": "Vi försöker förbättra Select and Speak. Hjälp oss och få 1 veckas eller 1 månads Premiumabonnemang gratis!"
+   },
+   "langs": {
+      "message": "27 Språk"
+   },
+   "limit_alert": {
+      "message": "Markeringen består av $1 ord över den dagliga gränsen. Uppgradera för att ta bort denna begränsning."
+   },
+   "m_price": {
+      "message": "$$3.99 per månad"
+   },
+   "male": {
+      "message": "man"
+   },
+   "month": {
+      "message": "1 månad"
+   },
+   "monthPrice_alone": {
+      "message": "$$3.99"
+   },
+   "monthly": {
+      "message": "Månatligen"
+   },
+   "monthlyPrice": {
+      "message": "25 kr per månad"
+   },
+   "native_language": {
+      "message": "Modersmål"
+   },
+   "next": {
+      "message": "Nästa"
+   },
+   "no_barriers": {
+      "message": "Uppläsning av texten på 27 olika språk"
+   },
+   "not_much": {
+      "message": "Inte mycket. Vi kommer att skicka några textrader som du ska läsa högt (helst i en tyst omgivning)."
+   },
+   "num_students": {
+      "message": "Antal studenter"
+   },
+   "options_title": {
+      "message": "Select and Speak alternativ"
+   },
+   "or": {
+      "message": "eller"
+   },
+   "origin_place": {
+      "message": "Postnummer (där du växte upp)"
+   },
+   "paragraph_player": {
+      "message": "Du har inaktiverat stycke-uppläsaren. DU kan aktivera denna på sidan för alternativ."
+   },
+   "per_student": {
+      "message": "Per student"
+   },
+   "premium": {
+      "message": " (Premium)"
+   },
+   "previous": {
+      "message": "Förra"
+   },
+   "price": {
+      "message": "Pris"
+   },
+   "proVersion": {
+      "message": "Professionell version"
+   },
+   "pro_features": {
+      "message": "Pro-funktioner"
+   },
+   "purchase_audio": {
+      "message": "Köp ljud från detta urval"
+   },
+   "question1": {
+      "message": "Hur fungerar Select and Speak?"
+   },
+   "question2": {
+      "message": "Kan jag lyssna på PDF:er?"
+   },
+   "question3": {
+      "message": "Den säger att jag inte har fler ord, vad ska jag göra?"
+   },
+   "readSpeeds": {
+      "message": "21 Läshastigheter"
+   },
+   "read_aloud": {
+      "message": "Läs den följande meningen högt"
+   },
+   "read_autoplay": {
+      "message": "Autouppspelning av text - snabbt och enkelt"
+   },
+   "read_more": {
+      "message": "Läs mer"
+   },
+   "read_with_speak": {
+      "message": "Läs med Select and Speak"
+   },
+   "read_words": {
+      "message": "Bara 500 ord per dag"
+   },
+   "restart": {
+      "message": "DU måste starta om Chrome för att slutföra installationen av Select and Speak"
+   },
+   "save60": {
+      "message": "Spara 60%"
+   },
+   "secure": {
+      "message": "100% säkert: Din information används bara för att förbättra teknologin och behandlas helt säkert av oss."
+   },
+   "security": {
+      "message": "Tillägg kan inte köras i lokala Chrome-sidor av säkerhetsskäl"
+   },
+   "settings": {
+      "message": "Inställningar"
+   },
+   "shareThis_finePrint": {
+      "message": "(endast månadskontrakt, rekryterade personer måste teckna abonnemang för minst 60 dagar innan rabatten dras av)"
+   },
+   "share_this": {
+      "message": "Dela den här länken och få 50% rabatt*"
+   },
+   "showPlay": {
+      "message": "Visa \"Spela upp stycke knapp \""
+   },
+   "speak_selected": {
+      "message": "Uttala markerad text"
+   },
+   "special_discount": {
+      "message": "Specialrabatt för"
+   },
+   "speech_faq": {
+      "message": "Select and Speak FAQ"
+   },
+   "start_training": {
+      "message": "Börja hjälpa"
+   },
+   "subConf": {
+      "message": "Din uppgradering till Pro är genomförd"
+   },
+   "submit_data": {
+      "message": "Skicka in så får du 1 månad gratis"
+   },
+   "teachers": {
+      "message": "Studenter & Lärare"
+   },
+   "tryProFree": {
+      "message": "Testa Pro gratis i 7 dagar"
+   },
+   "tryRiskFree": {
+      "message": "Testa Pro riskfritt"
+   },
+   "unlWords": {
+      "message": "Obegränsat antal ord"
+   },
+   "unlimited_reading": {
+      "message": "Obegränsat antal ord att lyssna på så mycket du vill"
+   },
+   "unlimited_words": {
+      "message": "Vill du ha obegränsat antal ord, autouppspelning och fler funktioner?"
+   },
+   "upgrade": {
+      "message": "Uppgradera till Pro"
+   },
+   "upgrade_pro": {
+      "message": "Uppgradera till Pro"
+   },
+   "upgrade_select_speak": {
+      "message": "Uppgradera Select and Speak"
+   },
+   "week": {
+      "message": "1 vecka"
+   },
+   "welcome": {
+      "message": "Välkommen till Select and Speak"
+   },
+   "what_do": {
+      "message": "Vad behöver du göra?"
+   },
+   "what_get": {
+      "message": "Vad får du i den här versionen?"
+   },
+   "what_get_pro": {
+      "message": "Pro-versionens funktioner:"
+   },
+   "wordsPerDay": {
+      "message": "500 ord / dag"
+   },
+   "y_price": {
+      "message": "$$19.99 per år"
+   },
+   "yearly": {
+      "message": "Årligen"
+   },
+   "yearlyPrice": {
+      "message": "129 kr per år"
+   },
+   "yearlyPrice_alone": {
+      "message": "129 kr"
+   },
+   "your_age": {
+      "message": "Din ålder"
+   }
+}

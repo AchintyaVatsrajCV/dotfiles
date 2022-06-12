@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meet Attendance downloader</title>
+    <link rel="stylesheet" href="../libs/bootstrap.min.css" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <script src="../libs/sweetalert2@9.js"></script>
+  <body>
+    <button
+      style="padding: 0px 5px; border: none; right: 0;top: 0px; position: absolute;"
+      class="close"
+      aria-label="Close"
+      id="close"
+    >
+    <span aria-hidden="true">&times;</span>
+  </button>
+    <div class="heading-container">
+      <div class="heading">
+        <img class="logo" src="/icons/icon128.png"/>
+        <h1>Meet Attendance Collector</h1>
+      </div>
+      <a class="rateus" href="https://chrome.google.com/webstore/detail/google-meet-attendance-wo/hjjeaaibilndjeabckakaknlcbblcmbc/reviews" target="_blank"><img src="../icons/rateus.png"/>Rate Us</a>
+      <img class="guide" src="/icons/guide.png"/>
+    </div>
+    <div class="reminder-container">
+      <div class="reminder-top">
+        <h2>Meeting Reminder</h2>
+        <select id="reminder-type" name="reminder-type">
+          <option value="one time">One time</option>
+          <option value="daily">Daily</option>
+        </select>
+      </div>
+      <div class="set-reminder-container">
+        <input type="date" id="date" name="date">
+        <input type="time" id="time" name="time">
+        <button class="set-reminder" >Set Reminder</button>
+      </div>
+      <details>
+        <summary>show reminders</summary>
+        <ul class="reminder-list">
+        </ul>
+        <button class="delete">delete</button>
+      </details>
+    </div>
+    <div class="singletime-container">
+      <h2>Single Time Attendace</h2>
+      <p class="notes">Record and download attendance at this moment</p>
+      <div class="members-count">
+        <p>Members : <span id="counter">00</span></p>
+      </div>
+      <div class="singletime-controller-container btn-group">
+        <button id="refresh">Scan Now</button>
+        <button id="download">Rescan + Download </button>
+        <button id="clear">Clear</button>
+      </div>
+    </div>
+    <div class="timewise-container">
+      <h2>Time-wise Attendace</h2>
+      <p class="notes">Attendance at different times ( Manual )</p>
+      <div id="start_mon_lay">
+        <button id="start_mon_btn" class="btn btn-link">Start Monitoring</button>
+      </div>
+      <div class="timewise-controller-container btn-group" id="live_mon_lay">
+        <button id="take_record_mon_btn">New record now</button>
+        <a
+          href="../monitor/monitor.html"
+          target="_blank"
+          id="show_record_mon_btn"
+          role="button"
+          >Show monitor
+        </a>
+        <a
+          href="../monitor/monitor.html"
+          target="_blank"
+          id="stop_record_mon_btn"
+          role="button"
+          >Stop monitoring
+        </a> 
+      </div>
+    </div>
+    <p class="help-notes"><a href="https://meet.google.com/" target="_blank">Create a meeting</a> before collecting attendance</p>
+    <div
+        class="progress progress-bar progress-bar-striped progress-bar-animated"
+        id="progress_bar"
+        role="progressbar"
+        aria-valuenow="100"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        style="width: 100%; display: none; height: 5px"
+      ></div> 
+    <!-- <button
+      style="padding: 0.375rem 0.75rem; border: none"
+      class="close"
+      aria-label="Close"
+      id="close"
+    >
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="jumbotron" style="width: 500px; padding: 2rem">
+      <h4 class="display-5">Meet Attendance Collector</h4>
+      <div id="remainder">
+        <p>Set Meeting reminder @ </p>
+        <input id="datetime-input" type="datetime-local" required="required" value="" />
+        <button>Set Remainder</button>
+      </div>
+      <div id="timer">
+        <ul class="time">
+        </ul>
+      </div>
+      <p class="lead">
+        Chrome Extension to collect meet attendance
+
+        <button id="options" class="btn btn-link d-inline">
+          Add or Change Aliases
+        </button>
+        <a
+          href="https://sites.google.com/view/meet-attendance-collector/"
+          target="_blank"
+          class="btn btn-link d-inline"
+          >Show Usage guide</a
+        >
+      </p>
+
+      <h4>Single Time Attendance:</h4>
+
+      <p>Record and download attendance at this moment.</p>
+
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <p style="margin-bottom: 0.25rem">
+          Members : <span id="counter">0</span>
+        </p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button id="refresh" class="btn btn-link" role="button">
+            Rescan
+          </button>
+          <button id="download" class="btn btn-link">Rescan + Download</button>
+          <button id="clear" class="btn btn-link">Clear</button>
+        </div>
+      </div>
+
+      <h4>Time-wise Attendance Recording :</h4>
+      <p>Attendance at different times (NOT AUTOMATIC)</p>
+      <div class="btn-group" id="start_mon_lay">
+        <button id="start_mon_btn" class="btn btn-link">
+          Start Monitoring
+        </button>
+      </div>
+      <div class="btn-group" id="live_mon_lay">
+        <button id="take_record_mon_btn" class="btn btn-link">
+          New Record now
+        </button>
+        <a
+          href="../monitor/monitor.html"
+          target="_blank"
+          class="btn btn-link"
+          role="button"
+          >Show monitor
+        </a>
+        <a
+          href="../monitor/monitor.html"
+          target="_blank"
+          id="stop_record_mon_btn"
+          class="btn btn-link"
+          role="button"
+          >Stop monitoring
+        </a> 
+
+        <div class="d-block">
+          <p class="text-center">
+            Click <code>New Record now</code> to add attendance record.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="progress progress-bar progress-bar-striped progress-bar-animated"
+        id="progress_bar"
+        role="progressbar"
+        aria-valuenow="100"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        style="width: 100%; display: none; height: 5px"
+      ></div> -->
+      <!-- <div class="text-center m-0">
+        <hr /> -->
+
+        <!-- <p class="star-msg">*** New Update: Bugs Fixed ***</p> -->
+        <!-- <p>* Try time wise attendance for multiple records of attendance</p>
+
+        <p id="version" class="text-center">by p2pdops</p>
+
+        <div class="btn-group" role="group" aria-label="First group">
+          <a
+            target="_blank"
+            href="mailto:p2pdops@gmail.com"
+            type="button"
+            class="btn btn-link"
+          >
+            <img
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMTIuNzEzbC0xMS45ODUtOS43MTNoMjMuOTcxbC0xMS45ODYgOS43MTN6bS01LjQyNS0xLjgyMmwtNi41NzUtNS4zMjl2MTIuNTAxbDYuNTc1LTcuMTcyem0xMC44NSAwbDYuNTc1IDcuMTcydi0xMi41MDFsLTYuNTc1IDUuMzI5em0tMS41NTcgMS4yNjFsLTMuODY4IDMuMTM1LTMuODY4LTMuMTM1LTguMTEgOC44NDhoMjMuOTU2bC04LjExLTguODQ4eiIvPjwvc3ZnPg=="
+              alt="Gmail"
+              title="Contact me in Gmail"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/p2pdops"
+            type="button"
+            class="btn btn-link"
+          >
+            <img
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjYgMC0xMiA1LjM3My0xMiAxMiAwIDUuMzAyIDMuNDM4IDkuOCA4LjIwNyAxMS4zODcuNTk5LjExMS43OTMtLjI2MS43OTMtLjU3N3YtMi4yMzRjLTMuMzM4LjcyNi00LjAzMy0xLjQxNi00LjAzMy0xLjQxNi0uNTQ2LTEuMzg3LTEuMzMzLTEuNzU2LTEuMzMzLTEuNzU2LTEuMDg5LS43NDUuMDgzLS43MjkuMDgzLS43MjkgMS4yMDUuMDg0IDEuODM5IDEuMjM3IDEuODM5IDEuMjM3IDEuMDcgMS44MzQgMi44MDcgMS4zMDQgMy40OTIuOTk3LjEwNy0uNzc1LjQxOC0xLjMwNS43NjItMS42MDQtMi42NjUtLjMwNS01LjQ2Ny0xLjMzNC01LjQ2Ny01LjkzMSAwLTEuMzExLjQ2OS0yLjM4MSAxLjIzNi0zLjIyMS0uMTI0LS4zMDMtLjUzNS0xLjUyNC4xMTctMy4xNzYgMCAwIDEuMDA4LS4zMjIgMy4zMDEgMS4yMy45NTctLjI2NiAxLjk4My0uMzk5IDMuMDAzLS40MDQgMS4wMi4wMDUgMi4wNDcuMTM4IDMuMDA2LjQwNCAyLjI5MS0xLjU1MiAzLjI5Ny0xLjIzIDMuMjk3LTEuMjMuNjUzIDEuNjUzLjI0MiAyLjg3NC4xMTggMy4xNzYuNzcuODQgMS4yMzUgMS45MTEgMS4yMzUgMy4yMjEgMCA0LjYwOS0yLjgwNyA1LjYyNC01LjQ3OSA1LjkyMS40My4zNzIuODIzIDEuMTAyLjgyMyAyLjIyMnYzLjI5M2MwIC4zMTkuMTkyLjY5NC44MDEuNTc2IDQuNzY1LTEuNTg5IDguMTk5LTYuMDg2IDguMTk5LTExLjM4NiAwLTYuNjI3LTUuMzczLTEyLTEyLTEyeiIvPjwvc3ZnPg=="
+              alt="GitHub"
+              title="Know my GitHub Page?"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://linkedin.com/in/p2pdops"
+            type="button"
+            class="btn btn-link"
+          >
+            <img
+              title="It's my LinkedIn Profile"
+              alt="Linked In"
+              width="24"
+              src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjUxMHB4IiBoZWlnaHQ9IjUxMHB4IiB2aWV3Qm94PSIwIDAgNTEwIDUxMCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEwIDUxMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGcgaWQ9InBvc3QtbGlua2VkaW4iPg0KCQk8cGF0aCBkPSJNNDU5LDBINTFDMjIuOTUsMCwwLDIyLjk1LDAsNTF2NDA4YzAsMjguMDUsMjIuOTUsNTEsNTEsNTFoNDA4YzI4LjA1LDAsNTEtMjIuOTUsNTEtNTFWNTFDNTEwLDIyLjk1LDQ4Ny4wNSwwLDQ1OSwweg0KCQkJIE0xNTMsNDMzLjVINzYuNVYyMDRIMTUzVjQzMy41eiBNMTE0Ljc1LDE2MC42NWMtMjUuNSwwLTQ1LjktMjAuNC00NS45LTQ1LjlzMjAuNC00NS45LDQ1LjktNDUuOXM0NS45LDIwLjQsNDUuOSw0NS45DQoJCQlTMTQwLjI1LDE2MC42NSwxMTQuNzUsMTYwLjY1eiBNNDMzLjUsNDMzLjVIMzU3VjI5OC4zNWMwLTIwLjM5OS0xNy44NS0zOC4yNS0zOC4yNS0zOC4yNXMtMzguMjUsMTcuODUxLTM4LjI1LDM4LjI1VjQzMy41SDIwNA0KCQkJVjIwNGg3Ni41djMwLjZjMTIuNzUtMjAuNCw0MC44LTM1LjcsNjMuNzUtMzUuN2M0OC40NSwwLDg5LjI1LDQwLjgsODkuMjUsODkuMjVWNDMzLjV6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+            />
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <script src="popup.js"></script>
+
+  </body>
+</html>

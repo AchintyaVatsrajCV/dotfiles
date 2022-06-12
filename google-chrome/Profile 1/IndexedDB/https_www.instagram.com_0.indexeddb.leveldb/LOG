@@ -1,0 +1,7 @@
+2022/06/07-17:54:06.988 31c68 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/07-17:54:06.988 31c68 Recovering log #3
+2022/06/07-17:54:06.988 31c68 Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000003.log 
+2022/06/07-18:40:12.740 345ce Level-0 table #5: started
+2022/06/07-18:40:12.782 345ce Level-0 table #5: 98763 bytes OK
+2022/06/07-18:40:12.816 345ce Delete type=0 #3
+2022/06/07-18:40:12.816 345ce Manual compaction at level-0 from (begin) .. (end); will stop at (end)

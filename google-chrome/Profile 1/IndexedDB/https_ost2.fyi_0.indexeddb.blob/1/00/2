@@ -1,0 +1,3549 @@
+ˇˇo"name"time"content"“Ávar $B = __BRYTHON__;
+var _b_ = __BRYTHON__.builtins;
+var $locals = $locals_time
+$locals_time.__package__ = ""
+$locals.__annotations__ = $B.empty_dict()
+var $top_frame = ["time", $locals_time, "time", $locals_time]
+$locals.$f_trace = $B.enter_frame($top_frame)
+var $stack_length = $B.frames_stack.length;
+try{
+    ;$locals.$line_info = "1,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $B.$import("_locale", [],{},$locals_time, true);_b_.None;;
+    ;$locals.$line_info = "2,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $B.$import("javascript", [],{},$locals_time, true);_b_.None;;
+    ;$locals.$line_info = "5,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["date"] = $B.$getattr($B.$getattr($locals_time["javascript"],"$$Date"),"$$new");
+    ;$locals.$line_info = "6,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["now"] = $B.$getattr($B.$getattr($locals_time["javascript"],"$$Date"),"now");
+    ;$locals.$line_info = "14,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["_STRUCT_TM_ITEMS"] = 9;
+    ;$locals.$line_info = "20,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var _get_day_of_year$17 = function($defaults){function _get_day_of_year17(arg){
+        var $locals_time__get_day_of_year_9 = {},
+            $locals = $locals_time__get_day_of_year_9;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time__get_day_of_year_9 = $locals = $B.args("_get_day_of_year", 1, {arg:null}, ["arg"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time__get_day_of_year_9 = $locals = {arg:arg}
+            }
+            else if($len > 1){$B.wrong_nb_args("_get_day_of_year", $len, 1, ["arg"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("_get_day_of_year", $len, 1, ["arg"])}
+            else{
+                $locals_time__get_day_of_year_9 = $locals = {arg:arg}
+                var defparams = ["arg"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "20,time"
+        var $top_frame=["time__get_day_of_year_9",$locals,"time", $locals_time, _get_day_of_year17]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "21,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            '';
+            ;$locals.$line_info = "32,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__get_day_of_year_9["ml"] = $B.$list([31,28,31,30,31,30,31,31,30,31,30,31]);
+            ;$locals.$line_info = "33,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool($B.rich_comp("__eq__",$B.rich_op("mod", $B.$getitem($locals["arg"],0), 4),0))){
+                ;$locals.$line_info = "34,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.augm_item_add($locals["ml"],1,1);_b_.None;
+            }
+            ;$locals.$line_info = "35,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__get_day_of_year_9["i"] = 1;
+            ;$locals.$line_info = "36,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__get_day_of_year_9["yday"] = 0;
+            $locals["$no_break18"] = true
+            ;$locals.$line_info = "37,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            while($B.$bool($locals["$no_break18"] && $B.rich_comp("__lt__",$locals["i"],$B.$getitem($locals["arg"],1)))){
+                ;$locals.$line_info = "38,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $temp,$left;
+                if($locals["yday"] === undefined){throw _b_.NameError.$factory("name 'yday' is not defined")}
+                $temp = $B.$getitem($locals["ml"],(typeof $locals["i"].valueOf() == "number" ? (typeof $locals["i"] == "number" ? $B.sub($locals["i"],1) : new Number($B.sub($locals["i"],1))): $B.rich_op("sub",$locals["i"],1)));
+                if(typeof $temp.valueOf() == "number" && $locals_time__get_day_of_year_9["yday"].constructor === Number && Number.isSafeInteger($locals_time__get_day_of_year_9["yday"]+$temp)){(typeof $temp == "number" && typeof $locals_time__get_day_of_year_9["yday"] == "number") ? $locals_time__get_day_of_year_9["yday"]+=$temp : $locals_time__get_day_of_year_9["yday"] = new Number($locals_time__get_day_of_year_9["yday"]+$temp.valueOf())}
+                else if(! _b_.hasattr($locals["yday"],"__iadd__")){
+                    ;$locals.$line_info = "38,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $locals_time__get_day_of_year_9["yday"] = $B.add($locals_time__get_day_of_year_9["yday"], $temp);
+                }
+                else{
+                    ;$locals.$line_info = "38,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $locals_time__get_day_of_year_9["yday"] = $B.$getattr($locals_time__get_day_of_year_9["yday"],"__iadd__")($temp)
+;
+                }
+                if($locals["i"] === undefined){throw _b_.NameError.$factory("name 'i' is not defined")}
+                ;$locals.$line_info = "39,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                if($locals_time__get_day_of_year_9["i"].constructor === Number && Number.isSafeInteger($locals_time__get_day_of_year_9["i"]+1)){(typeof $locals_time__get_day_of_year_9["i"] == "number") ? $locals_time__get_day_of_year_9["i"]+=1 : $locals_time__get_day_of_year_9["i"] = new Number($locals_time__get_day_of_year_9["i"]+1)}
+                else if(! _b_.hasattr($locals["i"],"__iadd__")){
+                    ;$locals.$line_info = "39,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $locals_time__get_day_of_year_9["i"] = $B.add($locals_time__get_day_of_year_9["i"], 1);
+                }
+                else{
+                    ;$locals.$line_info = "39,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $locals_time__get_day_of_year_9["i"] = $B.$getattr($locals_time__get_day_of_year_9["i"],"__iadd__")(1)
+;
+                }
+                $locals.$line_info = "37,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            }
+            ;$locals.$line_info = "40,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $temp,$left;
+            if($locals["yday"] === undefined){throw _b_.NameError.$factory("name 'yday' is not defined")}
+            $temp = $B.$getitem($locals["arg"],2);
+            if(typeof $temp.valueOf() == "number" && $locals_time__get_day_of_year_9["yday"].constructor === Number && Number.isSafeInteger($locals_time__get_day_of_year_9["yday"]+$temp)){(typeof $temp == "number" && typeof $locals_time__get_day_of_year_9["yday"] == "number") ? $locals_time__get_day_of_year_9["yday"]+=$temp : $locals_time__get_day_of_year_9["yday"] = new Number($locals_time__get_day_of_year_9["yday"]+$temp.valueOf())}
+            else if(! _b_.hasattr($locals["yday"],"__iadd__")){
+                ;$locals.$line_info = "40,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__get_day_of_year_9["yday"] = $B.add($locals_time__get_day_of_year_9["yday"], $temp);
+            }
+            else{
+                ;$locals.$line_info = "40,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__get_day_of_year_9["yday"] = $B.$getattr($locals_time__get_day_of_year_9["yday"],"__iadd__")($temp)
+;
+            }
+            ;$locals.$line_info = "41,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $locals["yday"];
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    _get_day_of_year17.$is_func = true
+    _get_day_of_year17.$infos = {
+        __name__:"_get_day_of_year",
+        __qualname__:"_get_day_of_year",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: '',
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:20,
+            co_flags:67,
+            co_freevars: [],
+            co_kwonlyargcount:0,
+            co_name: "_get_day_of_year",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["arg"])
+        }
+    };_b_.None;
+    return _get_day_of_year17}
+    $locals_time["_get_day_of_year"] = _get_day_of_year$17({})
+    $locals_time["_get_day_of_year"].$set_defaults = function(value){return $locals_time["_get_day_of_year"] = _get_day_of_year$17(value)}
+    ;$locals.$line_info = "43,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var _get_week_of_year$19 = function($defaults){function _get_week_of_year19(arg){
+        var $locals_time__get_week_of_year_10 = {},
+            $locals = $locals_time__get_week_of_year_10;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time__get_week_of_year_10 = $locals = $B.args("_get_week_of_year", 1, {arg:null}, ["arg"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time__get_week_of_year_10 = $locals = {arg:arg}
+            }
+            else if($len > 1){$B.wrong_nb_args("_get_week_of_year", $len, 1, ["arg"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("_get_week_of_year", $len, 1, ["arg"])}
+            else{
+                $locals_time__get_week_of_year_10 = $locals = {arg:arg}
+                var defparams = ["arg"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "43,time"
+        var $top_frame=["time__get_week_of_year_10",$locals,"time", $locals_time, _get_week_of_year19]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "44,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            '';
+            ;$locals.$line_info = "56,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__get_week_of_year_10["d1"] = $B.$call($locals_time["date"])($B.$getitem($locals["arg"],0), $B.rich_op("sub", $B.$getitem($locals["arg"],1), 1), $B.$getitem($locals["arg"],2));
+            ;$locals.$line_info = "57,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__get_week_of_year_10["d0"] = $B.$call($locals_time["date"])($B.$getitem($locals["arg"],0), 0, 1);
+            ;$locals.$line_info = "58,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__get_week_of_year_10["firstday"] = $B.$call($B.$getattr($locals["d0"],"getDay"))();
+            ;$locals.$line_info = "59,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((typeof $locals["firstday"] == "number" ? $locals["firstday"]==0 : $B.rich_comp("__eq__",$locals["firstday"],0)))){
+                ;$locals.$line_info = "60,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__get_week_of_year_10["firstday"] = 7;
+            }
+            ;$locals.$line_info = "61,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__get_week_of_year_10["firstweek"] = (typeof $locals["firstday"].valueOf() == "number" ? (typeof $locals["firstday"] == "number" ? $B.sub(8,$locals["firstday"]) : new Number($B.sub(8,$locals["firstday"]))): $B.rich_op("sub",8,$locals["firstday"]));
+            ;$locals.$line_info = "62,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__get_week_of_year_10["doy"] = $B.$getitem($locals["arg"],7);
+            ;$locals.$line_info = "63,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((typeof $locals["firstday"] == "number" ? $locals["firstday"]!=1 : $B.rich_comp("__ne__",$locals["firstday"],1)))){
+                ;$locals.$line_info = "64,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__get_week_of_year_10["doy"] = (typeof $locals["doy"].valueOf() == "number" && typeof $locals["firstweek"].valueOf() == "number" ? (typeof $locals["doy"] == "number" && typeof $locals["firstweek"] == "number" ? $B.sub($locals["doy"],$locals["firstweek"]) : new Number($B.sub($locals["doy"],$locals["firstweek"]))): $B.rich_op("sub",$locals["doy"],$locals["firstweek"]));
+            }
+            ;$locals.$line_info = "65,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool($B.rich_comp("__eq__",$B.rich_op("mod", $locals["doy"], 7),0))){
+                ;$locals.$line_info = "66,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__get_week_of_year_10["week_number"] = $B.rich_op("floordiv", $locals["doy"], 7);
+            }
+            else{
+                ;$locals.$line_info = "68,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__get_week_of_year_10["week_number"] = $B.add($B.rich_op("floordiv", $locals["doy"], 7), 1);
+            }
+            ;$locals.$line_info = "69,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.$check_def_local("week_number",$locals["week_number"]);
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    _get_week_of_year19.$is_func = true
+    _get_week_of_year19.$infos = {
+        __name__:"_get_week_of_year",
+        __qualname__:"_get_week_of_year",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: '',
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:43,
+            co_flags:67,
+            co_freevars: ["date"],
+            co_kwonlyargcount:0,
+            co_name: "_get_week_of_year",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["arg"])
+        }
+    };_b_.None;
+    return _get_week_of_year19}
+    $locals_time["_get_week_of_year"] = _get_week_of_year$19({})
+    $locals_time["_get_week_of_year"].$set_defaults = function(value){return $locals_time["_get_week_of_year"] = _get_week_of_year$19(value)}
+    ;$locals.$line_info = "71,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var _check_struct_time$20 = function($defaults){function _check_struct_time20(t){
+        var $locals_time__check_struct_time_11 = {},
+            $locals = $locals_time__check_struct_time_11;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time__check_struct_time_11 = $locals = $B.args("_check_struct_time", 1, {t:null}, ["t"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time__check_struct_time_11 = $locals = {t:t}
+            }
+            else if($len > 1){$B.wrong_nb_args("_check_struct_time", $len, 1, ["t"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("_check_struct_time", $len, 1, ["t"])}
+            else{
+                $locals_time__check_struct_time_11 = $locals = {t:t}
+                var defparams = ["t"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "71,time"
+        var $top_frame=["time__check_struct_time_11",$locals,"time", $locals_time, _check_struct_time20]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "72,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__check_struct_time_11["mm"] = $B.$getitem($locals["t"],1);
+            ;$locals.$line_info = "73,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((typeof $locals["mm"] == "number" ? $locals["mm"]==0 : $B.rich_comp("__eq__",$locals["mm"],0)))){
+                ;$locals.$line_info = "74,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__check_struct_time_11["mm"] = 1;
+            }
+            ;$locals.$line_info = "75,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((function(){var $c0 = $locals["mm"];return $B.$test_expr($B.$test_item($B.rich_comp("__gt__",-1,$c0)) && $B.$test_item((typeof $locals["mm"] == "number" ? $locals["mm"]>13 : $B.rich_comp("__gt__",$c0,13))))})())){
+                ;$locals.$line_info = "76,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.ValueError)("month out of range"));
+            }
+            ;$locals.$line_info = "78,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__check_struct_time_11["dd"] = $B.$getitem($locals["t"],2);
+            ;$locals.$line_info = "79,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((typeof $locals["dd"] == "number" ? $locals["dd"]==0 : $B.rich_comp("__eq__",$locals["dd"],0)))){
+                ;$locals.$line_info = "79,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__check_struct_time_11["dd"] = 1;
+            }
+            ;$locals.$line_info = "80,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((function(){var $c1 = $locals["dd"];return $B.$test_expr($B.$test_item($B.rich_comp("__gt__",-1,$c1)) && $B.$test_item((typeof $locals["dd"] == "number" ? $locals["dd"]>32 : $B.rich_comp("__gt__",$c1,32))))})())){
+                ;$locals.$line_info = "81,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.ValueError)("day of month out of range"));
+            }
+            ;$locals.$line_info = "83,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__check_struct_time_11["hh"] = $B.$getitem($locals["t"],3);
+            ;$locals.$line_info = "84,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((function(){var $c2 = $locals["hh"];return $B.$test_expr($B.$test_item($B.rich_comp("__gt__",-1,$c2)) && $B.$test_item((typeof $locals["hh"] == "number" ? $locals["hh"]>24 : $B.rich_comp("__gt__",$c2,24))))})())){
+                ;$locals.$line_info = "85,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.ValueError)("hour out of range"));
+            }
+            ;$locals.$line_info = "87,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__check_struct_time_11["minu"] = $B.$getitem($locals["t"],4);
+            ;$locals.$line_info = "88,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((function(){var $c3 = $locals["minu"];return $B.$test_expr($B.$test_item($B.rich_comp("__gt__",-1,$c3)) && $B.$test_item((typeof $locals["minu"] == "number" ? $locals["minu"]>60 : $B.rich_comp("__gt__",$c3,60))))})())){
+                ;$locals.$line_info = "89,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.ValueError)("minute out of range"));
+            }
+            ;$locals.$line_info = "91,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__check_struct_time_11["ss"] = $B.$getitem($locals["t"],5);
+            ;$locals.$line_info = "92,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((function(){var $c4 = $locals["ss"];return $B.$test_expr($B.$test_item($B.rich_comp("__gt__",-1,$c4)) && $B.$test_item((typeof $locals["ss"] == "number" ? $locals["ss"]>62 : $B.rich_comp("__gt__",$c4,62))))})())){
+                ;$locals.$line_info = "93,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.ValueError)("seconds out of range"));
+            }
+            ;$locals.$line_info = "95,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__check_struct_time_11["wd"] = $B.rich_op("mod", $B.$getitem($locals["t"],6), 7);
+            ;$locals.$line_info = "96,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((typeof $locals["wd"] == "number" ? $locals["wd"]<-2 : $B.rich_comp("__lt__",$locals["wd"],-2)))){
+                ;$locals.$line_info = "97,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.ValueError)("day of week out of range"));
+            }
+            ;$locals.$line_info = "99,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__check_struct_time_11["dy"] = $B.$getitem($locals["t"],7);
+            ;$locals.$line_info = "100,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((typeof $locals["dy"] == "number" ? $locals["dy"]==0 : $B.rich_comp("__eq__",$locals["dy"],0)))){
+                ;$locals.$line_info = "100,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__check_struct_time_11["dy"] = 1;
+            }
+            ;$locals.$line_info = "101,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((function(){var $c5 = $locals["dy"];return $B.$test_expr($B.$test_item($B.rich_comp("__gt__",-1,$c5)) && $B.$test_item((typeof $locals["dy"] == "number" ? $locals["dy"]>367 : $B.rich_comp("__gt__",$c5,367))))})())){
+                ;$locals.$line_info = "102,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.ValueError)("day of year out of range"));
+            }
+            ;$locals.$line_info = "104,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.fast_tuple([$B.$getitem($locals["t"],0),$locals["mm"],$locals["dd"],$locals["hh"],$locals["minu"],$locals["ss"],$locals["wd"],$locals["dy"],$B.$getitem($locals["t"],-1)]);
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    _check_struct_time20.$is_func = true
+    _check_struct_time20.$infos = {
+        __name__:"_check_struct_time",
+        __qualname__:"_check_struct_time",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:71,
+            co_flags:67,
+            co_freevars: [],
+            co_kwonlyargcount:0,
+            co_name: "_check_struct_time",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["t"])
+        }
+    };_b_.None;
+    return _check_struct_time20}
+    $locals_time["_check_struct_time"] = _check_struct_time$20({})
+    $locals_time["_check_struct_time"].$set_defaults = function(value){return $locals_time["_check_struct_time"] = _check_struct_time$20(value)}
+    ;$locals.$line_info = "107,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var _is_dst$21 = function($defaults){function _is_dst21(secs){
+        var $locals_time__is_dst_12 = {},
+            $locals = $locals_time__is_dst_12;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time__is_dst_12 = $locals = $B.args("_is_dst", 1, {secs:null}, ["secs"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time__is_dst_12 = $locals = {secs:secs}
+            }
+            else if($len > 1){$B.wrong_nb_args("_is_dst", $len, 1, ["secs"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("_is_dst", $len, 1, ["secs"])}
+            else{
+                $locals_time__is_dst_12 = $locals = {secs:secs}
+                var defparams = ["secs"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "107,time"
+        var $top_frame=["time__is_dst_12",$locals,"time", $locals_time, _is_dst21]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "108,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            '';
+            ;$locals.$line_info = "109,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__is_dst_12["d"] = $B.$call($locals_time["date"])();
+            ;$locals.$line_info = "110,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool($locals["secs"]!==_b_.None)){
+                ;$locals.$line_info = "111,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__is_dst_12["d"] = $B.$call($locals_time["date"])((typeof $locals["secs"].valueOf() == "number" ? (typeof $locals["secs"] == "number" ? $B.mul($locals["secs"],1000) : new Number($B.mul($locals["secs"],1000))): $B.rich_op("mul",$locals["secs"],1000)));
+            }
+            ;$locals.$line_info = "115,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__is_dst_12["jan"] = $B.$call($locals_time["date"])($B.$call($B.$getattr($locals["d"],"getFullYear"))(), 0, 1);
+            ;$locals.$line_info = "116,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__is_dst_12["jul"] = $B.$call($locals_time["date"])($B.$call($B.$getattr($locals["d"],"getFullYear"))(), 6, 1);
+            ;$locals.$line_info = "117,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__is_dst_12["dst"] = $B.$call(_b_.int)($B.rich_comp("__lt__",$B.$call($B.$getattr($locals["d"],"getTimezoneOffset"))(),$B.$call(_b_.max)($B.$call(_b_.abs)($B.$call($B.$getattr($locals["jan"],"getTimezoneOffset"))()), $B.$call(_b_.abs)($B.$call($B.$getattr($locals["jul"],"getTimezoneOffset"))()))));
+            ;$locals.$line_info = "119,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $locals["dst"];
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    _is_dst21.$is_func = true
+    _is_dst21.$infos = {
+        __name__:"_is_dst",
+        __qualname__:"_is_dst",
+        __defaults__ : $B.fast_tuple([$defaults.secs]),
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: '',
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:107,
+            co_flags:67,
+            co_freevars: ["date"],
+            co_kwonlyargcount:0,
+            co_name: "_is_dst",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["secs"])
+        }
+    };_b_.None;
+    return _is_dst21}
+    $locals_time["_is_dst"] = _is_dst$21({secs:_b_.None})
+    $locals_time["_is_dst"].$set_defaults = function(value){return $locals_time["_is_dst"] = _is_dst$21(value)}
+    ;$locals.$line_info = "121,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var _get_tzname$22 = function($defaults){function _get_tzname22(){
+        var $locals_time__get_tzname_13 = {},
+            $locals = $locals_time__get_tzname_13;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time__get_tzname_13 = $locals = $B.args("_get_tzname", 0, {}, [], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 0){
+                $locals_time__get_tzname_13 = $locals = {}
+            }
+            else if($len > 0){$B.wrong_nb_args("_get_tzname", $len, 0, [])}
+        }
+        $locals.$line_info = "121,time"
+        var $top_frame=["time__get_tzname_13",$locals,"time", $locals_time, _get_tzname22]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "122,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            '';
+            ;$locals.$line_info = "123,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__get_tzname_13["d"] = $B.$call($locals_time["date"])();
+            ;$locals.$line_info = "124,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__get_tzname_13["d"] = $B.$call($B.$getattr($locals["d"],"toTimeString"))();
+            ;$locals.$line_info = "125,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals.$failed64 = false;
+     try{
+                ;$locals.$line_info = "126,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__get_tzname_13["d"] = $B.$getitem($B.$call($B.$getattr($B.$getitem($B.$call($B.$getattr($locals["d"],"split"))('('),1),"split"))(')'),0);
+                ;$locals.$line_info = "127,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.fast_tuple([$locals["d"],'NotAvailable']);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch($err63){
+                $B.set_exc($err63)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $locals.$failed64 = true;$B.pmframe = $B.last($B.frames_stack);if(false){}
+                else{
+                    ;$locals.$line_info = "128,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    void(0)
+                    ;$locals.$line_info = "129,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    var $res = $B.fast_tuple(['','']);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+                }
+            }
+            if($locals.$f_trace !== _b_.None){
+    $B.trace_return(_b_.None)
+    }
+    $B.leave_frame({$locals});return _b_.None
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    _get_tzname22.$is_func = true
+    _get_tzname22.$infos = {
+        __name__:"_get_tzname",
+        __qualname__:"_get_tzname",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: '',
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:121,
+            co_flags:67,
+            co_freevars: ["date"],
+            co_kwonlyargcount:0,
+            co_name: "_get_tzname",
+            co_nlocals: 0,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple([])
+        }
+    };_b_.None;
+    return _get_tzname22}
+    $locals_time["_get_tzname"] = _get_tzname$22({})
+    $locals_time["_get_tzname"].$set_defaults = function(value){return $locals_time["_get_tzname"] = _get_tzname$22(value)}
+    ;$locals.$line_info = "131,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var _set_altzone$23 = function($defaults){function _set_altzone23(){
+        var $locals_time__set_altzone_14 = {},
+            $locals = $locals_time__set_altzone_14;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time__set_altzone_14 = $locals = $B.args("_set_altzone", 0, {}, [], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 0){
+                $locals_time__set_altzone_14 = $locals = {}
+            }
+            else if($len > 0){$B.wrong_nb_args("_set_altzone", $len, 0, [])}
+        }
+        $locals.$line_info = "131,time"
+        var $top_frame=["time__set_altzone_14",$locals,"time", $locals_time, _set_altzone23]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "132,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__set_altzone_14["d"] = $B.$call($locals_time["date"])();
+            ;$locals.$line_info = "133,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__set_altzone_14["jan"] = $B.$call($locals_time["date"])($B.$call($B.$getattr($locals["d"],"getFullYear"))(), 0, 1);
+            ;$locals.$line_info = "134,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__set_altzone_14["jul"] = $B.$call($locals_time["date"])($B.$call($B.$getattr($locals["d"],"getFullYear"))(), 6, 1);
+            ;$locals.$line_info = "135,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time__set_altzone_14["result"] = $B.rich_op("sub", $B.$check_def("timezone",$locals_time["timezone"]), $B.rich_op("mul", $B.rich_op("sub", $B.$call($B.$getattr($locals["jan"],"getTimezoneOffset"))(), $B.$call($B.$getattr($locals["jul"],"getTimezoneOffset"))()), 60));
+            ;$locals.$line_info = "136,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $locals["result"];
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    _set_altzone23.$is_func = true
+    _set_altzone23.$infos = {
+        __name__:"_set_altzone",
+        __qualname__:"_set_altzone",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:131,
+            co_flags:67,
+            co_freevars: ["date","timezone"],
+            co_kwonlyargcount:0,
+            co_name: "_set_altzone",
+            co_nlocals: 0,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple([])
+        }
+    };_b_.None;
+    return _set_altzone23}
+    $locals_time["_set_altzone"] = _set_altzone$23({})
+    $locals_time["_set_altzone"].$set_defaults = function(value){return $locals_time["_set_altzone"] = _set_altzone$23(value)}
+    ;$locals.$line_info = "138,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var _check_input$24 = function($defaults){function _check_input24(t){
+        var $locals_time__check_input_15 = {},
+            $locals = $locals_time__check_input_15;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time__check_input_15 = $locals = $B.args("_check_input", 1, {t:null}, ["t"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time__check_input_15 = $locals = {t:t}
+            }
+            else if($len > 1){$B.wrong_nb_args("_check_input", $len, 1, ["t"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("_check_input", $len, 1, ["t"])}
+            else{
+                $locals_time__check_input_15 = $locals = {t:t}
+                var defparams = ["t"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "138,time"
+        var $top_frame=["time__check_input_15",$locals,"time", $locals_time, _check_input24]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "139,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool($B.$test_expr($B.$test_item($B.$test_expr($B.$test_item($locals["t"])&&$B.$test_item($B.$call(_b_.isinstance)($locals["t"], $B.$check_def("struct_time",$locals_time["struct_time"])))))&&$B.$test_item($B.rich_comp("__eq__",$B.$call(_b_.len)($B.$getattr($locals["t"],"args")),9))))){
+                ;$locals.$line_info = "140,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__check_input_15["t"] = $B.$getattr($locals["t"],"args");
+            }
+            else if($B.$bool(($B.set_line("141,time__check_input_15")) && $B.$test_expr($B.$test_item($B.$test_expr($B.$test_item($locals["t"])&&$B.$test_item($B.$call(_b_.isinstance)($locals["t"], _b_.tuple))))&&$B.$test_item($B.rich_comp("__eq__",$B.$call(_b_.len)($locals["t"]),9))))){
+                ;$locals.$line_info = "142,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__check_input_15["t"] = $locals["t"];
+            }
+            else if($B.$bool(($B.set_line("143,time__check_input_15")) && $B.$test_expr($B.$test_item($B.$test_expr($B.$test_item($locals["t"])&&$B.$test_item($B.$call(_b_.isinstance)($locals["t"], $B.$check_def("struct_time",$locals_time["struct_time"])))))&&$B.$test_item($B.rich_comp("__ne__",$B.$call(_b_.len)($B.$getattr($locals["t"],"args")),9))))){
+                ;$locals.$line_info = "144,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.TypeError)($B.$call($B.$getattr("function takes exactly 9 arguments ({} given)","format"))($B.$call(_b_.len)($B.$getattr($locals["t"],"args")))));
+            }
+            else if($B.$bool(($B.set_line("145,time__check_input_15")) && $B.$test_expr($B.$test_item($B.$test_expr($B.$test_item($locals["t"])&&$B.$test_item($B.$call(_b_.isinstance)($locals["t"], _b_.tuple))))&&$B.$test_item($B.rich_comp("__ne__",$B.$call(_b_.len)($locals["t"]),9))))){
+                ;$locals.$line_info = "146,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.TypeError)($B.$call($B.$getattr("function takes exactly 9 arguments ({} given)","format"))($B.$call(_b_.len)($locals["t"]))));
+            }
+            else if($B.$bool(($B.set_line("147,time__check_input_15")) && $B.$test_expr($B.$test_item($locals["t"])&&$B.$test_item(!$B.$bool($B.$call(_b_.isinstance)($locals["t"], $B.fast_tuple([_b_.tuple,$B.$check_def("struct_time",$locals_time["struct_time"])]))))))){
+                ;$locals.$line_info = "148,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.TypeError)("Tuple or struct_time argument required"));
+            }
+            else{
+                ;$locals.$line_info = "150,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time__check_input_15["t"] = $B.$getattr($B.$call($B.$check_def("localtime",$locals_time["localtime"]))(),"args");
+            }
+            ;$locals.$line_info = "151,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $locals["t"];
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    _check_input24.$is_func = true
+    _check_input24.$infos = {
+        __name__:"_check_input",
+        __qualname__:"_check_input",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:138,
+            co_flags:67,
+            co_freevars: ["struct_time","localtime"],
+            co_kwonlyargcount:0,
+            co_name: "_check_input",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["t"])
+        }
+    };_b_.None;
+    return _check_input24}
+    $locals_time["_check_input"] = _check_input$24({})
+    $locals_time["_check_input"].$set_defaults = function(value){return $locals_time["_check_input"] = _check_input$24(value)}
+    ;$locals.$line_info = "157,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["daylight"] = $B.$call($locals_time["_is_dst"])();
+    ;$locals.$line_info = "158,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["timezone"] = $B.rich_op("mul", $B.$call($B.$getattr($B.$call($locals_time["date"])(),"getTimezoneOffset"))(), 60);
+    ;$locals.$line_info = "159,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["tzname"] = $B.$call($locals_time["_get_tzname"])();
+    ;$locals.$line_info = "160,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["altzone"] = $B.$bool($locals_time["daylight"]) ? $B.$call($locals_time["_set_altzone"])() : $locals_time["timezone"];
+    ;$locals.$line_info = "163,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var asctime$25 = function($defaults){function asctime25(t){
+        var $locals_time_asctime_16 = {},
+            $locals = $locals_time_asctime_16;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_asctime_16 = $locals = $B.args("asctime", 1, {t:null}, ["t"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time_asctime_16 = $locals = {t:t}
+            }
+            else if($len > 1){$B.wrong_nb_args("asctime", $len, 1, ["t"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("asctime", $len, 1, ["t"])}
+            else{
+                $locals_time_asctime_16 = $locals = {t:t}
+                var defparams = ["t"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "163,time"
+        var $top_frame=["time_asctime_16",$locals,"time", $locals_time, asctime25]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "164,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_asctime_16["weekdays"] = _b_.dict.$factory((function(expr){var $B = __BRYTHON__;
+var _b_ = __BRYTHON__.builtins;
+var $locals = $locals_dc71 = {}
+$locals_dc71.__package__ = ""
+var $top_frame = ["dc71", $locals_dc71, "time", $locals_time]
+$locals.$f_trace = $B.enter_frame($top_frame)
+var $stack_length = $B.frames_stack.length;
+try{
+    ;$locals.$line_info = "164,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var comp_result_84c4hvf771 = _b_.dict.$factory([]);
+    ;$locals.$line_info = "164,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var $iter69 = expr;$locals["$next69"] = $B.$getattr($B.$iter($iter69),"__next__")
+    while(true){
+        try{
+            var $right70 = $B.$getattr($B.$iter($locals["$next69"]()), "__next__");
+            var $rlist71=[], $pos=0;while(1){try{$rlist71[$pos++] = $right70()}catch(err){break}}
+            if($rlist71.length<2){throw _b_.ValueError.$factory("need more than " +$rlist71.length + " value" + ($rlist71.length > 1 ? "s" : "") + " to unpack")}
+            if($rlist71.length>2){throw _b_.ValueError.$factory("too many values to unpack (expected 2)")}
+            $locals_dc71["i"] = $rlist71[0];
+            $locals_dc71["day"] = $rlist71[1];
+        }
+        catch($err){if($B.is_exc($err, [_b_.StopIteration])){break;}else{throw($err)}}
+        ;$locals.$line_info = "164,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        $B.$call($B.$getattr(comp_result_84c4hvf771,"update"))(_b_.dict.$factory([[$locals_dc71["i"],$locals_dc71["day"]]]));
+        $locals.$line_info = "165,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    }
+    $B.leave_frame({$locals, value: _b_.None})
+}
+catch(err){
+    $B.leave_frame({$locals, value: _b_.None})
+    throw err
+}
+
+return comp_result_84c4hvf771
+})($B.$call(_b_.enumerate)($B.$call($B.$getattr("Mon Tue Wed Thu Fri Sat Sun","split"))())));
+            ;$locals.$line_info = "168,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_asctime_16["months"] = _b_.dict.$factory((function(expr){var $B = __BRYTHON__;
+var _b_ = __BRYTHON__.builtins;
+var $locals = $locals_dc72 = {}
+$locals_dc72.__package__ = ""
+var $top_frame = ["dc72", $locals_dc72, "time", $locals_time]
+$locals.$f_trace = $B.enter_frame($top_frame)
+var $stack_length = $B.frames_stack.length;
+try{
+    ;$locals.$line_info = "168,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var comp_result_84c4hvf772 = _b_.dict.$factory([]);
+    ;$locals.$line_info = "168,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var $iter73 = expr;$locals["$next73"] = $B.$getattr($B.$iter($iter73),"__next__")
+    while(true){
+        try{
+            var $right74 = $B.$getattr($B.$iter($locals["$next73"]()), "__next__");
+            var $rlist75=[], $pos=0;while(1){try{$rlist75[$pos++] = $right74()}catch(err){break}}
+            if($rlist75.length<2){throw _b_.ValueError.$factory("need more than " +$rlist75.length + " value" + ($rlist75.length > 1 ? "s" : "") + " to unpack")}
+            if($rlist75.length>2){throw _b_.ValueError.$factory("too many values to unpack (expected 2)")}
+            $locals_dc72["i"] = $rlist75[0];
+            $locals_dc72["month"] = $rlist75[1];
+        }
+        catch($err){if($B.is_exc($err, [_b_.StopIteration])){break;}else{throw($err)}}
+        ;$locals.$line_info = "168,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        $B.$call($B.$getattr(comp_result_84c4hvf772,"update"))(_b_.dict.$factory([[$B.add($locals_dc72["i"], 1),$locals_dc72["month"]]]));
+        $locals.$line_info = "169,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    }
+    $B.leave_frame({$locals, value: _b_.None})
+}
+catch(err){
+    $B.leave_frame({$locals, value: _b_.None})
+    throw err
+}
+
+return comp_result_84c4hvf772
+})($B.$call(_b_.enumerate)($B.$call($B.$getattr("Jan Fev Mar Apr May Jun Jul Aug Sep Oct Nov Dec","split"))())));
+            ;$locals.$line_info = "172,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_asctime_16["t"] = $B.$call($locals_time["_check_input"])($locals["t"]);
+            ;$locals.$line_info = "173,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_asctime_16["t"] = $B.$call($locals_time["_check_struct_time"])($locals["t"]);
+            ;$locals.$line_info = "175,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_asctime_16["result"] = $B.rich_op("mod", "%s %s %2d %02d:%02d:%02d %d", $B.fast_tuple([$B.$getitem($locals["weekdays"],$B.$getitem($locals["t"],6)),$B.$getitem($locals["months"],$B.$getitem($locals["t"],1)),$B.$getitem($locals["t"],2),$B.$getitem($locals["t"],3),$B.$getitem($locals["t"],4),$B.$getitem($locals["t"],5),$B.$getitem($locals["t"],0)]));
+            ;$locals.$line_info = "177,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $locals["result"];
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    asctime25.$is_func = true
+    asctime25.$infos = {
+        __name__:"asctime",
+        __qualname__:"asctime",
+        __defaults__ : $B.fast_tuple([$defaults.t]),
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:163,
+            co_flags:67,
+            co_freevars: ["_check_input","_check_struct_time"],
+            co_kwonlyargcount:0,
+            co_name: "asctime",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["t"])
+        }
+    };_b_.None;
+    return asctime25}
+    $locals_time["asctime"] = asctime$25({t:_b_.None})
+    $locals_time["asctime"].$set_defaults = function(value){return $locals_time["asctime"] = asctime$25(value)}
+    ;$locals.$line_info = "179,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var ctime$26 = function($defaults){function ctime26(timestamp){
+        var $locals_time_ctime_17 = {},
+            $locals = $locals_time_ctime_17;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_ctime_17 = $locals = $B.args("ctime", 1, {timestamp:null}, ["timestamp"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time_ctime_17 = $locals = {timestamp:timestamp}
+            }
+            else if($len > 1){$B.wrong_nb_args("ctime", $len, 1, ["timestamp"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("ctime", $len, 1, ["timestamp"])}
+            else{
+                $locals_time_ctime_17 = $locals = {timestamp:timestamp}
+                var defparams = ["timestamp"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "179,time"
+        var $top_frame=["time_ctime_17",$locals,"time", $locals_time, ctime26]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "180,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.$call($locals_time["asctime"])($B.$call($B.$check_def("localtime",$locals_time["localtime"]))($locals["timestamp"]));
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    ctime26.$is_func = true
+    ctime26.$infos = {
+        __name__:"ctime",
+        __qualname__:"ctime",
+        __defaults__ : $B.fast_tuple([$defaults.timestamp]),
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:179,
+            co_flags:67,
+            co_freevars: ["asctime","localtime"],
+            co_kwonlyargcount:0,
+            co_name: "ctime",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["timestamp"])
+        }
+    };_b_.None;
+    return ctime26}
+    $locals_time["ctime"] = ctime$26({timestamp:_b_.None})
+    $locals_time["ctime"].$set_defaults = function(value){return $locals_time["ctime"] = ctime$26(value)}
+    ;$locals.$line_info = "182,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var gmtime$27 = function($defaults){function gmtime27(secs){
+        var $locals_time_gmtime_18 = {},
+            $locals = $locals_time_gmtime_18;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_gmtime_18 = $locals = $B.args("gmtime", 1, {secs:null}, ["secs"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time_gmtime_18 = $locals = {secs:secs}
+            }
+            else if($len > 1){$B.wrong_nb_args("gmtime", $len, 1, ["secs"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("gmtime", $len, 1, ["secs"])}
+            else{
+                $locals_time_gmtime_18 = $locals = {secs:secs}
+                var defparams = ["secs"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "182,time"
+        var $top_frame=["time_gmtime_18",$locals,"time", $locals_time, gmtime27]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "183,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_gmtime_18["d"] = $B.$call($locals_time["date"])();
+            ;$locals.$line_info = "184,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool($locals["secs"]!==_b_.None)){
+                ;$locals.$line_info = "185,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_gmtime_18["d"] = $B.$call($locals_time["date"])((typeof $locals["secs"].valueOf() == "number" ? (typeof $locals["secs"] == "number" ? $B.mul($locals["secs"],1000) : new Number($B.mul($locals["secs"],1000))): $B.rich_op("mul",$locals["secs"],1000)));
+            }
+            ;$locals.$line_info = "186,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_gmtime_18["wday"] = $B.$bool($B.rich_comp("__ge__",$B.rich_op("sub", $B.$call($B.$getattr($locals["d"],"getUTCDay"))(), 1),0)) ? $B.rich_op("sub", $B.$call($B.$getattr($locals["d"],"getUTCDay"))(), 1) : 6;
+            ;$locals.$line_info = "187,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_gmtime_18["tmp"] = $B.$call($B.$check_def("struct_time",$locals_time["struct_time"]))($B.$list([$B.$call($B.$getattr($locals["d"],"getUTCFullYear"))(),$B.add($B.$call($B.$getattr($locals["d"],"getUTCMonth"))(), 1),$B.$call($B.$getattr($locals["d"],"getUTCDate"))(),$B.$call($B.$getattr($locals["d"],"getUTCHours"))(),$B.$call($B.$getattr($locals["d"],"getUTCMinutes"))(),$B.$call($B.$getattr($locals["d"],"getUTCSeconds"))(),$locals["wday"],0,0]));
+            ;$locals.$line_info = "191,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $temp77 = $B.$getattr($locals["tmp"],"args")
+if(Array.isArray($temp77) && !$temp77.__class__){$B.set_list_key($temp77,7,$B.$call($locals_time["_get_day_of_year"])($B.$getattr($locals["tmp"],"args")))
+}else{$B.$setitem($B.$getattr($locals["tmp"],"args"),7,$B.$call($locals_time["_get_day_of_year"])($B.$getattr($locals["tmp"],"args")))};_b_.None;;
+            ;$locals.$line_info = "192,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $locals["tmp"];
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    gmtime27.$is_func = true
+    gmtime27.$infos = {
+        __name__:"gmtime",
+        __qualname__:"gmtime",
+        __defaults__ : $B.fast_tuple([$defaults.secs]),
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:182,
+            co_flags:67,
+            co_freevars: ["date","struct_time","_get_day_of_year"],
+            co_kwonlyargcount:0,
+            co_name: "gmtime",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["secs"])
+        }
+    };_b_.None;
+    return gmtime27}
+    $locals_time["gmtime"] = gmtime$27({secs:_b_.None})
+    $locals_time["gmtime"].$set_defaults = function(value){return $locals_time["gmtime"] = gmtime$27(value)}
+    ;$locals.$line_info = "194,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var localtime$28 = function($defaults){function localtime28(secs){
+        var $locals_time_localtime_19 = {},
+            $locals = $locals_time_localtime_19;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_localtime_19 = $locals = $B.args("localtime", 1, {secs:null}, ["secs"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time_localtime_19 = $locals = {secs:secs}
+            }
+            else if($len > 1){$B.wrong_nb_args("localtime", $len, 1, ["secs"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("localtime", $len, 1, ["secs"])}
+            else{
+                $locals_time_localtime_19 = $locals = {secs:secs}
+                var defparams = ["secs"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "194,time"
+        var $top_frame=["time_localtime_19",$locals,"time", $locals_time, localtime28]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "195,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_localtime_19["d"] = $B.$call($locals_time["date"])();
+            ;$locals.$line_info = "196,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool($locals["secs"]!==_b_.None)){
+                ;$locals.$line_info = "197,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_localtime_19["d"] = $B.$call($locals_time["date"])((typeof $locals["secs"].valueOf() == "number" ? (typeof $locals["secs"] == "number" ? $B.mul($locals["secs"],1000) : new Number($B.mul($locals["secs"],1000))): $B.rich_op("mul",$locals["secs"],1000)));
+            }
+            ;$locals.$line_info = "198,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_localtime_19["dst"] = $B.$call($locals_time["_is_dst"])($locals["secs"]);
+            ;$locals.$line_info = "199,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_localtime_19["wday"] = $B.$bool($B.rich_comp("__ge__",$B.rich_op("sub", $B.$call($B.$getattr($locals["d"],"getDay"))(), 1),0)) ? $B.rich_op("sub", $B.$call($B.$getattr($locals["d"],"getDay"))(), 1) : 6;
+            ;$locals.$line_info = "200,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_localtime_19["tmp"] = $B.$call($B.$check_def("struct_time",$locals_time["struct_time"]))($B.$list([$B.$call($B.$getattr($locals["d"],"getFullYear"))(),$B.add($B.$call($B.$getattr($locals["d"],"getMonth"))(), 1),$B.$call($B.$getattr($locals["d"],"getDate"))(),$B.$call($B.$getattr($locals["d"],"getHours"))(),$B.$call($B.$getattr($locals["d"],"getMinutes"))(),$B.$call($B.$getattr($locals["d"],"getSeconds"))(),$locals["wday"],0,$locals["dst"]]));
+            ;$locals.$line_info = "204,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $temp78 = $B.$getattr($locals["tmp"],"args")
+if(Array.isArray($temp78) && !$temp78.__class__){$B.set_list_key($temp78,7,$B.$call($locals_time["_get_day_of_year"])($B.$getattr($locals["tmp"],"args")))
+}else{$B.$setitem($B.$getattr($locals["tmp"],"args"),7,$B.$call($locals_time["_get_day_of_year"])($B.$getattr($locals["tmp"],"args")))};_b_.None;;
+            ;$locals.$line_info = "205,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $locals["tmp"];
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    localtime28.$is_func = true
+    localtime28.$infos = {
+        __name__:"localtime",
+        __qualname__:"localtime",
+        __defaults__ : $B.fast_tuple([$defaults.secs]),
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:194,
+            co_flags:67,
+            co_freevars: ["date","_is_dst","struct_time","_get_day_of_year"],
+            co_kwonlyargcount:0,
+            co_name: "localtime",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["secs"])
+        }
+    };_b_.None;
+    return localtime28}
+    $locals_time["localtime"] = localtime$28({secs:_b_.None})
+    $locals_time["localtime"].$set_defaults = function(value){return $locals_time["localtime"] = localtime$28(value)}
+    ;$locals.$line_info = "207,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var mktime$29 = function($defaults){function mktime29(t){
+        var $locals_time_mktime_20 = {},
+            $locals = $locals_time_mktime_20;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_mktime_20 = $locals = $B.args("mktime", 1, {t:null}, ["t"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time_mktime_20 = $locals = {t:t}
+            }
+            else if($len > 1){$B.wrong_nb_args("mktime", $len, 1, ["t"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("mktime", $len, 1, ["t"])}
+            else{
+                $locals_time_mktime_20 = $locals = {t:t}
+                var defparams = ["t"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "207,time"
+        var $top_frame=["time_mktime_20",$locals,"time", $locals_time, mktime29]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "208,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool($B.$call(_b_.isinstance)($locals["t"], $B.$check_def("struct_time",$locals_time["struct_time"])))){
+                ;$locals.$line_info = "209,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_mktime_20["d1"] = $B.$call($B.$getattr($B.$call($locals_time["date"])($B.$getattr($locals["t"],"tm_year"), $B.rich_op("sub", $B.$getattr($locals["t"],"tm_mon"), 1), $B.$getattr($locals["t"],"tm_mday"), $B.$getattr($locals["t"],"tm_hour"), $B.$getattr($locals["t"],"tm_min"), $B.$getattr($locals["t"],"tm_sec"), 0),"getTime"))();
+            }
+            else if($B.$bool(($B.set_line("211,time_mktime_20")) && $B.$call(_b_.isinstance)($locals["t"], _b_.tuple))){
+                ;$locals.$line_info = "212,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_mktime_20["d1"] = $B.$call($B.$getattr($B.$call($locals_time["date"])($B.$getitem($locals["t"],0), $B.rich_op("sub", $B.$getitem($locals["t"],1), 1), $B.$getitem($locals["t"],2), $B.$getitem($locals["t"],3), $B.$getitem($locals["t"],4), $B.$getitem($locals["t"],5), 0),"getTime"))();
+            }
+            else{
+                ;$locals.$line_info = "214,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$raise($B.$call(_b_.ValueError)("Tuple or struct_time argument required"));
+            }
+            ;$locals.$line_info = "215,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_mktime_20["d2"] = $B.$call($B.$getattr($B.$call($locals_time["date"])(0),"getTime"))();
+            ;$locals.$line_info = "216,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.rich_op("truediv", (typeof $B.$check_def_local("d1",$locals["d1"]).valueOf() == "number" && typeof $locals["d2"].valueOf() == "number" ? (typeof $B.$check_def_local("d1",$locals["d1"]) == "number" && typeof $locals["d2"] == "number" ? $B.sub($B.$check_def_local("d1",$locals["d1"]),$locals["d2"]) : new Number($B.sub($B.$check_def_local("d1",$locals["d1"]),$locals["d2"]))): $B.rich_op("sub",$B.$check_def_local("d1",$locals["d1"]),$locals["d2"])), (new Number(1000.)));
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    mktime29.$is_func = true
+    mktime29.$infos = {
+        __name__:"mktime",
+        __qualname__:"mktime",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:207,
+            co_flags:67,
+            co_freevars: ["struct_time","date"],
+            co_kwonlyargcount:0,
+            co_name: "mktime",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["t"])
+        }
+    };_b_.None;
+    return mktime29}
+    $locals_time["mktime"] = mktime$29({})
+    $locals_time["mktime"].$set_defaults = function(value){return $locals_time["mktime"] = mktime$29(value)}
+    ;$locals.$line_info = "218,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var monotonic$30 = function($defaults){function monotonic30(){
+        var $locals_time_monotonic_21 = {},
+            $locals = $locals_time_monotonic_21;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_monotonic_21 = $locals = $B.args("monotonic", 0, {}, [], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 0){
+                $locals_time_monotonic_21 = $locals = {}
+            }
+            else if($len > 0){$B.wrong_nb_args("monotonic", $len, 0, [])}
+        }
+        $locals.$line_info = "218,time"
+        var $top_frame=["time_monotonic_21",$locals,"time", $locals_time, monotonic30]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "219,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.rich_op("truediv", $B.$call($locals_time["now"])(), (new Number(1000.)));
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    monotonic30.$is_func = true
+    monotonic30.$infos = {
+        __name__:"monotonic",
+        __qualname__:"monotonic",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:218,
+            co_flags:67,
+            co_freevars: ["now"],
+            co_kwonlyargcount:0,
+            co_name: "monotonic",
+            co_nlocals: 0,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple([])
+        }
+    };_b_.None;
+    return monotonic30}
+    $locals_time["monotonic"] = monotonic$30({})
+    $locals_time["monotonic"].$set_defaults = function(value){return $locals_time["monotonic"] = monotonic$30(value)}
+    ;$locals.$line_info = "221,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var perf_counter$31 = function($defaults){function perf_counter31(){
+        var $locals_time_perf_counter_22 = {},
+            $locals = $locals_time_perf_counter_22;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_perf_counter_22 = $locals = $B.args("perf_counter", 0, {}, [], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 0){
+                $locals_time_perf_counter_22 = $locals = {}
+            }
+            else if($len > 0){$B.wrong_nb_args("perf_counter", $len, 0, [])}
+        }
+        $locals.$line_info = "221,time"
+        var $top_frame=["time_perf_counter_22",$locals,"time", $locals_time, perf_counter31]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "222,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.rich_op("truediv", $B.$call($locals_time["now"])(), (new Number(1000.)));
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    perf_counter31.$is_func = true
+    perf_counter31.$infos = {
+        __name__:"perf_counter",
+        __qualname__:"perf_counter",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:221,
+            co_flags:67,
+            co_freevars: ["now"],
+            co_kwonlyargcount:0,
+            co_name: "perf_counter",
+            co_nlocals: 0,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple([])
+        }
+    };_b_.None;
+    return perf_counter31}
+    $locals_time["perf_counter"] = perf_counter$31({})
+    $locals_time["perf_counter"].$set_defaults = function(value){return $locals_time["perf_counter"] = perf_counter$31(value)}
+    ;$locals.$line_info = "224,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var process_time$32 = function($defaults){function process_time32(){
+        var $locals_time_process_time_23 = {},
+            $locals = $locals_time_process_time_23;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_process_time_23 = $locals = $B.args("process_time", 0, {}, [], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 0){
+                $locals_time_process_time_23 = $locals = {}
+            }
+            else if($len > 0){$B.wrong_nb_args("process_time", $len, 0, [])}
+        }
+        $locals.$line_info = "224,time"
+        var $top_frame=["time_process_time_23",$locals,"time", $locals_time, process_time32]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "225,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.rich_op("truediv", $B.$call($locals_time["now"])(), (new Number(1000.)));
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    process_time32.$is_func = true
+    process_time32.$infos = {
+        __name__:"process_time",
+        __qualname__:"process_time",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:224,
+            co_flags:67,
+            co_freevars: ["now"],
+            co_kwonlyargcount:0,
+            co_name: "process_time",
+            co_nlocals: 0,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple([])
+        }
+    };_b_.None;
+    return process_time32}
+    $locals_time["process_time"] = process_time$32({})
+    $locals_time["process_time"].$set_defaults = function(value){return $locals_time["process_time"] = process_time$32(value)}
+    ;$locals.$line_info = "227,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var time$33 = function($defaults){function time33(){
+        var $locals_time_time_24 = {},
+            $locals = $locals_time_time_24;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_time_24 = $locals = $B.args("time", 0, {}, [], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 0){
+                $locals_time_time_24 = $locals = {}
+            }
+            else if($len > 0){$B.wrong_nb_args("time", $len, 0, [])}
+        }
+        $locals.$line_info = "227,time"
+        var $top_frame=["time_time_24",$locals,"time", $locals_time, time33]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "228,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.$call(_b_.float)($B.rich_op("truediv", $B.$call($B.$getattr($B.$call($locals_time["date"])(),"getTime"))(), 1000));
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    time33.$is_func = true
+    time33.$infos = {
+        __name__:"time",
+        __qualname__:"time",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:227,
+            co_flags:67,
+            co_freevars: ["date"],
+            co_kwonlyargcount:0,
+            co_name: "time",
+            co_nlocals: 0,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple([])
+        }
+    };_b_.None;
+    return time33}
+    $locals_time["time"] = time$33({})
+    $locals_time["time"].$set_defaults = function(value){return $locals_time["time"] = time$33(value)}
+    ;$locals.$line_info = "230,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var sleep$34 = function($defaults){function sleep34(secs){
+        var $locals_time_sleep_25 = {},
+            $locals = $locals_time_sleep_25;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_sleep_25 = $locals = $B.args("sleep", 1, {secs:null}, ["secs"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time_sleep_25 = $locals = {secs:secs}
+            }
+            else if($len > 1){$B.wrong_nb_args("sleep", $len, 1, ["secs"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("sleep", $len, 1, ["secs"])}
+            else{
+                $locals_time_sleep_25 = $locals = {secs:secs}
+                var defparams = ["secs"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "230,time"
+        var $top_frame=["time_sleep_25",$locals,"time", $locals_time, sleep34]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "231,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            '';
+            ;$locals.$line_info = "234,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $B.$raise($B.$call(_b_.NotImplementedError)("Blocking functions like time.sleep() are not "+"supported in the browser. Use functions in module browser.timer "+"instead."));
+            if($locals.$f_trace !== _b_.None){
+    $B.trace_return(_b_.None)
+    }
+    $B.leave_frame({$locals});return _b_.None
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    sleep34.$is_func = true
+    sleep34.$infos = {
+        __name__:"sleep",
+        __qualname__:"sleep",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: '',
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:230,
+            co_flags:67,
+            co_freevars: [],
+            co_kwonlyargcount:0,
+            co_name: "sleep",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["secs"])
+        }
+    };_b_.None;
+    return sleep34}
+    $locals_time["sleep"] = sleep$34({})
+    $locals_time["sleep"].$set_defaults = function(value){return $locals_time["sleep"] = sleep$34(value)}
+    ;$locals.$line_info = "238,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var strftime$35 = function($defaults){function strftime35(_format, t){
+        var $locals_time_strftime_26 = {},
+            $locals = $locals_time_strftime_26;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_strftime_26 = $locals = $B.args("strftime", 2, {_format:null, t:null}, ["_format", "t"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 2){
+                $locals_time_strftime_26 = $locals = {_format:_format, t:t}
+            }
+            else if($len > 2){$B.wrong_nb_args("strftime", $len, 2, ["_format","t"])}
+            else if($len + Object.keys($defaults).length < 2){$B.wrong_nb_args("strftime", $len, 2, ["_format","t"])}
+            else{
+                $locals_time_strftime_26 = $locals = {_format:_format, t:t}
+                var defparams = ["_format","t"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "238,time"
+        var $top_frame=["time_strftime_26",$locals,"time", $locals_time, strftime35]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "239,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var ns$36 = function($defaults){function ns36(t, nb){
+                var $locals_time_strftime_26_ns_27 = {},
+             $locals = $locals_time_strftime_26_ns_27;
+                var $len = arguments.length;
+                if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                    $locals_time_strftime_26_ns_27 = $locals = $B.args("ns", 2, {t:null, nb:null}, ["t", "nb"], arguments, $defaults, null, null);
+                }
+                else{
+                    if($len == 2){
+                        $locals_time_strftime_26_ns_27 = $locals = {t:t, nb:nb}
+                    }
+                    else if($len > 2){$B.wrong_nb_args("ns", $len, 2, ["t","nb"])}
+                    else if($len + Object.keys($defaults).length < 2){$B.wrong_nb_args("ns", $len, 2, ["t","nb"])}
+                    else{
+                        $locals_time_strftime_26_ns_27 = $locals = {t:t, nb:nb}
+                        var defparams = ["t","nb"]
+                        for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                    }
+                }
+                $locals.$line_info = "239,time"
+                var $top_frame=["time_strftime_26_ns_27",$locals,"time", $locals_time, ns36]
+                $locals.$f_trace = $B.enter_frame($top_frame)
+                var $stack_length = $B.frames_stack.length;
+                try{
+                    $B.js_this = this;
+                    ;$locals.$line_info = "241,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $locals_time_strftime_26_ns_27["res"] = $B.$call(_b_.str)($locals["t"]);
+                    $locals["$no_break37"] = true
+                    ;$locals.$line_info = "242,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    while($B.$bool($locals["$no_break37"] && $B.rich_comp("__lt__",$B.$call(_b_.len)($locals["res"]),$locals["nb"]))){
+                        ;$locals.$line_info = "243,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                        $locals_time_strftime_26_ns_27["res"] = $B.add('0', $locals["res"]);
+                        $locals.$line_info = "242,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    }
+                    ;$locals.$line_info = "244,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    var $res = $locals["res"];
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+                }
+                catch(err){
+                    $B.set_exc(err)
+                    if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                    $B.leave_frame({$locals});throw err
+                }
+            }
+            ns36.$is_func = true
+            ns36.$infos = {
+                __name__:"ns",
+                __qualname__:"ns",
+                __defaults__ : _b_.None,
+                __kwdefaults__ : _b_.None,
+                __annotations__: {},
+                __dict__: $B.empty_dict(),
+                __doc__: _b_.None,
+                __module__ : "time",
+                __code__:{
+             co_argcount:2,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:239,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "ns",
+             co_nlocals: 2,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["t", "nb"])
+         }
+     };_b_.None;
+            return ns36}
+            $locals_time_strftime_26["ns"] = ns$36({})
+            $locals_time_strftime_26["ns"].$set_defaults = function(value){return $locals_time_strftime_26["ns"] = ns$36(value)}
+            ;$locals.$line_info = "246,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["t"] = $B.$call($locals_time["_check_input"])($locals["t"]);
+            ;$locals.$line_info = "247,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["t"] = $B.$call($locals_time["_check_struct_time"])($locals["t"]);
+            ;$locals.$line_info = "249,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["YY"] = $B.$call($locals["ns"])($B.$getitem($locals["t"],0), 4);
+            ;$locals.$line_info = "250,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["yy"] = $B.getitem_slice($B.$call($locals["ns"])($B.$getitem($locals["t"],0), 4),_b_.slice.$factory(2,_b_.None));
+            ;$locals.$line_info = "251,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["mm"] = $B.$call($locals["ns"])($B.$getitem($locals["t"],1), 2);
+            ;$locals.$line_info = "252,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["dd"] = $B.$call($locals["ns"])($B.$getitem($locals["t"],2), 2);
+            ;$locals.$line_info = "253,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["HH"] = $B.$getitem($locals["t"],3);
+            ;$locals.$line_info = "254,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["HH24"] = $B.$call($locals["ns"])($locals["HH"], 2);
+            ;$locals.$line_info = "255,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["HH12"] = $B.$call($locals["ns"])($B.rich_op("mod", $locals["HH"], 12), 2);
+            ;$locals.$line_info = "256,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((typeof $locals["HH12"] == "number" ? $locals["HH12"]==0 : $B.rich_comp("__eq__",$locals["HH12"],0)))){
+                ;$locals.$line_info = "257,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["HH12"] = 12;
+            }
+            ;$locals.$line_info = "258,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["AMPM"] = $B.$bool((function(){var $c6 = $locals["HH"];return $B.$test_expr($B.$test_item($B.rich_comp("__le__",0,$c6)) && $B.$test_item((typeof $locals["HH"] == "number" ? $locals["HH"]<12 : $B.rich_comp("__lt__",$c6,12))))})()) ? 'AM' : 'PM';
+            ;$locals.$line_info = "259,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["MM"] = $B.$call($locals["ns"])($B.$getitem($locals["t"],4), 2);
+            ;$locals.$line_info = "260,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["SS"] = $B.$call($locals["ns"])($B.$getitem($locals["t"],5), 2);
+            ;$locals.$line_info = "261,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["DoY"] = $B.$call($locals["ns"])($B.$getitem($locals["t"],7), 3);
+            ;$locals.$line_info = "262,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["w"] = $B.$bool($B.rich_comp("__lt__",$B.$getitem($locals["t"],6),6)) ? $B.add($B.$getitem($locals["t"],6), 1) : 0;
+            ;$locals.$line_info = "263,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["W"] = $B.$call($locals["ns"])($B.$call($locals_time["_get_week_of_year"])($locals["t"]), 2);
+            ;$locals.$line_info = "265,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["abb_weekdays"] = $B.$list(['Sun','Mon','Tue','Wed','Thu','Fri','Sat']);
+            ;$locals.$line_info = "266,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["full_weekdays"] = $B.$list(['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']);
+            ;$locals.$line_info = "268,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["abb_months"] = $B.$list(['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']);
+            ;$locals.$line_info = "270,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["full_months"] = $B.$list(['January','February','March','April','May','June','July','August','September','October','November','December']);
+            ;$locals.$line_info = "273,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $locals["_format"];
+            ;$locals.$line_info = "274,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool($B.rich_comp("__eq__",$B.$getattr(__BRYTHON__,"locale"),"C"))){
+                ;$locals.$line_info = "275,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%c", $B.add($B.add($B.add($B.add($B.add($B.add($B.add($B.add($B.add($B.add($B.add($B.add($B.$getitem($locals["abb_weekdays"],$locals["w"]), ' '), $B.$getitem($locals["abb_months"],$B.rich_op("sub", $B.$call(_b_.int)($locals["mm"]), 1))), ' '), $locals["dd"]), ' '), $locals["HH24"]), ':'), $locals["MM"]), ':'), $locals["SS"]), ' '), $locals["YY"]));
+                ;$locals.$line_info = "277,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%x", $B.add($B.add($B.add($B.add($locals["mm"], '/'), $locals["dd"]), '/'), $locals["yy"]));
+                ;$locals.$line_info = "278,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%X", $B.add($B.add($B.add($B.add($locals["HH24"], ':'), $locals["MM"]), ':'), $locals["SS"]));
+            }
+            else{
+                ;$locals.$line_info = "280,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["formatter"] = $B.$getattr($locals_time["_locale"],"_date_format");
+                ;$locals.$line_info = "281,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["c_format"] = $B.add($B.add($B.$call($locals["formatter"])("x"), " "), $B.$call($locals["formatter"])("X"));
+                ;$locals.$line_info = "282,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%c", $locals["c_format"]);
+                ;$locals.$line_info = "283,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["x_format"] = $B.$call($locals["formatter"])("x");
+                ;$locals.$line_info = "284,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%x", $locals["x_format"]);
+                ;$locals.$line_info = "285,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["X_format"] = $B.$call($locals["formatter"])("X");
+                ;$locals.$line_info = "286,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%X", $locals["X_format"]);
+            }
+            ;$locals.$line_info = "288,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%H", $locals["HH24"]);
+            ;$locals.$line_info = "289,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%I", $locals["HH12"]);
+            ;$locals.$line_info = "290,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%i", $B.$call($B.$getattr($locals["HH12"],"lstrip"))("0"));
+            ;$locals.$line_info = "291,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%p", $locals["AMPM"]);
+            ;$locals.$line_info = "292,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%M", $locals["MM"]);
+            ;$locals.$line_info = "293,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%S", $locals["SS"]);
+            ;$locals.$line_info = "294,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%Y", $locals["YY"]);
+            ;$locals.$line_info = "295,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%y", $locals["yy"]);
+            ;$locals.$line_info = "296,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%m", $locals["mm"]);
+            ;$locals.$line_info = "297,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%d", $locals["dd"]);
+            ;$locals.$line_info = "298,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%a", $B.$getitem($locals["abb_weekdays"],$locals["w"]));
+            ;$locals.$line_info = "299,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%A", $B.$getitem($locals["full_weekdays"],$locals["w"]));
+            ;$locals.$line_info = "300,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%b", $B.$getitem($locals["abb_months"],$B.rich_op("sub", $B.$call(_b_.int)($locals["mm"]), 1)));
+            ;$locals.$line_info = "301,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%B", $B.$getitem($locals["full_months"],$B.rich_op("sub", $B.$call(_b_.int)($locals["mm"]), 1)));
+            ;$locals.$line_info = "302,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%j", $locals["DoY"]);
+            ;$locals.$line_info = "303,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%w", $B.$call(_b_.str)($locals["w"]));
+            ;$locals.$line_info = "304,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%W", $locals["W"]);
+            ;$locals.$line_info = "305,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_strftime_26["res"] = $B.$call($B.$getattr($locals["res"],"replace"))("%%", '%');
+            ;$locals.$line_info = "307,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $locals["res"];
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    strftime35.$is_func = true
+    strftime35.$infos = {
+        __name__:"strftime",
+        __qualname__:"strftime",
+        __defaults__ : $B.fast_tuple([$defaults.t]),
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:2,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:238,
+            co_flags:67,
+            co_freevars: ["_check_input","_check_struct_time","_get_week_of_year","_locale"],
+            co_kwonlyargcount:0,
+            co_name: "strftime",
+            co_nlocals: 2,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["_format", "t"])
+        }
+    };_b_.None;
+    return strftime35}
+    $locals_time["strftime"] = strftime$35({t:_b_.None})
+    $locals_time["strftime"].$set_defaults = function(value){return $locals_time["strftime"] = strftime$35(value)}
+    ;$locals.$line_info = "309,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var $struct_time_28 = (function(){
+        var $locals_time_struct_time_28 = {__annotations__: $B.empty_dict()}, 
+            $locals = $locals_time_struct_time_28
+            $locals.$name = "struct_time"
+            $locals.$qualname = "struct_time"
+            $locals.$is_class = true; 
+            $locals.$line_info = "309,time";
+            var $top_frame = ["$locals_time_struct_time_28", $locals,"time", $locals_time]
+            $locals.$f_trace = $B.enter_frame($top_frame);
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_line()}
+        ;$locals.$line_info = "311,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var __init__$38 = function($defaults){function __init__38(){
+            var $locals_time_struct_time_28___init___29 = {},
+             $locals = $locals_time_struct_time_28___init___29;
+            $locals_time_struct_time_28___init___29 = $locals = $B.args("__init__", 1, {self:null}, ["self"], arguments, $defaults, "args", "kw");
+            $locals.$line_info = "311,time"
+            var $top_frame=["time_struct_time_28___init___29",$locals,"time", $locals_time, __init__38]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "313,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_struct_time_28___init___29["time_tuple"] = $B.$getitem($locals["args"],0);
+                ;$locals.$line_info = "314,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                if($B.$bool($B.rich_comp("__ne__",$B.$call(_b_.len)($locals["time_tuple"]),9))){
+                    ;$locals.$line_info = "315,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $B.$raise($B.$call(_b_.TypeError)($B.rich_op("mod", "time.struct_time() takes a 9-sequence (%s-sequence given)", $B.$call(_b_.len)($locals["args"]))));
+                }
+                ;$locals.$line_info = "317,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals["self"].__class__ && $locals["self"].__dict__ && !$locals["self"].__class__.$has_setattr && ! $locals["self"].$is_class ? _b_.dict.$setitem($locals["self"].__dict__, 'args', $locals["time_tuple"]) : $B.$setattr($locals["self"], "args", $locals["time_tuple"]);
+                if($locals.$f_trace !== _b_.None){
+        $B.trace_return(_b_.None)
+        }
+        $B.leave_frame({$locals});return _b_.None
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        __init__38.$is_func = true
+        __init__38.$infos = {
+            __name__:"__init__",
+            __qualname__:"struct_time.__init__",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:311,
+             co_flags:79,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "__init__",
+             co_nlocals: 3,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self", "args", "kw"])
+         }
+     };_b_.None;
+        return __init__38}
+        $locals_time_struct_time_28["__init__"] = __init__$38({})
+        $locals_time_struct_time_28["__init__"].$set_defaults = function(value){return $locals_time_struct_time_28["__init__"] = __init__$38(value)}
+        ;$locals.$line_info = "319,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var $id53 = _b_.property;;
+        ;$locals.$line_info = "320,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var tm_year$39 = function($defaults){function tm_year39(self){
+            var $locals_time_struct_time_28_tm_year_30 = {},
+             $locals = $locals_time_struct_time_28_tm_year_30;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28_tm_year_30 = $locals = $B.args("tm_year", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28_tm_year_30 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("tm_year", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("tm_year", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28_tm_year_30 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "320,time"
+            var $top_frame=["time_struct_time_28_tm_year_30",$locals,"time", $locals_time, tm_year39]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "321,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$getitem($B.$getattr($locals["self"],"args"),0);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        tm_year39.$is_func = true
+        tm_year39.$infos = {
+            __name__:"tm_year",
+            __qualname__:"struct_time.tm_year",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:320,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "tm_year",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return tm_year39}
+        var $dec54 = tm_year$39({})
+        $dec54.$set_defaults = function(value){return $dec54 = tm_year$39(value)}
+        $locals["tm_year"] = $B.$call($id53)($dec54);
+        ;$locals.$line_info = "323,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var $id55 = _b_.property;;
+        ;$locals.$line_info = "324,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var tm_mon$40 = function($defaults){function tm_mon40(self){
+            var $locals_time_struct_time_28_tm_mon_31 = {},
+             $locals = $locals_time_struct_time_28_tm_mon_31;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28_tm_mon_31 = $locals = $B.args("tm_mon", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28_tm_mon_31 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("tm_mon", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("tm_mon", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28_tm_mon_31 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "324,time"
+            var $top_frame=["time_struct_time_28_tm_mon_31",$locals,"time", $locals_time, tm_mon40]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "325,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$getitem($B.$getattr($locals["self"],"args"),1);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        tm_mon40.$is_func = true
+        tm_mon40.$infos = {
+            __name__:"tm_mon",
+            __qualname__:"struct_time.tm_mon",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:324,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "tm_mon",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return tm_mon40}
+        var $dec56 = tm_mon$40({})
+        $dec56.$set_defaults = function(value){return $dec56 = tm_mon$40(value)}
+        $locals["tm_mon"] = $B.$call($id55)($dec56);
+        ;$locals.$line_info = "327,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var $id57 = _b_.property;;
+        ;$locals.$line_info = "328,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var tm_mday$41 = function($defaults){function tm_mday41(self){
+            var $locals_time_struct_time_28_tm_mday_32 = {},
+             $locals = $locals_time_struct_time_28_tm_mday_32;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28_tm_mday_32 = $locals = $B.args("tm_mday", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28_tm_mday_32 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("tm_mday", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("tm_mday", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28_tm_mday_32 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "328,time"
+            var $top_frame=["time_struct_time_28_tm_mday_32",$locals,"time", $locals_time, tm_mday41]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "329,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$getitem($B.$getattr($locals["self"],"args"),2);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        tm_mday41.$is_func = true
+        tm_mday41.$infos = {
+            __name__:"tm_mday",
+            __qualname__:"struct_time.tm_mday",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:328,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "tm_mday",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return tm_mday41}
+        var $dec58 = tm_mday$41({})
+        $dec58.$set_defaults = function(value){return $dec58 = tm_mday$41(value)}
+        $locals["tm_mday"] = $B.$call($id57)($dec58);
+        ;$locals.$line_info = "331,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var $id59 = _b_.property;;
+        ;$locals.$line_info = "332,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var tm_hour$42 = function($defaults){function tm_hour42(self){
+            var $locals_time_struct_time_28_tm_hour_33 = {},
+             $locals = $locals_time_struct_time_28_tm_hour_33;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28_tm_hour_33 = $locals = $B.args("tm_hour", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28_tm_hour_33 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("tm_hour", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("tm_hour", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28_tm_hour_33 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "332,time"
+            var $top_frame=["time_struct_time_28_tm_hour_33",$locals,"time", $locals_time, tm_hour42]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "333,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$getitem($B.$getattr($locals["self"],"args"),3);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        tm_hour42.$is_func = true
+        tm_hour42.$infos = {
+            __name__:"tm_hour",
+            __qualname__:"struct_time.tm_hour",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:332,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "tm_hour",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return tm_hour42}
+        var $dec60 = tm_hour$42({})
+        $dec60.$set_defaults = function(value){return $dec60 = tm_hour$42(value)}
+        $locals["tm_hour"] = $B.$call($id59)($dec60);
+        ;$locals.$line_info = "335,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var $id61 = _b_.property;;
+        ;$locals.$line_info = "336,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var tm_min$43 = function($defaults){function tm_min43(self){
+            var $locals_time_struct_time_28_tm_min_34 = {},
+             $locals = $locals_time_struct_time_28_tm_min_34;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28_tm_min_34 = $locals = $B.args("tm_min", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28_tm_min_34 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("tm_min", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("tm_min", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28_tm_min_34 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "336,time"
+            var $top_frame=["time_struct_time_28_tm_min_34",$locals,"time", $locals_time, tm_min43]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "337,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$getitem($B.$getattr($locals["self"],"args"),4);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        tm_min43.$is_func = true
+        tm_min43.$infos = {
+            __name__:"tm_min",
+            __qualname__:"struct_time.tm_min",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:336,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "tm_min",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return tm_min43}
+        var $dec62 = tm_min$43({})
+        $dec62.$set_defaults = function(value){return $dec62 = tm_min$43(value)}
+        $locals["tm_min"] = $B.$call($id61)($dec62);
+        ;$locals.$line_info = "339,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var $id63 = _b_.property;;
+        ;$locals.$line_info = "340,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var tm_sec$44 = function($defaults){function tm_sec44(self){
+            var $locals_time_struct_time_28_tm_sec_35 = {},
+             $locals = $locals_time_struct_time_28_tm_sec_35;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28_tm_sec_35 = $locals = $B.args("tm_sec", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28_tm_sec_35 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("tm_sec", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("tm_sec", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28_tm_sec_35 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "340,time"
+            var $top_frame=["time_struct_time_28_tm_sec_35",$locals,"time", $locals_time, tm_sec44]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "341,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$getitem($B.$getattr($locals["self"],"args"),5);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        tm_sec44.$is_func = true
+        tm_sec44.$infos = {
+            __name__:"tm_sec",
+            __qualname__:"struct_time.tm_sec",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:340,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "tm_sec",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return tm_sec44}
+        var $dec64 = tm_sec$44({})
+        $dec64.$set_defaults = function(value){return $dec64 = tm_sec$44(value)}
+        $locals["tm_sec"] = $B.$call($id63)($dec64);
+        ;$locals.$line_info = "343,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var $id65 = _b_.property;;
+        ;$locals.$line_info = "344,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var tm_wday$45 = function($defaults){function tm_wday45(self){
+            var $locals_time_struct_time_28_tm_wday_36 = {},
+             $locals = $locals_time_struct_time_28_tm_wday_36;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28_tm_wday_36 = $locals = $B.args("tm_wday", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28_tm_wday_36 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("tm_wday", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("tm_wday", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28_tm_wday_36 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "344,time"
+            var $top_frame=["time_struct_time_28_tm_wday_36",$locals,"time", $locals_time, tm_wday45]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "345,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$getitem($B.$getattr($locals["self"],"args"),6);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        tm_wday45.$is_func = true
+        tm_wday45.$infos = {
+            __name__:"tm_wday",
+            __qualname__:"struct_time.tm_wday",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:344,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "tm_wday",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return tm_wday45}
+        var $dec66 = tm_wday$45({})
+        $dec66.$set_defaults = function(value){return $dec66 = tm_wday$45(value)}
+        $locals["tm_wday"] = $B.$call($id65)($dec66);
+        ;$locals.$line_info = "347,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var $id67 = _b_.property;;
+        ;$locals.$line_info = "348,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var tm_yday$46 = function($defaults){function tm_yday46(self){
+            var $locals_time_struct_time_28_tm_yday_37 = {},
+             $locals = $locals_time_struct_time_28_tm_yday_37;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28_tm_yday_37 = $locals = $B.args("tm_yday", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28_tm_yday_37 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("tm_yday", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("tm_yday", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28_tm_yday_37 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "348,time"
+            var $top_frame=["time_struct_time_28_tm_yday_37",$locals,"time", $locals_time, tm_yday46]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "349,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$getitem($B.$getattr($locals["self"],"args"),7);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        tm_yday46.$is_func = true
+        tm_yday46.$infos = {
+            __name__:"tm_yday",
+            __qualname__:"struct_time.tm_yday",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:348,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "tm_yday",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return tm_yday46}
+        var $dec68 = tm_yday$46({})
+        $dec68.$set_defaults = function(value){return $dec68 = tm_yday$46(value)}
+        $locals["tm_yday"] = $B.$call($id67)($dec68);
+        ;$locals.$line_info = "351,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var $id69 = _b_.property;;
+        ;$locals.$line_info = "352,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var tm_isdst$47 = function($defaults){function tm_isdst47(self){
+            var $locals_time_struct_time_28_tm_isdst_38 = {},
+             $locals = $locals_time_struct_time_28_tm_isdst_38;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28_tm_isdst_38 = $locals = $B.args("tm_isdst", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28_tm_isdst_38 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("tm_isdst", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("tm_isdst", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28_tm_isdst_38 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "352,time"
+            var $top_frame=["time_struct_time_28_tm_isdst_38",$locals,"time", $locals_time, tm_isdst47]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "353,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$getitem($B.$getattr($locals["self"],"args"),8);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        tm_isdst47.$is_func = true
+        tm_isdst47.$infos = {
+            __name__:"tm_isdst",
+            __qualname__:"struct_time.tm_isdst",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:352,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "tm_isdst",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return tm_isdst47}
+        var $dec70 = tm_isdst$47({})
+        $dec70.$set_defaults = function(value){return $dec70 = tm_isdst$47(value)}
+        $locals["tm_isdst"] = $B.$call($id69)($dec70);
+        ;$locals.$line_info = "355,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var __eq__$48 = function($defaults){function __eq__48(self, other){
+            var $locals_time_struct_time_28___eq___39 = {},
+             $locals = $locals_time_struct_time_28___eq___39;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28___eq___39 = $locals = $B.args("__eq__", 2, {self:null, other:null}, ["self", "other"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 2){
+                    $locals_time_struct_time_28___eq___39 = $locals = {self:self, other:other}
+                }
+                else if($len > 2){$B.wrong_nb_args("__eq__", $len, 2, ["self","other"])}
+                else if($len + Object.keys($defaults).length < 2){$B.wrong_nb_args("__eq__", $len, 2, ["self","other"])}
+                else{
+                    $locals_time_struct_time_28___eq___39 = $locals = {self:self, other:other}
+                    var defparams = ["self","other"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "355,time"
+            var $top_frame=["time_struct_time_28___eq___39",$locals,"time", $locals_time, __eq__48]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "356,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.rich_comp("__eq__",$B.$getattr($locals["self"],"args"),$B.$getattr($locals["other"],"args"));
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        __eq__48.$is_func = true
+        __eq__48.$infos = {
+            __name__:"__eq__",
+            __qualname__:"struct_time.__eq__",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:2,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:355,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "__eq__",
+             co_nlocals: 2,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self", "other"])
+         }
+     };_b_.None;
+        return __eq__48}
+        $locals_time_struct_time_28["__eq__"] = __eq__$48({})
+        $locals_time_struct_time_28["__eq__"].$set_defaults = function(value){return $locals_time_struct_time_28["__eq__"] = __eq__$48(value)}
+        ;$locals.$line_info = "358,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var __getitem__$49 = function($defaults){function __getitem__49(self, i){
+            var $locals_time_struct_time_28___getitem___40 = {},
+             $locals = $locals_time_struct_time_28___getitem___40;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28___getitem___40 = $locals = $B.args("__getitem__", 2, {self:null, i:null}, ["self", "i"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 2){
+                    $locals_time_struct_time_28___getitem___40 = $locals = {self:self, i:i}
+                }
+                else if($len > 2){$B.wrong_nb_args("__getitem__", $len, 2, ["self","i"])}
+                else if($len + Object.keys($defaults).length < 2){$B.wrong_nb_args("__getitem__", $len, 2, ["self","i"])}
+                else{
+                    $locals_time_struct_time_28___getitem___40 = $locals = {self:self, i:i}
+                    var defparams = ["self","i"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "358,time"
+            var $top_frame=["time_struct_time_28___getitem___40",$locals,"time", $locals_time, __getitem__49]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "359,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$getitem($B.$getattr($locals["self"],"args"),$locals["i"]);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        __getitem__49.$is_func = true
+        __getitem__49.$infos = {
+            __name__:"__getitem__",
+            __qualname__:"struct_time.__getitem__",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:2,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:358,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "__getitem__",
+             co_nlocals: 2,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self", "i"])
+         }
+     };_b_.None;
+        return __getitem__49}
+        $locals_time_struct_time_28["__getitem__"] = __getitem__$49({})
+        $locals_time_struct_time_28["__getitem__"].$set_defaults = function(value){return $locals_time_struct_time_28["__getitem__"] = __getitem__$49(value)}
+        ;$locals.$line_info = "361,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var __iter__$50 = function($defaults){function __iter__50(self){
+            var $locals_time_struct_time_28___iter___41 = {},
+             $locals = $locals_time_struct_time_28___iter___41;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28___iter___41 = $locals = $B.args("__iter__", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28___iter___41 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("__iter__", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("__iter__", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28___iter___41 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "361,time"
+            var $top_frame=["time_struct_time_28___iter___41",$locals,"time", $locals_time, __iter__50]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "362,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$call(_b_.iter)($B.$getattr($locals["self"],"args"));
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        __iter__50.$is_func = true
+        __iter__50.$infos = {
+            __name__:"__iter__",
+            __qualname__:"struct_time.__iter__",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:361,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "__iter__",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return __iter__50}
+        $locals_time_struct_time_28["__iter__"] = __iter__$50({})
+        $locals_time_struct_time_28["__iter__"].$set_defaults = function(value){return $locals_time_struct_time_28["__iter__"] = __iter__$50(value)}
+        ;$locals.$line_info = "364,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var __reduce_ex__$51 = function($defaults){function __reduce_ex__51(self, protocol){
+            var $locals_time_struct_time_28___reduce_ex___42 = {},
+             $locals = $locals_time_struct_time_28___reduce_ex___42;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28___reduce_ex___42 = $locals = $B.args("__reduce_ex__", 2, {self:null, protocol:null}, ["self", "protocol"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 2){
+                    $locals_time_struct_time_28___reduce_ex___42 = $locals = {self:self, protocol:protocol}
+                }
+                else if($len > 2){$B.wrong_nb_args("__reduce_ex__", $len, 2, ["self","protocol"])}
+                else if($len + Object.keys($defaults).length < 2){$B.wrong_nb_args("__reduce_ex__", $len, 2, ["self","protocol"])}
+                else{
+                    $locals_time_struct_time_28___reduce_ex___42 = $locals = {self:self, protocol:protocol}
+                    var defparams = ["self","protocol"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "364,time"
+            var $top_frame=["time_struct_time_28___reduce_ex___42",$locals,"time", $locals_time, __reduce_ex__51]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "365,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.fast_tuple([$locals_time["struct_time"],$B.fast_tuple([$B.$getattr($locals["self"],"args"),_b_.dict.$factory([])])]);
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        __reduce_ex__51.$is_func = true
+        __reduce_ex__51.$infos = {
+            __name__:"__reduce_ex__",
+            __qualname__:"struct_time.__reduce_ex__",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:2,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:364,
+             co_flags:67,
+             co_freevars: ["struct_time"],
+             co_kwonlyargcount:0,
+             co_name: "__reduce_ex__",
+             co_nlocals: 2,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self", "protocol"])
+         }
+     };_b_.None;
+        return __reduce_ex__51}
+        $locals_time_struct_time_28["__reduce_ex__"] = __reduce_ex__$51({})
+        $locals_time_struct_time_28["__reduce_ex__"].$set_defaults = function(value){return $locals_time_struct_time_28["__reduce_ex__"] = __reduce_ex__$51(value)}
+        ;$locals.$line_info = "367,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var __repr__$52 = function($defaults){function __repr__52(self){
+            var $locals_time_struct_time_28___repr___43 = {},
+             $locals = $locals_time_struct_time_28___repr___43;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28___repr___43 = $locals = $B.args("__repr__", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28___repr___43 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("__repr__", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("__repr__", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28___repr___43 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "367,time"
+            var $top_frame=["time_struct_time_28___repr___43",$locals,"time", $locals_time, __repr__52]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "368,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$call($B.$getattr($B.add($B.add("time.structime(tm_year={}, tm_mon={}, tm_day={}, ", "tm_hour={}, tm_min={}, tm_sec={}, tm_wday={}, "), "tm_yday={}, tm_isdst={})"),"format")).apply(null,_b_.list.$factory($B.$getattr($locals["self"],"args")));
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        __repr__52.$is_func = true
+        __repr__52.$infos = {
+            __name__:"__repr__",
+            __qualname__:"struct_time.__repr__",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:367,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "__repr__",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return __repr__52}
+        $locals_time_struct_time_28["__repr__"] = __repr__$52({})
+        $locals_time_struct_time_28["__repr__"].$set_defaults = function(value){return $locals_time_struct_time_28["__repr__"] = __repr__$52(value)}
+        ;$locals.$line_info = "372,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var __str__$53 = function($defaults){function __str__53(self){
+            var $locals_time_struct_time_28___str___44 = {},
+             $locals = $locals_time_struct_time_28___str___44;
+            var $len = arguments.length;
+            if($len > 0 && arguments[$len - 1].$nat !== undefined){
+                $locals_time_struct_time_28___str___44 = $locals = $B.args("__str__", 1, {self:null}, ["self"], arguments, $defaults, null, null);
+            }
+            else{
+                if($len == 1){
+                    $locals_time_struct_time_28___str___44 = $locals = {self:self}
+                }
+                else if($len > 1){$B.wrong_nb_args("__str__", $len, 1, ["self"])}
+                else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("__str__", $len, 1, ["self"])}
+                else{
+                    $locals_time_struct_time_28___str___44 = $locals = {self:self}
+                    var defparams = ["self"]
+                    for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+                }
+            }
+            $locals.$line_info = "372,time"
+            var $top_frame=["time_struct_time_28___str___44",$locals,"time", $locals_time, __str__53]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.struct_time
+                $B.js_this = this;
+                ;$locals.$line_info = "373,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$call($B.$getattr($locals["self"],"__repr__"))();
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        __str__53.$is_func = true
+        __str__53.$infos = {
+            __name__:"__str__",
+            __qualname__:"struct_time.__str__",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:372,
+             co_flags:67,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "__str__",
+             co_nlocals: 1,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self"])
+         }
+     };_b_.None;
+        return __str__53}
+        $locals_time_struct_time_28["__str__"] = __str__$53({})
+        $locals_time_struct_time_28["__str__"].$set_defaults = function(value){return $locals_time_struct_time_28["__str__"] = __str__$53(value)}
+        if($locals.$f_trace !== _b_.None){$B.trace_return(_b_.None)}
+        $B.leave_frame({$locals})
+        return $locals_time_struct_time_28;
+    }
+    )();
+    $struct_time_28.__module__ = $locals_time.__name__
+    ;$locals_time["struct_time"] = $B.$class_constructor("struct_time", $struct_time_28, _b_.tuple.$factory([]),[],[])
+    ;$locals_time["struct_time"].__doc__ = _b_.None;
+    _b_.None;
+    ;$locals.$line_info = "375,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var to_struct_time$54 = function($defaults){function to_struct_time54(){
+        var $locals_time_to_struct_time_45 = {},
+            $locals = $locals_time_to_struct_time_45;
+        $locals_time_to_struct_time_45 = $locals = $B.args("to_struct_time", 0, {}, [], arguments, $defaults, "arg", null);
+        $locals.$line_info = "375,time"
+        var $top_frame=["time_to_struct_time_45",$locals,"time", $locals_time, to_struct_time54]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "376,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_to_struct_time_45["arg"] = $B.$call(_b_.list)($locals["arg"]);
+            ;$locals.$line_info = "379,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_to_struct_time_45["ml"] = $B.$list([31,28,31,30,31,30,31,31,30,31,30,31]);
+            ;$locals.$line_info = "380,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool($B.rich_comp("__eq__",$B.rich_op("mod", $B.$getitem($locals["arg"],0), 4),0))){
+                ;$locals.$line_info = "381,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.augm_item_add($locals["ml"],1,1);_b_.None;
+            }
+            ;$locals.$line_info = "383,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_to_struct_time_45["i"] = 1;
+            ;$locals.$line_info = "384,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $locals_time_to_struct_time_45["yday"] = 0;
+            $locals["$no_break55"] = true
+            ;$locals.$line_info = "385,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            while($B.$bool($locals["$no_break55"] && $B.rich_comp("__lt__",$locals["i"],$B.$getitem($locals["arg"],1)))){
+                ;$locals.$line_info = "386,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $temp,$left;
+                if($locals["yday"] === undefined){throw _b_.NameError.$factory("name 'yday' is not defined")}
+                $temp = $B.$getitem($locals["ml"],(typeof $locals["i"].valueOf() == "number" ? (typeof $locals["i"] == "number" ? $B.sub($locals["i"],1) : new Number($B.sub($locals["i"],1))): $B.rich_op("sub",$locals["i"],1)));
+                if(typeof $temp.valueOf() == "number" && $locals_time_to_struct_time_45["yday"].constructor === Number && Number.isSafeInteger($locals_time_to_struct_time_45["yday"]+$temp)){(typeof $temp == "number" && typeof $locals_time_to_struct_time_45["yday"] == "number") ? $locals_time_to_struct_time_45["yday"]+=$temp : $locals_time_to_struct_time_45["yday"] = new Number($locals_time_to_struct_time_45["yday"]+$temp.valueOf())}
+                else if(! _b_.hasattr($locals["yday"],"__iadd__")){
+                    ;$locals.$line_info = "386,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $locals_time_to_struct_time_45["yday"] = $B.add($locals_time_to_struct_time_45["yday"], $temp);
+                }
+                else{
+                    ;$locals.$line_info = "386,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $locals_time_to_struct_time_45["yday"] = $B.$getattr($locals_time_to_struct_time_45["yday"],"__iadd__")($temp)
+;
+                }
+                if($locals["i"] === undefined){throw _b_.NameError.$factory("name 'i' is not defined")}
+                ;$locals.$line_info = "387,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                if($locals_time_to_struct_time_45["i"].constructor === Number && Number.isSafeInteger($locals_time_to_struct_time_45["i"]+1)){(typeof $locals_time_to_struct_time_45["i"] == "number") ? $locals_time_to_struct_time_45["i"]+=1 : $locals_time_to_struct_time_45["i"] = new Number($locals_time_to_struct_time_45["i"]+1)}
+                else if(! _b_.hasattr($locals["i"],"__iadd__")){
+                    ;$locals.$line_info = "387,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $locals_time_to_struct_time_45["i"] = $B.add($locals_time_to_struct_time_45["i"], 1);
+                }
+                else{
+                    ;$locals.$line_info = "387,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $locals_time_to_struct_time_45["i"] = $B.$getattr($locals_time_to_struct_time_45["i"],"__iadd__")(1)
+;
+                }
+                $locals.$line_info = "385,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            }
+            ;$locals.$line_info = "388,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $temp,$left;
+            if($locals["yday"] === undefined){throw _b_.NameError.$factory("name 'yday' is not defined")}
+            $temp = $B.$getitem($locals["arg"],2);
+            if(typeof $temp.valueOf() == "number" && $locals_time_to_struct_time_45["yday"].constructor === Number && Number.isSafeInteger($locals_time_to_struct_time_45["yday"]+$temp)){(typeof $temp == "number" && typeof $locals_time_to_struct_time_45["yday"] == "number") ? $locals_time_to_struct_time_45["yday"]+=$temp : $locals_time_to_struct_time_45["yday"] = new Number($locals_time_to_struct_time_45["yday"]+$temp.valueOf())}
+            else if(! _b_.hasattr($locals["yday"],"__iadd__")){
+                ;$locals.$line_info = "388,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_to_struct_time_45["yday"] = $B.add($locals_time_to_struct_time_45["yday"], $temp);
+            }
+            else{
+                ;$locals.$line_info = "388,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $locals_time_to_struct_time_45["yday"] = $B.$getattr($locals_time_to_struct_time_45["yday"],"__iadd__")($temp)
+;
+            }
+            ;$locals.$line_info = "389,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $B.$call($B.$getattr($locals["arg"],"append"))($locals["yday"]);
+            ;$locals.$line_info = "390,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $B.$call($B.$getattr($locals["arg"],"append"))(-1);
+            ;$locals.$line_info = "391,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.$call($locals_time["struct_time"])($B.$call(_b_.tuple)($locals["arg"]));
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    to_struct_time54.$is_func = true
+    to_struct_time54.$infos = {
+        __name__:"to_struct_time",
+        __qualname__:"to_struct_time",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:375,
+            co_flags:71,
+            co_freevars: ["struct_time"],
+            co_kwonlyargcount:0,
+            co_name: "to_struct_time",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["arg"])
+        }
+    };_b_.None;
+    return to_struct_time54}
+    $locals_time["to_struct_time"] = to_struct_time$54({})
+    $locals_time["to_struct_time"].$set_defaults = function(value){return $locals_time["to_struct_time"] = to_struct_time$54(value)}
+    ;$locals.$line_info = "393,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var wait$56 = function($defaults){function wait56(secs){
+        var $locals_time_wait_46 = {},
+            $locals = $locals_time_wait_46;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_wait_46 = $locals = $B.args("wait", 1, {secs:null}, ["secs"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time_wait_46 = $locals = {secs:secs}
+            }
+            else if($len > 1){$B.wrong_nb_args("wait", $len, 1, ["secs"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("wait", $len, 1, ["secs"])}
+            else{
+                $locals_time_wait_46 = $locals = {secs:secs}
+                var defparams = ["secs"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "393,time"
+        var $top_frame=["time_wait_46",$locals,"time", $locals_time, wait56]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "395,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            void(0);
+            if($locals.$f_trace !== _b_.None){
+    $B.trace_return(_b_.None)
+    }
+    $B.leave_frame({$locals});return _b_.None
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    wait56.$is_func = true
+    wait56.$infos = {
+        __name__:"wait",
+        __qualname__:"wait",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:393,
+            co_flags:67,
+            co_freevars: [],
+            co_kwonlyargcount:0,
+            co_name: "wait",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["secs"])
+        }
+    };_b_.None;
+    return wait56}
+    $locals_time["wait"] = wait$56({})
+    $locals_time["wait"].$set_defaults = function(value){return $locals_time["wait"] = wait$56(value)}
+    ;$locals.$line_info = "397,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var strptime$57 = function($defaults){function strptime57(string, _format){
+        var $locals_time_strptime_47 = {},
+            $locals = $locals_time_strptime_47;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_strptime_47 = $locals = $B.args("strptime", 2, {string:null, _format:null}, ["string", "_format"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 2){
+                $locals_time_strptime_47 = $locals = {string:string, _format:_format}
+            }
+            else if($len > 2){$B.wrong_nb_args("strptime", $len, 2, ["string","_format"])}
+            else if($len + Object.keys($defaults).length < 2){$B.wrong_nb_args("strptime", $len, 2, ["string","_format"])}
+            else{
+                $locals_time_strptime_47 = $locals = {string:string, _format:_format}
+                var defparams = ["string","_format"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "397,time"
+        var $top_frame=["time_strptime_47",$locals,"time", $locals_time, strptime57]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "398,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $B.$import("_strptime", [],{},$locals_time_strptime_47, true);_b_.None;;
+            ;$locals.$line_info = "399,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.$call($B.$getattr($locals["_strptime"],"_strptime_datetime"))($locals_time["to_struct_time"], $locals["string"], $locals["_format"]);
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    strptime57.$is_func = true
+    strptime57.$infos = {
+        __name__:"strptime",
+        __qualname__:"strptime",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:2,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:397,
+            co_flags:67,
+            co_freevars: ["to_struct_time"],
+            co_kwonlyargcount:0,
+            co_name: "strptime",
+            co_nlocals: 2,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["string", "_format"])
+        }
+    };_b_.None;
+    return strptime57}
+    $locals_time["strptime"] = strptime$57({})
+    $locals_time["strptime"].$set_defaults = function(value){return $locals_time["strptime"] = strptime$57(value)}
+    ;$locals.$line_info = "403,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["_clock_msg"] = "Browser cannot access CPU. See '%s'";
+    ;$locals.$line_info = "404,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var _clock_xx$58 = function($defaults){function _clock_xx58(url){
+        var $locals_time__clock_xx_48 = {},
+            $locals = $locals_time__clock_xx_48;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time__clock_xx_48 = $locals = $B.args("_clock_xx", 1, {url:null}, ["url"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time__clock_xx_48 = $locals = {url:url}
+            }
+            else if($len > 1){$B.wrong_nb_args("_clock_xx", $len, 1, ["url"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("_clock_xx", $len, 1, ["url"])}
+            else{
+                $locals_time__clock_xx_48 = $locals = {url:url}
+                var defparams = ["url"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "404,time"
+        var $top_frame=["time__clock_xx_48",$locals,"time", $locals_time, _clock_xx58]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "405,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            $B.$raise($B.$call(_b_.NotImplementedError)($B.rich_op("mod", $locals_time["_clock_msg"], $locals["url"])));
+            if($locals.$f_trace !== _b_.None){
+    $B.trace_return(_b_.None)
+    }
+    $B.leave_frame({$locals});return _b_.None
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    _clock_xx58.$is_func = true
+    _clock_xx58.$infos = {
+        __name__:"_clock_xx",
+        __qualname__:"_clock_xx",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:404,
+            co_flags:67,
+            co_freevars: ["_clock_msg"],
+            co_kwonlyargcount:0,
+            co_name: "_clock_xx",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["url"])
+        }
+    };_b_.None;
+    return _clock_xx58}
+    $locals_time["_clock_xx"] = _clock_xx$58({})
+    $locals_time["_clock_xx"].$set_defaults = function(value){return $locals_time["_clock_xx"] = _clock_xx$58(value)}
+    ;$locals.$line_info = "406,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["clock"] = $locals_time["time"];
+    ;$locals.$line_info = "407,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["clock_getres"] = (function($locals_lambda73){
+var $B = __BRYTHON__;
+var _b_ = __BRYTHON__.builtins;
+var $locals = $locals_lambda73
+$locals_lambda73.__package__ = ""
+$locals.__annotations__ = $B.empty_dict()
+var $top_frame = ["lambda73", $locals_lambda73, "time", $locals_time]
+$locals.$f_trace = $B.enter_frame($top_frame)
+var $stack_length = $B.frames_stack.length;
+try{
+    ;$locals.$line_info = "407,lambda73";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var lambda_84c4hvf7_73$80 = function($defaults){function lambda_84c4hvf7_7380(){
+        var $locals_lambda73_lambda_84c4hvf7_73_74 = {},
+            $locals = $locals_lambda73_lambda_84c4hvf7_73_74;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_lambda73_lambda_84c4hvf7_73_74 = $locals = $B.args("lambda_84c4hvf7_73", 0, {}, [], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 0){
+                $locals_lambda73_lambda_84c4hvf7_73_74 = $locals = {}
+            }
+            else if($len > 0){$B.wrong_nb_args("lambda_84c4hvf7_73", $len, 0, [])}
+        }
+        $locals.$line_info = "407,time"
+        var $top_frame=["lambda73_lambda_84c4hvf7_73_74",$locals,"time", $locals_time, lambda_84c4hvf7_7380]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "407,lambda73";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.$call($B.$check_def("_clock_xx",$locals_time["_clock_xx"]))("https://docs.python.org/3/library/time.html#time.clock_getres");
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    lambda_84c4hvf7_7380.$is_func = true
+    lambda_84c4hvf7_7380.$infos = {
+        __name__:"<lambda>",
+        __qualname__:"<lambda>",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:407,
+            co_flags:67,
+            co_freevars: ["_clock_xx"],
+            co_kwonlyargcount:0,
+            co_name: "lambda_84c4hvf7_73",
+            co_nlocals: 0,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple([])
+        }
+    };_b_.None;
+    return lambda_84c4hvf7_7380}
+    $locals_lambda73["lambda_84c4hvf7_73"] = lambda_84c4hvf7_73$80({})
+    $locals_lambda73["lambda_84c4hvf7_73"].$set_defaults = function(value){return $locals_lambda73["lambda_84c4hvf7_73"] = lambda_84c4hvf7_73$80(value)}
+    $B.leave_frame({$locals, value: _b_.None})
+}
+catch(err){
+    $B.leave_frame({$locals, value: _b_.None})
+    throw err
+}
+
+return $locals.lambda_84c4hvf7_73})({});
+    ;$locals.$line_info = "408,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["clock_gettime"] = (function($locals_lambda75){
+var $B = __BRYTHON__;
+var _b_ = __BRYTHON__.builtins;
+var $locals = $locals_lambda75
+$locals_lambda75.__package__ = ""
+$locals.__annotations__ = $B.empty_dict()
+var $top_frame = ["lambda75", $locals_lambda75, "time", $locals_time]
+$locals.$f_trace = $B.enter_frame($top_frame)
+var $stack_length = $B.frames_stack.length;
+try{
+    ;$locals.$line_info = "408,lambda75";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var lambda_84c4hvf7_75$81 = function($defaults){function lambda_84c4hvf7_7581(){
+        var $locals_lambda75_lambda_84c4hvf7_75_76 = {},
+            $locals = $locals_lambda75_lambda_84c4hvf7_75_76;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_lambda75_lambda_84c4hvf7_75_76 = $locals = $B.args("lambda_84c4hvf7_75", 0, {}, [], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 0){
+                $locals_lambda75_lambda_84c4hvf7_75_76 = $locals = {}
+            }
+            else if($len > 0){$B.wrong_nb_args("lambda_84c4hvf7_75", $len, 0, [])}
+        }
+        $locals.$line_info = "408,time"
+        var $top_frame=["lambda75_lambda_84c4hvf7_75_76",$locals,"time", $locals_time, lambda_84c4hvf7_7581]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "408,lambda75";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.$call($B.$check_def("_clock_xx",$locals_time["_clock_xx"]))("https://docs.python.org/3/library/time.html#time.clock_gettime");
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    lambda_84c4hvf7_7581.$is_func = true
+    lambda_84c4hvf7_7581.$infos = {
+        __name__:"<lambda>",
+        __qualname__:"<lambda>",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:408,
+            co_flags:67,
+            co_freevars: ["_clock_xx"],
+            co_kwonlyargcount:0,
+            co_name: "lambda_84c4hvf7_75",
+            co_nlocals: 0,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple([])
+        }
+    };_b_.None;
+    return lambda_84c4hvf7_7581}
+    $locals_lambda75["lambda_84c4hvf7_75"] = lambda_84c4hvf7_75$81({})
+    $locals_lambda75["lambda_84c4hvf7_75"].$set_defaults = function(value){return $locals_lambda75["lambda_84c4hvf7_75"] = lambda_84c4hvf7_75$81(value)}
+    $B.leave_frame({$locals, value: _b_.None})
+}
+catch(err){
+    $B.leave_frame({$locals, value: _b_.None})
+    throw err
+}
+
+return $locals.lambda_84c4hvf7_75})({});
+    ;$locals.$line_info = "409,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["clock_settime"] = (function($locals_lambda77){
+var $B = __BRYTHON__;
+var _b_ = __BRYTHON__.builtins;
+var $locals = $locals_lambda77
+$locals_lambda77.__package__ = ""
+$locals.__annotations__ = $B.empty_dict()
+var $top_frame = ["lambda77", $locals_lambda77, "time", $locals_time]
+$locals.$f_trace = $B.enter_frame($top_frame)
+var $stack_length = $B.frames_stack.length;
+try{
+    ;$locals.$line_info = "409,lambda77";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var lambda_84c4hvf7_77$82 = function($defaults){function lambda_84c4hvf7_7782(){
+        var $locals_lambda77_lambda_84c4hvf7_77_78 = {},
+            $locals = $locals_lambda77_lambda_84c4hvf7_77_78;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_lambda77_lambda_84c4hvf7_77_78 = $locals = $B.args("lambda_84c4hvf7_77", 0, {}, [], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 0){
+                $locals_lambda77_lambda_84c4hvf7_77_78 = $locals = {}
+            }
+            else if($len > 0){$B.wrong_nb_args("lambda_84c4hvf7_77", $len, 0, [])}
+        }
+        $locals.$line_info = "409,time"
+        var $top_frame=["lambda77_lambda_84c4hvf7_77_78",$locals,"time", $locals_time, lambda_84c4hvf7_7782]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "409,lambda77";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            var $res = $B.$call($B.$check_def("_clock_xx",$locals_time["_clock_xx"]))("https://docs.python.org/3/library/time.html#time.clock_settime");
+if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+$B.leave_frame({$locals});
+return $res;
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    lambda_84c4hvf7_7782.$is_func = true
+    lambda_84c4hvf7_7782.$infos = {
+        __name__:"<lambda>",
+        __qualname__:"<lambda>",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:409,
+            co_flags:67,
+            co_freevars: ["_clock_xx"],
+            co_kwonlyargcount:0,
+            co_name: "lambda_84c4hvf7_77",
+            co_nlocals: 0,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple([])
+        }
+    };_b_.None;
+    return lambda_84c4hvf7_7782}
+    $locals_lambda77["lambda_84c4hvf7_77"] = lambda_84c4hvf7_77$82({})
+    $locals_lambda77["lambda_84c4hvf7_77"].$set_defaults = function(value){return $locals_lambda77["lambda_84c4hvf7_77"] = lambda_84c4hvf7_77$82(value)}
+    $B.leave_frame({$locals, value: _b_.None})
+}
+catch(err){
+    $B.leave_frame({$locals, value: _b_.None})
+    throw err
+}
+
+return $locals.lambda_84c4hvf7_77})({});
+    ;$locals.$line_info = "410,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["CLOCK_HIGHRES"] = $B.rich_op("mod", $locals_time["_clock_msg"], "https://docs.python.org/3/library/time.html#time.CLOCK_HIGHRES");
+    ;$locals.$line_info = "411,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["CLOCK_MONOTONIC"] = $B.rich_op("mod", $locals_time["_clock_msg"], "https://docs.python.org/3/library/time.html#time.CLOCK_MONOTONIC");
+    ;$locals.$line_info = "412,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["CLOCK_MONOTONIC_RAW"] = $B.rich_op("mod", $locals_time["_clock_msg"], "https://docs.python.org/3/library/time.html#time.CLOCK_MONOTONIC_RAW");
+    ;$locals.$line_info = "413,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["CLOCK_PROCESS_CPUTIME_ID"] = $B.rich_op("mod", $locals_time["_clock_msg"], "https://docs.python.org/3/library/time.html#time.CLOCK_PROCESS_CPUTIME_ID");
+    ;$locals.$line_info = "414,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["CLOCK_REALTIME"] = $B.rich_op("mod", $locals_time["_clock_msg"], "https://docs.python.org/3/library/time.html#time.CLOCK_REALTIME");
+    ;$locals.$line_info = "415,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    $locals_time["CLOCK_THREAD_CPUTIME_ID"] = $B.rich_op("mod", $locals_time["_clock_msg"], "https://docs.python.org/3/library/time.html#time.CLOCK_THREAD_CPUTIME_ID");
+    ;$locals.$line_info = "417,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var $ClockInfo_49 = (function(){
+        var $locals_time_ClockInfo_49 = {__annotations__: $B.empty_dict()}, 
+            $locals = $locals_time_ClockInfo_49
+            $locals.$name = "ClockInfo"
+            $locals.$qualname = "ClockInfo"
+            $locals.$is_class = true; 
+            $locals.$line_info = "417,time";
+            var $top_frame = ["$locals_time_ClockInfo_49", $locals,"time", $locals_time]
+            $locals.$f_trace = $B.enter_frame($top_frame);
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_line()}
+        ;$locals.$line_info = "419,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+        var __init__$59 = function($defaults){function __init__59(){
+            var $locals_time_ClockInfo_49___init___50 = {},
+             $locals = $locals_time_ClockInfo_49___init___50;
+            $locals_time_ClockInfo_49___init___50 = $locals = $B.args("__init__", 1, {self:null}, ["self"], arguments, $defaults, "kw", null);
+            $locals.$line_info = "419,time"
+            var $top_frame=["time_ClockInfo_49___init___50",$locals,"time", $locals_time, __init__59]
+            $locals.$f_trace = $B.enter_frame($top_frame)
+            var $stack_length = $B.frames_stack.length;
+            try{
+                $locals.__class__ = $locals_time.ClockInfo
+                $B.js_this = this;
+                ;$locals.$line_info = "420,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $iter60 = $B.$call($B.$getattr($locals["kw"],"items"))();$locals["$next60"] = $B.$getattr($B.$iter($iter60),"__next__")
+                while(true){
+                    try{
+                        var $right66 = $B.$getattr($B.$iter($locals["$next60"]()), "__next__");
+                        var $rlist67=[], $pos=0;while(1){try{$rlist67[$pos++] = $right66()}catch(err){break}}
+                        if($rlist67.length<2){throw _b_.ValueError.$factory("need more than " +$rlist67.length + " value" + ($rlist67.length > 1 ? "s" : "") + " to unpack")}
+                        if($rlist67.length>2){throw _b_.ValueError.$factory("too many values to unpack (expected 2)")}
+                        $locals_time_ClockInfo_49___init___50["key"] = $rlist67[0];
+                        $locals_time_ClockInfo_49___init___50["value"] = $rlist67[1];
+                    }
+                    catch($err){if($B.is_exc($err, [_b_.StopIteration])){break;}else{throw($err)}}
+                    ;$locals.$line_info = "421,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                    $B.$call(_b_.setattr)($locals["self"], $B.$check_def_local("key",$locals["key"]), $B.$check_def_local("value",$locals["value"]));
+                    $locals.$line_info = "420,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                }
+                if($locals.$f_trace !== _b_.None){
+        $B.trace_return(_b_.None)
+        }
+        $B.leave_frame({$locals});return _b_.None
+            }
+            catch(err){
+                $B.set_exc(err)
+                if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+                $B.leave_frame({$locals});throw err
+            }
+        }
+        __init__59.$is_func = true
+        __init__59.$infos = {
+            __name__:"__init__",
+            __qualname__:"ClockInfo.__init__",
+            __defaults__ : _b_.None,
+            __kwdefaults__ : _b_.None,
+            __annotations__: {},
+            __dict__: $B.empty_dict(),
+            __doc__: _b_.None,
+            __module__ : "time",
+            __code__:{
+             co_argcount:1,
+             co_filename:$locals_time["__file__"] || "<string>",
+             co_firstlineno:419,
+             co_flags:71,
+             co_freevars: [],
+             co_kwonlyargcount:0,
+             co_name: "__init__",
+             co_nlocals: 2,
+             co_posonlyargcount: 0,
+             co_varnames: $B.fast_tuple(["self", "kw"])
+         }
+     };_b_.None;
+        return __init__59}
+        $locals_time_ClockInfo_49["__init__"] = __init__$59({})
+        $locals_time_ClockInfo_49["__init__"].$set_defaults = function(value){return $locals_time_ClockInfo_49["__init__"] = __init__$59(value)}
+        if($locals.$f_trace !== _b_.None){$B.trace_return(_b_.None)}
+        $B.leave_frame({$locals})
+        return $locals_time_ClockInfo_49;
+    }
+    )();
+    $ClockInfo_49.__module__ = $locals_time.__name__
+    ;$locals_time["ClockInfo"] = $B.$class_constructor("ClockInfo", $ClockInfo_49, _b_.tuple.$factory([]),[],[])
+    ;$locals_time["ClockInfo"].__doc__ = _b_.None;
+    _b_.None;
+    ;$locals.$line_info = "423,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var get_clock_info$61 = function($defaults){function get_clock_info61(cl){
+        var $locals_time_get_clock_info_51 = {},
+            $locals = $locals_time_get_clock_info_51;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_get_clock_info_51 = $locals = $B.args("get_clock_info", 1, {cl:null}, ["cl"], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 1){
+                $locals_time_get_clock_info_51 = $locals = {cl:cl}
+            }
+            else if($len > 1){$B.wrong_nb_args("get_clock_info", $len, 1, ["cl"])}
+            else if($len + Object.keys($defaults).length < 1){$B.wrong_nb_args("get_clock_info", $len, 1, ["cl"])}
+            else{
+                $locals_time_get_clock_info_51 = $locals = {cl:cl}
+                var defparams = ["cl"]
+                for(var i = $len; i < defparams.length; i++){$locals[defparams[i]] = $defaults[defparams[i]]}
+            }
+        }
+        $locals.$line_info = "423,time"
+        var $top_frame=["time_get_clock_info_51",$locals,"time", $locals_time, get_clock_info61]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "425,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            if($B.$bool((typeof $locals["cl"] == "string" ? $locals["cl"]=='monotonic' : $B.rich_comp("__eq__",$locals["cl"],'monotonic')))){
+                ;$locals.$line_info = "426,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$call($locals_time["ClockInfo"])({$nat:"kw",kw:{adjustable:_b_.False, implementation:'window.performance.now', monotonic:_b_.True, resolution:(new Number(0.000001))}});
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            else if($B.$bool(($B.set_line("430,time_get_clock_info_51")) && $B.$test_expr($B.$test_item((typeof $locals["cl"] == "string" ? $locals["cl"]=='perf_counter' : $B.rich_comp("__eq__",$locals["cl"],'perf_counter')))||$B.$test_item((typeof $locals["cl"] == "string" ? $locals["cl"]=='process_time' : $B.rich_comp("__eq__",$locals["cl"],'process_time')))))){
+                ;$locals.$line_info = "431,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                var $res = $B.$call($locals_time["ClockInfo"])({$nat:"kw",kw:{adjustable:_b_.False, implementation:'date.getTime', monotonic:_b_.False, resolution:(new Number(0.001))}});
+    if($locals.$f_trace !== _b_.None){$B.trace_return($res)}
+    $B.leave_frame({$locals});
+    return $res;
+            }
+            else{
+                ;$locals.$line_info = "436,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+                $B.$call($locals_time["_clock_xx"])("https://docs.python.org/3/library/time.html#time.get_clock_info");
+            }
+            if($locals.$f_trace !== _b_.None){
+    $B.trace_return(_b_.None)
+    }
+    $B.leave_frame({$locals});return _b_.None
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    get_clock_info61.$is_func = true
+    get_clock_info61.$infos = {
+        __name__:"get_clock_info",
+        __qualname__:"get_clock_info",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:1,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:423,
+            co_flags:67,
+            co_freevars: ["ClockInfo","adjustable","False","implementation","monotonic","resolution","_clock_xx"],
+            co_kwonlyargcount:0,
+            co_name: "get_clock_info",
+            co_nlocals: 1,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple(["cl"])
+        }
+    };_b_.None;
+    return get_clock_info61}
+    $locals_time["get_clock_info"] = get_clock_info$61({})
+    $locals_time["get_clock_info"].$set_defaults = function(value){return $locals_time["get_clock_info"] = get_clock_info$61(value)}
+    ;$locals.$line_info = "438,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+    var tzset$62 = function($defaults){function tzset62(){
+        var $locals_time_tzset_52 = {},
+            $locals = $locals_time_tzset_52;
+        var $len = arguments.length;
+        if($len > 0 && arguments[$len - 1].$nat !== undefined){
+            $locals_time_tzset_52 = $locals = $B.args("tzset", 0, {}, [], arguments, $defaults, null, null);
+        }
+        else{
+            if($len == 0){
+                $locals_time_tzset_52 = $locals = {}
+            }
+            else if($len > 0){$B.wrong_nb_args("tzset", $len, 0, [])}
+        }
+        $locals.$line_info = "438,time"
+        var $top_frame=["time_tzset_52",$locals,"time", $locals_time, tzset62]
+        $locals.$f_trace = $B.enter_frame($top_frame)
+        var $stack_length = $B.frames_stack.length;
+        try{
+            $B.js_this = this;
+            ;$locals.$line_info = "439,time";if($locals.$f_trace !== _b_.None){$B.trace_line()};_b_.None;
+            void(0);
+            if($locals.$f_trace !== _b_.None){
+    $B.trace_return(_b_.None)
+    }
+    $B.leave_frame({$locals});return _b_.None
+        }
+        catch(err){
+            $B.set_exc(err)
+            if($locals.$f_trace !== _b_.None){$locals.$f_trace = $B.trace_exception()}
+            $B.leave_frame({$locals});throw err
+        }
+    }
+    tzset62.$is_func = true
+    tzset62.$infos = {
+        __name__:"tzset",
+        __qualname__:"tzset",
+        __defaults__ : _b_.None,
+        __kwdefaults__ : _b_.None,
+        __annotations__: {},
+        __dict__: $B.empty_dict(),
+        __doc__: _b_.None,
+        __module__ : "time",
+        __code__:{
+            co_argcount:0,
+            co_filename:$locals_time["__file__"] || "<string>",
+            co_firstlineno:438,
+            co_flags:67,
+            co_freevars: [],
+            co_kwonlyargcount:0,
+            co_name: "tzset",
+            co_nlocals: 0,
+            co_posonlyargcount: 0,
+            co_varnames: $B.fast_tuple([])
+        }
+    };_b_.None;
+    return tzset62}
+    $locals_time["tzset"] = tzset$62({})
+    $locals_time["tzset"].$set_defaults = function(value){return $locals_time["tzset"] = tzset$62(value)}
+    $B.leave_frame({$locals, value: _b_.None})
+}
+catch(err){
+    $B.leave_frame({$locals, value: _b_.None})
+    throw err
+}
+"imports"_locale,_strptime,javascript"origin"https://ost2.fyi"	timestampN P`æﬂOwB"	source_tsN êƒæﬂOwB"
+is_packageF{

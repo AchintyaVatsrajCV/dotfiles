@@ -1,0 +1,6 @@
+2022/05/24-09:45:03.044 138342 Creating DB /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.titaneyeplus.com_0.indexeddb.leveldb since it was missing.
+2022/05/24-09:45:03.128 138342 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.titaneyeplus.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/24-15:46:13.960 14ca1e Level-0 table #5: started
+2022/05/24-15:46:14.020 14ca1e Level-0 table #5: 16995 bytes OK
+2022/05/24-15:46:14.052 14ca1e Delete type=0 #3
+2022/05/24-15:46:14.052 14ca1e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,24 @@
+2022/05/21-11:28:28.282 9af65 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/21-11:28:28.282 9af65 Recovering log #61
+2022/05/21-11:28:28.284 9af65 Reusing old log /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000061.log 
+2022/05/21-11:57:45.857 9b517 Level-0 table #66: started
+2022/05/21-11:57:46.031 9b517 Level-0 table #66: 2395364 bytes OK
+2022/05/21-11:57:46.073 9b517 Delete type=0 #61
+2022/05/21-12:05:14.539 9aa1a Compacting 1@1 + 1@2 files
+2022/05/21-12:05:14.603 9aa1a Generated table #67@1: 54 keys, 24380 bytes
+2022/05/21-12:05:14.603 9aa1a Compacted 1@1 + 1@2 files => 24380 bytes
+2022/05/21-12:05:14.640 9aa1a compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/21-12:05:14.640 9aa1a Delete type=2 #63
+2022/05/21-12:05:14.641 9aa1a Delete type=2 #66
+2022/05/21-12:39:59.453 9aa1a Level-0 table #69: started
+2022/05/21-12:39:59.597 9aa1a Level-0 table #69: 2212192 bytes OK
+2022/05/21-12:39:59.642 9aa1a Delete type=0 #65
+2022/05/21-12:44:34.535 9e198 Compacting 1@1 + 1@2 files
+2022/05/21-12:44:34.591 9e198 Generated table #70@1: 53 keys, 24283 bytes
+2022/05/21-12:44:34.591 9e198 Compacted 1@1 + 1@2 files => 24283 bytes
+2022/05/21-12:44:34.626 9e198 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/21-12:44:34.626 9e198 Delete type=2 #69
+2022/05/21-12:44:34.626 9e198 Delete type=2 #67
+2022/05/21-14:52:29.420 a3245 Level-0 table #72: started
+2022/05/21-14:52:29.523 a3245 Level-0 table #72: 2182214 bytes OK
+2022/05/21-14:52:29.566 a3245 Delete type=0 #68

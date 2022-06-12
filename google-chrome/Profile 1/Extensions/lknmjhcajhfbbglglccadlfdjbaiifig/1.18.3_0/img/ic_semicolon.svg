@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26"
+     viewBox="0 0 26 26">
+    <defs>
+        <style>.a{stroke:#f6f5fa;fill:url(#a);}.b{fill:none;}.c{fill:#000852;}.d{stroke:none;}.e{filter:url(#b);}
+        </style>
+        <linearGradient id="a" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fafafa"/>
+            <stop offset="1" stop-color="#f4f4f4"/>
+        </linearGradient>
+        <filter id="b" x="0" y="0" width="26" height="26" filterUnits="userSpaceOnUse">
+            <feOffset dx="1" dy="2" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="1" result="c"/>
+            <feFlood flood-opacity="0.149"/>
+            <feComposite operator="in" in2="c"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(-119.841 -97.055)">
+        <g transform="translate(121.841 98.055)">
+            <g class="e" transform="matrix(1, 0, 0, 1, -2, -1)">
+                <g class="a" transform="translate(2 1)">
+                    <rect class="d" width="20" height="20" rx="5"/>
+                    <rect class="b" x="0.5" y="0.5" width="19" height="19" rx="4.5"/>
+                </g>
+            </g>
+        </g>
+        <g transform="translate(123.841 100.055)">
+            <path class="b" d="M0,0H16V16H0Z"/>
+            <path class="c"
+                  d="M2.031-.942a.95.95,0,0,1,.591.182,1.175,1.175,0,0,1,.372.5,1.9,1.9,0,0,1,.131.737,2.784,2.784,0,0,1-.168.948,2.626,2.626,0,0,1-.518.861,2.784,2.784,0,0,1-.9.656L.923,2.369A2.294,2.294,0,0,0,1.616,2,2.161,2.161,0,0,0,2.1,1.479a1.666,1.666,0,0,0,.248-.6L2.294.852a.511.511,0,0,1-.146.073.885.885,0,0,1-.263.029.729.729,0,0,1-.357-.1.916.916,0,0,1-.314-.3A.918.918,0,0,1,1.083.035a.956.956,0,0,1,.131-.489,1.008,1.008,0,0,1,.343-.357A.881.881,0,0,1,2.031-.942ZM2.046-6.63a.927.927,0,0,1,.685.263.927.927,0,0,1,.263.685A.927.927,0,0,1,2.732-5a.927.927,0,0,1-.685.263A.927.927,0,0,1,1.361-5,.927.927,0,0,1,1.1-5.682a.927.927,0,0,1,.263-.685A.927.927,0,0,1,2.046-6.63Z"
+                  transform="translate(5.975 9.846)"/>
+        </g>
+    </g>
+</svg>

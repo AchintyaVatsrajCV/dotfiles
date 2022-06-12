@@ -1,0 +1,7 @@
+2022/05/23-21:22:33.386 10dbcc Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/23-21:22:33.386 10dbcc Recovering log #3
+2022/05/23-21:22:33.426 10dbcc Reusing old log /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000003.log 
+2022/05/23-22:32:26.444 111f71 Level-0 table #5: started
+2022/05/23-22:32:26.486 111f71 Level-0 table #5: 7152 bytes OK
+2022/05/23-22:32:26.519 111f71 Delete type=0 #3
+2022/05/23-22:32:26.520 111f71 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

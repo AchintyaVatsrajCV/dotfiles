@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "assets/unlimited-medium-128.png",
+         "16": "assets/unlimited-medium-16.png",
+         "32": "assets/unlimited-medium-32.png",
+         "48": "assets/unlimited-medium-48.png"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "js/content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "description": "A browser extension that allows you to enjoy unlimited medium articles with just a click !",
+   "icons": {
+      "128": "assets/unlimited-medium-128.png",
+      "16": "assets/unlimited-medium-16.png",
+      "32": "assets/unlimited-medium-32.png",
+      "48": "assets/unlimited-medium-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAizTsfODSDS83R2k4sCpdN9+MUUfRbgMMAyth4TO4W9OrZtcybvUVauB7yPfgy3FnT+lg3tGLwBUnstnAfk904jf6ZDPPaZBJlxmn1I30UURFaVuFuGflrvm5cWyh6+dCzbcK7c50lhdB1gs7kRmY99Kq5lctAnvAEZxGesdBlS5wimxaGqILy1f3Ux89NxV0Y5lTmIU2oC9+SfLsE+63zlofg9bkYVrDkF0cYHZohXsHNd1+tPoHezapmJpZvnjP+fmIbouPZawnyUwUNZYjMcgPJZ+vPjBzDFHVZ7RlHZ1+uRCIZC78299vJA5l9dNiBrEkCqmV/mhjv165Hnu9oQIDAQAB",
+   "manifest_version": 2,
+   "name": "Unlimited Medium",
+   "permissions": [ "\u003Call_urls>", "tabs", "cookies", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.0",
+   "web_accessible_resources": [  ]
+}

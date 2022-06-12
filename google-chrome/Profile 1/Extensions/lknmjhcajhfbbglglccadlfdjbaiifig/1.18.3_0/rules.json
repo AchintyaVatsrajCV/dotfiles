@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://\\1\\2zoom.us/wc/join/\\4\\5\\6"
+      }
+    },
+    "condition": {
+      "regexFilter": "^.*https://([A-Za-z0-9\\-]*)([\\.]*)zoom\\.us/([a-z])/([0-9]+)([^#\r\n]*)([^?\r\n]*)",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

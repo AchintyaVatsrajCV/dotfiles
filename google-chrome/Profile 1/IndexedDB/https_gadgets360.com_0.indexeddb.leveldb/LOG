@@ -1,0 +1,6 @@
+2022/06/06-17:49:39.470 27092 Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_gadgets360.com_0.indexeddb.leveldb since it was missing.
+2022/06/06-17:49:39.595 27092 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_gadgets360.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/06-18:56:58.457 2a832 Level-0 table #5: started
+2022/06/06-18:56:58.527 2a832 Level-0 table #5: 993 bytes OK
+2022/06/06-18:56:58.563 2a832 Delete type=0 #3
+2022/06/06-18:56:58.563 2a832 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

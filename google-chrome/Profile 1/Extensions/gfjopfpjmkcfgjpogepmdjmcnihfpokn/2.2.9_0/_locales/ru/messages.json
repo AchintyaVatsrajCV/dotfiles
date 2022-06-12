@@ -1,0 +1,617 @@
+{
+   "Annually": {
+      "message": "Ежегодно"
+   },
+   "Arabic": {
+      "message": "арабский"
+   },
+   "Asia": {
+      "message": "Азия"
+   },
+   "Australia": {
+      "message": "Австралия"
+   },
+   "Australia_d": {
+      "message": "австралийский"
+   },
+   "Autoplay": {
+      "message": "Автопроигрывание"
+   },
+   "Autoplay_desc": {
+      "message": "Автоматически прочитать выбранное вслух"
+   },
+   "Brazil": {
+      "message": "Бразилия"
+   },
+   "Brazil_d": {
+      "message": "бразильский"
+   },
+   "British": {
+      "message": "Британская"
+   },
+   "Canada": {
+      "message": "Канада"
+   },
+   "Canada_d": {
+      "message": "канадский"
+   },
+   "Catalan": {
+      "message": "каталонский"
+   },
+   "China": {
+      "message": "Китай"
+   },
+   "China_d": {
+      "message": "китайский"
+   },
+   "Chinese": {
+      "message": "китайский"
+   },
+   "Czech": {
+      "message": "чешский"
+   },
+   "Czech_d": {
+      "message": "чешский"
+   },
+   "Danish": {
+      "message": "датский"
+   },
+   "Denmark": {
+      "message": "Дания"
+   },
+   "Denmark_d": {
+      "message": "датский"
+   },
+   "Dutch": {
+      "message": "голландский"
+   },
+   "English": {
+      "message": "английский"
+   },
+   "Europe": {
+      "message": "Европа"
+   },
+   "FREE": {
+      "message": "БЕСПЛАТНО"
+   },
+   "Fast": {
+      "message": "Быстро"
+   },
+   "Features": {
+      "message": "Особенности"
+   },
+   "Finland": {
+      "message": "Финляндия"
+   },
+   "Finland_d": {
+      "message": "финский"
+   },
+   "Finnish": {
+      "message": "финский"
+   },
+   "France": {
+      "message": "Франция"
+   },
+   "France_d": {
+      "message": "французский"
+   },
+   "French": {
+      "message": "французский"
+   },
+   "Gender": {
+      "message": "Пол"
+   },
+   "German": {
+      "message": "немецкий"
+   },
+   "Germany": {
+      "message": "Германия"
+   },
+   "Germany_d": {
+      "message": "немецкий"
+   },
+   "Greek": {
+      "message": "греческий"
+   },
+   "Hong_Kong": {
+      "message": "Гонконг"
+   },
+   "Hong_Kong_d": {
+      "message": "Гонконг"
+   },
+   "Hungarian": {
+      "message": "венгерский"
+   },
+   "Hungary": {
+      "message": "Венгрия"
+   },
+   "Hungary_d": {
+      "message": "венгерский"
+   },
+   "Italian": {
+      "message": "итальянский"
+   },
+   "Italy": {
+      "message": "Италия"
+   },
+   "Italy_d": {
+      "message": "итальянский"
+   },
+   "Japan": {
+      "message": "Япония"
+   },
+   "Japan_d": {
+      "message": "японский"
+   },
+   "Japanese": {
+      "message": "японский"
+   },
+   "Korea": {
+      "message": "Корея"
+   },
+   "Korea_d": {
+      "message": "корейский"
+   },
+   "Korean": {
+      "message": "корейский"
+   },
+   "LITE": {
+      "message": "LITE версия"
+   },
+   "Language": {
+      "message": "Язык"
+   },
+   "Mexico": {
+      "message": "Мексика"
+   },
+   "Mexico_d": {
+      "message": "мексиканский"
+   },
+   "Month_desc": {
+      "message": "Подписка на месяц Select and Speak"
+   },
+   "Netherlands": {
+      "message": "Нидерланды"
+   },
+   "Netherlands_d": {
+      "message": "голландский"
+   },
+   "Normal": {
+      "message": "Нормально"
+   },
+   "North_America": {
+      "message": "Северная Америка"
+   },
+   "Norway": {
+      "message": "Норвегия"
+   },
+   "Norway_d": {
+      "message": "норвежский"
+   },
+   "Norwegian": {
+      "message": "норвежский"
+   },
+   "Pacific": {
+      "message": "Тихого океана"
+   },
+   "Poland": {
+      "message": "Польша"
+   },
+   "Poland_d": {
+      "message": "польский"
+   },
+   "Polish": {
+      "message": "польский"
+   },
+   "Portugal": {
+      "message": "Португалия"
+   },
+   "Portugal_d": {
+      "message": "португальский"
+   },
+   "Portuguese": {
+      "message": "португальский"
+   },
+   "Pro_Features": {
+      "message": "Особенности Pro"
+   },
+   "Russia": {
+      "message": "Россия"
+   },
+   "Russia_d": {
+      "message": "русский"
+   },
+   "Russian": {
+      "message": "русский"
+   },
+   "Slow": {
+      "message": "Медленно"
+   },
+   "South_America": {
+      "message": "Южная / Центральная Америка"
+   },
+   "Spain": {
+      "message": "Испания"
+   },
+   "Spain_d": {
+      "message": "испанский"
+   },
+   "Spanish": {
+      "message": "испанский"
+   },
+   "Speech": {
+      "message": "Речь"
+   },
+   "Speed": {
+      "message": "Скорость"
+   },
+   "Sweden": {
+      "message": "Швеция"
+   },
+   "Sweden_d": {
+      "message": "шведский"
+   },
+   "Swedish": {
+      "message": "шведский"
+   },
+   "Taiwan": {
+      "message": "Тайвань"
+   },
+   "Taiwan_d": {
+      "message": "Тайваньская"
+   },
+   "Turkey": {
+      "message": "индейка"
+   },
+   "Turkey_d": {
+      "message": "турецкий"
+   },
+   "Turkish": {
+      "message": "турецкий"
+   },
+   "United_Kingdom": {
+      "message": "Великобритания"
+   },
+   "United_Kingdom_d": {
+      "message": "британец"
+   },
+   "United_States": {
+      "message": "Соединенные Штаты"
+   },
+   "United_States_d": {
+      "message": "Американская"
+   },
+   "Year_desc": {
+      "message": "Подписка на год Select and Speak"
+   },
+   "all_only": {
+      "message": "Вы получите все эти функции всего за"
+   },
+   "answer1": {
+      "message": "Выбирай и Говори позволяет вам слушать любой текст в браузере Chrome. Вы можете выбрать любой текст, который вы хотите читать, затем правый клик и затем выбираете Читать с Выбирай и Говори"
+   },
+   "answer2": {
+      "message": "Да, если PDF содержит текст, который может быть выбран. Если же он содержит изображения или это сканированный текст, тогда - нет."
+   },
+   "answer3": {
+      "message": "Пока у нас есть бесплатная версия Выбирай и Говори, которая используется миллионами пользователей в год, нам приходится взимать плату с наиболее активных пользователей, чтобы предоставлять услугу. Ограничение - 500 слов в день."
+   },
+   "app_name": {
+      "message": "Select and Speak - \"текст в речь\""
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "Автоматически переключать язык по содержимому страницы"
+   },
+   "autolangOption": {
+      "message": "Автоматическое определение языка"
+   },
+   "automaticLanguage": {
+      "message": "Автоматический язык"
+   },
+   "autoplayOption": {
+      "message": "Опция автопроигрывания"
+   },
+   "autoplay_off": {
+      "message": "Отключить автопроигрывание"
+   },
+   "autoplay_on": {
+      "message": "Включить автопроигрывание"
+   },
+   "become_pro": {
+      "message": "Стань пользователем Pro прямо сейчас"
+   },
+   "buy_edu": {
+      "message": "Купить Образовательный Пакет"
+   },
+   "cancelAnyTime": {
+      "message": "Отменить в любое время"
+   },
+   "checkout_pro": {
+      "message": "Ознакомьтесь со свойствами Pro "
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "Выбери пол голоса и скорость скорость чтения"
+   },
+   "choose_language": {
+      "message": "Выбрать язык"
+   },
+   "contact": {
+      "message": "Свяжитесь с нами"
+   },
+   "could_not_read": {
+      "message": "Страница не может быть прочитана, пожалуйста обновите страницу."
+   },
+   "country": {
+      "message": "Страна"
+   },
+   "dashboard": {
+      "message": "ПАНЕЛЬ ИНСТРУМЕНТОВ"
+   },
+   "detect_lang": {
+      "message": "Автоматическое определение языка"
+   },
+   "discounted": {
+      "message": "Со скидкой - Подробнее"
+   },
+   "edu_discounts": {
+      "message": "Получи специальную скидку для студентов, если вы преподаватель."
+   },
+   "educationalVersion": {
+      "message": "Версия для учебы"
+   },
+   "educational_package": {
+      "message": "Образовательный пакет"
+   },
+   "faq": {
+      "message": "Часто задаваемые вопросы"
+   },
+   "fast_or_slow": {
+      "message": "Читай тексты на 21 разных скоростях"
+   },
+   "female": {
+      "message": "женщина"
+   },
+   "final_step": {
+      "message": "Последний шаг - Введите свои Данные"
+   },
+   "final_step_message": {
+      "message": "Чтобы улучшить Выбирай и Говори для пользования во всем мире, нам нужна информация от разных пользователей. Пожалуйста, предоставьте нам следующие сведения, чтобы убедиться, что приложение используется как следует с максимальной точностью."
+   },
+   "for_sentences": {
+      "message": "За $1 предложений"
+   },
+   "free_trial": {
+      "message": "7 дней бесплатно"
+   },
+   "free_version": {
+      "message": "Вы используете бесплатную версию"
+   },
+   "fullPrice_alone": {
+      "message": "₽ 1379"
+   },
+   "gender": {
+      "message": "Пол "
+   },
+   "halfOff": {
+      "message": "50% скидка, ознакомительное предложение"
+   },
+   "help_us": {
+      "message": "Получить подписку Pro бесплатно"
+   },
+   "home": {
+      "message": "Домой"
+   },
+   "improve_speak": {
+      "message": "Мы стараемся улучшить Выбирай и Говори. Помогите нам, получив подписку Премиум на 1 неделю или 1 месяц Бесплатно!"
+   },
+   "langs": {
+      "message": "27 языков"
+   },
+   "limit_alert": {
+      "message": "Выбранное количество из $1 слов превышает ваш дневной лимит. Чтобы удалить ограничение, обновитесь,"
+   },
+   "m_price": {
+      "message": "$$3.99 в месяц"
+   },
+   "male": {
+      "message": "мужчина"
+   },
+   "month": {
+      "message": "1 месяц"
+   },
+   "monthPrice_alone": {
+      "message": "$$3.99"
+   },
+   "monthly": {
+      "message": "В месяц"
+   },
+   "monthlyPrice": {
+      "message": "₽ 139 в месяц"
+   },
+   "native_language": {
+      "message": "Родной язык"
+   },
+   "next": {
+      "message": "Следующее"
+   },
+   "no_barriers": {
+      "message": "Читай тексты на 27 языках"
+   },
+   "not_much": {
+      "message": "Немного, мы вам предоставим несколько строчек и вам нужно будет их громко прочитать (предпочтительно в тихом окружении)."
+   },
+   "num_students": {
+      "message": "Количество студентов"
+   },
+   "options_title": {
+      "message": "Параметры Select and Speak"
+   },
+   "or": {
+      "message": "или"
+   },
+   "origin_place": {
+      "message": "Почтовый индекс (там, где вы выросли)"
+   },
+   "paragraph_player": {
+      "message": "Вы отключили плеер абзацев. Вы можете включить его снова во вкладке параметры."
+   },
+   "per_student": {
+      "message": "На студента"
+   },
+   "premium": {
+      "message": " (Премиум)"
+   },
+   "previous": {
+      "message": "Предыдущее"
+   },
+   "price": {
+      "message": "Цена"
+   },
+   "proVersion": {
+      "message": "Профессиональная версия"
+   },
+   "pro_features": {
+      "message": "Свойства Pro"
+   },
+   "purchase_audio": {
+      "message": "Приобретите аудио этого выделения"
+   },
+   "question1": {
+      "message": "Как работает Выбирай и Говори?"
+   },
+   "question2": {
+      "message": "Могу ли слушать тексты в PDF?"
+   },
+   "question3": {
+      "message": "Мне сообщают, что у меня закончились Слова. Что мне делать?"
+   },
+   "readSpeeds": {
+      "message": "21 скоростей чтения"
+   },
+   "read_aloud": {
+      "message": "Проговорите следующие предложения громко"
+   },
+   "read_autoplay": {
+      "message": "Воспроизводи текст - Быстро и Легко"
+   },
+   "read_more": {
+      "message": "Читать еще"
+   },
+   "read_with_speak": {
+      "message": "Читать с Выбирай и Говори"
+   },
+   "read_words": {
+      "message": "Только 500 слов в день"
+   },
+   "restart": {
+      "message": "Перезапустите chrome, чтобы завершить установку select and speak."
+   },
+   "save60": {
+      "message": "Скидка 60%"
+   },
+   "secure": {
+      "message": "100% безопасность: Ваша информация используется только для улучшения базовой технологии и находится в полной безопасности."
+   },
+   "security": {
+      "message": "Расширения не могут работать в автономных страницах chrome по соображениям безопасности"
+   },
+   "settings": {
+      "message": "Настройки"
+   },
+   "shareThis_finePrint": {
+      "message": "(только для подписчиков на месяц, остальные должны быть подписчиками минимум 60 дней, чтобы получить скидку)"
+   },
+   "share_this": {
+      "message": "Поделись этой ссылкой и получи 50% скидки*"
+   },
+   "showPlay": {
+      "message": "Показать \"кнопку озвучивания абзаца\""
+   },
+   "speak_selected": {
+      "message": "Проговорить выделенный текст"
+   },
+   "special_discount": {
+      "message": "Особая скидка для"
+   },
+   "speech_faq": {
+      "message": "Часто задаваемые вопросы Выбирай и Говори"
+   },
+   "start_training": {
+      "message": "Начать Помощь"
+   },
+   "subConf": {
+      "message": "Вы успешно обновились до Pro"
+   },
+   "submit_data": {
+      "message": "Отправить и получить 1 месяц бесплатно"
+   },
+   "teachers": {
+      "message": "Студенты и  Преподаватели"
+   },
+   "tryProFree": {
+      "message": "Попробуйте Pro бесплатно на 7 дней"
+   },
+   "tryRiskFree": {
+      "message": "Попробуйте Pro без риска"
+   },
+   "unlWords": {
+      "message": "Неограниченное количество слов"
+   },
+   "unlimited_reading": {
+      "message": "Безлимитное количество слов для нонстоп Слушания"
+   },
+   "unlimited_words": {
+      "message": "Хотите безлимитное количество слов, автовоспроизведение и больше функций?"
+   },
+   "upgrade": {
+      "message": "Обновление до Pro"
+   },
+   "upgrade_pro": {
+      "message": "Обновление до Pro"
+   },
+   "upgrade_select_speak": {
+      "message": "Улучшить версию Выбирай и Говори"
+   },
+   "week": {
+      "message": "1 неделя"
+   },
+   "welcome": {
+      "message": "Добро пожаловать в Выбирай и Говори"
+   },
+   "what_do": {
+      "message": "Что вам нужно делать?"
+   },
+   "what_get": {
+      "message": "Что вы получаете в этой версии?"
+   },
+   "what_get_pro": {
+      "message": "Свойства версии Pro:"
+   },
+   "wordsPerDay": {
+      "message": "500 слов / день"
+   },
+   "y_price": {
+      "message": "$$19.99 в год"
+   },
+   "yearly": {
+      "message": "В год"
+   },
+   "yearlyPrice": {
+      "message": "₽ 679 в год"
+   },
+   "yearlyPrice_alone": {
+      "message": "₽ 679"
+   },
+   "your_age": {
+      "message": "Ваш возраст"
+   }
+}

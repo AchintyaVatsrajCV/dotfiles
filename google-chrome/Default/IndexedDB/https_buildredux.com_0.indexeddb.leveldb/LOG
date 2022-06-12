@@ -1,0 +1,6 @@
+2022/05/22-14:31:07.563 cda91 Creating DB /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_buildredux.com_0.indexeddb.leveldb since it was missing.
+2022/05/22-14:31:07.896 cda91 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_buildredux.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/22-14:31:10.419 cd431 Level-0 table #5: started
+2022/05/22-14:31:10.461 cd431 Level-0 table #5: 1062 bytes OK
+2022/05/22-14:31:10.495 cd431 Delete type=0 #3
+2022/05/22-14:31:10.495 cd431 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

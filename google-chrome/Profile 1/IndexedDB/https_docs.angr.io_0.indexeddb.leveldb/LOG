@@ -1,0 +1,6 @@
+2022/04/26-20:19:16.931 b15c Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_docs.angr.io_0.indexeddb.leveldb since it was missing.
+2022/04/26-20:19:17.045 b15c Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_docs.angr.io_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/26-20:28:40.026 c65b Level-0 table #5: started
+2022/04/26-20:28:40.076 c65b Level-0 table #5: 1078 bytes OK
+2022/04/26-20:28:40.119 c65b Delete type=0 #3
+2022/04/26-20:28:40.119 c65b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

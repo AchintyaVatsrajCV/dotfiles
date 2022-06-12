@@ -1,0 +1,6 @@
+2022/05/08-17:09:51.558 17bc3 Creating DB /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb since it was missing.
+2022/05/08-17:09:51.707 17bc3 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/08-17:10:23.945 1857d Level-0 table #5: started
+2022/05/08-17:10:23.994 1857d Level-0 table #5: 846 bytes OK
+2022/05/08-17:10:24.027 1857d Delete type=0 #3
+2022/05/08-17:10:24.027 1857d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

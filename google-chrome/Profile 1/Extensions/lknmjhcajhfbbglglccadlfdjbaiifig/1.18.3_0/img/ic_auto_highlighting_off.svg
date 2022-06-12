@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <g id="Group_918" data-name="Group 918" transform="translate(-70.914 -96.102)">
+        <g id="Group_915" data-name="Group 915" transform="translate(-147.222 88.9)">
+            <g id="Group_883" data-name="Group 883" transform="translate(13025.136 11059.201)">
+                <g id="Group_860" data-name="Group 860" transform="translate(0 -71)">
+                    <circle id="Ellipse_243" data-name="Ellipse 243" cx="14" cy="14" r="14"
+                            transform="translate(-12807 -10981)" fill="#f6f5fa"/>
+                    <g id="Group_852" data-name="Group 852" transform="translate(1 1)">
+                        <g id="Group_743" data-name="Group 743" transform="translate(-12804 -10978)">
+                            <rect id="Rectangle_931" data-name="Rectangle 931" width="20" height="20" fill="none"/>
+                        </g>
+                        <g id="Group_744" data-name="Group 744" transform="translate(-12799.833 -10976)">
+                            <path id="Path_448" data-name="Path 448"
+                                  d="M14.167,7.833V3.667H15a.836.836,0,0,0,.833-.833h0A.836.836,0,0,0,15,2H6.667a.836.836,0,0,0-.833.833h0a.836.836,0,0,0,.833.833H7.5V7.833a2.5,2.5,0,0,1-2.5,2.5H5V12H9.975v5.833l.833.833.833-.833V12h5.025V10.333h0A2.5,2.5,0,0,1,14.167,7.833Z"
+                                  transform="translate(-5 -2)" fill="#afaec4"/>
+                        </g>
+                    </g>
+                    <path id="flash"
+                          d="M41.2,3.455a.164.164,0,0,0-.143-.083H38.907L39.267.616a.165.165,0,0,0-.3-.107L36.349,5.092a.164.164,0,0,0,.14.25h2.119L38.322,8.1a.165.165,0,0,0,.3.1L41.2,3.62A.164.164,0,0,0,41.2,3.455Z"
+                          transform="translate(-12831.773 -10974.003)" fill="#f6f5fa"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

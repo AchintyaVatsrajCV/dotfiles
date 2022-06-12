@@ -1,0 +1,7 @@
+2022/05/03-13:54:36.199 3ae41d Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/03-13:54:36.199 3ae41d Recovering log #3
+2022/05/03-13:54:36.222 3ae41d Reusing old log /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/000003.log 
+2022/05/03-13:54:40.216 282fd Level-0 table #5: started
+2022/05/03-13:54:40.257 282fd Level-0 table #5: 1280 bytes OK
+2022/05/03-13:54:40.291 282fd Delete type=0 #3
+2022/05/03-13:54:40.291 282fd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

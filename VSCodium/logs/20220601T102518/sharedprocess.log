@@ -1,0 +1,8 @@
+[2022-06-01 10:25:21.993] [sharedprocess] [info] Starting worker process with pid 2096978 (type: fileWatcher, window: 1).
+[2022-06-01 10:25:26.178] [sharedprocess] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-06-01 10:25:28.282] [sharedprocess] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-06-01 10:25:29.699] [sharedprocess] [info] Downloaded extension: ms-vscode.js-debug-companion /home/lolt3under/.config/VSCodium/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.18
+[2022-06-01 10:25:29.754] [sharedprocess] [info] Extracted extension to /home/lolt3under/.vscode-oss/extensions/.1de9548f-0155-45dc-9d8c-f443add15708: ms-vscode.js-debug-companion
+[2022-06-01 10:25:29.840] [sharedprocess] [info] Renamed to /home/lolt3under/.vscode-oss/extensions/ms-vscode.js-debug-companion-1.0.18
+[2022-06-01 10:25:29.846] [sharedprocess] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-06-01 10:25:29.901] [sharedprocess] [info] Extension installed successfully: ms-vscode.js-debug-companion

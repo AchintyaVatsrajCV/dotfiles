@@ -1,0 +1,11 @@
+PyPi
+eval
+less_danger
+pycrpto
+pycryptodome
+rockin
+safe_module
+safe_package
+some_package
+virtualenv
+checksum_v1 = aae341b94599cb29c224168fbdc743cd

@@ -1,0 +1,8 @@
+[2022-04-26 20:32:30.790] [sharedprocess] [info] Starting worker process with pid 61676 (type: fileWatcher, window: 1).
+[2022-04-26 20:32:55.408] [sharedprocess] [info] Getting Manifest... ahmadawais.shades-of-purple
+[2022-04-26 20:32:55.577] [sharedprocess] [info] Installing extension: ahmadawais.shades-of-purple
+[2022-04-26 20:32:57.268] [sharedprocess] [info] Downloaded extension: ahmadawais.shades-of-purple /home/lolt3under/.config/VSCodium/CachedExtensionVSIXs/ahmadawais.shades-of-purple-6.13.0
+[2022-04-26 20:32:57.321] [sharedprocess] [info] Extracted extension to /home/lolt3under/.vscode-oss/extensions/.6443f056-f9ec-4327-99b0-48dcf13d0323: ahmadawais.shades-of-purple
+[2022-04-26 20:32:57.375] [sharedprocess] [info] Renamed to /home/lolt3under/.vscode-oss/extensions/ahmadawais.shades-of-purple-6.13.0
+[2022-04-26 20:32:57.378] [sharedprocess] [info] Extracting completed. ahmadawais.shades-of-purple
+[2022-04-26 20:32:57.382] [sharedprocess] [info] Extension installed successfully: ahmadawais.shades-of-purple

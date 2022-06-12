@@ -1,0 +1,6 @@
+2022/05/19-13:31:54.656 2ec64 Creating DB /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_bmovies.vip_0.indexeddb.leveldb since it was missing.
+2022/05/19-13:31:54.791 2ec64 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Default/IndexedDB/https_bmovies.vip_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/19-13:53:15.354 2e72c Level-0 table #5: started
+2022/05/19-13:53:15.437 2e72c Level-0 table #5: 938753 bytes OK
+2022/05/19-13:53:15.475 2e72c Delete type=0 #3
+2022/05/19-13:53:15.476 2e72c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

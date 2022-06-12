@@ -1,0 +1,7 @@
+2022/05/26-13:29:54.956 70b24 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/26-13:29:54.956 70b24 Recovering log #37
+2022/05/26-13:29:54.956 70b24 Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000037.log 
+2022/05/26-13:29:59.997 70b24 Level-0 table #43: started
+2022/05/26-13:30:00.039 70b24 Level-0 table #43: 507 bytes OK
+2022/05/26-13:30:00.073 70b24 Delete type=0 #37
+2022/05/26-13:30:00.074 70b24 Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)

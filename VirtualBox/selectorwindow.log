@@ -1,0 +1,27 @@
+00:00:00.363032 VirtualBox GUI VM Selector Window 6.1.34 r150636 linux.amd64 (Apr 21 2022 20:04:42) release log
+00:00:00.363034 Log opened 2022-05-10T17:04:57.380492000Z
+00:00:00.363035 Build Type: release
+00:00:00.363037 OS Product: Linux
+00:00:00.363038 OS Release: 5.17.4-arch1-1
+00:00:00.363039 OS Version: #1 SMP PREEMPT Wed, 20 Apr 2022 18:29:28 +0000
+00:00:00.363057 DMI Product Name: Predator PH315-51
+00:00:00.363065 DMI Product Version: V1.26
+00:00:00.363070 Firmware type: UEFI
+00:00:00.364075 Secure Boot: Disabled
+00:00:00.364131 Host RAM: 31944MB (31.1GB) total, 25329MB (24.7GB) available
+00:00:00.364135 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.364136 Process ID: 98052
+00:00:00.364136 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.364181 Qt version: 5.15.3
+00:00:00.398832 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.398859 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.027689 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 6x35 x 1908x1039
+00:00:29.920060 GUI: UIMediumEnumerator: Medium with key={{9eb49ed1-31f3-42ac-ab04-e5e2bef44faa}} created
+00:00:30.385432 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:00.193611 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:28.849324 GUI: UIMediumEnumerator: Medium with key={{322aa801-fffa-4ca0-8fdb-0b19f33873e6}} created
+00:05:29.031678 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:50.181911 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:50.539657 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:50.551046 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:55.646081 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0

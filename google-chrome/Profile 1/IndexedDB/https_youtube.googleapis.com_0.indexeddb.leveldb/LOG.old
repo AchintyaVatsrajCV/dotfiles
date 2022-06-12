@@ -1,0 +1,19 @@
+2022/05/28-11:44:44.254 fde78 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_youtube.googleapis.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/28-11:44:44.254 fde78 Recovering log #8
+2022/05/28-11:44:44.254 fde78 Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_youtube.googleapis.com_0.indexeddb.leveldb/000008.log 
+2022/05/28-11:44:44.398 fd6fb Level-0 table #14: started
+2022/05/28-11:44:44.456 fd6fb Level-0 table #14: 797 bytes OK
+2022/05/28-11:44:44.567 fd6fb Delete type=0 #8
+2022/05/28-11:44:44.567 fd6fb Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/05/28-11:44:44.567 fd6fb Manual compaction at level-1 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x033\xdb\x95\xd7\x94\x10xB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 593 : 0
+2022/05/28-11:44:44.567 fd6fb Compacting 1@1 + 1@2 files
+2022/05/28-11:44:44.626 fd6fb Generated table #15@1: 42 keys, 1114 bytes
+2022/05/28-11:44:44.626 fd6fb Compacted 1@1 + 1@2 files => 1114 bytes
+2022/05/28-11:44:44.719 fd6fb compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/28-11:44:44.719 fd6fb Delete type=2 #14
+2022/05/28-11:44:44.719 fd6fb Manual compaction at level-1 from '\x00\x05\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x033\xdb\x95\xd7\x94\x10xB\x00\x03\x00\x00\x00\x00\x00\x00\x00@' @ 593 : 0 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/05/28-11:44:45.169 fd2cc Level-0 table #17: started
+2022/05/28-11:44:45.240 fd2cc Level-0 table #17: 1730 bytes OK
+2022/05/28-11:44:45.344 fd2cc Delete type=0 #13
+2022/05/28-11:44:45.344 fd2cc Delete type=2 #11
+2022/05/28-11:44:45.344 fd2cc Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

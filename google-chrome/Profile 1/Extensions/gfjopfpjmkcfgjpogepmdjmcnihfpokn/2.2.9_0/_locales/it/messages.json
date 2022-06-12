@@ -1,0 +1,617 @@
+{
+   "Annually": {
+      "message": "all'Anno"
+   },
+   "Arabic": {
+      "message": "arabo"
+   },
+   "Asia": {
+      "message": "Asia"
+   },
+   "Australia": {
+      "message": "Australia"
+   },
+   "Australia_d": {
+      "message": "australiano"
+   },
+   "Autoplay": {
+      "message": "Autoplay"
+   },
+   "Autoplay_desc": {
+      "message": "Leggi automaticamente il testo selezionato ad alta voce"
+   },
+   "Brazil": {
+      "message": "Brasile"
+   },
+   "Brazil_d": {
+      "message": "brasiliano"
+   },
+   "British": {
+      "message": "britannico"
+   },
+   "Canada": {
+      "message": "Canada"
+   },
+   "Canada_d": {
+      "message": "canadese"
+   },
+   "Catalan": {
+      "message": "catalano"
+   },
+   "China": {
+      "message": "Cina"
+   },
+   "China_d": {
+      "message": "cinese"
+   },
+   "Chinese": {
+      "message": "cinese"
+   },
+   "Czech": {
+      "message": "ceco"
+   },
+   "Czech_d": {
+      "message": "ceco"
+   },
+   "Danish": {
+      "message": "danese"
+   },
+   "Denmark": {
+      "message": "Danimarca"
+   },
+   "Denmark_d": {
+      "message": "danese"
+   },
+   "Dutch": {
+      "message": "olandese"
+   },
+   "English": {
+      "message": "inglese"
+   },
+   "Europe": {
+      "message": "Europa"
+   },
+   "FREE": {
+      "message": "GRATIS"
+   },
+   "Fast": {
+      "message": "Veloce"
+   },
+   "Features": {
+      "message": "Funzioni"
+   },
+   "Finland": {
+      "message": "Finlandia"
+   },
+   "Finland_d": {
+      "message": "finlandese"
+   },
+   "Finnish": {
+      "message": "finlandese"
+   },
+   "France": {
+      "message": "Francia"
+   },
+   "France_d": {
+      "message": "francese"
+   },
+   "French": {
+      "message": "francese"
+   },
+   "Gender": {
+      "message": "Genere"
+   },
+   "German": {
+      "message": "tedesco"
+   },
+   "Germany": {
+      "message": "Germania"
+   },
+   "Germany_d": {
+      "message": "tedesco"
+   },
+   "Greek": {
+      "message": "greco"
+   },
+   "Hong_Kong": {
+      "message": "Hong Kong"
+   },
+   "Hong_Kong_d": {
+      "message": "Hong Kong"
+   },
+   "Hungarian": {
+      "message": "ungherese"
+   },
+   "Hungary": {
+      "message": "Ungheria"
+   },
+   "Hungary_d": {
+      "message": "ungherese"
+   },
+   "Italian": {
+      "message": "italiano"
+   },
+   "Italy": {
+      "message": "Italia"
+   },
+   "Italy_d": {
+      "message": "italiano"
+   },
+   "Japan": {
+      "message": "Giappone"
+   },
+   "Japan_d": {
+      "message": "giapponese"
+   },
+   "Japanese": {
+      "message": "giapponese"
+   },
+   "Korea": {
+      "message": "Corea"
+   },
+   "Korea_d": {
+      "message": "coreano"
+   },
+   "Korean": {
+      "message": "coreano"
+   },
+   "LITE": {
+      "message": "Versione LITE"
+   },
+   "Language": {
+      "message": "Lingua"
+   },
+   "Mexico": {
+      "message": "Messico"
+   },
+   "Mexico_d": {
+      "message": "messicano"
+   },
+   "Month_desc": {
+      "message": "Select and Speak Abbonamento Mensile"
+   },
+   "Netherlands": {
+      "message": "Paesi Bassi"
+   },
+   "Netherlands_d": {
+      "message": "olandese"
+   },
+   "Normal": {
+      "message": "Normale"
+   },
+   "North_America": {
+      "message": "Nord America"
+   },
+   "Norway": {
+      "message": "Norvegia"
+   },
+   "Norway_d": {
+      "message": "norvegese"
+   },
+   "Norwegian": {
+      "message": "norvegese"
+   },
+   "Pacific": {
+      "message": "Pacifico"
+   },
+   "Poland": {
+      "message": "Polonia"
+   },
+   "Poland_d": {
+      "message": "polacco"
+   },
+   "Polish": {
+      "message": "polacco"
+   },
+   "Portugal": {
+      "message": "Portogallo"
+   },
+   "Portugal_d": {
+      "message": "portoghese"
+   },
+   "Portuguese": {
+      "message": "portoghese"
+   },
+   "Pro_Features": {
+      "message": "Funzioni Pro"
+   },
+   "Russia": {
+      "message": "Russia"
+   },
+   "Russia_d": {
+      "message": "russo"
+   },
+   "Russian": {
+      "message": "russo"
+   },
+   "Slow": {
+      "message": "Lento"
+   },
+   "South_America": {
+      "message": "Sud / Centro America"
+   },
+   "Spain": {
+      "message": "Spagna"
+   },
+   "Spain_d": {
+      "message": "spagnolo"
+   },
+   "Spanish": {
+      "message": "spagnolo"
+   },
+   "Speech": {
+      "message": "Speech"
+   },
+   "Speed": {
+      "message": "Velocità"
+   },
+   "Sweden": {
+      "message": "Svezia"
+   },
+   "Sweden_d": {
+      "message": "svedese"
+   },
+   "Swedish": {
+      "message": "svedese"
+   },
+   "Taiwan": {
+      "message": "Taiwan"
+   },
+   "Taiwan_d": {
+      "message": "taiwanese"
+   },
+   "Turkey": {
+      "message": "tacchino"
+   },
+   "Turkey_d": {
+      "message": "turco"
+   },
+   "Turkish": {
+      "message": "turco"
+   },
+   "United_Kingdom": {
+      "message": "Regno Unito"
+   },
+   "United_Kingdom_d": {
+      "message": "inglese"
+   },
+   "United_States": {
+      "message": "Stati Uniti"
+   },
+   "United_States_d": {
+      "message": "americana"
+   },
+   "Year_desc": {
+      "message": "Select and Speak Abbonamento Annuale"
+   },
+   "all_only": {
+      "message": "Otteni tutte queste funzioni per solo"
+   },
+   "answer1": {
+      "message": "Seleziona e Parla ti permette di ascoltare qualsiasi testo nel tuo browser Chrome. Puoi selezionare il testo che desideri leggere, fai clic sul bottone destro e clicca Leggi con Seleziona e Parla"
+   },
+   "answer2": {
+      "message": "Dipende. Se il PDF contiene testo reale che può essere selezionato, allora sì. Se il PDF è un'immagine o la scansione del testo, allora probabilmente no."
+   },
+   "answer3": {
+      "message": "Mentre abbiamo una versione gratuita di Seleziona e Parla che viene utilizzata da milioni di utenti all'anno, dobbiamo far pagare gli utenti più pesanti, per poter fornire il servizio. Il limite è di 500 parole al giorno."
+   },
+   "app_name": {
+      "message": "Select and Speak - Text to Speech"
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "Cambia automaticamente lingua in base al contenuto della pagina"
+   },
+   "autolangOption": {
+      "message": "Rilevamento Automatico Lingua"
+   },
+   "automaticLanguage": {
+      "message": "Lingua Automatica "
+   },
+   "autoplayOption": {
+      "message": "Opzione Autoplay"
+   },
+   "autoplay_off": {
+      "message": "Disattiva autoplay"
+   },
+   "autoplay_on": {
+      "message": "Attiva autoplay"
+   },
+   "become_pro": {
+      "message": "Diventa un Pro User Adesso"
+   },
+   "buy_edu": {
+      "message": "Acquista il Pacchetto Educativo"
+   },
+   "cancelAnyTime": {
+      "message": "Annulla in qualsiasi momento"
+   },
+   "checkout_pro": {
+      "message": "Scopri le Funzioni Pro"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "Scegli il Genere della Voce e la Velocità di lettura"
+   },
+   "choose_language": {
+      "message": "Scegli la lingua"
+   },
+   "contact": {
+      "message": "Contattaci"
+   },
+   "could_not_read": {
+      "message": "Se la pagina non viene letta, si prega di aggiornare la pagina. "
+   },
+   "country": {
+      "message": "Nazione"
+   },
+   "dashboard": {
+      "message": "DASHBOARD"
+   },
+   "detect_lang": {
+      "message": "Rilevamento automatico della lingua"
+   },
+   "discounted": {
+      "message": "Scontato - Ulteriori Informazioni"
+   },
+   "edu_discounts": {
+      "message": "Otteni sconti speciali per gli studenti, se sei un insegnante o un educatore."
+   },
+   "educationalVersion": {
+      "message": "Versione Educativa"
+   },
+   "educational_package": {
+      "message": "Pacchetto Educativo"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "fast_or_slow": {
+      "message": "Leggi il testo con 21 differenti impostazioni di velocità"
+   },
+   "female": {
+      "message": "femminile"
+   },
+   "final_step": {
+      "message": "Fase finale – Immetti i tuoi dati "
+   },
+   "final_step_message": {
+      "message": "Al fine di migliorare Seleziona e Parla per l'uso in tutto il mondo, abbiamo bisogno di informazioni di una varietà di utenti. Si prega di fornirci i seguenti dati per assicurare che l'app possa funzionare correttamente e con la massima precisione."
+   },
+   "for_sentences": {
+      "message": "Per $1 Frasi"
+   },
+   "free_trial": {
+      "message": "7 Giorni di Prova Gratuiti"
+   },
+   "free_version": {
+      "message": "Stai utilizzando la versione gratuita"
+   },
+   "fullPrice_alone": {
+      "message": "€ 29,99"
+   },
+   "gender": {
+      "message": "Sesso"
+   },
+   "halfOff": {
+      "message": "Offerta Lancio 50% di Sconto"
+   },
+   "help_us": {
+      "message": "Otteni l’ abbonamento Pro gratis"
+   },
+   "home": {
+      "message": "Home"
+   },
+   "improve_speak": {
+      "message": "Stiamo cercando di migliorare Seleziona e Parla. Aiutaci e ottieni 1 settimana o 1 mese di abbonamento Premium gratis!"
+   },
+   "langs": {
+      "message": "27 Lingue"
+   },
+   "limit_alert": {
+      "message": "La selezione è $1 parole oltre il vostro limite giornaliero. Si prega di aggiornare per rimuovere il limite."
+   },
+   "m_price": {
+      "message": "$$ 3.99 al Mese"
+   },
+   "male": {
+      "message": "maschio"
+   },
+   "month": {
+      "message": "1 Mese"
+   },
+   "monthPrice_alone": {
+      "message": "$$ 3.99"
+   },
+   "monthly": {
+      "message": "Mensile"
+   },
+   "monthlyPrice": {
+      "message": "€ 2,99 al Mese"
+   },
+   "native_language": {
+      "message": "Lingua nativa"
+   },
+   "next": {
+      "message": "Prossimo"
+   },
+   "no_barriers": {
+      "message": "Leggi il testo in 27 lingue diverse"
+   },
+   "not_much": {
+      "message": "Non molto, ti forniremo poche righe e devi solo leggerle ad alta voce (in un ambiente silenzioso, preferibilmente)."
+   },
+   "num_students": {
+      "message": "Numero di Studenti"
+   },
+   "options_title": {
+      "message": "Opzioni Select and Speak"
+   },
+   "or": {
+      "message": "o"
+   },
+   "origin_place": {
+      "message": "CAP (dove sei cresciuto)"
+   },
+   "paragraph_player": {
+      "message": "Avete disattivato il lettore del paragrafo. Potete riattivarlo dalla pagine delle opzioni."
+   },
+   "per_student": {
+      "message": "Per Studente"
+   },
+   "premium": {
+      "message": " (Premium)"
+   },
+   "previous": {
+      "message": "Precedente"
+   },
+   "price": {
+      "message": "Prezzo"
+   },
+   "proVersion": {
+      "message": "Versione Professionale"
+   },
+   "pro_features": {
+      "message": "Funzioni Pro"
+   },
+   "purchase_audio": {
+      "message": "Acquista l'audio di questa selezione"
+   },
+   "question1": {
+      "message": "Come funziona Seleziona e Parla?"
+   },
+   "question2": {
+      "message": "Posso ascoltare i file PDF?"
+   },
+   "question3": {
+      "message": "Dice: Ho finito le Parole, cosa devo fare?"
+   },
+   "readSpeeds": {
+      "message": "21 Velocità di Lettura"
+   },
+   "read_aloud": {
+      "message": "Pronuncia la seguente Frase ad alta voce"
+   },
+   "read_autoplay": {
+      "message": "Testo Autoplay - facile e veloce"
+   },
+   "read_more": {
+      "message": "Per saperne di più"
+   },
+   "read_with_speak": {
+      "message": "Leggi con Seleziona e Parla"
+   },
+   "read_words": {
+      "message": "Solo 500 parole al giorno"
+   },
+   "restart": {
+      "message": "Dovete riavviare Chrome per completare l'installazione di select and speak"
+   },
+   "save60": {
+      "message": "Risparmia 60%"
+   },
+   "secure": {
+      "message": "Sicuro 100% : Le tue informazioni vengono utilizzate solo per migliorare la tecnologia di base e sono completamente sicure con noi."
+   },
+   "security": {
+      "message": "Le estensioni non funzionano sulle pagine locali di Chrome per questioni di sicurezza"
+   },
+   "settings": {
+      "message": "Impostazioni"
+   },
+   "shareThis_finePrint": {
+      "message": "(solo pacchetto mensile iscrizioni, i contatti devono diventare abbonati per almeno 60 giorni per poter usufruire dello sconto)"
+   },
+   "share_this": {
+      "message": "Condividi questo link e otteni il 50% di sconto *"
+   },
+   "showPlay": {
+      "message": "Mostra \"pulsante ascolta paragrafo\""
+   },
+   "speak_selected": {
+      "message": "Parla Testo Selezionato"
+   },
+   "special_discount": {
+      "message": "Sconto Speciale per"
+   },
+   "speech_faq": {
+      "message": "Seleziona e Parla FAQ"
+   },
+   "start_training": {
+      "message": "Inizia ad Aiutare"
+   },
+   "subConf": {
+      "message": "Aggiornamento a Pro avvenuto con successo"
+   },
+   "submit_data": {
+      "message": "Invia per ottenere 1 mese gratuito"
+   },
+   "teachers": {
+      "message": "Studenti e Insegnanti"
+   },
+   "tryProFree": {
+      "message": "Prova Pro Gratuitamente per 7 Giorni"
+   },
+   "tryRiskFree": {
+      "message": "Prova Pro Risk Gratuitamente"
+   },
+   "unlWords": {
+      "message": "Parole Illimitate"
+   },
+   "unlimited_reading": {
+      "message": "Parole Illimitate per un Ascolto non-stop"
+   },
+   "unlimited_words": {
+      "message": "Vuoi Parole Illimitate, l’Opzione Autoplay e altre funzioni?"
+   },
+   "upgrade": {
+      "message": "Aggiornamento a Pro"
+   },
+   "upgrade_pro": {
+      "message": "Aggiornamento a Pro"
+   },
+   "upgrade_select_speak": {
+      "message": "Aggiorna Seleziona e Parla"
+   },
+   "week": {
+      "message": "1 Settimana"
+   },
+   "welcome": {
+      "message": "Benvenuti a Seleziona e Parla"
+   },
+   "what_do": {
+      "message": "Cosa è necessario fare?"
+   },
+   "what_get": {
+      "message": "Cosa ottieni con questa versione?"
+   },
+   "what_get_pro": {
+      "message": "Versione Funzioni Pro:"
+   },
+   "wordsPerDay": {
+      "message": "500 Parole / Giorno"
+   },
+   "y_price": {
+      "message": "$$ 19.99 all’Anno"
+   },
+   "yearly": {
+      "message": "Annuale"
+   },
+   "yearlyPrice": {
+      "message": "€ 14,99 all'Anno"
+   },
+   "yearlyPrice_alone": {
+      "message": "€ 14,99"
+   },
+   "your_age": {
+      "message": "Età"
+   }
+}

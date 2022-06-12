@@ -1,0 +1,7 @@
+2022/05/02-10:53:07.359 16fc36 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.howtogeek.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/02-10:53:07.359 16fc36 Recovering log #3
+2022/05/02-10:53:07.359 16fc36 Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_www.howtogeek.com_0.indexeddb.leveldb/000003.log 
+2022/05/02-10:53:11.532 182495 Level-0 table #5: started
+2022/05/02-10:53:11.654 182495 Level-0 table #5: 12052 bytes OK
+2022/05/02-10:53:11.780 182495 Delete type=0 #3
+2022/05/02-10:53:11.780 182495 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

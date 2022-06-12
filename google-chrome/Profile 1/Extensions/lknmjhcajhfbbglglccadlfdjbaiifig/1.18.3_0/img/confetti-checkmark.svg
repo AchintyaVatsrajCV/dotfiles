@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="72" viewBox="0 0 102 72">
+    <defs>
+        <style>
+            .a,.b,.g{fill:#00dbaf;}.a,.c,.d{opacity:0.106;}.c,.f{fill:#1d1dff;}.d{fill:#f25;}.e,.h{fill:#f0fe00;}.e{opacity:0.215;}.f{opacity:0.519;}.g,.h{opacity:0.261;}
+        </style>
+    </defs>
+    <g transform="translate(-134.25 -138)">
+        <circle class="a" cx="25.5" cy="25.5" r="25.5" transform="translate(161.25 154)"/>
+        <path class="b"
+              d="M6.663,13.657a.888.888,0,0,1-1.256,0L.39,8.64a1.332,1.332,0,0,1,0-1.884l.628-.628a1.332,1.332,0,0,1,1.885,0L6.035,9.259,14.5.8a1.332,1.332,0,0,1,1.884,0l.628.628a1.332,1.332,0,0,1,0,1.884Zm0,0"
+              transform="translate(178.051 173.339)"/>
+        <circle class="c" cx="4" cy="4" r="4" transform="translate(219.25 155)"/>
+        <circle class="c" cx="4" cy="4" r="4" transform="translate(181.25 143)"/>
+        <ellipse class="d" cx="4" cy="3.5" rx="4" ry="3.5" transform="translate(136.25 182)"/>
+        <circle class="d" cx="3" cy="3" r="3" transform="translate(223.25 181)"/>
+        <circle class="d" cx="3" cy="3" r="3" transform="translate(172.25 202)"/>
+        <ellipse class="d" cx="5" cy="4.5" rx="5" ry="4.5" transform="translate(152.25 149)"/>
+        <ellipse class="e" cx="5" cy="4.5" rx="5" ry="4.5" transform="translate(157.25 201)"/>
+        <circle class="c" cx="1.5" cy="1.5" r="1.5" transform="translate(150.25 184)"/>
+        <circle class="f" cx="2.5" cy="2.5" r="2.5" transform="translate(149.25 174)"/>
+        <circle class="f" cx="2.5" cy="2.5" r="2.5" transform="translate(193.25 138)"/>
+        <circle class="f" cx="2" cy="2" r="2" transform="translate(232.25 165)"/>
+        <ellipse class="g" cx="5" cy="3.5" rx="5" ry="3.5" transform="translate(217.25 167)"/>
+        <circle class="g" cx="3" cy="3" r="3" transform="translate(134.25 157)"/>
+        <circle class="h" cx="3" cy="3" r="3" transform="translate(149.25 163)"/>
+    </g>
+</svg>

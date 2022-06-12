@@ -1,0 +1,15 @@
+2022/06/07-07:46:43.019 11d79 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/07-07:46:43.019 11d79 Recovering log #7
+2022/06/07-07:46:43.020 11d79 Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000007.log 
+2022/06/07-07:47:16.764 11f97 Level-0 table #12: started
+2022/06/07-07:47:16.805 11f97 Level-0 table #12: 26056 bytes OK
+2022/06/07-07:47:16.840 11f97 Delete type=0 #7
+2022/06/07-07:47:16.841 11f97 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/06/07-07:47:16.841 11f97 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x00\xc8\x0d\x00k\x00e\x00y\x00v\x00a\x00l\x00u\x00e\x00p\x00a\x00i\x00r\x00s' @ 342 : 1
+2022/06/07-07:47:16.841 11f97 Compacting 1@1 + 1@2 files
+2022/06/07-07:47:16.891 11f97 Generated table #13@1: 62 keys, 1758 bytes
+2022/06/07-07:47:16.891 11f97 Compacted 1@1 + 1@2 files => 1758 bytes
+2022/06/07-07:47:16.923 11f97 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/07-07:47:16.924 11f97 Delete type=2 #9
+2022/06/07-07:47:16.924 11f97 Delete type=2 #12
+2022/06/07-07:47:16.924 11f97 Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x0d\x00k\x00e\x00y\x00v\x00a\x00l\x00u\x00e\x00p\x00a\x00i\x00r\x00s' @ 342 : 1 .. (end); will stop at (end)

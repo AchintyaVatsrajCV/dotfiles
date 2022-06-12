@@ -1,0 +1,100 @@
+00:00:00.000201 main     VirtualBox XPCOM Server 6.1.34 r150636 linux.amd64 (Apr 21 2022 20:04:42) release log
+00:00:00.000203 main     Log opened 2022-05-10T17:04:57.181388000Z
+00:00:00.000204 main     Build Type: release
+00:00:00.000206 main     OS Product: Linux
+00:00:00.000208 main     OS Release: 5.17.4-arch1-1
+00:00:00.000209 main     OS Version: #1 SMP PREEMPT Wed, 20 Apr 2022 18:29:28 +0000
+00:00:00.000229 main     DMI Product Name: Predator PH315-51
+00:00:00.000238 main     DMI Product Version: V1.26
+00:00:00.000242 main     Firmware type: UEFI
+00:00:00.001164 main     Secure Boot: Disabled
+00:00:00.001222 main     Host RAM: 31944MB (31.1GB) total, 25330MB (24.7GB) available
+00:00:00.001225 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001226 main     Process ID: 98088
+00:00:00.001227 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.003124 main     IPC socket path: /tmp/.vbox-lolt3under-ipc/ipcd
+00:00:00.109475 nspr-2   VirtualBox: object creation starts
+00:00:00.109548 nspr-2   Home directory: '/home/lolt3under/.config/VirtualBox'
+00:00:00.123706 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.137630 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for ipv6leakintrf0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.138815 nspr-2   HostDnsMonitor: initializing
+00:00:00.139148 nspr-2   NAT: resolv.conf: nameserver 1.1.1.1
+00:00:00.139165 nspr-2   HostDnsMonitor: updating information
+00:00:00.139181 nspr-2   HostDnsMonitor: old information
+00:00:00.139186 nspr-2     no server entries
+00:00:00.139190 nspr-2     no domain set
+00:00:00.139194 nspr-2     no search string entries
+00:00:00.139198 nspr-2   HostDnsMonitor: new information
+00:00:00.139201 nspr-2     server 1: 1.1.1.1
+00:00:00.139206 nspr-2     no domain set
+00:00:00.139209 nspr-2     no search string entries
+00:00:00.142210 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.142392 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.142484 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.143132 nspr-2   VirtualBox: object created
+00:00:02.558482 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:02.559927 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:29.155493 createBase Saving settings file "/home/lolt3under/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:29.795338 nspr-4   Saving settings file "/home/lolt3under/VirtualBox VMs/Keras_tensorflow_ubuntu_16/Keras_tensorflow_ubuntu_16.vbox" with version "1.16-linux"
+00:00:29.891060 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:29.892673 nspr-4   Saving settings file "/home/lolt3under/VirtualBox VMs/Keras_tensorflow_ubuntu_16/Keras_tensorflow_ubuntu_16.vbox" with version "1.16-linux"
+00:00:29.949317 nspr-4   Saving settings file "/home/lolt3under/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:30.009285 nspr-4   Saving settings file "/home/lolt3under/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:30.077110 nspr-2   Saving settings file "/home/lolt3under/VirtualBox VMs/Keras_tensorflow_ubuntu_16/Keras_tensorflow_ubuntu_16.vbox" with version "1.16-linux"
+00:00:30.542503 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:30.578722 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:30.804252 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:30.806169 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:31.679294 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:31.808058 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:32.721293 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:32.721435 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:32.721589 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:32.744569 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:32.758652 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for ipv6leakintrf0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:32.774577 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:32.787898 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for ipv6leakintrf0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:32.799155 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:32.799695 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:32.932726 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:32.946779 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:32.947902 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:59.857090 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:00:59.857409 nspr-3   Saving settings file "/home/lolt3under/VirtualBox VMs/Keras_tensorflow_ubuntu_16/Keras_tensorflow_ubuntu_16.vbox" with version "1.17-linux"
+00:01:00.045668 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:00.059186 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:00.060513 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:00.552243 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:00.686484 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:01.591100 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:01.591263 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:01.591417 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:01.615853 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:01.630833 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for ipv6leakintrf0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:01.646011 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:01.659280 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for ipv6leakintrf0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:01.671231 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:01.671718 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:01.787027 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:01.801722 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:01:01.802782 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:05:28.687997 nspr-3   Saving settings file "/home/lolt3under/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:28.752715 nspr-3   Saving settings file "/home/lolt3under/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:50.002180 nspr-2   Saving settings file "/home/lolt3under/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:50.031204 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:05:50.058008 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:05:50.059242 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:05:50.139896 nspr-3   Saving settings file "/home/lolt3under/VirtualBox VMs/Keras_tensorflow_ubuntu_16/Keras_tensorflow_ubuntu_16.vbox" with version "1.17-linux"
+00:05:50.237233 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:05:50.237550 nspr-4   Saving settings file "/home/lolt3under/VirtualBox VMs/Keras_tensorflow_ubuntu_16/Keras_tensorflow_ubuntu_16.vbox" with version "1.17-linux"
+00:05:50.407645 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:05:50.441973 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:05:50.443345 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:05:51.083119 nspr-4   Launched VM: 4093660208 pid: 100679 (0x18947) frontend: GUI/Qt name: Keras_tensorflow_ubuntu_16
+00:05:51.119064 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:05:51.150151 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:05:51.151246 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:05:51.584049 Watcher  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The virtual machine 'Keras_tensorflow_ubuntu_16' has terminated unexpectedly during startup with exit code 1 (0x1)}, preserve=false aResultDetail=0
+00:05:52.154528 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:05:52.186748 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0
+00:05:52.187996 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=true  aResultDetail=0

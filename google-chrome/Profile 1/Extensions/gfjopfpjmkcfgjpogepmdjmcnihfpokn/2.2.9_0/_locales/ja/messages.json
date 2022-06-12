@@ -1,0 +1,624 @@
+{
+   "Annually": {
+      "message": "年間"
+   },
+   "Arabic": {
+      "message": "アラビア語"
+   },
+   "Asia": {
+      "message": "アジア"
+   },
+   "Australia": {
+      "message": "オーストラリア"
+   },
+   "Australia_d": {
+      "message": "オーストラリア人"
+   },
+   "Autoplay": {
+      "message": "自動再生"
+   },
+   "Autoplay_desc": {
+      "message": "自動で選択部分を読み上げ"
+   },
+   "Brazil": {
+      "message": "ブラジル"
+   },
+   "Brazil_d": {
+      "message": "ブラジル人"
+   },
+   "British": {
+      "message": "英国の"
+   },
+   "Canada": {
+      "message": "カナダ"
+   },
+   "Canada_d": {
+      "message": "カナダの"
+   },
+   "Catalan": {
+      "message": "カタロニア語"
+   },
+   "China": {
+      "message": "中国"
+   },
+   "China_d": {
+      "message": "中国語"
+   },
+   "Chinese": {
+      "message": "中国語"
+   },
+   "Czech": {
+      "message": "チェコ語"
+   },
+   "Czech_d": {
+      "message": "チェコ語"
+   },
+   "Danish": {
+      "message": "デンマーク語"
+   },
+   "Denmark": {
+      "message": "デンマーク"
+   },
+   "Denmark_d": {
+      "message": "デンマーク語"
+   },
+   "Dutch": {
+      "message": "オランダ語"
+   },
+   "English": {
+      "message": "英語"
+   },
+   "Europe": {
+      "message": "ヨーロッパ"
+   },
+   "FREE": {
+      "message": "無料"
+   },
+   "Fast": {
+      "message": "速い"
+   },
+   "Features": {
+      "message": "機能"
+   },
+   "Finland": {
+      "message": "フィンランド"
+   },
+   "Finland_d": {
+      "message": "フィンランド語"
+   },
+   "Finnish": {
+      "message": "フィンランド語"
+   },
+   "France": {
+      "message": "フランス"
+   },
+   "France_d": {
+      "message": "フランス語"
+   },
+   "French": {
+      "message": "フランス語"
+   },
+   "Gender": {
+      "message": "性別"
+   },
+   "German": {
+      "message": "ドイツ語"
+   },
+   "Germany": {
+      "message": "ドイツ"
+   },
+   "Germany_d": {
+      "message": "ドイツ語"
+   },
+   "Greek": {
+      "message": "ギリシャ語"
+   },
+   "Hong_Kong": {
+      "message": "香港"
+   },
+   "Hong_Kong_d": {
+      "message": "香港"
+   },
+   "Hungarian": {
+      "message": "ハンガリー語"
+   },
+   "Hungary": {
+      "message": "ハンガリー"
+   },
+   "Hungary_d": {
+      "message": "ハンガリー語"
+   },
+   "Italian": {
+      "message": "イタリア語"
+   },
+   "Italy": {
+      "message": "イタリア"
+   },
+   "Italy_d": {
+      "message": "イタリア語"
+   },
+   "Japan": {
+      "message": "日本"
+   },
+   "Japan_d": {
+      "message": "日本人"
+   },
+   "Japanese": {
+      "message": "日本人"
+   },
+   "Korea": {
+      "message": "韓国"
+   },
+   "Korea_d": {
+      "message": "韓国語"
+   },
+   "Korean": {
+      "message": "韓国語"
+   },
+   "LITE": {
+      "message": "LITE版"
+   },
+   "Language": {
+      "message": "言語"
+   },
+   "Mexico": {
+      "message": "メキシコ"
+   },
+   "Mexico_d": {
+      "message": "メキシコ人"
+   },
+   "Month_desc": {
+      "message": "Select and Speak月間購読"
+   },
+   "Netherlands": {
+      "message": "オランダ"
+   },
+   "Netherlands_d": {
+      "message": "オランダ語"
+   },
+   "Normal": {
+      "message": "普通"
+   },
+   "North_America": {
+      "message": "北米"
+   },
+   "Norway": {
+      "message": "ノルウェー"
+   },
+   "Norway_d": {
+      "message": "ノルウェーの"
+   },
+   "Norwegian": {
+      "message": "ノルウェーの"
+   },
+   "Pacific": {
+      "message": "パシフィック"
+   },
+   "Poland": {
+      "message": "ポーランド"
+   },
+   "Poland_d": {
+      "message": "ポーランド語"
+   },
+   "Polish": {
+      "message": "ポーランド語"
+   },
+   "Portugal": {
+      "message": "ポルトガル"
+   },
+   "Portugal_d": {
+      "message": "ポルトガル語"
+   },
+   "Portuguese": {
+      "message": "ポルトガル語"
+   },
+   "Pro_Features": {
+      "message": "プロ版の機能"
+   },
+   "Russia": {
+      "message": "ロシア"
+   },
+   "Russia_d": {
+      "message": "ロシア"
+   },
+   "Russian": {
+      "message": "ロシア"
+   },
+   "Slow": {
+      "message": "遅い"
+   },
+   "South_America": {
+      "message": "南/中央アメリカ"
+   },
+   "Spain": {
+      "message": "スペイン"
+   },
+   "Spain_d": {
+      "message": "スペイン語"
+   },
+   "Spanish": {
+      "message": "スペイン語"
+   },
+   "Speech": {
+      "message": "スピーチ"
+   },
+   "Speed": {
+      "message": "速度"
+   },
+   "Sweden": {
+      "message": "スウェーデン"
+   },
+   "Sweden_d": {
+      "message": "スウェーデン語"
+   },
+   "Swedish": {
+      "message": "スウェーデン語"
+   },
+   "Taiwan": {
+      "message": "台湾"
+   },
+   "Taiwan_d": {
+      "message": "台湾の"
+   },
+   "Turkey": {
+      "message": "七面鳥"
+   },
+   "Turkey_d": {
+      "message": "トルコ語"
+   },
+   "Turkish": {
+      "message": "トルコ語"
+   },
+   "United_Kingdom": {
+      "message": "イギリス"
+   },
+   "United_Kingdom_d": {
+      "message": "英国人"
+   },
+   "United_States": {
+      "message": "米国"
+   },
+   "United_States_d": {
+      "message": "アメリカン"
+   },
+   "Year_desc": {
+      "message": "Select and Speak年間購読"
+   },
+   "all_only": {
+      "message": "全ての機能を利用できます"
+   },
+   "answer1": {
+      "message": "Select and SpeakはあなたのChromeブラウザでどんな文字でも聞くことができます。Select and Speakで、読み上げたい文字を選択し、右クリックから読むをクリックできます。"
+   },
+   "answer2": {
+      "message": "場合によります。PDFが選択できる文字を含む場合は大丈夫です。PDFが画像やスキャンされた文字の場合は難しいでしょう。"
+   },
+   "answer3": {
+      "message": "弊社は1年間に何百万というユーザーにSelect and Speakを無償で提供していますが、サービスを継続するためにヘビーユーザーの方には料金を請求しています。無償でご利用できるのは1日500文字までです。"
+   },
+   "app_name": {
+      "message": "Select and Speak - 文字の読み上げ"
+   },
+   "app_name_short": {
+      "message": "Select and Speak"
+   },
+   "autoLang_desc": {
+      "message": "ページの内容ごとに自動で言語を切り替え"
+   },
+   "autolangOption": {
+      "message": "自動言語判別"
+   },
+   "automaticLanguage": {
+      "message": "自動言語"
+   },
+   "autoplayOption": {
+      "message": "自動再生オプション"
+   },
+   "autoplay_off": {
+      "message": "自動再生を停止"
+   },
+   "autoplay_on": {
+      "message": "自動再生を開始"
+   },
+   "become_pro": {
+      "message": "プロバージョンユーザーに今すぐなる"
+   },
+   "buy_edu": {
+      "message": "教育パッケージを購入"
+   },
+   "cancelAnyTime": {
+      "message": "いつでもキャンセル可"
+   },
+   "checkout_pro": {
+      "message": "プロバージョン機能をご確認ください"
+   },
+   "checkout_schools": {
+      "message": "Offer for Schools"
+   },
+   "checkout_students_teachers": {
+      "message": "Check out the Offer for Schools"
+   },
+   "choose": {
+      "message": "音声の性別と読み上げ速度を選択"
+   },
+   "choose_language": {
+      "message": "言語を選択"
+   },
+   "contact": {
+      "message": "お問い合わせ"
+   },
+   "could_not_read": {
+      "message": "ページを読み込みできません。ページを再読込してください。"
+   },
+   "country": {
+      "message": "国"
+   },
+   "dashboard": {
+      "message": "ダッシュボード"
+   },
+   "detect_lang": {
+      "message": "自動言語識別"
+   },
+   "discounted": {
+      "message": "割引 - さらに詳細"
+   },
+   "edu_discounts": {
+      "message": "学生、教師、教育者には特別な割引があります。"
+   },
+   "educationalVersion": {
+      "message": "教育向け版"
+   },
+   "educational_package": {
+      "message": "教育パッケージ"
+   },
+   "faq": {
+      "message": "よくある質問"
+   },
+   "fast_or_slow": {
+      "message": "21の異なる速度で文字を読み上げ"
+   },
+   "female": {
+      "message": "女性"
+   },
+   "final_step": {
+      "message": "最終ステップ - 詳細を入力してください"
+   },
+   "final_step_message": {
+      "message": "世界中で使用されるSelect and Speakを改良するためにたくさんの異なるユーザーから情報を収集する必要があります。アプリが最大限正確に動作するように詳細をご記入いただくようお願いします。"
+   },
+   "for_sentences": {
+      "message": "$1文章"
+   },
+   "free_trial": {
+      "message": "7日間無料トライアル"
+   },
+   "free_version": {
+      "message": "無料バージョンを使用中です"
+   },
+   "fullPrice_alone": {
+      "message": "$$47.88"
+   },
+   "gender": {
+      "message": "性別"
+   },
+   "halfOff": {
+      "message": "50%オフ入会オファー"
+   },
+   "help_us": {
+      "message": "プロバージョンを無料で獲得"
+   },
+   "home": {
+      "message": "ホーム"
+   },
+   "improve_speak": {
+      "message": "弊社はSelect and Speakを改良しようとしています。協力してくださった方には1週間または1ヶ月無料プレミアム購読をご提供しています。"
+   },
+   "langs": {
+      "message": "27言語"
+   },
+   "limit_alert": {
+      "description": "error when user runs out of daily words",
+      "message": "選択は $1 語の1日の制限を越えました。アップグレードして制限を解除してください。",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": "9001"
+         }
+      }
+   },
+   "m_price": {
+      "message": "1ヶ月$$3.99のみ"
+   },
+   "male": {
+      "message": "男性"
+   },
+   "month": {
+      "message": "1ヶ月$$3.99のみ"
+   },
+   "monthPrice_alone": {
+      "message": "$$3.99"
+   },
+   "monthly": {
+      "message": "月払い"
+   },
+   "monthlyPrice": {
+      "message": "$$3.99 月"
+   },
+   "native_language": {
+      "message": "母国語"
+   },
+   "next": {
+      "message": "次へ"
+   },
+   "no_barriers": {
+      "message": "27の異なる言語で文字を読み上げ"
+   },
+   "not_much": {
+      "message": "簡単です。数行の文章を提供しますのでこちらを大きな声で読み上げてください（周りが静かな環境が理想的です）。"
+   },
+   "num_students": {
+      "message": "生徒数"
+   },
+   "options_title": {
+      "message": "Select and Speakオプション"
+   },
+   "or": {
+      "message": "または"
+   },
+   "origin_place": {
+      "message": "郵便番号（あなたが育った場所の）"
+   },
+   "paragraph_player": {
+      "message": "段落プレーヤーを無効にしました。オプションページから再度有効にできます。"
+   },
+   "per_student": {
+      "message": "生徒ひとりあたりの値段"
+   },
+   "premium": {
+      "message": " (プレミアム)"
+   },
+   "previous": {
+      "message": "前へ"
+   },
+   "price": {
+      "message": "値段"
+   },
+   "proVersion": {
+      "message": "プロフェッショナル版"
+   },
+   "pro_features": {
+      "message": "プロバージョン機能"
+   },
+   "purchase_audio": {
+      "message": "この選択の音声を購入"
+   },
+   "question1": {
+      "message": "Select and Speakはどのように動作しますか？"
+   },
+   "question2": {
+      "message": "PDFを聞くことができますか？"
+   },
+   "question3": {
+      "message": "文字数が足りないというメッセージがでました。どうすればいいですか？"
+   },
+   "readSpeeds": {
+      "message": "21読み上げ速度"
+   },
+   "read_aloud": {
+      "message": "次の文章を大きな声で読み上げてください"
+   },
+   "read_autoplay": {
+      "message": "自動再生テキスト - 早くて簡単"
+   },
+   "read_more": {
+      "message": "もっと読む"
+   },
+   "read_with_speak": {
+      "message": "Select and Speakで読み上げる"
+   },
+   "read_words": {
+      "message": "1日に500文字のみ"
+   },
+   "restart": {
+      "message": "Select and Speakのインストールを完了するためにChromeを再起動してください。"
+   },
+   "save60": {
+      "message": "60%節約"
+   },
+   "secure": {
+      "message": "100%安全：あなたの情報はコア技術を改良する目的のみで使用され安全であることを弊社が保証します。"
+   },
+   "security": {
+      "message": "セキュリティ上の理由でローカルChromeページ上でエクステンションを実行できません。"
+   },
+   "settings": {
+      "message": "設定"
+   },
+   "shareThis_finePrint": {
+      "message": "(月払いパッケージ登録のみ、割引されるまでに招待さされた人は60日以上会員である必要があります)"
+   },
+   "share_this": {
+      "message": "このリンクをシェアして50%割引しよう*"
+   },
+   "showPlay": {
+      "message": "表示 \"段落再生ボタン\""
+   },
+   "speak_selected": {
+      "message": "選択した文字を読み上げ"
+   },
+   "special_discount": {
+      "message": "特別割引"
+   },
+   "speech_faq": {
+      "message": "Select and Speakのよくある質問"
+   },
+   "start_training": {
+      "message": "協力を開始する"
+   },
+   "subConf": {
+      "message": "プロ版へのアップグレードに成功しました。"
+   },
+   "submit_data": {
+      "message": "投稿して１ヶ月無料を獲得"
+   },
+   "teachers": {
+      "message": "学生＆教師"
+   },
+   "tryProFree": {
+      "message": "プロ版を7日間無料トライアル"
+   },
+   "tryRiskFree": {
+      "message": "無料でプロ版をお試し"
+   },
+   "unlWords": {
+      "message": "無制限単語"
+   },
+   "unlimited_reading": {
+      "message": "連続したリスニングで文字数無制限"
+   },
+   "unlimited_words": {
+      "message": "文字数無制限、自動再生オプションなど、よりたくさんの機能を使いたいですか？"
+   },
+   "upgrade": {
+      "message": "プロにアップグレード"
+   },
+   "upgrade_pro": {
+      "message": "プロ版にアップグレード"
+   },
+   "upgrade_select_speak": {
+      "message": "Select and Speakをアップグレード"
+   },
+   "week": {
+      "message": "1週間"
+   },
+   "welcome": {
+      "message": "Select and Speakにようこそ"
+   },
+   "what_do": {
+      "message": "どうすればいいですか？"
+   },
+   "what_get": {
+      "message": "このバージョンの機能は？"
+   },
+   "what_get_pro": {
+      "message": "プロバージョン機能："
+   },
+   "wordsPerDay": {
+      "message": "500語 /日"
+   },
+   "y_price": {
+      "message": "1年間$$19.99"
+   },
+   "yearly": {
+      "message": "年払い"
+   },
+   "yearlyPrice": {
+      "message": "$$19.99 年"
+   },
+   "yearlyPrice_alone": {
+      "message": "$$19.99"
+   },
+   "your_age": {
+      "message": "年齢"
+   }
+}

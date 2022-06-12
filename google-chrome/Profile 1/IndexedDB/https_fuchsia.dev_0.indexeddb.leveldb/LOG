@@ -1,0 +1,6 @@
+2022/05/19-17:28:05.446 3a582 Creating DB /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_fuchsia.dev_0.indexeddb.leveldb since it was missing.
+2022/05/19-17:28:05.617 3a582 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_fuchsia.dev_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/19-18:35:35.868 3f210 Level-0 table #5: started
+2022/05/19-18:35:35.918 3f210 Level-0 table #5: 1245 bytes OK
+2022/05/19-18:35:35.956 3f210 Delete type=0 #3
+2022/05/19-18:35:35.956 3f210 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

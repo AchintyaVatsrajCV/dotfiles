@@ -1,0 +1,12 @@
+2022/06/09-11:45:24.485 585b4 Reusing MANIFEST /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/09-11:45:24.485 585b4 Recovering log #57
+2022/06/09-11:45:24.490 585b4 Reusing old log /home/lolt3under/.config/google-chrome/Profile 1/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000057.log 
+2022/06/09-11:45:41.087 57991 Level-0 table #62: started
+2022/06/09-11:45:41.222 57991 Level-0 table #62: 1920400 bytes OK
+2022/06/09-11:45:41.287 57991 Delete type=0 #57
+2022/06/09-11:46:01.660 57e53 Compacting 1@1 + 1@2 files
+2022/06/09-11:46:01.841 57e53 Generated table #63@1: 110 keys, 87293 bytes
+2022/06/09-11:46:01.841 57e53 Compacted 1@1 + 1@2 files => 87293 bytes
+2022/06/09-11:46:02.034 57e53 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/06/09-11:46:02.034 57e53 Delete type=2 #62
+2022/06/09-11:46:02.034 57e53 Delete type=2 #59
